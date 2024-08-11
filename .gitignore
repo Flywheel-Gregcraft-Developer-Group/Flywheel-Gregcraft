@@ -7,7 +7,7 @@
 /logs/**
 /pfm/
 /pfm/**
-/.qemnu_opened.marker
+/.qmenu_opened.marker
 /log4j2.xml
 /rhino.local.properties
 /usercache.json
