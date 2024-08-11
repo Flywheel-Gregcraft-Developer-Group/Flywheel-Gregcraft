@@ -1,0 +1,15 @@
+{
+  "name": "功能: 厨房抽屉",
+  "icon": "pfm:oak_kitchen_drawer",
+  "category": "pfm:drawer_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "右击以打开厨房抽屉。其内部可以贮存任何物品。抽屉会像厨房柜台一样互相连接，改变造型。"
+    },
+    {
+      "type": "patchouli:empty",
+      "draw_filler": "false"
+    }
+  ]
+}

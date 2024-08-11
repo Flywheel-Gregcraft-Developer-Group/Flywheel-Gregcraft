@@ -1,0 +1,8 @@
+{
+  "replace": true,
+  "values": [
+      "gtceu:methylhydrazine_nitrate_rocket_fuel",
+      "gtceu:cryo_fuel",
+      "#ad_astra:tier_4_rocket_fuel"
+  ]
+}

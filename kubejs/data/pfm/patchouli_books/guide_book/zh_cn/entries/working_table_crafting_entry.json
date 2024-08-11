@@ -1,0 +1,15 @@
+{
+  "name": "制作: 木工台",
+  "icon": "minecraft:spruce_planks",
+  "category": "pfm:working_table_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "你可以使用原版工作台，八块任意种类的木板以及一块铁锭制作一张木工台。"
+    },
+    {
+      "type": "pfm:furniturerecipetemplate",
+      "recipe": "pfm:working_table"
+    }
+  ]
+}

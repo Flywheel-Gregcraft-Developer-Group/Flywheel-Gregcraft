@@ -1,0 +1,15 @@
+{
+  "name": "功能: 染料试剂",
+  "icon": "pfm:dye_kit_red",
+  "category": "pfm:dye_kit_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "手持染料试剂时，潜行并右击某些家具可以将其染色。羊同样可以被染色。"
+    },
+    {
+      "type": "patchouli:empty",
+      "draw_filler": "false"
+    }
+  ]
+}

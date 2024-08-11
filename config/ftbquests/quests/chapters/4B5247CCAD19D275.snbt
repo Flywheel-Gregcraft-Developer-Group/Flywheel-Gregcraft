@@ -1,0 +1,884 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4B5247CCAD19D275"
+	group: "06A4A76E7D58F321"
+	icon: "create:item_vault"
+	id: "4B5247CCAD19D275"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "toms_storage:block/crafting_terminal_front"
+			rotation: 0.0d
+			width: 3.0d
+			x: -16.5d
+			y: 12.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "storagedrawers:block/drawers_oak_front_2"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "ae2:block/controller_powered"
+			rotation: 0.0d
+			width: 3.0d
+			x: 16.5d
+			y: 12.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7E0378EE23A3287B"]
+			icon: "storagedrawers:oak_full_drawers_1"
+			id: "22CA01A9D2F44F63"
+			size: 1.5d
+			tasks: [{
+				id: "576FEDB894C9EF34"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+				title: "Any #storagedrawers:drawers"
+				type: "item"
+			}]
+			title: "储物抽屉"
+			x: -7.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["22CA01A9D2F44F63"]
+			id: "5139098C79AAA546"
+			size: 1.5d
+			tasks: [{
+				id: "2D59CD11326C43C6"
+				item: "storagedrawers:compacting_drawers_3"
+				type: "item"
+			}]
+			title: "粒、锭、块"
+			x: -9.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["22CA01A9D2F44F63"]
+			id: "65823344343325A9"
+			size: 1.5d
+			tasks: [
+				{
+					id: "55B17AF40E829A71"
+					item: "storagedrawers:controller"
+					type: "item"
+				}
+				{
+					id: "1D8B52DD9D3B67A8"
+					item: "storagedrawers:controller_slave"
+					type: "item"
+				}
+			]
+			title: "抽屉网络"
+			x: -7.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["22CA01A9D2F44F63"]
+			id: "061F4DC89F22FAED"
+			size: 1.5d
+			tasks: [{
+				id: "250FDBCC8A897101"
+				item: "storagedrawers:upgrade_template"
+				type: "item"
+			}]
+			title: "抽屉升级"
+			x: -6.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["1DA6DAAF55402827"]
+			icon: "minecraft:chest"
+			id: "7E0378EE23A3287B"
+			size: 1.5d
+			tasks: [{
+				id: "7C750C7D08959092"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:chests/wooden"
+					}
+				}
+				title: "Any #forge:chests/wooden"
+				type: "item"
+			}]
+			title: "箱子"
+			x: -7.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["1DA6DAAF55402827"]
+			id: "2CE5873124DA47AC"
+			size: 1.5d
+			tasks: [{
+				id: "0F3B787F290F81AC"
+				item: "minecraft:barrel"
+				type: "item"
+			}]
+			title: "木桶"
+			x: -5.25d
+			y: -2.25d
+		}
+		{
+			dependencies: ["2CE5873124DA47AC"]
+			id: "1FBC42EEEDCA9D7D"
+			size: 1.5d
+			tasks: [{
+				id: "27B9FD5A751B5095"
+				item: "create:item_vault"
+				type: "item"
+			}]
+			title: "更保险的桶"
+			x: -5.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["1DA6DAAF55402827"]
+			icon: "gtceu:wood_crate"
+			id: "5A72841530480DB1"
+			size: 1.5d
+			tasks: [{
+				id: "1DA866364CC0DE31"
+				title: "板条箱"
+				type: "checkmark"
+			}]
+			title: "格雷板条箱"
+			x: -3.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["1DA6DAAF55402827"]
+			icon: "gtceu:wood_drum"
+			id: "4021A4B76AAE7463"
+			size: 1.5d
+			tasks: [{
+				id: "7BFF59099B34AFB2"
+				title: "板条箱"
+				type: "checkmark"
+			}]
+			title: "格雷流体桶"
+			x: -0.75d
+			y: -2.25d
+		}
+		{
+			icon: "gtceu:lv_super_chest"
+			id: "61B2F84A2AE77F83"
+			size: 1.5d
+			tasks: [{
+				id: "255916985492665A"
+				title: "板条箱"
+				type: "checkmark"
+			}]
+			title: "超级箱"
+			x: -3.0d
+			y: 0.75d
+		}
+		{
+			icon: "gtceu:lv_super_tank"
+			id: "5E2BD07242D7A4C6"
+			size: 1.5d
+			tasks: [{
+				id: "62C74026BA50EF00"
+				title: "板条箱"
+				type: "checkmark"
+			}]
+			title: "超级缸"
+			x: -0.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["7E0378EE23A3287B"]
+			id: "4FD1BBD20C801045"
+			size: 1.5d
+			tasks: [{
+				id: "1F55D6AD19E5961F"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			title: "随身背包"
+			x: -11.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["4FD1BBD20C801045"]
+			id: "7BF563FD0648F0AF"
+			size: 1.5d
+			tasks: [{
+				id: "7716B71983103233"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			title: "背包升级"
+			x: -11.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["129BCB0508AA5069"]
+			id: "0CCA57CC65051C6E"
+			size: 1.5d
+			tasks: [{
+				id: "726921C607D46329"
+				item: "toms_storage:ts.storage_terminal"
+				type: "item"
+			}]
+			title: "简易存储终端"
+			x: -13.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0CCA57CC65051C6E"]
+			icon: "toms_storage:ts.inventory_cable"
+			id: "476F67AE25AC2EA7"
+			size: 1.5d
+			tasks: [
+				{
+					id: "561BDCB74058EE43"
+					item: "toms_storage:ts.inventory_cable"
+					type: "item"
+				}
+				{
+					id: "36E23B52804F21D6"
+					item: "toms_storage:ts.inventory_cable_connector"
+					type: "item"
+				}
+			]
+			title: "远距存储"
+			x: -10.5d
+			y: 6.75d
+		}
+		{
+			dependencies: ["0CCA57CC65051C6E"]
+			icon: "toms_storage:ts.inventory_connector"
+			id: "167772CDA6412A63"
+			size: 1.5d
+			tasks: [
+				{
+					id: "12140BCD1B3E00C6"
+					item: "toms_storage:ts.inventory_connector"
+					type: "item"
+				}
+				{
+					id: "3CB22BA0BFB05DEE"
+					item: "toms_storage:ts.trim"
+					type: "item"
+				}
+			]
+			title: "集中存储"
+			x: -10.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0CCA57CC65051C6E"]
+			icon: "toms_storage:ts.wireless_terminal"
+			id: "6C28D275564A15E7"
+			require_sequential_tasks: true
+			size: 1.5d
+			tasks: [
+				{
+					id: "60BE1BEC202A5BAC"
+					item: "toms_storage:ts.wireless_terminal"
+					type: "item"
+				}
+				{
+					id: "3AD1D06508F355DC"
+					item: "toms_storage:ts.adv_wireless_terminal"
+					type: "item"
+				}
+			]
+			title: "无线存储"
+			x: -10.5d
+			y: 11.25d
+		}
+		{
+			dependencies: ["7AC685E97D71D133"]
+			icon: "ae2:calculation_processor_press"
+			id: "5F28A106525E396A"
+			size: 1.5d
+			subtitle: "制造四种压印模板，从而开始搭建你的应用能源2自动化网络"
+			tasks: [
+				{
+					id: "18658A32EABBCE8C"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+				{
+					id: "068BFBE975E0F66B"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+				{
+					id: "5D7BDC59113EA3F7"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+				{
+					id: "6EA1A3E191F4A437"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+			]
+			title: "压印模板"
+			x: -0.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["7AC685E97D71D133"]
+			icon: "ae2:silicon"
+			id: "1D5D2B76DE08CCA9"
+			size: 1.5d
+			tasks: [
+				{
+					id: "713D37F5EF6BBB91"
+					item: "gtceu:exquisite_certus_quartz_gem"
+					type: "item"
+				}
+				{
+					id: "2C4435A6D14F63F0"
+					item: "gtceu:exquisite_diamond_gem"
+					type: "item"
+				}
+				{
+					id: "2157527CB921BC97"
+					item: "gtceu:exquisite_topaz_gem"
+					type: "item"
+				}
+				{
+					id: "2A771CE96CD98D55"
+					item: "gtceu:naquadah_wafer"
+					type: "item"
+				}
+			]
+			title: "压印原料"
+			x: -2.25d
+			y: 5.25d
+		}
+		{
+			dependencies: ["10B06F8D096F317A"]
+			icon: "ae2:inscriber"
+			id: "25707353F6E2D7F2"
+			size: 1.5d
+			tasks: [{
+				id: "4EDDACC73627CFC0"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			title: "压印器"
+			x: -0.75d
+			y: 8.25d
+		}
+		{
+			dependencies: ["7AC685E97D71D133"]
+			icon: "ae2:quartz_glass"
+			id: "75C20DA15041AE78"
+			size: 1.5d
+			tasks: [{
+				icon: "ae2:quartz_glass"
+				id: "69B113FBD0E16F62"
+				item: "ae2:quartz_glass"
+				type: "item"
+			}]
+			title: "赛特斯石英玻璃"
+			x: -6.75d
+			y: 8.25d
+		}
+		{
+			dependencies: ["75C20DA15041AE78"]
+			icon: "ae2:energy_acceptor"
+			id: "10B06F8D096F317A"
+			size: 1.5d
+			tasks: [{
+				icon: "ae2:energy_acceptor"
+				id: "70A0F39A959EA17E"
+				item: "ae2:energy_acceptor"
+				title: "能源转换"
+				type: "item"
+			}]
+			title: "能源转换"
+			x: -3.75d
+			y: 8.25d
+		}
+		{
+			dependencies: [
+				"5F28A106525E396A"
+				"1D5D2B76DE08CCA9"
+				"25707353F6E2D7F2"
+			]
+			icon: "ae2:logic_processor"
+			id: "78B32ECF9CB22428"
+			size: 1.5d
+			tasks: [
+				{
+					id: "79B8E5C42C0A342E"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					id: "2E26555A78F1CF83"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+				{
+					id: "45854151796A01E3"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+			]
+			title: "存储网络处理器"
+			x: 2.25d
+			y: 8.25d
+		}
+		{
+			dependencies: ["7AC685E97D71D133"]
+			id: "58A1CD39B266BFE8"
+			size: 1.5d
+			tasks: [{
+				id: "55D52C42953D7F2F"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			title: "福鲁伊克斯水晶"
+			x: -6.75d
+			y: 12.75d
+		}
+		{
+			dependencies: ["421F2479266F5FF6"]
+			icon: "ae2:sky_dust"
+			id: "2DBE6F42C500A64A"
+			require_sequential_tasks: true
+			size: 1.5d
+			tasks: [
+				{
+					id: "339F37F052232FDF"
+					item: "ae2:annihilation_plane"
+					type: "item"
+				}
+				{
+					id: "12D0D7CF5C29E465"
+					item: "ae2:sky_dust"
+					type: "item"
+				}
+			]
+			title: "收集陨石"
+			x: 9.0d
+			y: 11.25d
+		}
+		{
+			dependencies: ["2DBE6F42C500A64A"]
+			id: "24EE161879600883"
+			size: 1.5d
+			tasks: [{
+				id: "2BFA1E7F91F291B7"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			title: "全面控制"
+			x: 12.0d
+			y: 11.25d
+		}
+		{
+			dependencies: [
+				"78B32ECF9CB22428"
+				"58A1CD39B266BFE8"
+			]
+			icon: "ae2:formation_core"
+			id: "421F2479266F5FF6"
+			size: 1.5d
+			tasks: [
+				{
+					id: "7E10802704EA636F"
+					item: "ae2:formation_core"
+					type: "item"
+				}
+				{
+					id: "0D89D20505191982"
+					item: "ae2:annihilation_core"
+					type: "item"
+				}
+			]
+			title: "有破就有立"
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["421F2479266F5FF6"]
+			id: "7227F0D81D5FD985"
+			size: 1.5d
+			tasks: [{
+				id: "7A1C189A5B3A915F"
+				item: "ae2:terminal"
+				type: "item"
+			}]
+			title: "高科技存储终端"
+			x: 9.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["7227F0D81D5FD985"]
+			icon: "ae2:blank_pattern"
+			id: "31A82B45781A1347"
+			size: 1.5d
+			tasks: [
+				{
+					id: "7DBDB0A94E2FC1F6"
+					item: "ae2:pattern_encoding_terminal"
+					type: "item"
+				}
+				{
+					id: "1EA20F63FE1E422A"
+					item: "ae2:pattern_access_terminal"
+					type: "item"
+				}
+				{
+					id: "019BF794FD297323"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+			]
+			title: "样板管理"
+			x: 12.0d
+			y: 6.75d
+		}
+		{
+			dependencies: [
+				"58A1CD39B266BFE8"
+				"75C20DA15041AE78"
+			]
+			id: "40CAD00DB06D2673"
+			size: 1.5d
+			tasks: [{
+				id: "3175DCAC7C21E33C"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
+			title: "玻璃线缆"
+			x: -3.0d
+			y: 14.25d
+		}
+		{
+			dependencies: ["40CAD00DB06D2673"]
+			icon: "ae2:fluix_covered_cable"
+			id: "732DF88007D9A5B4"
+			size: 1.5d
+			tasks: [
+				{
+					id: "0200C7F6071F0993"
+					item: "ae2:fluix_covered_cable"
+					type: "item"
+				}
+				{
+					id: "4B0CE40295BA51C1"
+					item: "ae2:fluix_covered_dense_cable"
+					type: "item"
+				}
+			]
+			title: "包层线缆"
+			x: 0.0d
+			y: 15.75d
+		}
+		{
+			dependencies: ["732DF88007D9A5B4"]
+			icon: "ae2:fluix_covered_cable"
+			id: "6E0E382731488E43"
+			size: 1.5d
+			tasks: [
+				{
+					id: "69EAB8E6D501C24D"
+					item: "ae2:fluix_smart_cable"
+					type: "item"
+				}
+				{
+					id: "0672FF672F7028BA"
+					item: "ae2:fluix_smart_dense_cable"
+					type: "item"
+				}
+			]
+			title: "智能线缆"
+			x: 3.0d
+			y: 17.25d
+		}
+		{
+			dependencies: ["40CAD00DB06D2673"]
+			id: "0D19C86B67F7B725"
+			size: 1.5d
+			tasks: [{
+				id: "6C5138E3E6DE0581"
+				item: "ae2:cable_anchor"
+				type: "item"
+			}]
+			title: "为线缆间意外的连接而发愁？"
+			x: -2.25d
+			y: 16.5d
+		}
+		{
+			dependencies: ["421F2479266F5FF6"]
+			icon: "ae2:import_bus"
+			id: "113D6CD852083A25"
+			size: 1.5d
+			tasks: [
+				{
+					id: "7115C2B93452B8FE"
+					item: "ae2:import_bus"
+					type: "item"
+				}
+				{
+					id: "7918375975891F7B"
+					item: "ae2:export_bus"
+					type: "item"
+				}
+			]
+			title: "出入网络"
+			x: 9.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["113D6CD852083A25"]
+			dependency_requirement: "all_started"
+			icon: "ae2:interface"
+			id: "5999E2F7EFCC471A"
+			size: 1.5d
+			tasks: [
+				{
+					id: "2DB358C54579D134"
+					item: "ae2:interface"
+					type: "item"
+				}
+				{
+					id: "2451143504D1EE3E"
+					item: "ae2:storage_bus"
+					type: "item"
+				}
+			]
+			title: "更高级的自动化交互"
+			x: 12.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"40CAD00DB06D2673"
+				"78B32ECF9CB22428"
+			]
+			id: "3A79885121E84BB3"
+			size: 1.5d
+			tasks: [{
+				id: "370617D5F59766A2"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			title: "数字化存储"
+			x: 9.75d
+			y: 15.0d
+		}
+		{
+			dependencies: ["3A79885121E84BB3"]
+			id: "59E605A5B24DE235"
+			size: 1.5d
+			tasks: [{
+				id: "74107FA7335C48A8"
+				item: "ae2:io_port"
+				type: "item"
+			}]
+			title: "自动化插拔"
+			x: 12.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["3A79885121E84BB3"]
+			icon: {
+				Count: 1b
+				id: "ae2:item_storage_cell_256k"
+				tag: { }
+			}
+			id: "4EA51CF4ACBB9599"
+			size: 1.5d
+			tasks: [{
+				id: "7AF59D7F5F36FCD2"
+				title: "存储元件"
+				type: "checkmark"
+			}]
+			title: "存储元件"
+			x: 12.0d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"58A1CD39B266BFE8"
+				"75C20DA15041AE78"
+			]
+			id: "2F989E5C9821235A"
+			size: 1.5d
+			tasks: [{
+				id: "39D99916B67E9C1E"
+				item: "ae2:condenser"
+				type: "item"
+			}]
+			title: "聚合万物"
+			x: -3.0d
+			y: 18.75d
+		}
+		{
+			dependencies: [
+				"58A1CD39B266BFE8"
+				"10B06F8D096F317A"
+			]
+			id: "350B38D6774FEAE8"
+			size: 1.5d
+			tasks: [
+				{
+					id: "55CEAD7771AC3931"
+					item: {
+						Count: 1b
+						id: "ae2:energy_cell"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "657699D064DFF8B9"
+					item: {
+						Count: 1b
+						id: "ae2:dense_energy_cell"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "存储能源"
+			x: 1.5d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"421F2479266F5FF6"
+				"350B38D6774FEAE8"
+				"3EA43BD369C404C3"
+			]
+			id: "18221BC3FD918E04"
+			size: 1.5d
+			tasks: [{
+				id: "13118F75F183640A"
+				item: {
+					Count: 1b
+					id: "ae2:matter_cannon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "发射物质"
+			x: 6.75d
+			y: 6.0d
+		}
+		{
+			dependencies: ["10B06F8D096F317A"]
+			id: "3EA43BD369C404C3"
+			size: 1.5d
+			tasks: [{
+				id: "26FB69992512E23E"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			title: "充能！"
+			x: 3.75d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2F989E5C9821235A"]
+			id: "34EF156F163E8D83"
+			size: 1.5d
+			tasks: [{
+				id: "4C9A7DC0841E0E8D"
+				item: "ae2:singularity"
+				type: "item"
+			}]
+			title: "万物归一"
+			x: 0.75d
+			y: 18.75d
+		}
+		{
+			dependencies: [
+				"34EF156F163E8D83"
+				"78B32ECF9CB22428"
+				"350B38D6774FEAE8"
+				"6E0E382731488E43"
+			]
+			icon: "ae2:quantum_ring"
+			id: "43646D23BA6B3129"
+			size: 1.5d
+			tasks: [
+				{
+					count: 2L
+					id: "65D68FF83516ED5E"
+					item: "ae2:quantum_entangled_singularity"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "785A47EA524D53C7"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "0506A4468A3E5D30"
+					item: "ae2:quantum_ring"
+					type: "item"
+				}
+			]
+			title: "量子链接"
+			x: 6.0d
+			y: 18.75d
+		}
+		{
+			dependencies: [
+				"40CAD00DB06D2673"
+				"78B32ECF9CB22428"
+			]
+			icon: "ae2:spatial_anchor"
+			id: "06589A0A3A106281"
+			size: 1.5d
+			tasks: [
+				{
+					id: "16C3547E18F38C02"
+					item: "ae2:spatial_pylon"
+					type: "item"
+				}
+				{
+					id: "593DA4C5A822B96A"
+					item: "ae2:spatial_anchor"
+					type: "item"
+				}
+			]
+			title: "区块跟着线网走"
+			x: 6.0d
+			y: 13.5d
+		}
+	]
+	title: "存储管理（WIP）"
+}

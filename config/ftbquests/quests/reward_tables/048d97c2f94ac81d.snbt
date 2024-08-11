@@ -1,0 +1,32 @@
+{
+	id: "048D97C2F94AC81D"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ item: "kubejs:disc_key" }
+		{ item: "kubejs:disc_door" }
+		{ item: "kubejs:disc_subwoofer_lullaby" }
+		{ item: "kubejs:disc_living_mice" }
+		{ item: "kubejs:disc_moog_city" }
+		{ item: "kubejs:disc_haggstrom" }
+		{ item: "kubejs:disc_minecraft" }
+		{ item: "kubejs:disc_oxygene" }
+		{ item: "kubejs:disc_equinoxe" }
+		{ item: "kubejs:disc_mice_on_venus" }
+		{ item: "kubejs:disc_dry_hands" }
+		{ item: "kubejs:disc_wet_hands" }
+		{ item: "kubejs:disc_clark" }
+		{ item: "kubejs:disc_chris" }
+		{ item: "kubejs:disc_excuse" }
+		{ item: "kubejs:disc_sweden" }
+		{ item: "kubejs:disc_dog" }
+		{ item: "kubejs:disc_danny" }
+		{ item: "kubejs:disc_beginning" }
+		{ item: "kubejs:disc_droopy_likes_ricochet" }
+		{ item: "kubejs:disc_droopy_likes_your_face" }
+		{ item: "minecraft:music_disc_cat" }
+		{ item: "minecraft:music_disc_13" }
+		{ item: "minecraft:music_disc_11" }
+	]
+	title: "唱片（Volume Alpha）"
+}

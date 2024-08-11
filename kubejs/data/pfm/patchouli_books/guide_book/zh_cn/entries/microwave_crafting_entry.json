@@ -1,0 +1,15 @@
+{
+  "name": "制作: 微波炉",
+  "icon": "minecraft:iron_block",
+  "category": "pfm:microwave_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "你需要将红石粉，箱子以及适当的外表面材料以适当的顺序置放在木工台上以制作一台微波炉。"
+    },
+    {
+      "type": "pfm:furniturerecipetemplate",
+      "recipe": "pfm:iron_microwave"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "功能: 厨房水槽",
+  "icon": "pfm:oak_kitchen_sink",
+  "category": "pfm:sink_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "厨房水槽以与厨锅相似的方式工作。它可以用水桶或水瓶灌满。假如水槽下方两格处有水源，右击可以把水吸上来。它可以洗掉盔甲或潜影盒上的染料，灭火以及触发红石比较器。"
+    },
+    {
+      "type": "patchouli:empty",
+      "draw_filler": "false"
+    }
+  ]
+}

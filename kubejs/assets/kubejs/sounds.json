@@ -1,0 +1,570 @@
+{
+    "music.disc_key": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_key",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_door": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_door",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_subwoofer_lullaby": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_subwoofer_lullaby",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_living_mice": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_living_mice",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_moog_city": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_moog_city",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_haggstrom": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_haggstrom",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_minecraft": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_minecraft",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_oxygene": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_oxygene",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_equinoxe": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_equinoxe",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_mice_on_venus": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_mice_on_venus",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_dry_hands": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_dry_hands",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_wet_hands": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_wet_hands",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_clark": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_clark",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_chris": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_chris",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_excuse": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_excuse",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_sweden": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_sweden",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_dog": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_dog",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_danny": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_danny",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_beginning": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_beginning",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_droopy_likes_ricochet": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_droopy_likes_ricochet",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_droopy_likes_your_face": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_droopy_likes_your_face",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_ki": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_ki",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_alpha": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_alpha",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_dead_voxel": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_dead_voxel",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_blind_spots": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_blind_spots",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_flake": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_flake",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_moog_city_2": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_moog_city_2",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_concrete_halls": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_concrete_halls",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_biome_fest": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_biome_fest",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_mutation": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_mutation",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_haunt_muskie": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_haunt_muskie",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_warmth": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_warmth",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_floating_trees": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_floating_trees",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_aria_math": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_aria_math",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_kyoto": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_kyoto",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_ballad_of_the_cats": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_ballad_of_the_cats",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_taswell": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_taswell",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_beginning_2": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_beginning_2",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_dreiton": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_dreiton",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_the_end": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_the_end",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_chrysopoeia": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_chrysopoeia",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_rubedo": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_rubedo",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_so_below": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_so_below",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_an_ordinary_day": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_an_ordinary_day",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_comforting_memories": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_comforting_memories",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_floating_dream": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_floating_dream",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_ancestry": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_ancestry",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_infinite_amethyst": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_infinite_amethyst",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_left_to_bloom": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_left_to_bloom",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_one_more_day": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_one_more_day",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_stand_tall": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_stand_tall",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_wending": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_wending",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_labyrinthine": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_labyrinthine",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_aerie": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_aerie",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_firebugs": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_firebugs",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_echo_in_the_wind": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_echo_in_the_wind",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_a_familiar_room": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_a_familiar_room",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_bromeliad": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_bromeliad",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_crescent_dunes": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_crescent_dunes",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_creator": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_creator",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_creator_music_box": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_creator_music_box",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_deeper": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_deeper",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_eld_unknown": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_eld_unknown",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_endless": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_endless",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_featherfall": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_featherfall",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_komorebi": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_komorebi",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_pokopoko": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_pokopoko",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_precipice": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_precipice",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_puzzlebox": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_puzzlebox",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_watcher": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_watcher",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_yakusoku": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_yakusoku",
+                "stream": true
+            }
+        ]
+    }
+}

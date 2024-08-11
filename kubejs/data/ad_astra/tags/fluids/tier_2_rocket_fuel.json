@@ -1,0 +1,8 @@
+{
+  "replace": true,
+  "values": [
+      "gtceu:dense_hydrazine_mixed_fuel",
+      "gtceu:methane_rocket_fuel",
+      "#ad_astra:tier_3_rocket_fuel"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "功能: 灯具",
+  "icon": "pfm:light_switch",
+  "category": "pfm:lighting_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "照明元件可以被红石或灯具开关控制。手持开关时，对着灯具右键可以将其与灯具相连接。潜行时，对着空中右击可以重置连接。开关一经放置（需距离灯具一定范围以内）便与灯具保持同步。"
+    },
+    {
+      "type": "patchouli:empty",
+      "draw_filler": "false"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "功能: 厨柜",
+  "icon": "pfm:oak_kitchen_cabinet",
+  "category": "pfm:cabinet_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "右击以打开厨柜。其内部可以贮藏任何物品。"
+    },
+    {
+      "type": "patchouli:empty",
+      "draw_filler": "false"
+    }
+  ]
+}

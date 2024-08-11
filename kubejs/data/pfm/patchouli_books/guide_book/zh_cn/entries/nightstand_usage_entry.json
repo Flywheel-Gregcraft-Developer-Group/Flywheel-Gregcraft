@@ -1,0 +1,15 @@
+{
+  "name": "功能: 床头柜",
+  "icon": "pfm:oak_classic_nightstand",
+  "category": "pfm:nightstand_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "右击以打开床头柜。其内部可以贮存任何物品。相邻放置可以创建更大的床头柜。"
+    },
+    {
+      "type": "patchouli:empty",
+      "draw_filler": "false"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+#Drawing machine duration in ticks
+#Range: > 0
+drawing_processing_duration = 100
+#Stamping machine duration in ticks
+#Range: > 0
+stamping_processing_duration = 100
+

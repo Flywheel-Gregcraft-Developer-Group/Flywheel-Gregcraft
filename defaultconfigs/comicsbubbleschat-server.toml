@@ -1,0 +1,15 @@
+
+#General settings
+[general]
+	#Enable Chat Listener
+	chatListener = true
+	#Create a custom command (empty = no command)
+	commandName = ""
+	#Message sent when player performed command (empty = no message) You can add color (ex: &bBubbles created
+	messageSuccess = ""
+	#Radius of the bubble sending to the players (packet)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	bubbleRange = 50.0
+	#Can players see the bubbles through blocks or not ( useful for server rp as example )
+	throughBlock = true
+

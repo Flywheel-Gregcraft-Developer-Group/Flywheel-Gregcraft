@@ -1,0 +1,16 @@
+{
+  "name": "制作: 床头柜",
+  "icon": "minecraft:oak_planks",
+  "category": "pfm:nightstand_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "根据你所要制作的床头柜木料，你需要准备一个箱子和一些木板。"
+    },
+    {
+      "type": "pfm:furniturerecipe2template",
+      "recipe": "pfm:oak_classic_nightstand",
+      "recipe2": "pfm:stripped_birch_classic_nightstand"
+    }
+  ]
+}

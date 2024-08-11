@@ -1,0 +1,25 @@
+{
+  "name": "制作: 冰箱",
+  "icon": "minecraft:white_concrete",
+  "category": "pfm:freezing_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "除XBOX系列X冰箱外，其余冰箱内置冷冻室。你需要将红石粉，箱子以及适当的外表面材料以适当的顺序置放在木工台上以制作一台冰箱。"
+    },
+    {
+      "type": "pfm:furniturerecipe2template",
+      "recipe": "pfm:white_fridge",
+      "recipe2": "pfm:iron_fridge"
+    },
+    {
+      "type": "pfm:furniturerecipe2template",
+      "recipe": "pfm:gray_fridge",
+      "recipe2": "pfm:xbox_fridge"
+    },
+    {
+      "type": "patchouli:empty",
+      "draw_filler": "false"
+    }
+  ]
+}

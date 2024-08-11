@@ -1,0 +1,122 @@
+{
+	"music.menu": {
+        "replace": false,
+		"catagory": "music",
+		"sounds": [
+			"city_of_green",
+			"go_to_work",
+			"clear_skyscrapers",
+			"the_long_construction",
+			"eld_unknown",
+			"endless",
+			"featherfall",
+			"deeper",
+			"komorebi",
+			"pokopoko",
+			"puzzlebox",
+			"watcher",
+			"yakusoku"
+		]
+	},
+	"music.game": {
+		"replace": false,
+		"catagory": "music",
+		"sounds": [
+			"featherfall",
+			"komorebi",
+			"puzzlebox",
+			"watcher",
+			"yakusoku"
+		]
+	},
+	"music.overworld.deep_dark": {
+		"replace": false,
+		"catagory": "music",
+		"sounds": [
+			"deeper"
+		]
+	},
+	"music.overworld.dripstone_caves": {
+		"replace": false,
+		"catagory": "music",
+		"sounds": [
+			"deeper",
+			"eld_unknown",
+			"endless",
+			"pokopoko"
+		]
+	},
+	"music.overworld.grove": {
+		"replace": false,
+		"catagory": "music",
+		"sounds": [
+			"eld_unknown",
+			"endless",
+			"pokopoko"
+		]
+	},
+	"music.overworld.jagged_peaks": {
+		"replace": false,
+		"catagory": "music",
+		"sounds": [
+			"eld_unknown",
+			"endless",
+			"pokopoko"
+		]
+	},
+	"music.overworld.stony_peaks": {
+		"replace": false,
+		"catagory": "music",
+		"sounds": [
+			"eld_unknown",
+			"endless"
+		]
+	},
+	"music.overworld.mesa": {
+		"replace": false,
+		"catagory": "music",
+		"sounds": [
+			"featherfall"
+		]
+	},
+	"music.overworld.cherry_grove": {
+		"replace": false,
+		"catagory": "music",
+		"sounds": [
+			"featherfall"
+		]
+	},
+	"music.overworld.flower_forest": {
+		"replace": false,
+		"catagory": "music",
+		"sounds": [
+			"featherfall"
+		]
+	},
+	"music.overworld.lush_caves": {
+		"replace": false,
+		"catagory": "music",
+		"sounds": [
+			"featherfall"
+		]
+	},
+	"music.overworld.snowy_slopes": {
+		"replace": false,
+		"catagory": "music",
+		"sounds": [
+			"pokopoko"
+		]
+	},
+	"end-fight.fight1": {
+		"catagory": "record",
+		"sounds": [
+			"end-fight/fight1"
+		]
+	},
+	"end-fight.fight2": {
+		"catagory": "record",
+		"sounds": [
+			"end-fight/fight2"
+		]
+	}
+}

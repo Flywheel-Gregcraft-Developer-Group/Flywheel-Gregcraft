@@ -1,0 +1,15 @@
+{
+  "name": "功能: 厨房柜台",
+  "icon": "pfm:oak_kitchen_counter",
+  "category": "pfm:counter_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "厨房柜台仅作为装饰。它们能以与楼梯相同的方式相互连接。"
+    },
+    {
+      "type": "patchouli:empty",
+      "draw_filler": "false"
+    }
+  ]
+}

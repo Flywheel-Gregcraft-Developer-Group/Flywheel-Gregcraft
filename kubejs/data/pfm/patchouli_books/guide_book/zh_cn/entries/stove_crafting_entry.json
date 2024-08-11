@@ -1,0 +1,25 @@
+{
+  "name": "制作: 灶台",
+  "icon": "minecraft:white_concrete",
+  "category": "pfm:stove_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "你需要将一个熔炉以及适当的外表面材料（混凝土或铁）以适当的顺序置放在木工台上以制作一台集成灶。"
+    },
+    {
+      "type": "pfm:furniturerecipe2template",
+      "recipe": "pfm:white_stove",
+      "recipe2": "pfm:iron_stove"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "你也可以分别制造烤箱与灶台。替换不同的原木材料以获得不同材质的烤箱，与你的厨房柜台保持一致。灶台具有营火的功能，烤箱可以作为烟熏炉使用。"
+    },
+    {
+      "type": "pfm:furniturerecipe2template",
+      "recipe": "pfm:oak_kitchen_counter_oven",
+      "recipe2": "pfm:kitchen_stovetop"
+    }
+  ]
+}

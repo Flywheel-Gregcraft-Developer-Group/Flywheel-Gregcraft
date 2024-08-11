@@ -1,0 +1,25 @@
+{
+  "name": "制作: 床",
+  "icon": "minecraft:oak_planks",
+  "category": "pfm:bed_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "模组中有许多款式的床。要制作它们，你需要根据样式与材料的差异准备一些木板，栅栏，以及一张原版床。"
+    },
+    {
+      "type": "pfm:furniturerecipe2template",
+      "recipe": "pfm:oak_red_simple_bed",
+      "recipe2": "pfm:spruce_cyan_classic_bed"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "你也可以制作床梯并将它靠在床边。床梯同样可以作为梯子使用。"
+    },
+    {
+      "type": "pfm:furniturerecipe2template",
+      "recipe": "pfm:oak_simple_bunk_ladder",
+      "recipe2": "pfm:warped_simple_bunk_ladder"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "功能: 木工台",
+  "icon": "pfm:working_table",
+  "category": "pfm:working_table_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "木工台的功能与工作台相似，但只能制作家具。"
+    },
+    {
+      "type": "pfm:craftinggridimage"
+    }
+  ]
+}

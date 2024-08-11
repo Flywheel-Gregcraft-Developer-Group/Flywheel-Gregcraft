@@ -1,0 +1,15 @@
+{
+  "name": "功能: 座椅",
+  "icon": "pfm:oak_chair",
+  "category": "pfm:chair_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "右击可以坐在椅子上。按 Shift 从椅子上下来。如果椅子被放在一张桌子前，空手右击可以把它推进去。"
+    },
+    {
+      "type": "patchouli:empty",
+      "draw_filler": "false"
+    }
+  ]
+}

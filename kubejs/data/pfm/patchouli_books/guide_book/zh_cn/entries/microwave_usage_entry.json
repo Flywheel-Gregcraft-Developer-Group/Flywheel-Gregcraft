@@ -1,0 +1,18 @@
+{
+  "name": "使用方法: 微波炉",
+  "icon": "minecraft:redstone",
+  "category": "pfm:microwave_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "右击以打开微波炉，每次只能加热一件食物。按下启动按钮以启动加热。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "pfm:textures/gui/microwave_book.png"
+      ],
+      "title": "Microwave"
+    }
+  ]
+}

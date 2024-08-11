@@ -1,0 +1,16 @@
+{
+  "name": "制作: 餐盘",
+  "icon": "minecraft:white_concrete",
+  "category": "pfm:plate_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "用白色混凝土环绕物品展示框一圈可以合成一个盘子。你可以另外合成餐具摆放在餐盘旁。它们仅作为装饰品。"
+    },
+    {
+      "type": "pfm:furniturerecipe2template",
+      "recipe": "pfm:basic_plate",
+      "recipe2": "pfm:basic_cutlery"
+    }
+  ]
+}

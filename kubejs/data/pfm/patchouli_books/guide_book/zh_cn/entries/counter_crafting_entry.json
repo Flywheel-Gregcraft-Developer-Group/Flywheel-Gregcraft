@@ -1,0 +1,54 @@
+{
+  "name": "制作: 厨房柜台",
+  "icon": "minecraft:oak_log",
+  "category": "pfm:counter_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "厨房柜台有许多不同的款式。根据你所要制作的款式，你需要准备木板，原木或一些石料。替换不同的原木种类可以得到不同木头材质的厨房柜台。"
+    },
+    {
+      "type": "pfm:furniturerecipe2template",
+      "recipe": "pfm:oak_kitchen_counter",
+      "recipe2": "pfm:stripped_oak_kitchen_wall_counter"
+    },
+    {
+      "type": "pfm:furniturerecipe2template",
+      "recipe": "pfm:concrete_kitchen_wall_counter",
+      "recipe2": "pfm:dark_concrete_kitchen_counter"
+    },
+    {
+      "type": "pfm:furniturerecipe2template",
+      "recipe": "pfm:light_wood_kitchen_counter",
+      "recipe2": "pfm:dark_wood_kitchen_wall_counter"
+    },
+    {
+      "type": "pfm:furniturerecipe2template",
+      "recipe": "pfm:granite_kitchen_wall_counter",
+      "recipe2": "pfm:calcite_kitchen_counter"
+    },
+    {
+      "type": "pfm:furniturerecipe2template",
+      "recipe": "pfm:netherite_kitchen_counter",
+      "recipe2": "pfm:andesite_kitchen_wall_counter"
+    },
+    {
+      "type": "pfm:furniturerecipe2template",
+      "recipe": "pfm:diorite_kitchen_wall_counter",
+      "recipe2": "pfm:stone_kitchen_counter"
+    },
+    {
+      "type": "pfm:furniturerecipe2template",
+      "recipe": "pfm:deepslate_tile_kitchen_counter",
+      "recipe2": "pfm:deepslate_kitchen_wall_counter"
+    },
+    {
+      "type": "pfm:furniturerecipetemplate",
+      "recipe": "pfm:blackstone_kitchen_counter"
+    },
+    {
+      "type": "patchouli:empty",
+      "draw_filler": "false"
+    }
+  ]
+}

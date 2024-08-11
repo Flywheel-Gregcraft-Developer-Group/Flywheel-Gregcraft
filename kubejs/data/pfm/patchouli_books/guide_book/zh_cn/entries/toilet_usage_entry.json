@@ -1,0 +1,15 @@
+{
+  "name": "功能: 马桶",
+  "icon": "pfm:basic_toilet",
+  "category": "pfm:toilet_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "坐到马桶上，随后按下绑定热键（默认为U）如厕。解决问题后就可以下来。别忘了冲个厕所。（空手右击即可）"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "类似于厨房水槽，马桶需要水才能工作。只需其下方两格处有水源即可。然而它只能通过汲水或使用水瓶来蓄水。水桶的水量对于马桶过多了。"
+    }
+  ]
+}

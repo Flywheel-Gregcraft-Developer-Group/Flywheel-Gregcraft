@@ -1,0 +1,15 @@
+{
+	id: "2CFB5F520CE348C6"
+	loot_size: 32
+	order_index: 4
+	rewards: [
+		{ item: "gtceu:bronze_ingot", weight: 30.0f }
+		{ item: "gtceu:red_alloy_ingot", weight: 10.0f }
+		{ item: "gtceu:wrought_iron_ingot", weight: 15.0f }
+		{ item: "gtceu:rubber_ingot", weight: 15.0f }
+		{ item: "gtceu:resin_printed_circuit_board", weight: 5.0f }
+		{ item: "gtceu:vacuum_tube", weight: 5.0f }
+		{ item: "gtceu:resistor", weight: 5.0f }
+	]
+	title: "抽奖：格雷科技（蒸汽）"
+}

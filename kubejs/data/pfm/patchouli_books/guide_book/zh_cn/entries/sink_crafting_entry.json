@@ -1,0 +1,54 @@
+{
+  "name": "制作: 厨房水槽",
+  "icon": "minecraft:bucket",
+  "category": "pfm:sink_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "厨房水槽具有许多款式。根据你所要制作的款式不同，你需要准备木板，原木或一些石料，一块铁锭以及一个桶。替换不同的原木种类可以得到不同木头材质的厨房水槽。"
+    },
+    {
+      "type": "pfm:furniturerecipe2template",
+      "recipe": "pfm:oak_kitchen_sink",
+      "recipe2": "pfm:stripped_oak_kitchen_sink"
+    },
+    {
+      "type": "pfm:furniturerecipe2template",
+      "recipe": "pfm:concrete_kitchen_sink",
+      "recipe2": "pfm:dark_concrete_kitchen_sink"
+    },
+    {
+      "type": "pfm:furniturerecipe2template",
+      "recipe": "pfm:light_wood_kitchen_sink",
+      "recipe2": "pfm:dark_wood_kitchen_sink"
+    },
+    {
+      "type": "pfm:furniturerecipe2template",
+      "recipe": "pfm:granite_kitchen_sink",
+      "recipe2": "pfm:calcite_kitchen_sink"
+    },
+    {
+      "type": "pfm:furniturerecipe2template",
+      "recipe": "pfm:netherite_kitchen_sink",
+      "recipe2": "pfm:andesite_kitchen_sink"
+    },
+    {
+      "type": "pfm:furniturerecipe2template",
+      "recipe": "pfm:diorite_kitchen_sink",
+      "recipe2": "pfm:stone_kitchen_sink"
+    },
+    {
+      "type": "pfm:furniturerecipe2template",
+      "recipe": "pfm:deepslate_tile_kitchen_sink",
+      "recipe2": "pfm:deepslate_kitchen_sink"
+    },
+    {
+      "type": "pfm:furniturerecipetemplate",
+      "recipe": "pfm:blackstone_kitchen_sink"
+    },
+    {
+      "type": "patchouli:empty",
+      "draw_filler": "false"
+    }
+  ]
+}

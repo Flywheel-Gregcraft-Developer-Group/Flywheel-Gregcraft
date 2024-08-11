@@ -1,0 +1,6 @@
+{
+  "parent": "gtceu:block/tinted_cube_all",
+  "textures": {
+    "all": "gtceu:block/material_sets/yinyang/frame_gt"
+  }
+}

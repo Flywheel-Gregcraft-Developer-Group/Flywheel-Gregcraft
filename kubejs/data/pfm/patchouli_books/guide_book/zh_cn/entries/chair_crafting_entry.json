@@ -1,0 +1,101 @@
+{
+  "name": "制作: 座椅",
+  "icon": "minecraft:oak_log",
+  "category": "pfm:chair_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "椅子具有许多不同的款式。根据你所要制作的款式，你需要准备一些木板与原木。替换不同的原木种类可以得到不同木头材质的椅子。"
+    },
+    {
+      "type": "pfm:furniturerecipe2template",
+      "recipe": "pfm:oak_chair",
+      "recipe2": "pfm:stripped_oak_chair"
+    },
+    {
+      "type": "pfm:furniturerecipe2template",
+      "recipe": "pfm:oak_chair_dinner",
+      "recipe2": "pfm:stripped_oak_chair_dinner"
+    },
+    {
+      "type": "pfm:furniturerecipe2template",
+      "recipe": "pfm:froggy_chair",
+      "recipe2": "pfm:froggy_chair_pink"
+    },
+    {
+      "type": "pfm:furniturerecipe2template",
+      "recipe": "pfm:froggy_chair_light_blue",
+      "recipe2": "pfm:froggy_chair_blue"
+    },
+    {
+      "type": "pfm:furniturerecipe2template",
+      "recipe": "pfm:froggy_chair_orange",
+      "recipe2": "pfm:froggy_chair_yellow"
+    },
+    {
+      "type": "pfm:furniturerecipetemplate",
+      "recipe": "pfm:oak_chair_classic_red",
+      "custom_text": "这款椅子可以通过使用不同颜色的羊毛或染料试剂来染色。"
+    },
+    {
+      "type": "pfm:furniturerecipe2template",
+      "recipe": "pfm:oak_chair_classic",
+      "recipe2": "pfm:stripped_oak_chair_classic"
+    },
+    {
+      "type": "pfm:furniturerecipe2template",
+      "recipe": "pfm:oak_chair_modern",
+      "recipe2": "pfm:stripped_oak_chair_modern"
+    },
+    {
+      "type": "pfm:furniturerecipetemplate",
+      "recipe": "pfm:white_arm_chair",
+      "custom_text": "这款椅子可以通过使用不同颜色的羊毛或染料试剂来染色。"
+    },
+    {
+      "type": "pfm:furniturerecipetemplate",
+      "recipe": "pfm:orange_simple_sofa",
+      "custom_text": "这款椅子可以通过使用不同颜色的羊毛或染料试剂来染色。"
+    },
+    {
+      "type": "pfm:furniturerecipe2template",
+      "recipe": "pfm:arm_chair_leather",
+      "recipe2": "pfm:oak_log_stool"
+    },
+    {
+      "type": "pfm:furniturerecipe2template",
+      "recipe": "pfm:oak_simple_stool",
+      "recipe2": "pfm:stripped_oak_simple_stool"
+    },
+    {
+      "type": "pfm:furniturerecipe2template",
+      "recipe": "pfm:oak_classic_stool",
+      "recipe2": "pfm:stripped_oak_classic_stool"
+    },
+    {
+      "type": "pfm:furniturerecipe2template",
+      "recipe": "pfm:oak_simple_stool",
+      "recipe2": "pfm:stripped_oak_simple_stool"
+    },
+    {
+      "type": "pfm:furniturerecipe2template",
+      "recipe": "pfm:oak_modern_stool",
+      "recipe2": "pfm:stripped_oak_modern_stool"
+    },
+    {
+      "type": "pfm:furniturerecipe2template",
+      "recipe": "pfm:white_modern_stool",
+      "recipe2": "pfm:gray_modern_stool"
+    },
+    {
+      "type": "pfm:furniturerecipe2template",
+      "recipe": "pfm:dark_wood_modern_stool",
+      "recipe2": "pfm:gray_dark_oak_modern_stool"
+    },
+    {
+      "type": "pfm:furniturerecipe2template",
+      "recipe": "pfm:light_gray_dark_oak_modern_stool",
+      "recipe2": "pfm:light_wood_modern_stool"
+    }
+  ]
+}

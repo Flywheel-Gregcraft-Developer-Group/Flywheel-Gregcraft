@@ -1,0 +1,28 @@
+
+#.
+#Parameters and abilities of VS Clockwork's kinetic mechanisms
+[cwkinetics]
+	#.
+	#.
+	#RPM input requirement per Sail attached.
+	#Range: > 1
+	propellorRPMPerSail = 8
+	#.
+	#Maximum scan distance of the Ballooner's floodfill algorithm.
+	#Range: > 1
+	balloonRange = 4096
+
+	[cwkinetics.cwstressValues]
+
+		#.
+		#Fine tune the kinetic stats of individual components
+		[cwkinetics.cwstressValues.v2]
+
+			#.
+			#.
+			#[in Stress Units]
+			#Configure the individual stress impact of mechanical blocks. Note that this cost is doubled for every speed increase it receives.
+			[cwkinetics.cwstressValues.v2.impact]
+				flap_bearing = 4.0
+				redstone_resistor = 0.0
+

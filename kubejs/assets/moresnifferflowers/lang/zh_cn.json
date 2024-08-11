@@ -1,0 +1,60 @@
+{
+	"item.moresnifferflowers.dawnberry": "晓莓",
+	"item.moresnifferflowers.dawnberry_vine_seeds": "晓莓藤种子",
+	"item.moresnifferflowers.ambush_seeds": "琥珀花种子",
+	"item.moresnifferflowers.ambush_banner_pattern": "琥珀花旗帜图案",
+	"item.moresnifferflowers.ambush_banner_pattern.desc": "琥珀花",
+	"item.moresnifferflowers.amber_shard": "琥珀花碎片",
+	"item.moresnifferflowers.aroma_armor_trim_smithing_table": "锻造模板",
+	"item.moresnifferflowers.dragonfly": "蜻蜓花",
+	"item.moresnifferflowers.dyespria": "印染花",
+	"item.moresnifferflowers.jar_of_bonmeel": "一瓶骨肥花汁液",
+	"item.moresnifferflowers.bonmeelia_seeds": "骨肥花种子",
+
+	"block.moresnifferflowers.dawnberry_vine": "晓莓藤",
+	"block.moresnifferflowers.ambush": "琥珀花",
+	"block.moresnifferflowers.amber": "琥珀块",
+	"block.moresnifferflowers.caulorflower": "染布花",
+	"block.moresnifferflowers.bonmeelia": "骨肥花",
+	"block.moresnifferflowers.giant_potato": "巨型马铃薯",
+	"block.moresnifferflowers.giant_netherwart": "巨型下界疣",
+	"block.moresnifferflowers.giant_carrot": "巨型胡萝卜",
+	"block.moresnifferflowers.giant_wheat": "巨型小麦",
+	"block.moresnifferflowers.giant_beetroot": "巨型甜菜根",
+	
+	"tooltip.dyespria.usage": "手持染料右键以填充 \n对染布花右键以上色 \n下蹲时可对整列上色\n",
+	"tooltip.dyespria.empty": "空",
+	"tooltip.jar_of_bonmeel.usage": "可用于3x3的下列作物：胡萝卜、马铃薯、小麦、甜菜根、下界疣",
+	"tooltip.amber_shard.usage": "可用于盔甲纹饰材料",
+
+	"advancements.more_sniffer_flowers.dyespria": "多彩植物",
+	"advancements.more_sniffer_flowers.dyespria.desc": "用印染花为染布花增添色彩",
+	"advancements.more_sniffer_flowers.any_seed": "有趣的味觉拓展",
+	"advancements.more_sniffer_flowers.any_seed.desc": "利用嗅探兽发现更多的远古作物",
+
+	"trim_pattern.moresnifferflowers.aroma": "芳香盔甲纹饰",
+
+	"trim_material.moresnifferflowers.amber": "琥珀材料",
+
+	"block.minecraft.banner.moresnifferflowers.ambush.white": "白色琥珀花",
+	"block.minecraft.banner.moresnifferflowers.ambush.light_gray": "淡灰色琥珀花",
+	"block.minecraft.banner.moresnifferflowers.ambush.gray": "灰色琥珀花",
+	"block.minecraft.banner.moresnifferflowers.ambush.black": "黑色琥珀花",
+	"block.minecraft.banner.moresnifferflowers.ambush.brown": "棕色琥珀花",
+	"block.minecraft.banner.moresnifferflowers.ambush.red": "红色琥珀花",
+	"block.minecraft.banner.moresnifferflowers.ambush.orange": "橙色琥珀花",
+	"block.minecraft.banner.moresnifferflowers.ambush.yellow": "黄色琥珀花",
+	"block.minecraft.banner.moresnifferflowers.ambush.lime": "黄绿色琥珀花",
+	"block.minecraft.banner.moresnifferflowers.ambush.green": "绿色琥珀花",
+	"block.minecraft.banner.moresnifferflowers.ambush.cyan": "青色琥珀花",
+	"block.minecraft.banner.moresnifferflowers.ambush.light_blue": "淡蓝色琥珀花",
+	"block.minecraft.banner.moresnifferflowers.ambush.blue": "蓝色琥珀花",
+	"block.minecraft.banner.moresnifferflowers.ambush.purple": "紫色琥珀花",
+	"block.minecraft.banner.moresnifferflowers.ambush.magenta": "品红色琥珀花",
+	"block.minecraft.banner.moresnifferflowers.ambush.pink": "粉红色琥珀花",
+
+	"death.attack.moresnifferflowersveggies": "%s 吃下了有毒植物",
+
+	"moresnifferflowers.creative_tab": "更多的嗅探兽花"
+
+}

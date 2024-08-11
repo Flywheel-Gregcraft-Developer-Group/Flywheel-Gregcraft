@@ -1,0 +1,15 @@
+{
+  "name": "功能: 餐盘",
+  "icon": "pfm:basic_plate",
+  "category": "pfm:plate_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "右击餐盘可以将手持的食物盛起来。再次右击可以享用食物。空手右击可以把食物拿走。手持刀叉时右击盘子以添置餐具。你也可以事先放置刀叉再添置餐盘。"
+    },
+    {
+      "type": "patchouli:empty",
+      "draw_filler": "false"
+    }
+  ]
+}
