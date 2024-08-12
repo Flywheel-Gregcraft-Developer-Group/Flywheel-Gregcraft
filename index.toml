@@ -5048,7 +5048,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "348ca2d5b428c950272db4c03873f264d35db98a2d128e18323246ce1637eff5"
+hash = "9d0e72baef1cf533c538d6341ae75879eb3767439608a04be3dab2c660425b5c"
 metafile = true
 
 [[files]]
@@ -5178,7 +5178,7 @@ metafile = true
 
 [[files]]
 file = "mods/mrcrayfishs-gun-mod-unofficial.pw.toml"
-hash = "3ab3bc507913dcec1d4b6f324ad0a0993eb24583964cd686122cdb960371f3fb"
+hash = "95ce762be35110b791209b64308bdac93081734c9e3aecf9350fd74746b83575"
 metafile = true
 
 [[files]]
