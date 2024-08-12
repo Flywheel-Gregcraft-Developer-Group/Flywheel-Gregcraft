@@ -1,0 +1,13 @@
+name = "Create Stuff & Additions"
+filename = "create-stuff-additions1.20.1_v2.0.4a.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/aq9qUUQG/versions/BZVJs8ty/create-stuff-additions1.20.1_v2.0.4a.jar"
+hash-format = "sha1"
+hash = "d59e52e255f6c0c0c36be84ce33b1d54d9abeb96"
+
+[update]
+[update.modrinth]
+mod-id = "aq9qUUQG"
+version = "BZVJs8ty"

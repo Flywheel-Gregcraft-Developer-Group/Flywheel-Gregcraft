@@ -1,0 +1,13 @@
+name = "Cracker's Wither Storm Mod"
+filename = "witherstormmod-1.20.1-4.2.1-all.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/kWjNGDUH/versions/nY68hRY1/witherstormmod-1.20.1-4.2.1-all.jar"
+hash-format = "sha1"
+hash = "bd32ea3f44812b6b1744739633ea25d32197f4b8"
+
+[update]
+[update.modrinth]
+mod-id = "kWjNGDUH"
+version = "nY68hRY1"

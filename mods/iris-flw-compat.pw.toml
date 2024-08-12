@@ -1,0 +1,13 @@
+name = "Iris & Oculus Flywheel Compat"
+filename = "oculus-flywheel-compat-forge1.20.1+1.1.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/ndHYMY2K/versions/9fvGbqdA/oculus-flywheel-compat-forge1.20.1%2B1.1.2.jar"
+hash-format = "sha1"
+hash = "0f64671bdd1d460e5f864abe0ae46639e3207a06"
+
+[update]
+[update.modrinth]
+mod-id = "ndHYMY2K"
+version = "9fvGbqdA"

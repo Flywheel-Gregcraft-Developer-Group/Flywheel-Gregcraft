@@ -1,0 +1,13 @@
+name = "Legacy: [Let's Do] Candlelight"
+filename = "letsdo-candlelight-forge-1.2.13.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/mPND0Adp/versions/ImuP9F4N/letsdo-candlelight-forge-1.2.13.jar"
+hash-format = "sha1"
+hash = "1e85017167d6d2bef711f9d367cad87658176821"
+
+[update]
+[update.modrinth]
+mod-id = "mPND0Adp"
+version = "ImuP9F4N"

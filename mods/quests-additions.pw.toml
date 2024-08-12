@@ -1,0 +1,13 @@
+name = "Quests Additions (Forge)"
+filename = "questsadditions-1.4.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d3274700bf3543d2b31e66385c1867aa7eed5cd3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5616079
+project-id = 580129

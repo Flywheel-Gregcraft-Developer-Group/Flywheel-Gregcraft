@@ -1,0 +1,13 @@
+name = "My Server Is Compatible"
+filename = "MyServerIsCompatible-1.20-1.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/13qq15Cg/versions/7jEatFH8/MyServerIsCompatible-1.20-1.0.jar"
+hash-format = "sha1"
+hash = "a53abcabc6c3531667049be249b3fb165aad5468"
+
+[update]
+[update.modrinth]
+mod-id = "13qq15Cg"
+version = "7jEatFH8"

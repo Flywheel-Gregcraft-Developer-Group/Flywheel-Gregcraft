@@ -1,0 +1,13 @@
+name = "ewewukek's Musket Mod"
+filename = "musketmod-1.20.1-forge-1.4.9.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/967vM4zw/versions/R2ZV8XDB/musketmod-1.20.1-forge-1.4.9.jar"
+hash-format = "sha1"
+hash = "36a5a891c002ada3e1c1478fac2ebe441ba98363"
+
+[update]
+[update.modrinth]
+mod-id = "967vM4zw"
+version = "R2ZV8XDB"

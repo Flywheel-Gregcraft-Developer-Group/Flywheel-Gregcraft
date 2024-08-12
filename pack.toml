@@ -1,0 +1,13 @@
+name = "Flywheel Gregcraft"
+author = "CreepSean"
+version = "0.4.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "cac5a330215d7dfbfcea4ff75efa1890ad73f0d826600a1394cc9d27f0985701"
+
+[versions]
+forge = "47.3.0"
+minecraft = "1.20.1"

@@ -1,6 +1,5 @@
 # Dev & technical cache
-/.vscode/
-/.vscode/**
+
 /crash-reports/
 /crash-reports/**
 /logs/
@@ -14,8 +13,6 @@
 /usernamecache.json
 
 # Resources don't owned by modpack
-/mods/
-/mods/**
 /natives-*/
 /natives-*/**
 /*.jar

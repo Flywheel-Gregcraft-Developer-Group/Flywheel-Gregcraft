@@ -1,0 +1,13 @@
+name = "Allurement"
+filename = "allurement-1.20.1-4.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/eIO12l2t/versions/qc1hOxYD/allurement-1.20.1-4.0.0.jar"
+hash-format = "sha1"
+hash = "1687ae1c9475c70f4044e7b381aa8df1c4249e1e"
+
+[update]
+[update.modrinth]
+mod-id = "eIO12l2t"
+version = "qc1hOxYD"

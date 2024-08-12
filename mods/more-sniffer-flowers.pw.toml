@@ -1,0 +1,13 @@
+name = "More Sniffer Flowers"
+filename = "moresnifferflowers-1.4.5b-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/DbriYWc8/versions/t0iVErD9/moresnifferflowers-1.4.5b-1.20.1.jar"
+hash-format = "sha1"
+hash = "3df766702dcf92890ee9d83689d6b3d34ca661f4"
+
+[update]
+[update.modrinth]
+mod-id = "DbriYWc8"
+version = "t0iVErD9"

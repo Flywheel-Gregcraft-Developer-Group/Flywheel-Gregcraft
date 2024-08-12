@@ -1,0 +1,13 @@
+name = "CMDCam"
+filename = "CMDCam_FORGE_v2.1.1_mc1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/hZw3uqi3/versions/A1X7SdnC/CMDCam_FORGE_v2.1.1_mc1.20.1.jar"
+hash-format = "sha1"
+hash = "237b9d4ed8cb0272e7d4f18be54f349cd91f4fdf"
+
+[update]
+[update.modrinth]
+mod-id = "hZw3uqi3"
+version = "A1X7SdnC"

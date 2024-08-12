@@ -1,0 +1,13 @@
+name = "Automobility"
+filename = "automobility-0.4.2+1.20.1-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/rqIsPf9F/versions/46g3IiWw/automobility-0.4.2%2B1.20.1-forge.jar"
+hash-format = "sha1"
+hash = "007f228d2d728ec0ec79ab405d09b05a4ee7bed6"
+
+[update]
+[update.modrinth]
+mod-id = "rqIsPf9F"
+version = "46g3IiWw"

@@ -1,0 +1,13 @@
+name = "CodeChicken Lib"
+filename = "CodeChickenLib-1.20.1-4.4.0.512-universal.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/2gq0ALnz/versions/U68JIVpX/CodeChickenLib-1.20.1-4.4.0.512-universal.jar"
+hash-format = "sha1"
+hash = "3d75bae94d3645ab355ac4b3178f03eb4684f318"
+
+[update]
+[update.modrinth]
+mod-id = "2gq0ALnz"
+version = "U68JIVpX"

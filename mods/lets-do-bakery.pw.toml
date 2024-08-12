@@ -1,0 +1,13 @@
+name = "Legacy: [Let's Do] Bakery"
+filename = "letsdo-bakery-forge-1.1.15.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/WFwYiVoG/versions/Jo8EwiDR/letsdo-bakery-forge-1.1.15.jar"
+hash-format = "sha1"
+hash = "c5cd44088089fca03f3291b851dcb0d00018fecb"
+
+[update]
+[update.modrinth]
+mod-id = "WFwYiVoG"
+version = "Jo8EwiDR"

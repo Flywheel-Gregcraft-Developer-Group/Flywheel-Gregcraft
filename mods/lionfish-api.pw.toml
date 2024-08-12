@@ -1,0 +1,13 @@
+name = "Lionfish-API"
+filename = "lionfishapi-1.9.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/FoVacERa/versions/5kW6wNcF/lionfishapi-1.9.jar"
+hash-format = "sha1"
+hash = "273acf6e2f0498d64c23a9a28892cb3f1b086f7b"
+
+[update]
+[update.modrinth]
+mod-id = "FoVacERa"
+version = "5kW6wNcF"
