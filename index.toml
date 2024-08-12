@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".vscode/tasks.json"
+hash = "53f44e11a3bcabd148b880f13c66ac80473a4cf859eccbbc4a6463e635e008c2"
+
+[[files]]
 file = "LICENSE"
 hash = "b9709407aa81f036b7d2ffaaea9b5cccca1cbb6bf84a7e56ba782cbaf2f3b055"
 
@@ -4536,6 +4540,10 @@ hash = "bf478af7ae31e03fd5029f622c1ebb764466442f1902b7be2cba3ab040811b52"
 metafile = true
 
 [[files]]
+file = "mods/additional-guns-0.8.2-1.20.1.jar"
+hash = "1454d3a7de9d3e744ac5d6ccfc3a09adc2f4fc2f0dcd7f3e24a326bf389c2001"
+
+[[files]]
 file = "mods/ae2.pw.toml"
 hash = "8df4661f7a00b5e01562b27370b077d5b6df3d584aaf63e954dd7e449a77f6ab"
 metafile = true
@@ -4664,6 +4672,10 @@ metafile = true
 file = "mods/caelus.pw.toml"
 hash = "eaa144428b42dedd12beea31db366ca686a621c9945d45a35494dca25846fc63"
 metafile = true
+
+[[files]]
+file = "mods/catacalysm-delight-1.20.1-0.1.1.jar"
+hash = "c716a000ed2635a9d863b4acf47f3e8f5e97c977bf36b73849749cc4eef2b38f"
 
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
@@ -4889,6 +4901,10 @@ metafile = true
 file = "mods/every-compat.pw.toml"
 hash = "7473f744b04ff3bc1b1bffa1abbd433f837f6195ea487fba6880505c0b6a575e"
 metafile = true
+
+[[files]]
+file = "mods/everyxhotpot-1.1.2BF2-1.20.1-TeaCon2023.jar"
+hash = "d13d9fabaf8f58d6c6ab3240533b8aa0d0c54e03a2c36bd640eb30d498051940"
 
 [[files]]
 file = "mods/ewewukeks-musket-mod.pw.toml"
@@ -5161,6 +5177,11 @@ hash = "607385f10bfa8727c9fbb7b9cd92ac702b1072527826d94342e666c209167999"
 metafile = true
 
 [[files]]
+file = "mods/mrcrayfishs-gun-mod-unofficial.pw.toml"
+hash = "3ab3bc507913dcec1d4b6f324ad0a0993eb24583964cd686122cdb960371f3fb"
+metafile = true
+
+[[files]]
 file = "mods/music-maker-mod.pw.toml"
 hash = "34619b04852dec7d7b7e0517b0c7a9725de792271d9b40e0badcce7377636c73"
 metafile = true
@@ -5306,11 +5327,6 @@ hash = "326bff4bd6ad0f319a87397dacbb90ff312516c168f877dcdb4cdcc32f0ad696"
 metafile = true
 
 [[files]]
-file = "mods/sols-stream-mod.pw.toml"
-hash = "769986873974fab4f2f6dab1918311bd99720597b48076890e28bc9c5c73eef5"
-metafile = true
-
-[[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
 hash = "3f6894af067410277d2281acd6a674575694eb65e4e3514e4d96e32b06e4e0e2"
 metafile = true
@@ -5433,10 +5449,6 @@ metafile = true
 [[files]]
 file = "options.txt"
 hash = "511403065c298d4b93d564e3998a025e82ad56a2fbb62e156df7d917f94f1613"
-
-[[files]]
-file = "patchouli_data.json"
-hash = "835696d5fa8d103dad3fa9e234cd0ebb9995a846b1024502e567156d09792b98"
 
 [[files]]
 file = "resourcepacks/presense-footsteps-sounds.pw.toml"

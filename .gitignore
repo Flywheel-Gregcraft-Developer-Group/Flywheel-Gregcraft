@@ -6,6 +6,8 @@
 /logs/**
 /pfm/
 /pfm/**
+/build/
+/build/**
 /.qmenu_opened.marker
 /log4j2.xml
 /rhino.local.properties
