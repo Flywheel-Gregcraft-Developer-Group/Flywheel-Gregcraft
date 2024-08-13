@@ -1,0 +1,40 @@
+{
+	id: "61D21196C7E16B48"
+	loot_size: 48
+	order_index: 3
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "create:brass_ingot"
+				tag: { }
+			}
+			weight: 20.0f
+		}
+		{ item: "create:brass_casing", weight: 20.0f }
+		{ item: "create:precision_mechanism", weight: 5.0f }
+		{
+			item: {
+				Count: 1b
+				id: "create:shaft"
+				tag: { }
+			}
+			weight: 10.0f
+		}
+		{ item: "create:cogwheel", weight: 10.0f }
+		{ item: "create:large_cogwheel", weight: 10.0f }
+		{ item: "kubejs:electronic_mechanism", weight: 2.0f }
+		{ item: "create:sturdy_sheet", weight: 5.0f }
+		{
+			item: {
+				Count: 1b
+				id: "create_enchantment_industry:hyper_experience_bottle"
+				tag: { }
+			}
+			weight: 2.0f
+		}
+		{ item: "create:blaze_cake" }
+		{ item: "createchromaticreturn:chromatic_compound" }
+	]
+	title: "抽奖：机械动力（高级）"
+}

@@ -1,0 +1,383 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1E3ACF07AE49E0A1"
+	group: "3F12A3D145F5F546"
+	icon: "gtceu:infinity_ingot"
+	id: "1E3ACF07AE49E0A1"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7EAD2428E4E74DDE"]
+			icon: "gtceu:cosmic_matter_collector"
+			id: "6C6D4292971C6622"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "352CB273462C6950"
+				item: "gtceu:cosmic_matter_collector"
+				type: "item"
+			}]
+			title: "收集宇宙物质"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C6D4292971C6622"]
+			icon: "gtceu:liquid_space_bucket"
+			id: "53BAD5E80FFF8A58"
+			shape: "square"
+			size: 1.5d
+			tasks: [
+				{
+					id: "623E9DFC4FA52331"
+					item: "gtceu:space_bucket"
+					type: "item"
+				}
+				{
+					id: "1B7D9B19659C3197"
+					item: "gtceu:liquid_space_bucket"
+					type: "item"
+				}
+			]
+			title: "空寂冰冷"
+			x: -3.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["1DD79C2921A71CEE"]
+			icon: "gtceu:oganesson_bucket"
+			id: "5D6FDFFF5EDEEB4B"
+			shape: "square"
+			size: 1.5d
+			tasks: [
+				{
+					id: "530040AC2576765E"
+					item: "gtceu:californium_bucket"
+					type: "item"
+				}
+				{
+					id: "53316BADD2CFDCC6"
+					item: "gtceu:oganesson_bucket"
+					type: "item"
+				}
+			]
+			title: "好气奥！花了很长时间才到这里！"
+			x: 3.0d
+			y: 3.75d
+		}
+		{
+			dependencies: [
+				"53BAD5E80FFF8A58"
+				"5D6FDFFF5EDEEB4B"
+				"402B7EF9ACB11D71"
+			]
+			icon: "gtceu:space_neutronium_bucket"
+			id: "6CFE1DF5074EB828"
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "446576812D225A2B"
+				item: "gtceu:space_neutronium_bucket"
+				type: "item"
+			}]
+			title: "来自寰宇的拥抱"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6CFE1DF5074EB828"]
+			description: [
+				"你渴望着那属于创世者的最强力量。但是，它被一个巨大的、邪恶的怪物所掌控着。想要获取其身上的创世之力，你必须要干一票大的！"
+				""
+				"首先，你需要制造一个祭品（标志着之前的主线内容已全部完成），将其激活，方能召唤出它的核心——命令方块（位于你头顶的318格高空处）。随后，找到那个命令方块，在其周围按照正常召唤凋灵的方式搭建方块（以命令方块为核心）。"
+				""
+				"此时，你已经将这只灭世级的怪物召唤到了这个世界上。尽管最初的它和普通凋灵一样孱弱（此时的你应该已经武装到牙齿了），但通过不断地吞食周围的一切，其自身的力量会愈发强大，直到后面用正常的方法难以抗衡。"
+				""
+				"为了防止灾难性的后果，你可能会想要将这头怪物扼杀在萌芽中。然而这样做的话，其蕴含创世之力的核心会自然消弭。而你将损失掉自己辛苦了很长时间和精力攒下来的三样“祭品”。"
+				"因此，你需要放任其不断膨胀，不断进化。在它到达进化的极点时，用一种特殊的方法去击败它，从而夺取它的核心。"
+			]
+			icon: "minecraft:command_block"
+			id: "13AA25E372EB693B"
+			rewards: [
+				{
+					command: "/setblock ~ 318 ~ minecraft:command_block"
+					elevate_perms: true
+					id: "195DD68BCB1067E0"
+					type: "command"
+				}
+				{
+					id: "3240917F41A2187F"
+					item: "gtceu:naquadah_credit"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 3.0d
+			subtitle: "制作风暴祭品，召唤凋灵风暴"
+			tasks: [{
+				consume_items: true
+				id: "0E9795C8A16153C1"
+				item: "kubejs:storm_sacrifice"
+				type: "item"
+			}]
+			title: "准备好迎接终极决战了吗？"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7E9A81090A81C86B"]
+			description: [
+				"你将凋灵风暴身躯内部的命令方块一刀斩裂，露出了里面蕴含创世之力的核心——风暴之星。"
+				""
+				"与此同时，凋灵风暴的身躯也随着其心脏的破坏而四分五裂，并将你释放了出去。"
+				""
+				"恭喜你！你成功消灭了凋灵风暴，并夺得了风暴之星！现在，借助风暴之星，你可以掌握一部分创世之力了。"
+				""
+				"但想要成为一个真正的创世者，你还需要做出最后的一段努力。尽管这可能会比较痛苦，但相比过去而言，你已经很接近终点了。"
+			]
+			id: "63FBE2676C20C11C"
+			rewards: [{
+				id: "2F3B1475D19222BB"
+				item: "gtceu:neutronium_credit"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 4.0d
+			subtitle: "击杀经过层层进化后的凋灵风暴，获取风暴之星"
+			tasks: [{
+				id: "10CAA1DB820A83ED"
+				item: "witherstormmod:withered_nether_star"
+				type: "item"
+			}]
+			title: "风暴终结者"
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["17701E5CD055B336"]
+			hide: true
+			id: "606044778B632B71"
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "274C5E333AE1B6D5"
+				item: "witherstormmod:command_block_book"
+				type: "item"
+			}]
+			title: "指令附魔"
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1887DD29A9B60072"]
+			icon: {
+				Count: 1b
+				id: "witherstormmod:formidibomb"
+				tag: { }
+			}
+			id: "5DF8B79E45AEDDB8"
+			require_sequential_tasks: true
+			shape: "square"
+			size: 1.5d
+			tasks: [
+				{
+					id: "2838A5B7C55C961D"
+					item: "witherstormmod:super_tnt"
+					type: "item"
+				}
+				{
+					id: "2784E6A31B83192A"
+					item: {
+						Count: 1b
+						id: "witherstormmod:formidibomb"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "毁灭炸弹"
+			x: 0.0d
+			y: 14.25d
+		}
+		{
+			dependencies: ["723DAE51D1E28675"]
+			id: "6934BA5B6AF0EC17"
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				icon: "witherstormmod:command_block_sword"
+				id: "5D6339954B58F7E9"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "witherstormmod:command_block_tools"
+					}
+				}
+				title: "Any #witherstormmod:command_block_tools"
+				type: "item"
+			}]
+			title: "命令工具"
+			x: 0.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["7A4958A334E133B2"]
+			icon: "witherstormmod:super_beacon"
+			id: "7A1889FA32D8DAB9"
+			shape: "square"
+			size: 1.5d
+			tasks: [
+				{
+					id: "24A43CF2DD501BB6"
+					item: "witherstormmod:super_beacon"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5BE3D7EF521A8F92"
+					item: "witherstormmod:super_support_beacon"
+					type: "item"
+				}
+			]
+			title: "超级信标"
+			x: 0.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["7A1889FA32D8DAB9"]
+			description: [
+				"终极物品的制造需要创世之尘作为原料，而你只能通过风暴信标生产它。"
+				""
+				"除了消耗较多的腐败粉尘（可以将红石粉通过信标转化）外，你还需要准备一些无尽催化剂粉（前往霜原星采矿获取）和（宇宙）中子粉。"
+			]
+			icon: "createchromaticreturn:creative_flour"
+			id: "769560BC7DEA536E"
+			shape: "square"
+			size: 1.5d
+			tasks: [
+				{
+					id: "6459158F43A41BE9"
+					item: "gtceu:infinity_catalyst_dust"
+					type: "item"
+				}
+				{
+					id: "21944AC6E2E4FF6D"
+					item: "gtceu:space_neutronium_dust"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "34537DE9575A1556"
+					item: "witherstormmod:tainted_dust"
+					type: "item"
+				}
+				{
+					id: "52C0E2C787E6890C"
+					item: "createchromaticreturn:creative_flour"
+					type: "item"
+				}
+			]
+			title: "创世之尘"
+			x: 0.0d
+			y: 27.0d
+		}
+		{
+			dependencies: ["769560BC7DEA536E"]
+			description: [
+				"有了创世之尘和水晶矩阵锭，你就可以合成终极工作台，朝着最终的领域前进了！"
+				""
+				"（这一部分的内容在未来的更新中可能会得到进一步丰富）"
+			]
+			icon: "avaritia:extreme_crafting_table"
+			id: "0CCE0F67475C4822"
+			shape: "square"
+			size: 3.0d
+			tasks: [
+				{
+					id: "55D9BCC26BD101ED"
+					item: "avaritia:crystal_matrix_ingot"
+					type: "item"
+				}
+				{
+					id: "4317664B2BCF8400"
+					item: "avaritia:extreme_crafting_table"
+					type: "item"
+				}
+			]
+			title: "终极工作台"
+			x: 0.0d
+			y: 31.5d
+		}
+		{
+			dependencies: ["0CCE0F67475C4822"]
+			description: [
+				"终点就在你面前了！最后需要做的事是，收集你能收集到的所有物品，将它们在终极工作台中结合到一起，手搓出无尽催化剂和无尽之锭。"
+				""
+				"但还需要注意的是，要想真正使无尽锭派上用场，你还需要将其粉碎一遍后再重新烧炼并冷却，使其转变为堪用的形态。整个过程需要消耗大量的时间，建议用你能达到的最高电压处理它们。"
+				""
+				"做出无尽锭，意味着你从传统意义上“通关”了该整合包！但请记住，Minecraft是一款开放式沙盒游戏，真正意义上的玩法是永无止境的。"
+				""
+				"在该整合包中，有如机械动力这类自由度非常高的模组，也有诸如农夫乐事、葡园酒香这类为生存增添闲情逸趣的模组。除了“通关”整合包外，你还有很多的事情可以去做，一部分甚至可以成为你的长期目标："
+				"1.发展壮大你的工业事业，尝试为一切可能实现自动化生产的物品搭建专门的产线。建立起庞大的物资仓库来储存种类繁多的物品，并通过巨大的自动化网络来调配它们。"
+				"2.利用生产得到的巨量物资，修建大规模的聚落、城镇甚至都会（你可能需要掌握一定的建筑技巧，同时还需要大量的空闲时间）。"
+				"3.综合利用水路、公路、铁路、航空、传送等方式，在聚落间、市镇间修建巨大的交通网络，最终支撑起属于你自己的飞轮格雷帝国！"
+				"4.如果在服务器里游玩的话，不妨将一个存档按上述方式长期经营下去，在有服务器其他玩家的共同参与下，整个过程会更加轻松些，同时还能增进玩家之间的感情。假如服务器玩家更多的话，甚至可以分成数个有独特特色的阵营，相互比较竞争。"
+			]
+			icon: "avaritia:infinity_ingot"
+			id: "6E7F416F3707B598"
+			shape: "gear"
+			size: 6.0d
+			subtitle: "做出无尽之锭，通关游戏！"
+			tasks: [
+				{
+					id: "52E628EE0AFCD39D"
+					item: "avaritia:cosmic_meatballs"
+					type: "item"
+				}
+				{
+					id: "7441E7CE6EEDC627"
+					item: "avaritia:ultimate_stew"
+					type: "item"
+				}
+				{
+					id: "49D4A1F19F9E483D"
+					item: "avaritia:endest_pearl"
+					type: "item"
+				}
+				{
+					id: "6EDFAC39BCC31047"
+					item: "avaritia:record_fragment"
+					type: "item"
+				}
+				{
+					id: "7622345BCB1F65E6"
+					item: "avaritia:infinity_catalyst"
+					type: "item"
+				}
+				{
+					id: "7945894CA9DBBFF7"
+					item: "avaritia:infinity_ingot"
+					type: "item"
+				}
+				{
+					id: "75BC846821E9F460"
+					item: "gtceu:infinity_dust"
+					type: "item"
+				}
+				{
+					id: "0A9C2709808E0AD4"
+					item: "gtceu:infinity_ingot"
+					type: "item"
+				}
+			]
+			title: "万物归一"
+			x: 0.0d
+			y: 39.0d
+		}
+	]
+	title: "终极挑战"
+}

@@ -280,5 +280,5 @@ ServerEvents.recipes(event => {
     P: 'immersive_aircraft:propeller',
     B: 'minecraft:bamboo',
     A: 'create:precision_mechanism'
-  })
+  })  
 })

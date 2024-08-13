@@ -350,6 +350,9 @@ ServerEvents.recipes(event => {
     Greenhouse('bonmeelia', 'moresnifferflowers:bonmeelia_seeds', 'farmersdelight:rich_soil', 1000, '2x moresnifferflowers:jar_of_bonmeel', 4, 1, false)
     Greenhouse('bonmeelia_boosted', 'moresnifferflowers:bonmeelia_seeds', 'farmersdelight:rich_soil', 1000, '4x moresnifferflowers:jar_of_bonmeel', 4, 1, true)
 
+    Greenhouse('dyespria', 'moresnifferflowers:dyespria_seeds', 'farmersdelight:rich_soil', 1000, '2x moresnifferflowers:dyespria', 4, 1, false)
+    Greenhouse('dyespria_boosted', 'moresnifferflowers:dyespria_seeds', 'farmersdelight:rich_soil', 1000, '4x moresnifferflowers:dyespria', 4, 1, true)
+
     Greenhouse('red_grape', 'vinery:red_grape_seeds', 'minecraft:dirt', 1000, '6x vinery:red_grape', 2, 1, false)
     Greenhouse('red_grape_boosted', 'vinery:red_grape_seeds', 'minecraft:dirt', 1000, '12x vinery:red_grape', 2, 1, true)
 

@@ -1,0 +1,14 @@
+{
+	chapter_groups: [
+		{ id: "6CF96DBC43DD24C9", title: "主线：科技起步" }
+		{ id: "3A8D137D2E3EED65", title: "主线：格雷科技" }
+		{ id: "1AC57BE1093C052E", title: "主线：星际探索" }
+		{ id: "4D9905FD3514175F", title: "主线：魔法工艺" }
+		{ id: "06A4A76E7D58F321", title: "支线：世界建设" }
+		{ id: "1F1AA5882B49E120", title: "支线：闲情雅致" }
+		{ id: "63D3DF7FC4F1B2F3", title: "世界的终极秘密" }
+		{ id: "2F0FBA7217AE95FB", title: "成就室" }
+		{ id: "0EAF5675D2095CD7", title: "[施工材料区]" }
+		{ id: "3F12A3D145F5F546", title: "[待分拆]主线内容" }
+	]
+}

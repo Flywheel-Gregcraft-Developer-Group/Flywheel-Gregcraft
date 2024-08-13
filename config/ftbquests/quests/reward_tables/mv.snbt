@@ -1,0 +1,16 @@
+{
+	id: "2EAEABA6B6F52F70"
+	loot_size: 32
+	order_index: 6
+	rewards: [
+		{ item: "gtceu:aluminium_ingot", weight: 30.0f }
+		{ item: "gtceu:annealed_copper_ingot", weight: 25.0f }
+		{ item: "gtceu:electrum_ingot", weight: 25.0f }
+		{ item: "gtceu:kanthal_ingot", weight: 20.0f }
+		{ item: "gtceu:silicon_ingot", weight: 15.0f }
+		{ item: "gtceu:good_electronic_circuit", weight: 5.0f }
+		{ item: "gtceu:silicon_wafer", weight: 5.0f }
+		{ item: "gtceu:polyethylene_ingot", weight: 25.0f }
+	]
+	title: "抽奖：格雷科技（MV）"
+}

@@ -1,0 +1,33 @@
+{
+	id: "31BD2ED8ECE72616"
+	loot_size: 32
+	order_index: 2
+	rewards: [
+		{ item: "create:andesite_alloy", weight: 10.0f }
+		{
+			item: {
+				Count: 1b
+				id: "create:brass_ingot"
+				tag: { }
+			}
+			weight: 20.0f
+		}
+		{ item: "create:brass_casing", weight: 10.0f }
+		{ item: "create:andesite_casing", weight: 10.0f }
+		{
+			item: {
+				Count: 1b
+				id: "create:shaft"
+				tag: { }
+			}
+			weight: 20.0f
+		}
+		{ item: "create:cogwheel", weight: 20.0f }
+		{ item: "create:large_cogwheel", weight: 20.0f }
+		{ item: "create:blaze_burner", weight: 4.0f }
+		{ item: "create:precision_mechanism" }
+		{ item: "create:electron_tube", weight: 5.0f }
+		{ item: "create:experience_nugget", weight: 10.0f }
+	]
+	title: "抽奖：机械动力（中级）"
+}

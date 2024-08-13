@@ -1,6 +1,169 @@
 ServerEvents.recipes(event => {
   console.log('Ready to modify storage and computer recipes.')
+  //drawer
+  event.remove({ id: 'storagedrawers:controller' })
+  event.shaped(Item.of('storagedrawers:controller',1), [
+        'PPP',
+        'ACA',
+        'PDP'
+    ],
+    {
+        P: '#forge:plates/steel',
+        A: '#gtceu:circuits/lv',
+        C: 'gtceu:steel_machine_casing',
+        D: '#storagedrawers:drawers'
+    })
+  event.remove({ id: 'storagedrawers:controller_slave' })
+  event.shaped(Item.of('storagedrawers:controller_slave',1), [
+        'PPP',
+        'ACA',
+        'PDP'
+    ],
+    {
+        P: '#forge:plates/steel',
+        A: 'gtceu:brass_normal_item_pipe',
+        C: 'gtceu:steel_machine_casing',
+        D: '#storagedrawers:drawers'
+    })
+  event.remove({ id: 'storagedrawers:compacting_drawers_3' })
+  event.shaped(Item.of('storagedrawers:compacting_drawers_3',1), [
+        'PPP',
+        'ACA',
+        'PDP'
+    ],
+    {
+        P: '#forge:plates/steel',
+        A: 'minecraft:shulker_shell',
+        C: 'gtceu:steel_machine_casing',
+        D: '#storagedrawers:drawers'
+    })
+  event.remove({ id: 'storagedrawers:upgrade_template' })
+  event.shaped(Item.of('storagedrawers:upgrade_template',2), [
+        'SAS',
+        'ADA',
+        'SAS'
+    ],
+    {
+        S: '#forge:rods/wooden',
+        A: '#forge:ingots/andesite_alloy',
+        D: '#storagedrawers:drawers'
+    })
+  event.recipes.gtceu.assembler('drawer_upgrade_gt_a')
+    .itemInputs('8x #forge:rods/wooden', '1x #storagedrawers:drawers')
+    .itemOutputs('4x storagedrawers:upgrade_template')
+    .inputFluids(Fluid.of('gtceu:glue', 200))
+    .duration(160)
+    .EUt(30)
+  event.recipes.gtceu.assembler('drawer_upgrade_gt_b')
+    .itemInputs('8x #forge:rods/wooden', '1x #storagedrawers:drawers')
+    .itemOutputs('6x storagedrawers:upgrade_template')
+    .inputFluids(Fluid.of('gtceu:polyethylene', 144))
+    .duration(160)
+    .EUt(30)
+  event.recipes.gtceu.assembler('drawer_upgrade_gt_c')
+    .itemInputs('8x #forge:rods/treated_wood', '1x #storagedrawers:drawers')
+    .itemOutputs('8x storagedrawers:upgrade_template')
+    .inputFluids(Fluid.of('gtceu:polytetrafluoroethylene', 144))
+    .duration(120)
+    .EUt(120)
+  event.recipes.gtceu.assembler('obsidian_storage_upgrade_gt')
+    .itemInputs('3x #forge:rods/wooden', '1x #forge:plates/obsidian', '1x storagedrawers:upgrade_template')
+    .itemOutputs('1x storagedrawers:obsidian_storage_upgrade')
+    .duration(40)
+    .EUt(7)
+  event.remove({ id: 'storagedrawers:iron_storage_upgrade' })
+  event.recipes.create.mechanical_crafting('storagedrawers:iron_storage_upgrade', [
+    'SSSSS',
+    'IITII',
+    'SSSSS',
+  ], {
+    S: '#forge:rods/wooden',
+    I: '#forge:plates/iron',
+    T: 'storagedrawers:obsidian_storage_upgrade'
+  })
+  event.recipes.gtceu.assembler('iron_storage_upgrade_gt')
+    .itemInputs('6x #forge:rods/wooden', '2x #forge:plates/iron', '1x storagedrawers:obsidian_storage_upgrade')
+    .itemOutputs('1x storagedrawers:iron_storage_upgrade')
+    .duration(80)
+    .EUt(7)
+  event.remove({ id: 'storagedrawers:gold_storage_upgrade' })
+  event.recipes.gtceu.assembler('gold_storage_upgrade_gt')
+    .itemInputs('6x #forge:rods/wooden', '2x #forge:plates/electrum', '1x storagedrawers:iron_storage_upgrade')
+    .itemOutputs('1x storagedrawers:gold_storage_upgrade')
+    .duration(60)
+    .EUt(30)
+  event.remove({ id: 'storagedrawers:diamond_storage_upgrade' })
+  event.recipes.gtceu.assembler('diamond_storage_upgrade_gt')
+    .itemInputs('4x #forge:rods/treated_wood', '2x #forge:plates/diamond', '2x #forge:plates/steel', '1x storagedrawers:gold_storage_upgrade')
+    .itemOutputs('1x storagedrawers:diamond_storage_upgrade')
+    .duration(100)
+    .EUt(30)
+  event.remove({ id: 'storagedrawers:emerald_storage_upgrade' })
+  event.recipes.gtceu.assembler('emerald_storage_upgrade_gt')
+    .itemInputs('4x #forge:rods/treated_wood', '2x #forge:plates/emerald', '2x #forge:plates/magnalium', '1x storagedrawers:diamond_storage_upgrade')
+    .itemOutputs('1x storagedrawers:emerald_storage_upgrade')
+    .inputFluids(Fluid.of('gtceu:keke_matter', 144))
+    .duration(80)
+    .EUt(120)
+
+  //backpack
+  /*
+  event.replaceInput({mod:'sophisticatedbackpacks', type: 'crafting_shaped', output:'sophisticatedbackpacks:copper_backpack'}, '#forge:ingots/copper' , '#forge:plates/copper')
+  event.shaped(Item.of('storagedrawers:upgrade_template',2), [
+    'PPP',
+    'PBP',
+    'PPP'
+  ],
+  {
+    P: '#forge:plates/iron',
+    B: 'sophisticatedbackpacks:copper_backpack',
+  })
+  event.replaceInput({mod:'sophisticatedbackpacks', type: 'crafting_shaped', output:'sophisticatedbackpacks:iron_backpack'}, '#forge:ingots/iron' , '#forge:plates/wrought_iron')
+  */
+  event.remove({ id: 'sophisticatedbackpacks:gold_backpack' })
+  event.recipes.gtceu.assembler('gold_backpack_gt')
+    .itemInputs('8x #forge:plates/electrum', '1x sophisticatedbackpacks:iron_backpack')
+    .itemOutputs('1x sophisticatedbackpacks:gold_backpack')
+    .duration(100)
+    .EUt(30)
+  event.remove({ id: 'sophisticatedbackpacks:diamond_backpack' })
+  event.recipes.gtceu.assembler('diamond_backpack_gt')
+    .itemInputs('4x #forge:plates/diamond', '4x #forge:plates/aluminium', '1x sophisticatedbackpacks:gold_backpack')
+    .itemOutputs('1x sophisticatedbackpacks:diamond_backpack')
+    .duration(90)
+    .EUt(120)
+  event.remove({ id: 'sophisticatedbackpacks:netherite_backpack' })
+  event.recipes.gtceu.assembler('netherite_backpack_gt')
+    .itemInputs('2x #forge:plates/netherite', '4x #forge:plates/stainless_steel', '1x sophisticatedbackpacks:diamond_backpack')
+    .itemOutputs('1x sophisticatedbackpacks:netherite_backpack')
+    .inputFluids(Fluid.of('gtceu:keke_matter', 288))
+    .duration(80)
+    .EUt(480)
+
+  event.replaceInput({mod:'sophisticatedbackpacks', type: 'crafting_shaped', output:'sophisticatedbackpacks:stack_upgrade_tier_1'}, 'minecraft:iron_block' , '#forge:storage_blocks/steel')
+  event.remove({ id: 'sophisticatedbackpacks:stack_upgrade_tier_2' })
+  event.recipes.gtceu.assembler('stack_upgrade_t2')
+    .itemInputs('4x #forge:storage_blocks/electrum', '4x #forge:storage_blocks/rose_gold', '1x sophisticatedbackpacks:stack_upgrade_tier_1')
+    .itemOutputs('1x sophisticatedbackpacks:stack_upgrade_tier_2')
+    .duration(360)
+    .EUt(120)
+  event.remove({ id: 'sophisticatedbackpacks:stack_upgrade_tier_3' })
+  event.recipes.gtceu.assembler('stack_upgrade_t3')
+    .itemInputs('4x #forge:storage_blocks/diamond', '4x #forge:storage_blocks/certus_alloy', '1x sophisticatedbackpacks:stack_upgrade_tier_2')
+    .itemOutputs('1x sophisticatedbackpacks:stack_upgrade_tier_3')
+    .inputFluids(Fluid.of('gtceu:keke_matter', 576))
+    .duration(320)
+    .EUt(1920)
+  event.remove({ id: 'sophisticatedbackpacks:stack_upgrade_tier_4' })
+  event.recipes.gtceu.assembler('stack_upgrade_t4')
+    .itemInputs('4x #forge:storage_blocks/netherite', '4x #forge:storage_blocks/enderite', '1x sophisticatedbackpacks:stack_upgrade_tier_3')
+    .itemOutputs('1x sophisticatedbackpacks:stack_upgrade_tier_4')
+    .inputFluids(Fluid.of('gtceu:enriched_keke_matter', 288))
+    .duration(280)
+    .EUt(30720)
+
   //toms_storage
+  /*
   event.replaceInput({mod:'toms_storage', type: 'crafting_shaped'}, '#minecraft:planks' , '#forge:plates/brass')
   event.replaceInput({mod:'toms_storage', type: 'crafting_shaped'}, '#c:wooden_chests' , 'create_sa:vault_component')
   event.replaceInput({mod:'toms_storage', type: 'crafting_shaped', output:'toms_storage:ts.crafting_terminal'}, 'minecraft:diamond' , 'kubejs:electronic_mechanism')
@@ -69,6 +232,7 @@ ServerEvents.recipes(event => {
         L: 'create:filter',
         R: 'create:attribute_filter'
     })
+  */
 
   //ae2
   event.remove({ id: 'ae2:network/blocks/energy_vibration_chamber' })

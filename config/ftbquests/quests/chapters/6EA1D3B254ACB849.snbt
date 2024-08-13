@@ -1,0 +1,759 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6EA1D3B254ACB849"
+	group: "4D9905FD3514175F"
+	icon: "ars_nouveau:creative_spell_book"
+	id: "6EA1D3B254ACB849"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"了解魔法，掌握魔法，怎能没有一本魔法书呢？"
+				"这本简单的法术书可以让你掌握一些基本的法术。但为了获取更多的法术、更强大的法术，你还需要做很多的工作。"
+			]
+			id: "619CDA7420CF397E"
+			rewards: [{
+				count: 4
+				id: "4B2EB9637FF95D49"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "14D303C1A2695284"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			title: "初来乍到"
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["619CDA7420CF397E"]
+			description: ["你手上的这本简单的法术书已经无法发挥那些更强大法术中的力量了，用点厉害的材料升级一下吧。"]
+			id: "44878B1728FB5C50"
+			rewards: [{
+				count: 4
+				id: "23406F01E835D865"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "4747688E40064A2D"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
+			title: "小有成就"
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"44878B1728FB5C50"
+				"46C9554C998F7A21"
+			]
+			description: ["最强大的法术可不是你这本普通的法术书所能掌握的，击败强大的敌人，让你的法术书汲取它们的力量吧。"]
+			id: "07785B105C0D9B08"
+			rewards: [{
+				id: "2AD811694D6ED34C"
+				item: "gtceu:osmium_credit"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "7C24AE30120E64C2"
+				item: "ars_nouveau:archmage_spell_book"
+				type: "item"
+			}]
+			title: "法术大师"
+			x: 2.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["00E9613DDEC14C6E"]
+			description: ["为了释放更多的法术，你需要制作法术对应的魔符，并将其抄写到法术书中，制造一个法术抄写台吧。"]
+			id: "03C409957679292F"
+			size: 1.5d
+			tasks: [{
+				id: "4BA23C1029F1C2AF"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			title: "魔符抄写"
+			x: -8.25d
+			y: 4.5d
+		}
+		{
+			dependencies: ["619CDA7420CF397E"]
+			description: [
+				"要想制造新生魔艺里的绝大多数物品，首先要收集的便是一种特殊的木材，它蕴含着独特的魔法力量。"
+				"在主世界存在着多种至高木，这些树木往往独自生长，很少形成树林，其树冠的颜色也非常鲜艳，在一众普通的树木中特别鲜艳。"
+				"不同的至高木拥有不同的特点，不过它们都可以用于制作新生魔艺里的一些基本装置。"
+			]
+			icon: "ars_nouveau:blue_archwood_log"
+			id: "00E9613DDEC14C6E"
+			rewards: [{
+				count: 2
+				id: "099A3C13ECC6C801"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "6A388B300E2B07D5"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:logs/archwood"
+					}
+				}
+				title: "Any #forge:logs/archwood"
+				type: "item"
+			}]
+			title: "至高木"
+			x: -6.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["00E9613DDEC14C6E"]
+			description: [
+				"没有魔源，就无法对魔法进行深入的研究。"
+				"为了收集更多的魔源，首先要获得魔源宝石。"
+				"将青金石或紫水晶放在灌注室中，它会慢慢地吸收周围环境中的魔能，最终变成魔源宝石。"
+				""
+				"你还可以使用灌注室制造各种精华，以及进行一些魔法转化。"
+				"即使周围没有可用的魔源，灌注依然可以缓慢进行，但提供魔源可以加速整个灌注过程。"
+			]
+			icon: "ars_nouveau:imbuement_chamber"
+			id: "7A43475E490E934C"
+			require_sequential_tasks: true
+			rewards: [{
+				count: 4
+				id: "1C7BD4E37F700426"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			tasks: [
+				{
+					id: "5084546D14E98721"
+					item: "ars_nouveau:imbuement_chamber"
+					type: "item"
+				}
+				{
+					id: "37E132540BCC6A99"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+			]
+			title: "灌注"
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7A43475E490E934C"]
+			id: "752FABE594E3741F"
+			size: 1.5d
+			tasks: [{
+				id: "4C0ED2CE8CB3FFEB"
+				item: "ars_nouveau:agronomic_sourcelink"
+				type: "item"
+			}]
+			title: "魔源通道：农艺"
+			x: -6.75d
+			y: 11.25d
+		}
+		{
+			dependencies: ["7A43475E490E934C"]
+			id: "79E9D023ECABF775"
+			size: 1.5d
+			tasks: [{
+				id: "51169405D8373AF3"
+				item: "ars_nouveau:volcanic_sourcelink"
+				type: "item"
+			}]
+			title: "魔源通道：火山"
+			x: -3.75d
+			y: 8.25d
+		}
+		{
+			dependencies: ["7A43475E490E934C"]
+			id: "207F161AE4F204C9"
+			size: 1.5d
+			tasks: [{
+				id: "487D906E38480576"
+				item: "ars_nouveau:alchemical_sourcelink"
+				type: "item"
+			}]
+			title: "魔源通道：炼金"
+			x: -5.25d
+			y: 9.75d
+		}
+		{
+			dependencies: ["7A43475E490E934C"]
+			id: "3A2827B1ECBB2AE5"
+			size: 1.5d
+			tasks: [{
+				id: "22B69E737D265CE0"
+				item: "ars_nouveau:vitalic_sourcelink"
+				type: "item"
+			}]
+			title: "魔源通道：生死"
+			x: -0.75d
+			y: 5.25d
+		}
+		{
+			dependencies: ["7A43475E490E934C"]
+			id: "075FC4E342625728"
+			size: 1.5d
+			tasks: [{
+				id: "000F08A300B32FD5"
+				item: "ars_nouveau:mycelial_sourcelink"
+				type: "item"
+			}]
+			title: "魔源通道：菌丝"
+			x: -2.25d
+			y: 6.75d
+		}
+		{
+			dependencies: [
+				"752FABE594E3741F"
+				"79E9D023ECABF775"
+				"207F161AE4F204C9"
+				"3A2827B1ECBB2AE5"
+				"075FC4E342625728"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"通过魔源通道获取魔源后，你需要利用魔源罐将其储存起来。"
+				"你可以将其放置在魔源通道附近，魔源通道会自动定位附近的魔源罐，将收集得到的魔源转移至其中。"
+			]
+			id: "22AFC8230948C970"
+			rewards: [{
+				count: 2
+				id: "05D182DF93BD5582"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "69CEA11541AE8347"
+				item: "ars_nouveau:source_jar"
+				type: "item"
+			}]
+			title: "收获魔源"
+			x: -0.75d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7A43475E490E934C"]
+			description: [
+				"对于大多数新生魔艺配方来说，你需要准备不止一种原料！"
+				"这些额外的原料需要有个放置的地方，也就是奥术基座。"
+				"在进行配方合成时，请将奥术基座放置在合成装置周围，并将额外的原料放置在上面。"
+				"灌注配方中的额外原料并不会被消耗（相当于催化剂），而附魔等类型的配方则会消耗额外原料。"
+			]
+			id: "6CC4DBDEA1649024"
+			rewards: [{
+				count: 2
+				id: "7AC1AE49D2B96C46"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "0088FA8EC9566BE5"
+				item: "ars_nouveau:arcane_pedestal"
+				type: "item"
+			}]
+			title: "我需要更多！"
+			x: -0.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["752FABE594E3741F"]
+			icon: "ars_nouveau:magebloom"
+			id: "7FD6C994A1498624"
+			size: 1.5d
+			tasks: [
+				{
+					id: "3AB06A63740DDD0C"
+					item: "ars_nouveau:sourceberry_bush"
+					type: "item"
+				}
+				{
+					id: "7E99BE4B958CEEEC"
+					item: "ars_nouveau:magebloom_crop"
+					type: "item"
+				}
+				{
+					id: "3F86F667644C972A"
+					item: "ars_nouveau:blue_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "26710D234F5625B5"
+					item: "ars_nouveau:red_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "532FE3324ADCFCCB"
+					item: "ars_nouveau:purple_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "0B5803C9709816DF"
+					item: "ars_nouveau:green_archwood_sapling"
+					type: "item"
+				}
+			]
+			title: "魔法植物"
+			x: -6.75d
+			y: 13.5d
+		}
+		{
+			dependencies: ["22AFC8230948C970"]
+			description: [
+				"有时你需要远距离传输魔源，这时候可能需要搭建一条专门的魔源传输通道。"
+				"可以在魔源生产点和储存点之间搭建数个中继器，然后使用支配之杖从起点到终点逐个进行链接。"
+			]
+			icon: "ars_nouveau:relay"
+			id: "317EB9F9F13C78E4"
+			rewards: [{
+				count: 2
+				id: "785AADB9AC47136C"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			tasks: [
+				{
+					id: "28CBEE1E0AE61DF7"
+					item: "ars_nouveau:relay"
+					type: "item"
+				}
+				{
+					id: "003986B5A1BE9385"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:dominion_wand"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "魔源传输"
+			x: 3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"6CC4DBDEA1649024"
+				"317EB9F9F13C78E4"
+			]
+			description: [
+				"使用传统的附魔台，花费经验和青金石进行附魔是难以捉摸的事情，有时不一定能找到符合自己胃口的附魔。"
+				"不过，现在你可以将附魔掌控在自己手中了。"
+				"制造一个附魔装置（下面需要放置奥术核心），周围放上一些奥术基座用于布置额外物品，即可开始对各种物品进行附魔，制造附魔书、魔法装备等一系列魔法物品。"
+			]
+			icon: "ars_nouveau:enchanting_apparatus"
+			id: "1277486D57DD7621"
+			size: 2.0d
+			tasks: [
+				{
+					id: "2A2A10C9BEA64B50"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+				{
+					id: "10706AC00F47BB10"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+			]
+			title: "附魔"
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1277486D57DD7621"]
+			description: [
+				"魔法套装的制作需要蕴含魔法的特殊纤维，法师之花纤维恰好符合条件。"
+				"为了生产法师之花纤维，你需要通过附魔将普通种子变为法师之花种子，随后进行种植得到法师之花，从而获取纤维。"
+			]
+			icon: "ars_nouveau:magebloom_fiber"
+			id: "5FA80E0D9F84ABB4"
+			require_sequential_tasks: true
+			size: 1.5d
+			tasks: [
+				{
+					id: "22B2B92F7C55C362"
+					item: "ars_nouveau:magebloom_crop"
+					type: "item"
+				}
+				{
+					id: "6B487C6445820F5A"
+					item: "ars_nouveau:magebloom"
+					type: "item"
+				}
+				{
+					id: "1985C0CC04FCC307"
+					item: "ars_nouveau:magebloom_fiber"
+					type: "item"
+				}
+			]
+			title: "魔法纺织"
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5FA80E0D9F84ABB4"]
+			icon: {
+				Count: 1b
+				id: "ars_nouveau:sorcerer_robes"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "307430ED55B7CCAE"
+			size: 1.5d
+			tasks: [
+				{
+					id: "69577332948C1A9B"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:sorcerer_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37B1C9FB3B06F858"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:sorcerer_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3BA7AA25A4064313"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:sorcerer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "20D56979C7521EDD"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:sorcerer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "巫师套装"
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5FA80E0D9F84ABB4"]
+			icon: {
+				Count: 1b
+				id: "ars_nouveau:arcanist_robes"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "39CE6AEA704C4682"
+			size: 1.5d
+			tasks: [
+				{
+					id: "30FD31F79972D793"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:arcanist_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "ars_nouveau:arcanist_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "38D9CEDDB496A8C3"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:arcanist_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "ars_nouveau:arcanist_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3AD87F250F1BE672"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:arcanist_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "ars_nouveau:arcanist_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "63E92FC06C281961"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:arcanist_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "魔匠套装"
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5FA80E0D9F84ABB4"]
+			icon: {
+				Count: 1b
+				id: "ars_nouveau:battlemage_robes"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "065BC83F4FF7CBA7"
+			size: 1.5d
+			tasks: [
+				{
+					id: "77315DB8C0ABDE4B"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:battlemage_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07D99B6C5BC3F834"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:battlemage_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3DA411016FEFE0D9"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:battlemage_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15E19445BFAFEF5A"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:battlemage_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "战斗法师套装"
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"307430ED55B7CCAE"
+				"065BC83F4FF7CBA7"
+				"39CE6AEA704C4682"
+			]
+			dependency_requirement: "one_started"
+			description: [
+				"使用改衣台可以给魔法套装添加特殊纤维（只要有空余的槽位），从而获得各种增益效果。"
+				"需要注意的事，同一种魔法纤维只能在四件套装中的一件装备上发挥作用。"
+			]
+			icon: "ars_nouveau:alteration_table"
+			id: "0F5896E821420506"
+			size: 1.5d
+			tasks: [
+				{
+					id: "3280D14D8988C15B"
+					item: "ars_nouveau:blank_thread"
+					type: "item"
+				}
+				{
+					id: "5E924E4DAAA9027B"
+					item: "ars_nouveau:alteration_table"
+					type: "item"
+				}
+			]
+			title: "锦上添花"
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"6CC4DBDEA1649024"
+				"317EB9F9F13C78E4"
+			]
+			description: [
+				"为了举行各种魔法仪式，你需要准备一个仪式火盆。"
+				"将仪式对应的木板放在上面，即可开始仪式。向仪式火盆中加入额外的物品可以使仪式产生不同的效果。"
+			]
+			icon: "ars_nouveau:ritual_brazier"
+			id: "7AB8533E5E9C0A9D"
+			rewards: [{
+				count: 4
+				id: "40E3CFE7556AE984"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "2E81CB991CA83146"
+				item: "ars_nouveau:ritual_brazier"
+				type: "item"
+			}]
+			title: "举行仪式"
+			x: 5.25d
+			y: 2.25d
+		}
+		{
+			dependencies: ["7AB8533E5E9C0A9D"]
+			description: [
+				"荒野召唤之板可以用于召唤各种荒野怪物。"
+				"仅放在荒野召唤之板时，只能召唤出普通的荒野怪物。而同时向火盆中投入三种荒野怪物的特色掉落物，则可以召唤本模组中的Boss——荒野奇美拉。"
+			]
+			icon: "ars_nouveau:ritual_wilden_summon"
+			id: "4FC9402E3AD0AAA6"
+			rewards: [{
+				id: "7E9E74EAA070A76E"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			tasks: [
+				{
+					id: "2BDD5C2FEE02B2F0"
+					item: "ars_nouveau:ritual_wilden_summon"
+					type: "item"
+				}
+				{
+					id: "19DAE0FE39EFAEBC"
+					item: "ars_nouveau:wilden_horn"
+					type: "item"
+				}
+				{
+					id: "088248C62CF0D953"
+					item: "ars_nouveau:wilden_spike"
+					type: "item"
+				}
+				{
+					id: "20B11F036CEFFD1F"
+					item: "ars_nouveau:wilden_wing"
+					type: "item"
+				}
+			]
+			title: "荒野召唤"
+			x: 5.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4FC9402E3AD0AAA6"]
+			id: "46C9554C998F7A21"
+			rewards: [{
+				id: "3A1C91B043AD3786"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "击败荒野奇美拉，获得荒野供物"
+			tasks: [{
+				id: "4B468F14D61D9703"
+				item: "ars_nouveau:wilden_tribute"
+				type: "item"
+			}]
+			title: "征服荒野"
+			x: 6.25d
+			y: -6.25d
+		}
+		{
+			dependencies: ["7A43475E490E934C"]
+			id: "22BAC223EDBD7E9D"
+			shape: "diamond"
+			size: 2.5d
+			tasks: [{
+				id: "6B8486F563EB4111"
+				title: "关于精华"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: 10.0d
+		}
+	]
+	title: "新生魔艺"
+}

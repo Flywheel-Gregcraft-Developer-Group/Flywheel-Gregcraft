@@ -1,0 +1,588 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lv"
+	group: "3F12A3D145F5F546"
+	icon: "gtceu:steel_ingot"
+	id: "1CA6AC6EFD219DAA"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"4F831D8F4EFC370D"
+				"4F831D8F4EFC370D"
+			]
+			description: ["        恭喜你进入了格雷的电力时代。"]
+			id: "4D1C91FE1518405B"
+			shape: "square"
+			subtitle: "你需要一点想象力来使用它"
+			tasks: [{
+				id: "0071C22E1DE5C0C1"
+				item: "gtceu:lv_machine_hull"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"3B9751B35499060D"
+				"4D1C91FE1518405B"
+			]
+			description: ["在现代的工业机械中，马达理所应当地成为最重要的角色之一。你可能需要准备成组的马达。"]
+			id: "38FDB1969589283C"
+			shape: "square"
+			subtitle: "机械的优秀动力元件"
+			tasks: [{
+				id: "3AADDFFEB8CF78E1"
+				item: "gtceu:lv_electric_motor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["38FDB1969589283C"]
+			description: ["    这些基础构件会贯穿格雷的始末。"]
+			id: "3B01EAB12AA666E2"
+			shape: "square"
+			tasks: [
+				{
+					id: "62E5346297708375"
+					item: "gtceu:lv_electric_pump"
+					type: "item"
+				}
+				{
+					id: "6D946F28B334B574"
+					item: "gtceu:lv_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "7DA4CCC743597216"
+					item: "gtceu:lv_electric_piston"
+					type: "item"
+				}
+				{
+					id: "41D0C7BF2164F5D7"
+					item: "gtceu:lv_robot_arm"
+					type: "item"
+				}
+			]
+			title: "四幻神"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["38FDB1969589283C"]
+			description: ["    使用线材轧机可以用一个金属锭制作两个1x线缆。"]
+			id: "49608198E01A691E"
+			tasks: [{
+				id: "3C9ED96D9F9BE576"
+				item: "gtceu:lv_wiremill"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3B01EAB12AA666E2"]
+			description: ["    卷板机可以使你使用一锭制作一板。"]
+			id: "0D3CC433BBECA25E"
+			tasks: [{
+				id: "01EF67C66FAEF8BF"
+				item: "gtceu:lv_bender"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["38FDB1969589283C"]
+			description: ["        蒸汽轮机大概是你能做的第一个发电机器。在现代社会中，有不少产生/收集能量的方式，但其中有大规模生产应用价值的方式通常会使用热能。正如火力电厂和核电站的发电方式类似，都是释放某些高品位的能量将水烧开，再使用蒸汽轮机将高温蒸汽的内能转化为动能发电。尽管这种方式受卡诺定理制约，无法达到特别高的效率，但就目前的发展水平，在研究出更高效的原子能发电设施前，“烧开水”将一直是最重要、最经济的大规模发电方式。"]
+			id: "5C153644C9C05C42"
+			rewards: [{
+				count: 16
+				id: "5BB4BAE2C935175E"
+				item: "gtceu:tin_quadruple_cable"
+				type: "item"
+			}]
+			subtitle: "新旧能源的过渡"
+			tasks: [{
+				id: "1DF9BE779CC8FE97"
+				item: "gtceu:lv_steam_turbine"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"4D1C91FE1518405B"
+				"2BEFC966A074BE75"
+			]
+			dependency_requirement: "one_completed"
+			description: ["        虽说你可以直接用红石和铁部件合成对应的磁化铁部件，但对于这类用途极广且将来要大规模生产的材料来说，实在是太不合算了。两极磁化机可以低消耗且高效地完成这项任务，且随着以后机器每提高一个电压等级，这类配方可以选择用消耗更大电力为代价，换取翻倍的速度，我们将此称之为“超频”。"]
+			id: "3B9751B35499060D"
+			subtitle: "软磁性材料"
+			tasks: [{
+				id: "0A093B6D21DB8BB3"
+				item: "gtceu:magnetic_iron_rod"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4D1C91FE1518405B"]
+			description: ["        磁化机可以制作磁化杆。如果你还没有做出发电装置，可以使用红石放在GUI的电力格供电。"]
+			id: "2BEFC966A074BE75"
+			subtitle: "影响分子电流"
+			tasks: [{
+				id: "5BA8FDA5F90698F5"
+				item: "gtceu:lv_polarizer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5C153644C9C05C42"]
+			description: [
+				"    为了提供足够的蒸汽来发电，你会需要这个大机器。之后，你还可以制造更高等级的蒸汽锅炉。"
+				"    另外，推荐利用机械动力制作一个无限岩浆池，以满足锅炉的燃料消耗。树场供给木炭也是可以的，不过你可能需要做很大一片树场了。"
+			]
+			id: "26115E6236A79C72"
+			tasks: [
+				{
+					id: "02E86DA4F981E7B7"
+					item: "gtceu:bronze_large_boiler"
+					type: "item"
+				}
+				{
+					id: "776A97EF93915A4C"
+					item: "gtceu:bronze_firebox_casing"
+					type: "item"
+				}
+				{
+					id: "5C2167BFAC36BF51"
+					item: "gtceu:steam_machine_casing"
+					type: "item"
+				}
+				{
+					id: "242F1CC3EC92CD16"
+					item: "gtceu:bronze_pipe_casing"
+					type: "item"
+				}
+				{
+					id: "27B371119954C907"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+				{
+					id: "7C40F28231DAD96B"
+					item: "gtceu:lv_muffler_hatch"
+					type: "item"
+				}
+				{
+					id: "312BCBA7F4B485FB"
+					item: "gtceu:lv_input_hatch"
+					type: "item"
+				}
+				{
+					id: "0DA8F6AB667B9AF0"
+					item: "gtceu:lv_output_hatch"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"51682529AB8F6E8E"
+				"378218737BFD41CA"
+				"783D950B17AA1D25"
+			]
+			description: [
+				"    电力高炉使用电力煅烧金属，接受多A升压。你可以利用4A LV电压，使电力高炉加工1A MV的配方。"
+				"    要烧炼下个阶段的金属铝，你需要两个能源仓，每个能源仓最多接受2A电流。(所以请保证你有4aLV的供电)"
+				"    电力高炉还存在炉温奖励机制，在提升电压的同时升级你的高炉线圈，可以降低加工的电力消耗，不过现在你不需要关注这些。"
+			]
+			id: "3AE913B342684380"
+			shape: "square"
+			tasks: [
+				{
+					id: "2D624519FFDDFD27"
+					item: "gtceu:electric_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6BC6104AC09EB456"
+					item: "gtceu:lv_energy_input_hatch"
+					type: "item"
+				}
+				{
+					id: "7B6543FEA1EA7DCB"
+					item: "gtceu:cupronickel_coil_block"
+					type: "item"
+				}
+				{
+					id: "09471E0C045512B0"
+					item: "gtceu:heatproof_machine_casing"
+					type: "item"
+				}
+				{
+					id: "2427F8D6FDF905CA"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+				{
+					id: "6B4EA95F236A4969"
+					item: "gtceu:lv_output_bus"
+					type: "item"
+				}
+				{
+					id: "2C4C107F3A4710B0"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+				{
+					id: "4EFE1D7D94E5CAED"
+					item: "gtceu:lv_muffler_hatch"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3B01EAB12AA666E2"]
+			id: "378218737BFD41CA"
+			tasks: [{
+				id: "0E263BD789FCE716"
+				item: "gtceu:lv_assembler"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3B01EAB12AA666E2"]
+			id: "51682529AB8F6E8E"
+			tasks: [{
+				id: "135DE6016E98B30F"
+				item: "gtceu:lv_extractor"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3B01EAB12AA666E2"]
+			id: "783D950B17AA1D25"
+			shape: "circle"
+			tasks: [{
+				id: "12F96BA665C7615F"
+				item: "gtceu:lv_mixer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3B01EAB12AA666E2"]
+			id: "2A4F33B35305AA85"
+			tasks: [{
+				id: "1A3A0BAEBEECBFB6"
+				item: "gtceu:lv_alloy_smelter"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"26115E6236A79C72"
+				"2A4F33B35305AA85"
+			]
+			description: [
+				"    这台机器可以并行8个同配方，为你节省很多处理矿物的时间。"
+				"    你可能会使用这台机器到HV，需要配方的副产物为止。"
+				"    这是很有用的机器，请务必做几个来处理矿物增产。"
+			]
+			id: "2AD6ADA59A7DCDE1"
+			tasks: [
+				{
+					id: "18F05495B2EE7637"
+					item: "gtceu:steam_grinder"
+					type: "item"
+				}
+				{
+					id: "0AF5FF9DE9DD495A"
+					item: "gtceu:steam_machine_casing"
+					type: "item"
+				}
+				{
+					id: "5FBBD94B37A0559C"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					id: "55CC8064DFDA3EBF"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					id: "4D9602A619901504"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3B01EAB12AA666E2"]
+			description: ["    现在的电解机还不是很有用，不过你需要它来获得铝粉。"]
+			id: "7D31E48A5C1C2A37"
+			rewards: [{
+				count: 64
+				id: "2C8ACF180CEEC72E"
+				item: "gtceu:green_sapphire_ore"
+				type: "item"
+			}]
+			tasks: [{
+				id: "327202128B538D7E"
+				item: "gtceu:lv_electrolyzer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7D31E48A5C1C2A37"]
+			description: ["    电解绿色蓝宝石获得铝粉。之后你还可以用别的矿物电解获得。"]
+			id: "4BA95D1083045294"
+			tasks: [{
+				id: "4C50F6939D609317"
+				item: "gtceu:aluminium_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"4BA95D1083045294"
+				"3AE913B342684380"
+			]
+			description: ["    铝可以拿来做储罐、工具以及机器外壳。"]
+			id: "11EA87FD280C6395"
+			shape: "square"
+			tasks: [{
+				id: "53179616A5C9ACBC"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["3B01EAB12AA666E2"]
+			description: ["    在地狱你可以找到石英岩矿脉。它是制作信号元件的材料。"]
+			id: "366D36898A3CFDEF"
+			tasks: [{
+				id: "5B030DED62315239"
+				item: "gtceu:quartzite_gem"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["366D36898A3CFDEF"]
+			id: "1A43BB52A56FE652"
+			tasks: [
+				{
+					id: "3C90F67958844A2E"
+					item: "gtceu:lv_emitter"
+					type: "item"
+				}
+				{
+					id: "659EF29DA473663A"
+					item: "gtceu:lv_sensor"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1A43BB52A56FE652"]
+			description: ["    LV探矿仪可以探测附近3个区块的实体矿脉。之后你还可以制作更高级的探矿仪，以探测地下虚拟流体和基岩矿脉。"]
+			id: "210BB0AF416B5F81"
+			rewards: [{
+				count: 4
+				id: "27E493547D57514F"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:night_vision"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "200FA3F6A3097F1A"
+				item: "gtceu:prospector.lv"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1A43BB52A56FE652"]
+			id: "348F7974C8701C31"
+			tasks: [{
+				id: "4625AF90BECB8B48"
+				item: "gtceu:lv_circuit_assembler"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"3980C6178FA417A7"
+				"7E9FA796D1D47C1B"
+			]
+			description: ["    你做的前几个电路板还只能用工作台合成。有了电路板以后可以制作本等级的电路组装机，可以帮你节省材料制作电路板。"]
+			id: "1FBC92CC3C66147E"
+			tasks: [{
+				id: "757D4284CB62EF27"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"378218737BFD41CA"
+				"0A843FB0C2051F52"
+			]
+			id: "3980C6178FA417A7"
+			tasks: [{
+				id: "32916D02F6BAC620"
+				item: "gtceu:phenolic_printed_circuit_board"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"378218737BFD41CA"
+				"382A2BB6C643C50B"
+				"75DA43F0238256AE"
+			]
+			id: "7E9FA796D1D47C1B"
+			tasks: [{
+				id: "7C0A41854F275814"
+				item: "gtceu:diode"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3B01EAB12AA666E2"]
+			description: ["    离心机可以离心树脂获得胶水。"]
+			id: "0A843FB0C2051F52"
+			tasks: [{
+				id: "704BC24871D03D66"
+				item: "gtceu:lv_centrifuge"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0A843FB0C2051F52"]
+			description: [
+				"    砷化镓需要砷和镓搅拌。"
+				"    镓可以从闪锌矿离心得来。砷可以从雄黄离心得来。"
+			]
+			id: "382A2BB6C643C50B"
+			tasks: [{
+				id: "2AD2570F9BE14A1B"
+				item: "gtceu:gallium_arsenide_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3B01EAB12AA666E2"]
+			description: [
+				"    你需要使用化学反应釜来合成聚乙烯。"
+				"    氧气可以用燧石磨粉离心再电解获得。"
+				"    乙烯的乙醇可以利用机械动力做农场进行酿造蒸馏。硫酸通过硫和氧化反来获得。"
+			]
+			id: "75DA43F0238256AE"
+			tasks: [{
+				id: "78590825B02C99D5"
+				item: "gtceu:lv_chemical_reactor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["11EA87FD280C6395"]
+			description: ["    你离MV阶段不远了，不过你可能需要看看那些需要自动化的东西。"]
+			id: "4D1BC95EA37D0F2D"
+			shape: "square"
+			tasks: [{
+				id: "6FF638258B81D319"
+				item: "gtceu:mv_machine_hull"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["1A43BB52A56FE652"]
+			description: ["    采矿机可以自动采矿，不过速度有点慢慢，而且野外供电需要使用如内燃机之类的可以使用便携燃料的发电机。需要保持被挖掘区块加载。"]
+			id: "3665AC2CD96AACCD"
+			tasks: [{
+				id: "1DF56D901B938B2A"
+				item: "gtceu:lv_miner"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"11EA87FD280C6395"
+				"1FBC92CC3C66147E"
+			]
+			icon: "gtceu:good_integrated_circuit"
+			id: "29D326D2ADF1E656"
+			size: 2.0d
+			subtitle: "获得铝和MV级电路板标志着你可以进入MV电压时代了，请参阅旧版引导以继续。"
+			tasks: [{
+				id: "359945ADCF7ED9F2"
+				title: "MV时代"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 11.5d
+		}
+	]
+	title: "格雷科技：低压LV"
+}
