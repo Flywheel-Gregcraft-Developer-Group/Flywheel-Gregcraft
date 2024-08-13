@@ -5,10 +5,6 @@ file = "LICENSE"
 hash = "b9709407aa81f036b7d2ffaaea9b5cccca1cbb6bf84a7e56ba782cbaf2f3b055"
 
 [[files]]
-file = "build/test.zip"
-hash = "b1b05a9e7f350d51e113d2dbadff79757772a496172305c3fccaf61c1637787a"
-
-[[files]]
 file = "config/ModernUI/bootstrap.properties"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
