@@ -613,6 +613,56 @@ ServerEvents.recipes(event => {
       .EUt(1966080)
       .circuit(14)
 
+  //musket
+  event.remove({ id: 'musketmod:musket' })
+  event.recipes.create.mechanical_crafting('musketmod:musket', [
+    'PPPPF',
+    '   MW'
+  ], {
+    F: 'minecraft:flint_and_steel',
+    M: 'create:precision_mechanism',
+    W: '#forge:treated_wood',
+    P: '#forge:plates/obsidian'
+  })
+  event.recipes.create.mechanical_crafting('musketmod:musket', [
+    'PPPPF',
+    '   MW'
+  ], {
+    F: 'minecraft:flint_and_steel',
+    M: 'create:precision_mechanism',
+    W: '#forge:treated_wood',
+    P: '#forge:plates/steel'
+  })
+
+  event.remove({ id: 'musketmod:pistol' })
+  event.recipes.create.mechanical_crafting('musketmod:pistol', [
+    'PPPF',
+    '  MS'
+  ], {
+    F: 'minecraft:flint_and_steel',
+    M: 'create:precision_mechanism',
+    S: '#forge:rods/treated_wood',
+    P: '#forge:plates/obsidian'
+  })
+  event.recipes.create.mechanical_crafting('musketmod:pistol', [
+    'PPPF',
+    '  MS'
+  ], {
+    F: 'minecraft:flint_and_steel',
+    M: 'create:precision_mechanism',
+    S: '#forge:rods/treated_wood',
+    P: '#forge:plates/steel'
+  })
+
+  event.remove({ id: 'musketmod:cartridge' })
+  event.recipes.create.sequenced_assembly([
+		Item.of('musketmod:cartridge',3),
+	], 'minecraft:paper', [ 
+		event.recipes.createDeploying('kubejs:incomplete_cartridge', ['kubejs:incomplete_cartridge', 'gtceu:small_gunpowder_dust']),
+		event.recipes.createDeploying('kubejs:incomplete_cartridge', ['kubejs:incomplete_cartridge', 'gtceu:steel_nugget']),
+    event.recipes.createCutting('kubejs:incomplete_cartridge', 'kubejs:incomplete_cartridge')
+	]).transitionalItem('kubejs:incomplete_cartridge').loops(3)
+  
   /*
   event.remove({ id: 'cgm:pistol' })
   event.custom({

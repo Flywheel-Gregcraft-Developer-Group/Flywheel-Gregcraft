@@ -577,8 +577,25 @@ ServerEvents.recipes(event => {
         F: 'minecraft:flint',
         I: 'gtceu:zinc_ingot'
     })
+    event.recipes.create.crushing(['8x minecraft:iron_nugget', Item.of('minecraft:iron_nugget', 1).withChance(0.2)], '#forge:ingots/iron')
+    event.recipes.create.crushing(['8x minecraft:gold_nugget', Item.of('minecraft:gold_nugget', 1).withChance(0.2)], '#forge:ingots/gold')
+    event.recipes.create.crushing(['8x gtceu:copper_nugget', Item.of('gtceu:copper_nugget', 1).withChance(0.2)], '#forge:ingots/copper')
+    event.recipes.create.crushing(['8x gtceu:zinc_nugget', Item.of('gtceu:zinc_nugget', 1).withChance(0.2)], '#forge:ingots/zinc')
+    event.recipes.create.crushing(['8x gtceu:brass_nugget', Item.of('gtceu:brass_nugget', 1).withChance(0.2)], '#forge:ingots/brass')
+    event.recipes.create.crushing(['8x gtceu:bronze_nugget', Item.of('gtceu:bronze_nugget', 1).withChance(0.2)], '#forge:ingots/bronze')
+    event.recipes.create.crushing(['8x gtceu:silver_nugget', Item.of('gtceu:silver_nugget', 1).withChance(0.2)], '#forge:ingots/silver')
+    event.recipes.create.crushing(['8x gtceu:tin_nugget', Item.of('gtceu:tin_nugget', 1).withChance(0.2)], '#forge:ingots/tin')
+    event.recipes.create.crushing(['8x gtceu:lead_nugget', Item.of('gtceu:lead_nugget', 1).withChance(0.2)], '#forge:ingots/lead')
+    event.recipes.create.crushing(['8x gtceu:uranium_nugget', Item.of('gtceu:uranium_nugget', 1).withChance(0.2)], '#forge:ingots/uranium')
+    event.recipes.create.crushing(['8x gtceu:nickel_nugget', Item.of('gtceu:nickel_nugget', 1).withChance(0.2)], '#forge:ingots/nickel')
+    event.recipes.create.crushing(['8x gtceu:andesite_alloy_nugget', Item.of('gtceu:andesite_alloy_nugget', 1).withChance(0.2)], '#forge:ingots/andesite_alloy')
     event.smelting('1x quark:clear_shard', '#forge:dusts/glass')
-
+    event.recipes.create.crushing(['2x gtceu:tiny_glass_dust', Item.of('gtceu:tiny_glass_dust', 1).withChance(0.25)], '#quark:shards')
+    event.recipes.gtceu.macerator('clear_shard_recycle')
+        .itemInputs('1x #quark:shards')
+        .itemOutputs('1x gtceu:small_glass_dust')
+        .duration(50)
+        .EUt(2)
 /*    
     event.remove({id: 'majruszsdifficulty:enderium_block' })
     event.remove({id: 'majruszsdifficulty:enderium_ingot_from_enderium_block' })

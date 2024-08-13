@@ -41,6 +41,7 @@ StartupEvents.registry('item', event => {
 
     event.create('electronic_mechanism')
     event.create('incomplete_electronic_mechanism')
+    event.create('incomplete_cartridge')
     event.create('gunium')
     event.create('ammorum')
     event.create('naturium')

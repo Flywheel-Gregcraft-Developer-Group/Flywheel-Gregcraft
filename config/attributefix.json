@@ -242,6 +242,17 @@
         "value": 1000000
       }
     },
+    "parcool:stamina_recovery": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
+      }
+    },
     "minecraft:zombie.spawn_reinforcements": {
       "enabled": true,
       "min": {
@@ -251,6 +262,17 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "parcool:max_stamina": {
+      "enabled": false,
+      "min": {
+        "default": 10,
+        "value": 10
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
       }
     },
     "minecraft:horse.jump_strength": {

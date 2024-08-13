@@ -6,7 +6,7 @@ recipes:
 
   # Whether to remove Block/Ingot compression and decompression in the Crafting Table.
   # Default: true
-  disableManualCompression: false
+  disableManualCompression: true
 
   # Change the recipe of Rods in the Lathe to 1 Rod and 2 Small Piles of Dust, instead of 2 Rods.
   # Default: false
@@ -18,7 +18,7 @@ recipes:
 
   # Whether to nerf Wood crafting to 2 Planks from 1 Log, and 2 Sticks from 2 Planks.
   # Default: false
-  nerfWoodCrafting: false
+  nerfWoodCrafting: true
 
   # Whether to make Wood related recipes harder.
   # Excludes sticks and planks.
@@ -36,7 +36,7 @@ recipes:
   # Whether to make Vanilla Tools and Armor recipes harder.
   # Excludes Flint and Steel, and Buckets.
   # Default: false
-  hardToolArmorRecipes: false
+  hardToolArmorRecipes: true
 
   # Whether to make miscellaneous recipes harder.
   # Default: false
@@ -55,11 +55,11 @@ recipes:
 
   # Whether to make coloring blocks like Concrete or Glass harder.
   # Default: false
-  hardDyeRecipes: false
+  hardDyeRecipes: true
 
   # Whether to remove charcoal smelting recipes from the vanilla furnace.
   # Default: true
-  harderCharcoalRecipe: true
+  harderCharcoalRecipe: false
 
   # Whether to make the Flint and Steel recipe require steel parts.
   # Default: true.
@@ -67,7 +67,7 @@ recipes:
 
   # Whether to remove Vanilla Block Recipes from the Crafting Table.
   # Default: false
-  removeVanillaBlockRecipes: false
+  removeVanillaBlockRecipes: true
 
   # Whether to remove Vanilla TNT Recipe from the Crafting Table.
   # Default: true
@@ -92,12 +92,12 @@ worldgen:
 
   # Should all Stone Types drop unique Ore Item Blocks?
   # Default: false (meaning only Stone, Netherrack, and Endstone)
-  allUniqueStoneTypes: false
+  allUniqueStoneTypes: true
 
   # Should Sand-like ores fall?
   # This includes gravel, sand, and red sand ores.
   # Default: false (no falling ores)
-  sandOresFall: false
+  sandOresFall: true
 
   # Whether to increase number of rolls for dungeon chests. Increases dungeon loot drastically.
   # Default: true
@@ -228,7 +228,7 @@ machines:
 
   # Wether to add a "Bedrock Ore Miner" (also enables bedrock ore generation)
   # Default: false
-  doBedrockOres: true
+  doBedrockOres: false
 
   # What Kind of material should the bedrock ore miner output?
   # Default: "raw"
@@ -237,7 +237,7 @@ machines:
   # WARNING: THIS IS NO LONGER SUPPORTED AND WILL BE REMOVED!
   # This option only exists to provide backwards compatibility until the Processing Array will be removed in 1.3.0
   # Default: false
-  doProcessingArray: true
+  doProcessingArray: false
 
   # Makes nearly every GCYM Multiblock require blocks which set their maximum voltages.
   # Default: false
@@ -256,7 +256,7 @@ machines:
   # This is intended for modpack developers only, and is not playable without custom tweaks or addons.
   # Other mods can override this to true, regardless of the config file.
   # Default: false
-  highTierContent: false
+  highTierContent: true
 
   # Whether the Assembly Line should require the item inputs to be in order.
   # Default: true
@@ -349,30 +349,30 @@ tools:
     energyConsumption: 64
 
   # NightVision Goggles Voltage Tier. Default: 1 (LV)
-  voltageTierNightVision: 1
+  voltageTierNightVision: 2
 
   # NanoSuit Voltage Tier. Default: 3 (HV)
   voltageTierNanoSuit: 3
 
   # Advanced NanoSuit Chestplate Voltage Tier.
   # Default: 3 (HV)
-  voltageTierAdvNanoSuit: 3
+  voltageTierAdvNanoSuit: 4
 
   # QuarkTech Suit Voltage Tier.
   # Default: 5 (IV)
-  voltageTierQuarkTech: 5
+  voltageTierQuarkTech: 6
 
   # Advanced QuarkTech Suit Chestplate Voltage Tier.
   # Default: 5 (LuV)
-  voltageTierAdvQuarkTech: 6
+  voltageTierAdvQuarkTech: 7
 
   # Electric Impeller Jetpack Voltage Tier.
   # Default: 2 (MV)
-  voltageTierImpeller: 2
+  voltageTierImpeller: 3
 
   # Advanced Electric Jetpack Voltage Tier.
   # Default: 3 (HV)
-  voltageTierAdvImpeller: 3
+  voltageTierAdvImpeller: 4
 
 # Config options for Game Mechanics
 gameplay:

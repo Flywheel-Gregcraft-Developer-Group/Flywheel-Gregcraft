@@ -57,13 +57,13 @@
 ["Entity damage"]
 	#Void Rune's Damage
 	#Range: 0.0 ~ 1000000.0
-	Voidrunedamage = 14.0
+	Voidrunedamage = 7.0
 	#Ashen Breath's Damage
 	#Range: 0.0 ~ 1000000.0
-	Ashenbreathdamage = 8.0
+	Ashenbreathdamage = 4.0
 	#Death Laser's Damage
 	#Range: 0.0 ~ 1000000.0
-	DeathLaserdamage = 10.0
+	DeathLaserdamage = 5.0
 	#Death Laser's Hp Damage
 	#Range: 0.0 ~ 1.0
 	DeathLaserHpdamage = 0.05
@@ -72,48 +72,48 @@
 	Laserdamage = 8.0
 	#Blazing Bone's Damage
 	#Range: 0.0 ~ 1000000.0
-	BlazingBonedamage = 10.0
+	BlazingBonedamage = 5.0
 	#Lionfish Spike's Damage
 	#Range: 0.0 ~ 1000000.0
-	LionfishSpikedamage = 8.0
+	LionfishSpikedamage = 4.0
 	#Wither Howizter's Damage
 	#Range: 0.0 ~ 1000000.0
-	WitherHowizterdamage = 16.0
+	WitherHowizterdamage = 8.0
 	#Dimensional Rift's Damage
 	#Range: 0.0 ~ 1000000.0
-	DimensionalRiftdamage = 20.0
+	DimensionalRiftdamage = 10.0
 	#Wither Homing Missile's Damage
 	#Range: 0.0 ~ 1000000.0
-	WitherHomingMissiledamage = 6.0
+	WitherHomingMissiledamage = 3.0
 	#Abyss Blast's Damage
 	#Range: 0.0 ~ 1000000.0
-	AbyssBlastdamage = 20.0
+	AbyssBlastdamage = 10.0
 	#Abyss Blast's Hp Damage
 	#Range: 0.0 ~ 1.0
 	AbyssBlastHpdamage = 0.1
 	#Abyss Orb's Damage
 	#Range: 0.0 ~ 1000000.0
-	AbyssOrbdamage = 8.0
+	AbyssOrbdamage = 4.0
 	#Lava bomb's Radius
 	#Range: 1 ~ 7
 	Lavabombradius = 2
 	#Amethyst Cluster's Damage
 	#Range: 0.0 ~ 1000000.0
-	"Amethyst Cluster Damage" = 24.0
+	"Amethyst Cluster Damage" = 12.0
 	#Sandstorm's Damage
 	#Range: 0.0 ~ 1000000.0
-	"Sandstorm Damage" = 10.0
+	"Sandstorm Damage" = 5.0
 	#Ancient Desert Stele's Damage
 	#Range: 0.0 ~ 1000000.0
-	"Ancient Desert Stele Damage" = 36.0
+	"Ancient Desert Stele Damage" = 18.0
 
 ["Ender Guardian"]
 	#EnderGuardian's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	EnderGuardianHealthMultiplier = 5.0
+	EnderGuardianHealthMultiplier = 2.0
 	#EnderGuardian's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	EnderGuardianDamageMultiplier = 2.0
+	EnderGuardianDamageMultiplier = 1.2
 	#EnderGuardian's DamageCap
 	#Range: 0.0 ~ 1000000.0
 	EnderGuardianDamageCap = 100
@@ -156,16 +156,16 @@
 ["Netherite Monstrosity"]
 	#Monstrosity's Lavabomb magazine.
 	#Range: 1 ~ 1000000
-	LavabombMagazine = 5
+	LavabombMagazine = 3
 	#Monstrosity's Lavabomb amount
 	#Range: 1 ~ 1000000
-	Lavabombamount = 5
+	Lavabombamount = 3
 	#Monstrosity's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MonstrosityHealthMultiplier = 5.0
+	MonstrosityHealthMultiplier = 1.5
 	#Monstrosity's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MonstrosityDamageMultiplier = 2.0
+	MonstrosityDamageMultiplier = 0.8
 	#Monstrosity's Healing Multiplier
 	#Range: 0.0 ~ 1000000.0
 	MonstrosityHealingMultiplier = 1.0
@@ -192,18 +192,18 @@
 	"Endergolem's prevent attacks from far away Range" = 6.0
 	#Golem's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	GolemHealthMultiplier = 5.0
+	GolemHealthMultiplier = 2.0
 	#Golem's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	GolemDamageMultiplier = 2.0
+	GolemDamageMultiplier = 1.2
 
 [Ignis]
 	#Ignis's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	IgnisHealthMultiplier = 5.0
+	IgnisHealthMultiplier = 4.0
 	#Ignis's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	IgnisDamageMultiplier = 2.0
+	IgnisDamageMultiplier = 2.5
 	#Ignis's Healing Multiplier
 	#Range: 0.0 ~ 1000000.0
 	IgnisHealingMultiplier = 1.0
@@ -222,10 +222,10 @@
 [revenant]
 	#Revenant's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	RevenantHealthMultiplier = 5.0
+	RevenantHealthMultiplier = 4.0
 	#Revenant's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	RevenantDamageMultiplier = 2.0
+	RevenantDamageMultiplier = 2.5
 
 ["The Prowler"]
 	#The Prowler's Immune to Long distance attack range.
@@ -233,18 +233,18 @@
 	"The Prowler's prevent attacks from far away Range" = 16.0
 	#Prowler's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	ProwlerHealthMultiplier = 5.0
+	ProwlerHealthMultiplier = 2.5
 	#Prowler's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	ProwlerDamageMultiplier = 2.0
+	ProwlerDamageMultiplier = 1.5
 
 ["The Harbinger"]
 	#Harbinger's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	HarbingerHealthMultiplier = 5.0
+	HarbingerHealthMultiplier = 2.5
 	#Harbinger's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	HarbingerDamageMultiplier = 2.0
+	HarbingerDamageMultiplier = 1.5
 	#Harbinger's Healing Multiplier
 	#Range: 0.0 ~ 1000000.0
 	HarbingerHealingMultiplier = 1.0
@@ -269,10 +269,10 @@
 ["The Leviathan"]
 	#Leviathan's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	LeviathanHealthMultiplier = 5.0
+	LeviathanHealthMultiplier = 1.2
 	#Leviathan's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	LeviathanDamageMultiplier = 2.0
+	LeviathanDamageMultiplier = 0.5
 	#Leviathan's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
 	"Leviathan's prevent attacks from far away Range" = 38.0
@@ -318,10 +318,10 @@
 ["Amethyst Crab"]
 	#Amethyst Crab's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	AmethystCrabHealthMultiplier = 5.0
+	AmethystCrabHealthMultiplier = 3.0
 	#Amethyst Crab's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	AmethystCrabDamageMultiplier = 2.0
+	AmethystCrabDamageMultiplier = 1.5
 	#Amethyst Crab's EarthQuake Damage
 	#Range: 0.0 ~ 1000000.0
 	AmethystCrabEarthQuakeDamage = 5.0
@@ -329,7 +329,7 @@
 ["Ancient Remnant"]
 	#Ancient Remnant's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	AncientRemnantHealthMultiplier = 5.0
+	AncientRemnantHealthMultiplier = 3.0
 	#Ancient Remnant's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	AncientRemnantDamageMultiplier = 2.0
@@ -350,12 +350,12 @@
 	#Remnant's Stomp Hp Damage
 	#Range: 0.0 ~ 1.0
 	"Remnant's Stomp Hp Damage" = 0.03
-	#AncientRemnant's Healing with out target
-	#Range: 0.0 ~ 1000000.0
-	AncientRemnantNatureHealing = 10.0
 	#Remnant's EarthQuake Damage
 	#Range: 0.0 ~ 1000000.0
 	"Remnant's EarthQuakeDamage" = 8.0
+	#AncientRemnant's Healing with out target
+	#Range: 0.0 ~ 1000000.0
+	AncientRemnantNatureHealing = 10.0
 
 [Koboleton]
 	#Cause Koboleton to Drop Item In Hand Percent
@@ -423,29 +423,29 @@
 	KobolediatorBlockBreaking = false
 	#Kobolediator's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	KobolediatorHealthMultiplier = 1.0
+	KobolediatorHealthMultiplier = 3.0
 	#Kobolediator's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	KobolediatorDamageMultiplier = 1.0
+	KobolediatorDamageMultiplier = 2.0
 
 [wadjet]
 	#Wadjet's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	WadjetHealthMultiplier = 1.0
+	WadjetHealthMultiplier = 3.0
 	#Wadjet's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	WadjetDamageMultiplier = 1.0
+	WadjetDamageMultiplier = 2.0
 
 [Maledictus]
 	#Maledictus's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MaledictusHealthMultiplier = 1.0
+	MaledictusHealthMultiplier = 5.0
 	#Maledictus's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MaledictusDamageMultiplier = 1.0
+	MaledictusDamageMultiplier = 5.0
 	#Maledictus's DamageCap
 	#Range: 0.0 ~ 1000000.0
-	MaledictusDamageCap = 20.0
+	MaledictusDamageCap = 60.0
 	#Maledictus's melee Hp Damage
 	#Range: 0.0 ~ 1.0
 	"Maledictus's melee Hp Damage" = 0.05

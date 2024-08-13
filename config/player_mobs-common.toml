@@ -26,7 +26,7 @@
 	#Chance that a player mob will spawn as a baby.
 	#Set to -1 to disable.
 	#Range: -1.0 ~ 1.0
-	"Baby Spawn Chance" = 0.1
+	"Baby Spawn Chance" = -1.0
 	#The id of the dimensions to block spawning in.
 	#The player mobs spawn where Zombies spawn, so no need to block dimensions that doesn't contain Zombies.
 	#Example id: "minecraft:overworld"
@@ -70,7 +70,7 @@
 	#Range: > 0
 	"Reload Interval" = 60
 	#A list of names that the player mobs can have.
-	"Mob Names" = ["Notch", "C418", "jeb_", "Dinnerbone", "Grumm", "Steve", "Alex", "Zi_Min", "hsds", "Xekr", "AircraftCarrierX", "TiBlacX", "CreepSean", "qingyuan_ansy", "INT15", "ff98sha", "Ginreny", "SuiDaDi", "Charles_God", "KaguraSoraQAQ", "xunfeng", "Jasperrr_jas", "cyber1024", "jwjwii", "Stridebeach", "Chino_Zhou", "SplashNation", "SodiumCl10", "olozhika472", "starry2025", "Wither00100", "lcy", "Golenx", "TwiShimmer", "tu_z", "CR_019", "Nefeilbata", "yyt", "YellowCatMeow", "float_square", "CosinEmptyroom", "_5EA", "Sirss100510", " Littlewith", "Chen_Sha", "Seatro1", "xuanfeizi", "Chun_Du", "Dustmire", "zhouyangxixi", "Maguagua"]
+	"Mob Names" = ["Notch", "C418", "jeb_", "Dinnerbone", "Grumm", "Steve", "Alex", "Zi_Min", "hsds", "Xekr", "AircraftCarrierX", "TiBlacX", "CreepSean", "qingyuan_ansy", "INT15", "ff98sha", "Ginreny", "SuiDaDi", "Charles_God", "KaguraSoraQAQ", "xunfeng", "Jasperrr_jas", "cyber1024", "jwjwii", "Stridebeach", "Chino_Zhou", "SplashNation", "SodiumCl10", "olozhika472", "starry2025", "Wither00100", "lcy", "Golenx", "TwiShimmer", "tu_z", "CR_019", "Nefeilbata", "yyt", "YellowCatMeow", "float_square", "CosinEmptyroom", "_5EA", "Sirss100510", " Littlewith", "Chen_Sha", "Seatro1", "xuanfeizi", "Chun_Du", "Dustmire", "zhouyangxixi", "Maguagua", "AintCecily", "Fleur_de_lis", "masterCheDan", "yx_Lemon", "hazerplus", "Ke_DiWZ", "fuyunchaofan", "Shion_Wayne", "Njune", "famary_infinite", "Ink3971", "Xiaofu_13Ultura", "PhilosopherMeow"]
 	#If the names in the whitelist should be used for the player mobs.
 	"Use Whitelist" = true
 

@@ -1,5 +1,5 @@
 #CONFIG ONLY OPTIONS
-ignoreUpdate:375
+ignoreUpdate:373
 settingsButton:false
 allowWrongWorldTeleportation:false
 differentiateByServerAddress:true
@@ -20,11 +20,11 @@ oldDeathpoints:true
 distance:1
 lockNorth:false
 zoom:0
-minimapSize:128
+minimapSize:0
 chunkGrid:-1
 slimeChunks:false
 mapSafeMode:false
-minimapOpacity:60.0
+minimapOpacity:100.0
 waypointsIngameIconScale:0
 waypointsIngameDistanceScale:0
 waypointsIngameNameScale:0
@@ -54,6 +54,7 @@ waypointOpacityMap:90
 hideWorldNames:1
 openSlimeSettings:true
 alwaysShowDistance:false
+renderLayerIndex:1
 crossDimensionalTp:true
 biomeColorsVanillaMode:false
 lookingAtAngle:10
@@ -125,9 +126,4 @@ infoDisplay:highlights:true:15:-1
 infoDisplay:light_overlay_indicator:true:15:-1
 infoDisplay:manual_cave_mode_indicator:true:15:-1
 infoDisplay:custom_sub_world:true:15:-1
-interface:dummy:0:36:true:false:false:false
-interface:dummy:0:10000:true:false:false:false
-interface:dummy:0:0:false:false:true:false
-interface:dummy:0:36:true:false:false:false
-interface:gui.xaero_minimap:39:-42:false:false:true:false
-#WAYPOINTS HAVE BEEN MOVED TO /XaeroWaypoints
+module;id=xaerominimap:minimap;active=true;x=0;y=0;centered=false;fromRight=false;fromBottom=false;flippedVer=false;flippedHor=false;fromOldSystem=true;

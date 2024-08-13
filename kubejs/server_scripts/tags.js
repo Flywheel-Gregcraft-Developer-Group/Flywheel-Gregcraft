@@ -141,8 +141,8 @@ ServerEvents.tags('item', event => {
   event.add('forge:small_springs/vanadium', 'vintageimprovements:small_vanadium_spring')
   event.add('forge:small_springs/zinc', 'vintageimprovements:small_zinc_spring')
 
-  event.add("gtceu:circuits/ulv", "kubejs:ulv_cosmic_brain")
-  event.add("gtceu:circuits/lv", "kubejs:lv_cosmic_brain")
+  event.add("gtceu:circuits/ulv", ["kubejs:ulv_cosmic_brain", "create_connected:control_chip"])
+  event.add("gtceu:circuits/lv", ["kubejs:lv_cosmic_brain", "kubejs:electronic_mechanism"])
   event.add("gtceu:circuits/mv", "kubejs:mv_cosmic_brain")
   event.add("gtceu:circuits/hv", "kubejs:hv_cosmic_brain")
   event.add("gtceu:circuits/ev", "kubejs:ev_cosmic_brain")

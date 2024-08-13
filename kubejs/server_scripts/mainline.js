@@ -16,69 +16,16 @@ ServerEvents.recipes(event => {
   event.recipes.create.mixing('4x gtceu:bronze_ingot', ['3x #forge:dusts/copper', '#forge:dusts/tin']).heated()
   event.recipes.create.mixing('6x gtceu:potin_ingot', ['6x #forge:ingots/copper', '2x #forge:ingots/tin', '#forge:ingots/lead']).heated()
   event.recipes.create.mixing('8x gtceu:potin_ingot', ['6x #forge:dusts/copper', '2x #forge:dusts/tin', '#forge:dusts/lead']).heated()
-  event.recipes.create.mixing('gtceu:steel_ingot', ['#forge:ingots/cast_iron', '#forge:dusts/coke']).superheated()
-  event.recipes.create.mixing('gtceu:steel_ingot', ['#forge:ingots/cast_iron', '2x #forge:dusts/coal']).superheated()
-  event.recipes.create.mixing('gtceu:steel_ingot', ['#forge:ingots/cast_iron', '2x #forge:dusts/charcoal']).superheated()
+  event.recipes.create.mixing('gtceu:steel_ingot', ['#forge:ingots/iron', '2x #forge:dusts/coke']).superheated()
+  event.recipes.create.mixing('gtceu:steel_ingot', ['#forge:ingots/iron', '4x #forge:dusts/coal']).superheated()
+  event.recipes.create.mixing('gtceu:steel_ingot', ['#forge:ingots/iron', '4x #forge:dusts/charcoal']).superheated()
+  event.recipes.create.mixing('gtceu:steel_ingot', ['#forge:ingots/wrought_iron', '1x #forge:dusts/coke']).superheated()
+  event.recipes.create.mixing('gtceu:steel_ingot', ['#forge:ingots/wrought_iron', '2x #forge:dusts/coal']).superheated()
+  event.recipes.create.mixing('gtceu:steel_ingot', ['#forge:ingots/wrought_iron', '2x #forge:dusts/charcoal']).superheated()
   event.remove({ id: 'minecraft:ender_eye' })
   event.recipes.create.mixing('minecraft:ender_eye', ['minecraft:ender_pearl', 'minecraft:blaze_powder']).superheated()
   event.remove({ id: 'gtceu:forming_press/copy_mold_credit_casting_mold' })
   event.remove({ id: 'gtceu:shaped/shape_mold_credit' })
-  event.recipes.create.sequenced_assembly([
-		Item.of('kubejs:electronic_mechanism').withChance(80.0),
-		Item.of('create:polished_rose_quartz').withChance(8.0),
-		Item.of('gtceu:iron_plate').withChance(4.0),
-		Item.of('create:cogwheel').withChance(2.0),
-        Item.of('create:shaft').withChance(2.0),
-        Item.of('2x gtceu:bronze_nugget').withChance(2.0),
-		Item.of('2x gold_nugget').withChance(2.0)
-	], 'create:precision_mechanism', [ 
-		event.recipes.createDeploying('kubejs:incomplete_electronic_mechanism', ['kubejs:incomplete_electronic_mechanism', 'create_connected:control_chip']),
-		event.recipes.createFilling('kubejs:incomplete_electronic_mechanism', ['kubejs:incomplete_electronic_mechanism', Fluid.of('minecraft:lava',100)])
-	]).transitionalItem('kubejs:incomplete_electronic_mechanism').loops(5)
-  event.remove({ id: 'create:crafting/kinetics/mechanical_crafter' })
-  event.shaped(Item.of('create:mechanical_crafter',3), [
-        'M',
-        'C',
-        'T'
-    ],
-    {
-        M: 'kubejs:electronic_mechanism',
-        C: 'create:brass_casing',
-        T: 'minecraft:crafting_table'
-    })
-  event.remove({ id: 'create:crafting/kinetics/mechanical_arm' })
-  event.shaped(Item.of('create:mechanical_arm',1), [
-        'PPA',
-        'P  ',
-        'MC '
-    ],
-    {
-        A: 'create:andesite_alloy',
-        C: 'create:brass_casing',
-        M: 'kubejs:electronic_mechanism',
-        P: '#forge:plates/brass'
-    })
-  event.remove({ id: 'create:crafting/kinetics/clockwork_bearing' })
-  event.shaped(Item.of('create:clockwork_bearing',1), [
-        'S',
-        'C',
-        'M'
-    ],
-    {
-        S: '#minecraft:wooden_slabs',
-        C: 'create:brass_casing',
-        M: 'create:precision_mechanism'
-    })
-  event.remove({ id: 'createchromaticreturn:glowing_ingot_recipe' })
-  event.recipes.create.filling('createchromaticreturn:glowing_ingot', [Fluid.of('create_enchantment_industry:hyper_experience',100), '#forge:ingots/brass'])
-  event.remove({ id: 'create_enchantment_industry:mixing/hyper_experience' })
-  event.recipes.create.mixing(Fluid.of('create_enchantment_industry:hyper_experience',10), [Fluid.of('create_enchantment_industry:experience',100), Fluid.of('create_central_kitchen:dragon_breath',100), '#forge:gems/lapis']).superheated()
-  event.remove({ id: 'create:compacting/blaze_cake' })
-  event.recipes.create.compacting('create:blaze_cake_base', [Fluid.of('create_central_kitchen:dragon_breath',50), 'create:cinder_flour', '#forge:dusts/sugar', '#naturalist:eggs']).heated()
-  event.remove({ id: 'createchromaticreturn:refined_mixture_recipe' })
-  event.recipes.create.mixing([Fluid.of('createchromaticreturn:refined_mixture',100)], ['16x minecraft:glowstone', 'kubejs:refined_essence', Fluid.of('minecraft:water',500)]).superheated()
-  event.remove({ id: 'createchromaticreturn:shadow_essence_recipe' })
-  event.recipes.create.mixing([Fluid.of('createchromaticreturn:shadow_essence',50)], ['16x minecraft:polished_blackstone', 'kubejs:shadow_essence', Fluid.of('minecraft:lava',250)]).superheated()
   /*
   event.recipes.create.mixing('kubejs:naturium', ['16x createchromaticreturn:silkstrum','16x kubejs:nature_essence']).superheated()
   event.recipes.create.mixing('kubejs:ultimate_ingot', ['createchromaticreturn:multiplite_ingot', 'createchromaticreturn:durasteel_ingot', 'kubejs:naturium', '16x kubejs:void_essence']).superheated()
@@ -236,10 +183,10 @@ ServerEvents.recipes(event => {
     'PMP',
     ' U '
   ], {
-    R: '#forge:ingots/refined_radiance',
+    R: '#forge:ingots/infinity',
     T: 'createchromaticreturn:multiplite_tube',
     P: 'createchromaticreturn:cyber_plating',
-    U: 'kubejs:ultimate_ingot',
+    U: '#forge:ingots/space_neutronium',
     M: 'createchromaticreturn:refined_mechanism'
   })
   event.remove({ id: 'createchromaticreturn:radiant_glow_claws_recipe' })
@@ -249,10 +196,10 @@ ServerEvents.recipes(event => {
     'SMS',
     'PUP'
   ], {
-    R: '#forge:ingots/refined_radiance',
+    R: '#forge:ingots/infinity',
     S: 'createchromaticreturn:radiant_glow_saber',
     P: 'createchromaticreturn:cyber_plating',
-    U: 'witherstormmod:withered_nether_star',
+    U: '#forge:ingots/space_neutronium',
     M: 'createchromaticreturn:refined_mechanism'
   })
   event.remove({ id: 'createchromaticreturn:creative_flour_recipe' })
@@ -260,12 +207,11 @@ ServerEvents.recipes(event => {
   event.recipes.create.mixing('createchromaticreturn:creative_flour', ['3x ae2:sky_dust', '3x #forge:dusts/shadow_steel', '3x witherstormmod:tainted_dust', 'kubejs:ultimate_ingot']).superheated()
   */
   event.remove({ id: 'createchromaticreturn:motor_recipe' })
-  /*
   event.recipes.create.mechanical_crafting('create:creative_motor', [
     'INCNI',
-    'NNMNN',
+    'NFMFN',
     'NMFMN',
-    'NNMNN',
+    'NFMFN',
     'INSNI'
   ], {
     N: 'minecraft:netherite_block',
@@ -275,12 +221,27 @@ ServerEvents.recipes(event => {
     M: 'createchromaticreturn:refined_mechanism',
     F: 'createchromaticreturn:creative_flour'
   })
-  */
+  event.remove({ id: 'createchromaticreturn:generator_recipe' })
+  event.recipes.create.mechanical_crafting('createaddition:creative_energy', [
+    'INCNI',
+    'NFMFN',
+    'NMAMN',
+    'NFMFN',
+    'INSNI'
+  ], {
+    N: 'minecraft:netherite_block',
+    S: 'create:shaft',
+    I: 'createchromaticreturn:multiplite_ingot',
+    C: 'create:creative_motor',
+    M: 'createchromaticreturn:refined_mechanism',
+    F: '#forge:storage_blocks/infinity',
+    A: 'createaddition:alternator'
+  })
   event.remove({ id: 'createchromaticreturn:creative_filling_tank_recipe' })
+  event.recipes.create.mixing('create_sa:creative_filling_tank', ['4x createchromaticreturn:creative_flour', 'createchromaticreturn:multiplite_ingot', 'create_sa:large_filling_tank', 'create_sa:large_fueling_tank']).superheated()
+  event.recipes.create.mixing('create:creative_fluid_tank', ['16x createchromaticreturn:creative_flour', '4x createchromaticreturn:multiplite_ingot', 'create:fluid_tank']).superheated()
+  event.recipes.create.mixing('create:creative_crate', ['16x createchromaticreturn:creative_flour', '4x createchromaticreturn:multiplite_ingot', 'create_sa:vault_component']).superheated()
   /*
-  event.recipes.create.mixing('create_sa:creative_filling_tank', ['createchromaticreturn:creative_flour', 'createchromaticreturn:multiplite_ingot', 'createchromaticreturn:refined_mechanism', 'create_sa:large_filling_tank', 'create_sa:large_fueling_tank']).superheated()
-  event.recipes.create.mixing('create:creative_fluid_tank', ['4x createchromaticreturn:creative_flour', '4x createchromaticreturn:multiplite_ingot', 'create:fluid_tank']).superheated()
-  event.recipes.create.mixing('create:creative_crate', ['4x createchromaticreturn:creative_flour', '4x createchromaticreturn:multiplite_ingot', 'gtceu:tungsten_steel_crate']).superheated()
   event.recipes.ars_nouveau.enchanting_apparatus(
         [
             "createchromaticreturn:creative_flour",
