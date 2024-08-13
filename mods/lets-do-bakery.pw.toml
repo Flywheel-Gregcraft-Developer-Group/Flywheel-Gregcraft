@@ -1,13 +1,13 @@
 name = "Legacy: [Let's Do] Bakery"
-filename = "letsdo-bakery-forge-1.1.15.jar"
+filename = "letsdo-bakery-forge-1.1.11.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/WFwYiVoG/versions/Jo8EwiDR/letsdo-bakery-forge-1.1.15.jar"
 hash-format = "sha1"
-hash = "c5cd44088089fca03f3291b851dcb0d00018fecb"
+hash = "4a172775dae1e90033d90bf57a654c43454e18a0"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "WFwYiVoG"
-version = "Jo8EwiDR"
+[update.curseforge]
+file-id = 5394678
+project-id = 886559

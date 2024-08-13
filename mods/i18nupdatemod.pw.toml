@@ -1,13 +1,13 @@
 name = "I18nUpdateMod"
-filename = "I18nUpdateMod-3.5.5-all.jar"
-side = "client"
+filename = "I18nUpdateMod-3.5.3-all.jar"
+side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/PWERr14M/versions/cPHEVzle/I18nUpdateMod-3.5.5-all.jar"
 hash-format = "sha1"
-hash = "ba8e5aa31d719b6fdac13c88bf388da579d4cab6"
+hash = "191b14e675f5e080bf0c045a955eda8b0e9300a7"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "PWERr14M"
-version = "cPHEVzle"
+[update.curseforge]
+file-id = 4975638
+project-id = 297404

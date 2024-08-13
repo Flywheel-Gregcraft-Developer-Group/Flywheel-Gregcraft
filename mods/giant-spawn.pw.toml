@@ -1,13 +1,13 @@
 name = "Giant Spawn"
-filename = "giantspawn-1.20.1-5.2.jar"
-side = "server"
+filename = "giantspawn-1.20.1-5.0.jar"
+side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/iWwn7s9U/versions/WCUmBJ90/giantspawn-1.20.1-5.2.jar"
 hash-format = "sha1"
-hash = "c0f89305a27697b561ad120967aecd8f2206bc1e"
+hash = "a8f1a277142e2821c0e7316a549bbf23b1cf28f5"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "iWwn7s9U"
-version = "WCUmBJ90"
+[update.curseforge]
+file-id = 4976371
+project-id = 347921

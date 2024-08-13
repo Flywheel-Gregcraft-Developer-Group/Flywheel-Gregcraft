@@ -1,13 +1,13 @@
 name = "Jade 🔍"
-filename = "Jade-1.20.1-forge-11.9.4.jar"
+filename = "Jade-1.20.1-forge-11.7.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/nvQzSEkH/versions/MLYKnVCk/Jade-1.20.1-forge-11.9.4.jar"
 hash-format = "sha1"
-hash = "29b6d7c1c7742310cfaa2ea2964834561b9a8257"
+hash = "6a17415a34591168203b8ed6f334a349da55f797"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "nvQzSEkH"
-version = "MLYKnVCk"
+[update.curseforge]
+file-id = 4986594
+project-id = 324717

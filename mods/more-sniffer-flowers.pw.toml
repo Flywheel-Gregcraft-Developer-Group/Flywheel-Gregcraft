@@ -1,13 +1,13 @@
 name = "More Sniffer Flowers"
-filename = "moresnifferflowers-1.4.5b-1.20.1.jar"
+filename = "moresnifferflowers-1.3.3.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/DbriYWc8/versions/t0iVErD9/moresnifferflowers-1.4.5b-1.20.1.jar"
 hash-format = "sha1"
-hash = "3df766702dcf92890ee9d83689d6b3d34ca661f4"
+hash = "0159483901deaf99ed0bca735e929c365c6936c3"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "DbriYWc8"
-version = "t0iVErD9"
+[update.curseforge]
+file-id = 5177347
+project-id = 884119

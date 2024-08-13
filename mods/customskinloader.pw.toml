@@ -1,13 +1,13 @@
 name = "CustomSkinLoader"
-filename = "CustomSkinLoader_ForgeV2-14.20.jar"
-side = "client"
+filename = "CustomSkinLoader_ForgeActive-14.19.1.jar"
+side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/idMHQ4n2/versions/CBwU6CS2/CustomSkinLoader_ForgeV2-14.20.jar"
 hash-format = "sha1"
-hash = "aaa14f86ad6b6f3b2edd923238ba972b6f2599cc"
+hash = "27845f67520078467ea0d3d8f223c93bcb62e222"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "idMHQ4n2"
-version = "CBwU6CS2"
+[update.curseforge]
+file-id = 4973871
+project-id = 286924

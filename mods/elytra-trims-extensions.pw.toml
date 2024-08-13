@@ -1,13 +1,13 @@
 name = "Elytra Trims Extensions"
-filename = "elytratrims_extensions-forge-2.2.1.jar"
-side = "client"
+filename = "elytratrims_extensions-forge-2.0.0.jar"
+side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/5edtQ4at/versions/cheHR334/elytratrims_extensions-forge-2.2.1.jar"
 hash-format = "sha1"
-hash = "7cbd6e8dba60f54c063362bff641ed7a00efcc00"
+hash = "0c79a46e112511053bc969267e842ff37eb14b69"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "5edtQ4at"
-version = "cheHR334"
+[update.curseforge]
+file-id = 5053312
+project-id = 876856
