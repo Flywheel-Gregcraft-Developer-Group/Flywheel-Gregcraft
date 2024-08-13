@@ -3,3 +3,8 @@
 
 # Exclude README
 /README.md
+/.github/
+/.github/**
+/.vscode/
+/.vscode/**
+
