@@ -8,3 +8,5 @@
 /.github/**
 /.vscode/
 /.vscode/**
+/build/
+/build/**
