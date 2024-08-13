@@ -1,0 +1,13 @@
+name = "Villager Recruits: Commander and Captain Update!"
+filename = "recruits-1.20.1-1.11.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "34992b741ba80a826207dcc192d722884a1de006"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5513228
+project-id = 523860

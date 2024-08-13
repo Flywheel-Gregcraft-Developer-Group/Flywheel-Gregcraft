@@ -1,12 +1,13 @@
 # Dev & technical cache
-/.vscode/
-/.vscode/**
+
 /crash-reports/
 /crash-reports/**
 /logs/
 /logs/**
 /pfm/
 /pfm/**
+/build/
+/build/**
 /.qmenu_opened.marker
 /log4j2.xml
 /rhino.local.properties
@@ -14,8 +15,6 @@
 /usernamecache.json
 
 # Resources don't owned by modpack
-/mods/
-/mods/**
 /natives-*/
 /natives-*/**
 /*.jar
@@ -47,6 +46,7 @@
 /XaeroWaypoints/**
 /XaeroWorldMap/
 /XaeroWorldMap/**
+/patchouli_data.json
 
 # Contents controlled by user, but we don't give recomment configures
 /resourcepacks/

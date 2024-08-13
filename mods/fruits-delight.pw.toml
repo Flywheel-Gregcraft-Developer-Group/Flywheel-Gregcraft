@@ -1,0 +1,13 @@
+name = "Fruits Delight"
+filename = "fruitsdelight-1.0.11.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a5580d0d2cf516709549aec52708a2102fe615ae"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5615047
+project-id = 943774

@@ -1,0 +1,13 @@
+name = "Iris/Oculus & GeckoLib Compat"
+filename = "GeckoLibOculusCompat-Forge-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d5c91ae0cfade2672bf00628721da661a59930c5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5018199
+project-id = 959388
