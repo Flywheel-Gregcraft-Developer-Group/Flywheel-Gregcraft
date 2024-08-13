@@ -10,7 +10,7 @@
 	#List of blocks that are not allowed to connect to backpacks - e.g. "refinedstorage:external_storage"
 	noConnectionBlocks = []
 	#Maximum number of upgrades of type per backpack in format of "UpgradeRegistryName[or UpgradeGroup]|MaxNumber"
-	maxUpgradesPerStorage = ["stack_upgrades|3", "furnace_upgrades|1", "jukebox_upgrade|1"]
+	maxUpgradesPerStorage = ["stack_upgrades|1", "furnace_upgrades|1", "jukebox_upgrade|1"]
 	#Turns on/off item fluid handler of backpack in its item form. There are some dupe bugs caused by default fluid handling implementation that manifest when backpack is drained / filled in its item form in another mod's tank and the only way to prevent them is disallowing drain/fill in item form altogether
 	itemFluidHandlerEnabled = true
 	#Determines whether player can right click on backpack that another player is wearing to open it. If off will turn off that capability for everyone and remove related settings from backpack.
@@ -415,12 +415,12 @@
 		#List of music discs that are not supposed to be played by entities
 		discBlockList = ["botania:record_gaia_1", "botania:record_gaia_2"]
 		#Turns on/off a chance that the entity that wears backpack gets jukebox upgrade and plays a music disc.
-		playJukebox = true
+		playJukebox = false
 		#Determines whether backpack drops to fake players if killed by them in addition to real ones that it always drops to
 		dropToFakePlayers = false
 		#Chance of mob dropping backpack when killed by player
 		#Range: 0.0 ~ 1.0
-		backpackDropChance = 0.1
+		backpackDropChance = 0.25
 		#Chance increase per looting level of mob dropping backpack
 		#Range: 0.0 ~ 0.3
 		lootingChanceIncreasePerLevel = 0.15

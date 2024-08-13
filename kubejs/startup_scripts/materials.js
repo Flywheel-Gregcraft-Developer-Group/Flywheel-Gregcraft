@@ -374,7 +374,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .color(0xE85E30)
         .blastTemp(3500, "low", 1920, 1140)
         .iconSet(GTMaterialIconSet.METALLIC)
-        .flags(GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_LONG_ROD, GTMaterialFlags.GENERATE_BOLT_SCREW, GTMaterialFlags.GENERATE_FRAME)
+        .flags(GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_LONG_ROD, GTMaterialFlags.GENERATE_BOLT_SCREW, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_FOIL)
         .components('2x nether_quartz', '1x tungsten', '2x copper_alloy')
     event.create("fluix_alloy")
         .ingot()

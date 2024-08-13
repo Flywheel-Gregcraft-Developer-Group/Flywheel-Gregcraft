@@ -21,7 +21,7 @@ ServerEvents.recipes(event => {
         'T'
     ],
     {
-        M: 'kubejs:electronic_mechanism',
+        M: 'create:precision_mechanism',
         C: 'create:brass_casing',
         T: 'minecraft:crafting_table'
     })
@@ -34,7 +34,7 @@ ServerEvents.recipes(event => {
     {
         A: 'create:andesite_alloy',
         C: 'create:brass_casing',
-        M: 'kubejs:electronic_mechanism',
+        M: 'create:precision_mechanism',
         P: '#forge:plates/brass'
     })
   event.remove({ id: 'create:crafting/kinetics/clockwork_bearing' })
