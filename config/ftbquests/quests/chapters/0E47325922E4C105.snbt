@@ -5,7 +5,7 @@
 	group: "2F0FBA7217AE95FB"
 	icon: "cataclysm:void_core"
 	id: "0E47325922E4C105"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -15,7 +15,7 @@
 				{
 					id: "74D62579903CFA64"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:iron_sword"
 						tag: {
 							Damage: 0
@@ -26,7 +26,7 @@
 				{
 					id: "6D5257F34DF57AF2"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:iron_sword"
 						tag: {
 							DisallowContainerItem: 0b
@@ -51,7 +51,7 @@
 			tasks: [{
 				id: "58DBBB2322ADBE65"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:stone_sword"
 					tag: {
 						Damage: 0
@@ -70,7 +70,7 @@
 				{
 					id: "4AB9406DD41EB722"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:diamond_sword"
 						tag: {
 							Damage: 0
@@ -81,7 +81,7 @@
 				{
 					id: "270DB3F7B29D7027"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:diamond_sword"
 						tag: {
 							DisallowContainerItem: 0b
@@ -113,7 +113,7 @@
 			tasks: [{
 				id: "649EFAAD70A8A60C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:netherite_sword"
 					tag: {
 						Damage: 0
@@ -145,7 +145,7 @@
 			tasks: [{
 				id: "29D2B0A51E0A5920"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "nethersdelight:iron_machete"
 					tag: {
 						Damage: 0
@@ -161,7 +161,7 @@
 			tasks: [{
 				id: "180FD63CAD9B117A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "nethersdelight:golden_machete"
 					tag: {
 						Damage: 0
@@ -177,7 +177,7 @@
 			tasks: [{
 				id: "2647534DA69A5066"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "nethersdelight:diamond_machete"
 					tag: {
 						Damage: 0
@@ -193,7 +193,7 @@
 			tasks: [{
 				id: "41F7573B9EC18FAA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "nethersdelight:netherite_machete"
 					tag: {
 						Damage: 0
@@ -209,7 +209,7 @@
 			tasks: [{
 				id: "5E295584C2E91AE2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:wrought_iron_sword"
 					tag: {
 						DisallowContainerItem: 0b
@@ -233,7 +233,7 @@
 			tasks: [{
 				id: "7CCFF8C6103E7E15"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:certus_quartz_sword"
 					tag: {
 						Damage: 0
@@ -249,7 +249,7 @@
 			tasks: [{
 				id: "387D0606AB32FFC5"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:nether_quartz_sword"
 					tag: {
 						Damage: 0
@@ -265,7 +265,7 @@
 			tasks: [{
 				id: "4113A94119DEC5E7"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:fluix_sword"
 					tag: {
 						Damage: 0
@@ -281,7 +281,7 @@
 			tasks: [{
 				id: "6CF9B341553141D3"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "cataclysm:khopesh"
 					tag: {
 						Damage: 0
@@ -347,7 +347,7 @@
 			tasks: [{
 				id: "7D7B87C13C8E0658"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "createchromaticreturn:shadow_steel_sword"
 					tag: {
 						Damage: 0
@@ -363,7 +363,7 @@
 			tasks: [{
 				id: "5E2707B5DCE44B04"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:aluminium_sword"
 					tag: {
 						DisallowContainerItem: 0b
@@ -387,7 +387,7 @@
 			tasks: [{
 				id: "4F255321B50663E5"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:titanium_sword"
 					tag: {
 						DisallowContainerItem: 0b
@@ -411,7 +411,7 @@
 			tasks: [{
 				id: "66930E5AED2DF0E4"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:neutronium_sword"
 					tag: {
 						DisallowContainerItem: 0b
@@ -438,7 +438,7 @@
 			tasks: [{
 				id: "2088A7951DC839A2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:duranium_sword"
 					tag: {
 						DisallowContainerItem: 0b
@@ -464,7 +464,7 @@
 			tasks: [{
 				id: "0756B72E81549EA2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:bronze_sword"
 					tag: {
 						DisallowContainerItem: 0b
@@ -488,7 +488,7 @@
 			tasks: [{
 				id: "089B22CF411CBCD1"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:invar_sword"
 					tag: {
 						DisallowContainerItem: 0b
@@ -516,7 +516,7 @@
 			tasks: [{
 				id: "73DF08E70EB5AB52"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:sterling_silver_sword"
 					tag: {
 						DisallowContainerItem: 0b
@@ -544,7 +544,7 @@
 			tasks: [{
 				id: "2BC526642A2E1A77"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:rose_gold_sword"
 					tag: {
 						DisallowContainerItem: 0b
@@ -568,7 +568,7 @@
 			tasks: [{
 				id: "17322E0496E2B0C5"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:stainless_steel_sword"
 					tag: {
 						DisallowContainerItem: 0b
@@ -592,7 +592,7 @@
 			tasks: [{
 				id: "2A95E0F9CBB8C066"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:steel_sword"
 					tag: {
 						DisallowContainerItem: 0b
@@ -616,7 +616,7 @@
 			tasks: [{
 				id: "3FBDB34456E2C2E8"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:ultimet_sword"
 					tag: {
 						DisallowContainerItem: 0b
@@ -640,7 +640,7 @@
 			tasks: [{
 				id: "107873DD7383BE32"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:tungsten_carbide_sword"
 					tag: {
 						DisallowContainerItem: 0b
@@ -664,7 +664,7 @@
 			tasks: [{
 				id: "4292D00E89FA426F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:damascus_steel_sword"
 					tag: {
 						DisallowContainerItem: 0b
@@ -692,7 +692,7 @@
 			tasks: [{
 				id: "154AF21AA635945C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:tungsten_steel_sword"
 					tag: {
 						DisallowContainerItem: 0b
@@ -716,7 +716,7 @@
 			tasks: [{
 				id: "6F96B211B1A9D3B8"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:cobalt_brass_sword"
 					tag: {
 						DisallowContainerItem: 0b
@@ -740,7 +740,7 @@
 			tasks: [{
 				id: "75A7E305D1D34937"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:vanadium_steel_sword"
 					tag: {
 						DisallowContainerItem: 0b
@@ -764,7 +764,7 @@
 			tasks: [{
 				id: "706C21E75896B3B2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:naquadah_alloy_sword"
 					tag: {
 						DisallowContainerItem: 0b
@@ -790,7 +790,7 @@
 			tasks: [{
 				id: "100E16066C2CFFAA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:flint_sword"
 					tag: {
 						DisallowContainerItem: 0b
@@ -818,7 +818,7 @@
 			tasks: [{
 				id: "02C22F9C6B8D7A3D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:red_steel_sword"
 					tag: {
 						DisallowContainerItem: 0b
@@ -842,7 +842,7 @@
 			tasks: [{
 				id: "6C1D3F027E89A480"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:blue_steel_sword"
 					tag: {
 						DisallowContainerItem: 0b
@@ -866,7 +866,7 @@
 			tasks: [{
 				id: "7FC97A449E6C97FA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:hsse_sword"
 					tag: {
 						DisallowContainerItem: 0b
@@ -890,7 +890,7 @@
 			tasks: [{
 				id: "5DFAB7FBBDF07F00"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:enchanters_sword"
 					tag: {
 						Damage: 0
@@ -913,7 +913,7 @@
 				{
 					id: "0C9B835C0EA593D7"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:iron_longsword"
 						tag: {
 							Damage: 0
@@ -924,7 +924,7 @@
 				{
 					id: "363FD20EF128652E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:gold_longsword"
 						tag: {
 							Damage: 0
@@ -935,7 +935,7 @@
 				{
 					id: "649EAC883FD1BB41"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:diamond_longsword"
 						tag: {
 							Damage: 0
@@ -946,7 +946,7 @@
 				{
 					id: "4774FC7919F0FE93"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:netherite_longsword"
 						tag: {
 							Damage: 0
@@ -957,7 +957,7 @@
 				{
 					id: "60002A3020B5FE6F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:runic_longsword"
 						tag: {
 							Damage: 0
@@ -968,7 +968,7 @@
 				{
 					id: "2E7A179C5E0E1FFA"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:toxic_longsword"
 						tag: {
 							Damage: 0
@@ -979,7 +979,7 @@
 				{
 					id: "1A69EAB7AEE966F0"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "create_sa:blazing_cleaver"
 						tag: {
 							Damage: 0
@@ -1004,7 +1004,7 @@
 				{
 					id: "233600A44FAAE7E5"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:iron_twinblade"
 						tag: {
 							Damage: 0
@@ -1015,7 +1015,7 @@
 				{
 					id: "6B2CAA96C908AC37"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:gold_twinblade"
 						tag: {
 							Damage: 0
@@ -1026,7 +1026,7 @@
 				{
 					id: "5A0FFA7F8CC438B9"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:diamond_twinblade"
 						tag: {
 							Damage: 0
@@ -1037,7 +1037,7 @@
 				{
 					id: "5EBE1684FE2B642F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:netherite_twinblade"
 						tag: {
 							Damage: 0
@@ -1048,7 +1048,7 @@
 				{
 					id: "26D793C61805A0C4"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:runic_twinblade"
 						tag: {
 							Damage: 0
@@ -1073,7 +1073,7 @@
 				{
 					id: "704CCA733EF7F604"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:iron_rapier"
 						tag: {
 							Damage: 0
@@ -1084,7 +1084,7 @@
 				{
 					id: "5DAC71D42E73937B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:gold_rapier"
 						tag: {
 							Damage: 0
@@ -1095,7 +1095,7 @@
 				{
 					id: "03752CE85995D4F4"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:diamond_rapier"
 						tag: {
 							Damage: 0
@@ -1106,7 +1106,7 @@
 				{
 					id: "16B963A8A97C7E31"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:netherite_rapier"
 						tag: {
 							Damage: 0
@@ -1117,7 +1117,7 @@
 				{
 					id: "1F4A2EC4A57D95D6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:runic_rapier"
 						tag: {
 							Damage: 0
@@ -1137,7 +1137,7 @@
 				{
 					id: "3F60FE632B5F2B7B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:iron_claymore"
 						tag: {
 							Damage: 0
@@ -1148,7 +1148,7 @@
 				{
 					id: "3CB67BF22B08A30B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:gold_claymore"
 						tag: {
 							Damage: 0
@@ -1159,7 +1159,7 @@
 				{
 					id: "66D054EDEA02668B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:diamond_claymore"
 						tag: {
 							Damage: 0
@@ -1170,7 +1170,7 @@
 				{
 					id: "6035C8F053334A76"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:netherite_claymore"
 						tag: {
 							Damage: 0
@@ -1181,7 +1181,7 @@
 				{
 					id: "175C9F78B2B07452"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:runic_claymore"
 						tag: {
 							Damage: 0
@@ -1192,7 +1192,7 @@
 				{
 					id: "7C7E9807F24DF2C1"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:brimstone_claymore"
 						tag: {
 							Damage: 0
@@ -1210,7 +1210,7 @@
 			tasks: [{
 				id: "523CFFD6741A9EB2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:sword_on_a_stick"
 					tag: {
 						Damage: 0
@@ -1226,7 +1226,7 @@
 			tasks: [{
 				id: "2DEE3FDB0E53E275"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:soulstealer"
 					tag: {
 						Damage: 0
@@ -1242,7 +1242,7 @@
 			tasks: [{
 				id: "033B7D26179A665D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:dormant_relic"
 					tag: {
 						Damage: 0
@@ -1258,7 +1258,7 @@
 			tasks: [{
 				id: "056F58AC2CFB12BB"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create_sa:rose_quartz_sword"
 					tag: {
 						Damage: 0
@@ -1274,7 +1274,7 @@
 			tasks: [{
 				id: "1D29A6FB8DB94D9A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create_sa:brass_sword"
 					tag: {
 						Damage: 0
@@ -1290,7 +1290,7 @@
 			tasks: [{
 				id: "33B577DBC03F348A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create_sa:zinc_sword"
 					tag: {
 						Damage: 0
@@ -1306,7 +1306,7 @@
 			tasks: [{
 				id: "630E9DE9F916C34A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create_sa:copper_sword"
 					tag: {
 						Damage: 0
@@ -1322,7 +1322,7 @@
 			tasks: [{
 				id: "093B2C3676C1110F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create_sa:experience_sword"
 					tag: {
 						Damage: 0
@@ -1344,7 +1344,7 @@
 			tasks: [{
 				id: "6355E8A30B41D3DA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:righteous_relic"
 					tag: {
 						Damage: 0
@@ -1366,7 +1366,7 @@
 			tasks: [{
 				id: "5E09EF4AB57C7E3B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:tainted_relic"
 					tag: {
 						Damage: 0
@@ -1389,7 +1389,7 @@
 				{
 					id: "036E94BF750513F6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:iron_katana"
 						tag: {
 							Damage: 0
@@ -1400,7 +1400,7 @@
 				{
 					id: "7035A156A61852F3"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:gold_katana"
 						tag: {
 							Damage: 0
@@ -1411,7 +1411,7 @@
 				{
 					id: "302EEC9B317F0D87"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:diamond_katana"
 						tag: {
 							Damage: 0
@@ -1422,7 +1422,7 @@
 				{
 					id: "739CCB493F6C628A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:netherite_katana"
 						tag: {
 							Damage: 0
@@ -1433,7 +1433,7 @@
 				{
 					id: "337FA86AB185D456"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:runic_katana"
 						tag: {
 							Damage: 0
@@ -1443,7 +1443,7 @@
 				}
 			]
 			title: "武士刀"
-			x: -7.0d
+			x: 1.5d
 			y: -2.0d
 		}
 		{
@@ -1458,7 +1458,7 @@
 				{
 					id: "67C0957357400535"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:iron_glaive"
 						tag: {
 							Damage: 0
@@ -1469,7 +1469,7 @@
 				{
 					id: "5E20E83938D4442C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:gold_glaive"
 						tag: {
 							Damage: 0
@@ -1480,7 +1480,7 @@
 				{
 					id: "3E5D6E25AFC770ED"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:diamond_glaive"
 						tag: {
 							Damage: 0
@@ -1491,7 +1491,7 @@
 				{
 					id: "3B22C57D90103081"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:netherite_glaive"
 						tag: {
 							Damage: 0
@@ -1502,7 +1502,7 @@
 				{
 					id: "3ECE45B94EA1A599"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:runic_glaive"
 						tag: {
 							Damage: 0
@@ -1512,7 +1512,7 @@
 				}
 			]
 			title: "长柄刀"
-			x: -7.0d
+			x: 1.5d
 			y: -0.5d
 		}
 		{
@@ -1527,7 +1527,7 @@
 				{
 					id: "0791C282AF3F844B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:iron_cutlass"
 						tag: {
 							Damage: 0
@@ -1538,7 +1538,7 @@
 				{
 					id: "4651C3CEAB86F37F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:gold_cutlass"
 						tag: {
 							Damage: 0
@@ -1549,7 +1549,7 @@
 				{
 					id: "7E89738C9CC1F2E0"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:diamond_cutlass"
 						tag: {
 							Damage: 0
@@ -1560,7 +1560,7 @@
 				{
 					id: "1099BAF2B4411775"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:netherite_cutlass"
 						tag: {
 							Damage: 0
@@ -1571,7 +1571,7 @@
 				{
 					id: "1736FE2438BFFA08"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:runic_cutlass"
 						tag: {
 							Damage: 0
@@ -1581,7 +1581,7 @@
 				}
 			]
 			title: "弯刀"
-			x: -7.0d
+			x: 1.5d
 			y: -3.5d
 		}
 		{
@@ -1596,7 +1596,7 @@
 				{
 					id: "3B2676637085B011"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:iron_scythe"
 						tag: {
 							Damage: 0
@@ -1607,7 +1607,7 @@
 				{
 					id: "34094E387E7AE563"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:gold_scythe"
 						tag: {
 							Damage: 0
@@ -1618,7 +1618,7 @@
 				{
 					id: "340F4F583219E6AF"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:diamond_scythe"
 						tag: {
 							Damage: 0
@@ -1629,7 +1629,7 @@
 				{
 					id: "262848F263CAF876"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:netherite_scythe"
 						tag: {
 							Damage: 0
@@ -1640,7 +1640,7 @@
 				{
 					id: "0A6CBAAFE68FA95D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:runic_scythe"
 						tag: {
 							Damage: 0
@@ -1650,7 +1650,7 @@
 				}
 			]
 			title: "长柄镰"
-			x: -7.0d
+			x: 1.5d
 			y: 1.0d
 		}
 		{
@@ -1664,7 +1664,7 @@
 			tasks: [{
 				id: "4180DCC1F4E52538"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:soulrender"
 					tag: {
 						Damage: 0
@@ -1672,7 +1672,7 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
+			x: 1.5d
 			y: 2.5d
 		}
 		{
@@ -1687,7 +1687,7 @@
 				{
 					id: "5DFABCA11B5D2BA1"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:iron_sai"
 						tag: {
 							Damage: 0
@@ -1698,7 +1698,7 @@
 				{
 					id: "7ECC940984C265F8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:gold_sai"
 						tag: {
 							Damage: 0
@@ -1709,7 +1709,7 @@
 				{
 					id: "4379B36FB8D78FB5"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:diamond_sai"
 						tag: {
 							Damage: 0
@@ -1720,7 +1720,7 @@
 				{
 					id: "0F3B2F8BB5C5E5DB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:netherite_sai"
 						tag: {
 							Damage: 0
@@ -1731,7 +1731,7 @@
 				{
 					id: "495A784A260E4673"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:runic_sai"
 						tag: {
 							Damage: 0
@@ -1741,7 +1741,7 @@
 				}
 			]
 			title: "钗"
-			x: -7.0d
+			x: 1.5d
 			y: -5.0d
 		}
 		{
@@ -1755,7 +1755,7 @@
 				{
 					id: "58105CBCDF278659"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:iron_spear"
 						tag: {
 							Damage: 0
@@ -1766,7 +1766,7 @@
 				{
 					id: "5C0BC7EB4B8D01D2"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:gold_spear"
 						tag: {
 							Damage: 0
@@ -1777,7 +1777,7 @@
 				{
 					id: "2F397EB463A12504"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:diamond_spear"
 						tag: {
 							Damage: 0
@@ -1788,7 +1788,7 @@
 				{
 					id: "522D0F3B6E951F4E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:netherite_spear"
 						tag: {
 							Damage: 0
@@ -1799,7 +1799,7 @@
 				{
 					id: "7C7ED42316A85DD2"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:runic_spear"
 						tag: {
 							Damage: 0
@@ -1809,7 +1809,7 @@
 				}
 			]
 			title: "矛"
-			x: -7.0d
+			x: 1.5d
 			y: -6.5d
 		}
 		{
@@ -1822,7 +1822,7 @@
 			tasks: [{
 				id: "3CA236951AD3B4AE"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "cataclysm:coral_spear"
 					tag: {
 						Damage: 0
@@ -1830,7 +1830,7 @@
 				}
 				type: "item"
 			}]
-			x: -8.5d
+			x: 0.0d
 			y: -6.5d
 		}
 		{
@@ -1843,7 +1843,7 @@
 			tasks: [{
 				id: "7E025862A23528FF"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "bosses_of_mass_destruction:earthdive_spear"
 					tag: {
 						Damage: 0
@@ -1851,7 +1851,7 @@
 				}
 				type: "item"
 			}]
-			x: -8.5d
+			x: 0.0d
 			y: -5.0d
 		}
 		{
@@ -1866,7 +1866,7 @@
 				{
 					id: "43094B4383D7022D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:iron_halberd"
 						tag: {
 							Damage: 0
@@ -1877,7 +1877,7 @@
 				{
 					id: "2C43EEF6EE2AF3FD"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:gold_halberd"
 						tag: {
 							Damage: 0
@@ -1888,7 +1888,7 @@
 				{
 					id: "773D81F173A83E33"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:diamond_halberd"
 						tag: {
 							Damage: 0
@@ -1899,7 +1899,7 @@
 				{
 					id: "4771DAD9DE995980"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:netherite_halberd"
 						tag: {
 							Damage: 0
@@ -1910,7 +1910,7 @@
 				{
 					id: "383558E6FB286077"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:runic_halberd"
 						tag: {
 							Damage: 0
@@ -1920,7 +1920,7 @@
 				}
 			]
 			title: "戟"
-			x: -8.5d
+			x: 0.0d
 			y: -3.5d
 		}
 		{
@@ -1928,7 +1928,7 @@
 			tasks: [{
 				id: "05E5D352583E92A8"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:trident"
 					tag: {
 						Damage: 0
@@ -1936,7 +1936,7 @@
 				}
 				type: "item"
 			}]
-			x: -8.5d
+			x: 0.0d
 			y: -2.0d
 		}
 		{
@@ -1951,7 +1951,7 @@
 				{
 					id: "02CA8D5D4BDFDA4B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:iron_warglaive"
 						tag: {
 							Damage: 0
@@ -1962,7 +1962,7 @@
 				{
 					id: "6983BF381EE4710D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:gold_warglaive"
 						tag: {
 							Damage: 0
@@ -1973,7 +1973,7 @@
 				{
 					id: "64DEE6913DD287EF"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:diamond_warglaive"
 						tag: {
 							Damage: 0
@@ -1984,7 +1984,7 @@
 				{
 					id: "5004CB6626B9A39B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:netherite_warglaive"
 						tag: {
 							Damage: 0
@@ -1995,7 +1995,7 @@
 				{
 					id: "6D2F61D8C3297B84"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:runic_warglaive"
 						tag: {
 							Damage: 0
@@ -2005,7 +2005,7 @@
 				}
 			]
 			title: "战刃"
-			x: -8.5d
+			x: 0.0d
 			y: -0.5d
 		}
 		{
@@ -2018,7 +2018,7 @@
 			tasks: [{
 				id: "2F0DA529BEE36110"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:watching_warglaive"
 					tag: {
 						Damage: 0
@@ -2026,7 +2026,7 @@
 				}
 				type: "item"
 			}]
-			x: -8.5d
+			x: 0.0d
 			y: 2.5d
 		}
 		{
@@ -2041,7 +2041,7 @@
 				{
 					id: "17096F7A4F94ACCA"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:iron_greathammer"
 						tag: {
 							Damage: 0
@@ -2052,7 +2052,7 @@
 				{
 					id: "6D03436181EDA5C6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:gold_greathammer"
 						tag: {
 							Damage: 0
@@ -2063,7 +2063,7 @@
 				{
 					id: "7C18910C93255342"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:diamond_greathammer"
 						tag: {
 							Damage: 0
@@ -2074,7 +2074,7 @@
 				{
 					id: "40945C2BE46ACDEF"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:netherite_greathammer"
 						tag: {
 							Damage: 0
@@ -2085,7 +2085,7 @@
 				{
 					id: "344AA9DA65008E4E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:runic_greathammer"
 						tag: {
 							Damage: 0
@@ -2095,7 +2095,7 @@
 				}
 			]
 			title: "巨锤"
-			x: -8.5d
+			x: 0.0d
 			y: 1.0d
 		}
 		{
@@ -2108,7 +2108,7 @@
 			tasks: [{
 				id: "7414D4017F20AF91"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:hearthflame"
 					tag: {
 						Damage: 0
@@ -2116,7 +2116,7 @@
 				}
 				type: "item"
 			}]
-			x: -10.0d
+			x: -1.5d
 			y: 2.5d
 		}
 		{
@@ -2131,7 +2131,7 @@
 				{
 					id: "4DD975C9B3C91B4A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:iron_greataxe"
 						tag: {
 							Damage: 0
@@ -2142,7 +2142,7 @@
 				{
 					id: "649BC29554BB74CF"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:gold_greataxe"
 						tag: {
 							Damage: 0
@@ -2153,7 +2153,7 @@
 				{
 					id: "4F63DD6C0C67F171"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:diamond_greataxe"
 						tag: {
 							Damage: 0
@@ -2164,7 +2164,7 @@
 				{
 					id: "225B9FC9FFB937B6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:netherite_greataxe"
 						tag: {
 							Damage: 0
@@ -2175,7 +2175,7 @@
 				{
 					id: "58A17984C086FCE6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:runic_greataxe"
 						tag: {
 							Damage: 0
@@ -2185,7 +2185,7 @@
 				}
 			]
 			title: "巨斧"
-			x: -10.0d
+			x: -1.5d
 			y: 1.0d
 		}
 		{
@@ -2200,7 +2200,7 @@
 				{
 					id: "1DACC2DE4F5EA87C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:iron_chakram"
 						tag: {
 							Damage: 0
@@ -2211,7 +2211,7 @@
 				{
 					id: "59F544DB09B36A2B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:gold_chakram"
 						tag: {
 							Damage: 0
@@ -2222,7 +2222,7 @@
 				{
 					id: "348DE911A35B058A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:diamond_chakram"
 						tag: {
 							Damage: 0
@@ -2233,7 +2233,7 @@
 				{
 					id: "12B2CDEDF2E685B4"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:netherite_chakram"
 						tag: {
 							Damage: 0
@@ -2244,7 +2244,7 @@
 				{
 					id: "50FC067125786747"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:runic_chakram"
 						tag: {
 							Damage: 0
@@ -2254,7 +2254,7 @@
 				}
 			]
 			title: "环刃"
-			x: -10.0d
+			x: -1.5d
 			y: -0.5d
 		}
 		{
@@ -2262,7 +2262,7 @@
 			tasks: [{
 				id: "7C0C82476D59117E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:watcher_claymore"
 					tag: {
 						Damage: 0
@@ -2270,7 +2270,7 @@
 				}
 				type: "item"
 			}]
-			x: -10.0d
+			x: -1.5d
 			y: -2.0d
 		}
 		{
@@ -2278,7 +2278,7 @@
 			tasks: [{
 				id: "395499930B2CA4A1"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:storms_edge"
 					tag: {
 						Damage: 0
@@ -2286,7 +2286,7 @@
 				}
 				type: "item"
 			}]
-			x: -10.0d
+			x: -1.5d
 			y: -3.5d
 		}
 		{
@@ -2294,7 +2294,7 @@
 			tasks: [{
 				id: "772FA66927200136"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:bramblethorn"
 					tag: {
 						Damage: 0
@@ -2302,7 +2302,7 @@
 				}
 				type: "item"
 			}]
-			x: -10.0d
+			x: -1.5d
 			y: -5.0d
 		}
 		{
@@ -2310,7 +2310,7 @@
 			tasks: [{
 				id: "7CB8541AE8533324"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:emberblade"
 					tag: {
 						Damage: 0
@@ -2318,7 +2318,7 @@
 				}
 				type: "item"
 			}]
-			x: -10.0d
+			x: -1.5d
 			y: -6.5d
 		}
 		{
@@ -2326,7 +2326,7 @@
 			tasks: [{
 				id: "176BC1BC167F0E37"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:soulkeeper"
 					tag: {
 						Damage: 0
@@ -2334,7 +2334,7 @@
 				}
 				type: "item"
 			}]
-			x: -11.5d
+			x: -3.0d
 			y: -6.5d
 		}
 		{
@@ -2342,7 +2342,7 @@
 			tasks: [{
 				id: "168EF491297885DA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:twisted_blade"
 					tag: {
 						Damage: 0
@@ -2350,7 +2350,7 @@
 				}
 				type: "item"
 			}]
-			x: -11.5d
+			x: -3.0d
 			y: -5.0d
 		}
 		{
@@ -2358,7 +2358,7 @@
 			tasks: [{
 				id: "3E73C0C3CAB7F329"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:stormbringer"
 					tag: {
 						Damage: 0
@@ -2366,7 +2366,7 @@
 				}
 				type: "item"
 			}]
-			x: -11.5d
+			x: -3.0d
 			y: -2.0d
 		}
 		{
@@ -2374,7 +2374,7 @@
 			tasks: [{
 				id: "22618F1C321849BA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:soulpyre"
 					tag: {
 						Damage: 0
@@ -2382,7 +2382,7 @@
 				}
 				type: "item"
 			}]
-			x: -11.5d
+			x: -3.0d
 			y: -3.5d
 		}
 		{
@@ -2390,7 +2390,7 @@
 			tasks: [{
 				id: "4E555CACF6E5BBAC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:frostfall"
 					tag: {
 						Damage: 0
@@ -2398,7 +2398,7 @@
 				}
 				type: "item"
 			}]
-			x: -11.5d
+			x: -3.0d
 			y: -0.5d
 		}
 		{
@@ -2406,7 +2406,7 @@
 			tasks: [{
 				id: "0EDE98B396890B7D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:molten_edge"
 					tag: {
 						Damage: 0
@@ -2414,7 +2414,7 @@
 				}
 				type: "item"
 			}]
-			x: -11.5d
+			x: -3.0d
 			y: 1.0d
 		}
 		{
@@ -2422,7 +2422,7 @@
 			tasks: [{
 				id: "53F486D8C7994B08"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:livyatan"
 					tag: {
 						Damage: 0
@@ -2430,7 +2430,7 @@
 				}
 				type: "item"
 			}]
-			x: -11.5d
+			x: -3.0d
 			y: 2.5d
 		}
 		{
@@ -2438,7 +2438,7 @@
 			tasks: [{
 				id: "4DE1D239F44201E2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:icewhisper"
 					tag: {
 						Damage: 0
@@ -2446,7 +2446,7 @@
 				}
 				type: "item"
 			}]
-			x: -13.0d
+			x: -4.5d
 			y: -6.5d
 		}
 		{
@@ -2454,7 +2454,7 @@
 			tasks: [{
 				id: "2906710C70BB9D72"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:arcanethyst"
 					tag: {
 						Damage: 0
@@ -2462,7 +2462,7 @@
 				}
 				type: "item"
 			}]
-			x: -13.0d
+			x: -4.5d
 			y: -5.0d
 		}
 		{
@@ -2470,7 +2470,7 @@
 			tasks: [{
 				id: "68B8DDA5B7A123DE"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:thunderbrand"
 					tag: {
 						Damage: 0
@@ -2478,7 +2478,7 @@
 				}
 				type: "item"
 			}]
-			x: -13.0d
+			x: -4.5d
 			y: -3.5d
 		}
 		{
@@ -2486,7 +2486,7 @@
 			tasks: [{
 				id: "71BD4EBDD94A2BEE"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:mjolnir"
 					tag: {
 						Damage: 0
@@ -2494,7 +2494,7 @@
 				}
 				type: "item"
 			}]
-			x: -13.0d
+			x: -4.5d
 			y: -2.0d
 		}
 		{
@@ -2502,7 +2502,7 @@
 			tasks: [{
 				id: "05EF6A359387BB71"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:shadowsting"
 					tag: {
 						Damage: 0
@@ -2510,7 +2510,7 @@
 				}
 				type: "item"
 			}]
-			x: -13.0d
+			x: -4.5d
 			y: -0.5d
 		}
 		{
@@ -2519,7 +2519,7 @@
 			tasks: [{
 				id: "34A9E2AFEBA4FF38"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:sunfire"
 					tag: {
 						Damage: 0
@@ -2527,7 +2527,7 @@
 				}
 				type: "item"
 			}]
-			x: -13.0d
+			x: -4.5d
 			y: 1.0d
 		}
 		{
@@ -2536,7 +2536,7 @@
 			tasks: [{
 				id: "668894CEF545A81B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:harbinger"
 					tag: {
 						Damage: 0
@@ -2544,7 +2544,7 @@
 				}
 				type: "item"
 			}]
-			x: -13.0d
+			x: -4.5d
 			y: 2.5d
 		}
 		{
@@ -2552,7 +2552,7 @@
 			tasks: [{
 				id: "2D65983BF3935ED6"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:whisperwind"
 					tag: {
 						Damage: 0
@@ -2560,7 +2560,7 @@
 				}
 				type: "item"
 			}]
-			x: -14.5d
+			x: -6.0d
 			y: -6.5d
 		}
 		{
@@ -2568,7 +2568,7 @@
 			tasks: [{
 				id: "089AB74A4A1F922F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:emberlash"
 					tag: {
 						Damage: 0
@@ -2576,7 +2576,7 @@
 				}
 				type: "item"
 			}]
-			x: -14.5d
+			x: -6.0d
 			y: -5.0d
 		}
 		{
@@ -2584,7 +2584,7 @@
 			tasks: [{
 				id: "063BE1000E96CCFF"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:waxweaver"
 					tag: {
 						Damage: 0
@@ -2592,7 +2592,7 @@
 				}
 				type: "item"
 			}]
-			x: -14.5d
+			x: -6.0d
 			y: -3.5d
 		}
 		{
@@ -2600,7 +2600,7 @@
 			tasks: [{
 				id: "791CCEA30F9961A8"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:hiveheart"
 					tag: {
 						Damage: 0
@@ -2608,7 +2608,7 @@
 				}
 				type: "item"
 			}]
-			x: -14.5d
+			x: -6.0d
 			y: -2.0d
 		}
 		{
@@ -2616,7 +2616,7 @@
 			tasks: [{
 				id: "6B05EF34CA08E38D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:slumbering_lichblade"
 					tag: {
 						Damage: 0
@@ -2624,7 +2624,7 @@
 				}
 				type: "item"
 			}]
-			x: -14.5d
+			x: -6.0d
 			y: -0.5d
 		}
 		{
@@ -2633,7 +2633,7 @@
 			tasks: [{
 				id: "7A731555A985048A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:waking_lichblade"
 					tag: {
 						Damage: 0
@@ -2641,7 +2641,7 @@
 				}
 				type: "item"
 			}]
-			x: -14.5d
+			x: -6.0d
 			y: 1.0d
 		}
 		{
@@ -2650,7 +2650,7 @@
 			tasks: [{
 				id: "636C49616B43F2F4"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:awakened_lichblade"
 					tag: {
 						Damage: 0
@@ -2658,7 +2658,7 @@
 				}
 				type: "item"
 			}]
-			x: -14.5d
+			x: -6.0d
 			y: 2.5d
 		}
 		{
@@ -2666,7 +2666,7 @@
 			tasks: [{
 				id: "36D9DDF0721F7877"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:stars_edge"
 					tag: {
 						Damage: 0
@@ -2674,7 +2674,7 @@
 				}
 				type: "item"
 			}]
-			x: -16.0d
+			x: -7.5d
 			y: -6.5d
 		}
 		{
@@ -2682,7 +2682,7 @@
 			tasks: [{
 				id: "503FC4CBEBB737B3"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:wickpiercer"
 					tag: {
 						Damage: 0
@@ -2690,7 +2690,7 @@
 				}
 				type: "item"
 			}]
-			x: -16.0d
+			x: -7.5d
 			y: -5.0d
 		}
 		{
@@ -2698,7 +2698,7 @@
 			tasks: [{
 				id: "22EFBC0FF72F7D0D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:tempest"
 					tag: {
 						Damage: 0
@@ -2706,7 +2706,7 @@
 				}
 				type: "item"
 			}]
-			x: -16.0d
+			x: -7.5d
 			y: -3.5d
 		}
 		{
@@ -2714,7 +2714,7 @@
 			tasks: [{
 				id: "38E0AD738A62F3DB"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:flamewind"
 					tag: {
 						Damage: 0
@@ -2722,7 +2722,7 @@
 				}
 				type: "item"
 			}]
-			x: -16.0d
+			x: -7.5d
 			y: -2.0d
 		}
 		{
@@ -2730,7 +2730,7 @@
 			tasks: [{
 				id: "02C4D64D099E49E5"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplyswords:ribboncleaver"
 					tag: {
 						Damage: 0
@@ -2738,9 +2738,9 @@
 				}
 				type: "item"
 			}]
-			x: -16.0d
+			x: -7.5d
 			y: -0.5d
 		}
 	]
-	title: "武器图鉴（WIP）"
+	title: "武器图鉴"
 }

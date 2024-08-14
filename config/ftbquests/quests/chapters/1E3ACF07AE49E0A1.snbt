@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "1E3ACF07AE49E0A1"
-	group: "3F12A3D145F5F546"
+	group: "63D3DF7FC4F1B2F3"
 	icon: "gtceu:infinity_ingot"
 	id: "1E3ACF07AE49E0A1"
-	order_index: 6
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -84,7 +84,7 @@
 			}]
 			title: "来自寰宇的拥抱"
 			x: 0.0d
-			y: 6.0d
+			y: 5.25d
 		}
 		{
 			can_repeat: true
@@ -128,7 +128,6 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["7E9A81090A81C86B"]
 			description: [
 				"你将凋灵风暴身躯内部的命令方块一刀斩裂，露出了里面蕴含创世之力的核心——风暴之星。"
 				""
@@ -157,7 +156,6 @@
 			y: 20.0d
 		}
 		{
-			dependencies: ["17701E5CD055B336"]
 			hide: true
 			id: "606044778B632B71"
 			shape: "square"
@@ -172,9 +170,8 @@
 			y: 12.0d
 		}
 		{
-			dependencies: ["1887DD29A9B60072"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "witherstormmod:formidibomb"
 				tag: { }
 			}
@@ -191,7 +188,7 @@
 				{
 					id: "2784E6A31B83192A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "witherstormmod:formidibomb"
 						tag: { }
 					}
@@ -203,7 +200,6 @@
 			y: 14.25d
 		}
 		{
-			dependencies: ["723DAE51D1E28675"]
 			id: "6934BA5B6AF0EC17"
 			shape: "square"
 			size: 1.5d
@@ -211,7 +207,7 @@
 				icon: "witherstormmod:command_block_sword"
 				id: "5D6339954B58F7E9"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "witherstormmod:command_block_tools"
@@ -225,7 +221,6 @@
 			y: 16.5d
 		}
 		{
-			dependencies: ["7A4958A334E133B2"]
 			icon: "witherstormmod:super_beacon"
 			id: "7A1889FA32D8DAB9"
 			shape: "square"
@@ -310,18 +305,17 @@
 			]
 			title: "终极工作台"
 			x: 0.0d
-			y: 31.5d
+			y: 30.0d
 		}
 		{
 			dependencies: ["0CCE0F67475C4822"]
 			description: [
-				"终点就在你面前了！最后需要做的事是，收集你能收集到的所有物品，将它们在终极工作台中结合到一起，手搓出无尽催化剂和无尽之锭。"
+				"        终点就在你面前了！最后需要做的事是，收集你能收集到的所有物品，将它们在终极工作台中结合到一起，手搓出无尽催化剂和无尽之锭。"
+				"        但还需要注意的是，要想真正使无尽锭派上用场，你还需要将其粉碎一遍后再重新烧炼并冷却，使其转变为堪用的形态。整个过程需要消耗大量的时间，建议用你能达到的最高电压处理它们。"
+				"        做出无尽锭，意味着你从传统意义上“通关”了该整合包！但请记住，Minecraft是一款开放式沙盒游戏，真正意义上的玩法是永无止境的。"
 				""
-				"但还需要注意的是，要想真正使无尽锭派上用场，你还需要将其粉碎一遍后再重新烧炼并冷却，使其转变为堪用的形态。整个过程需要消耗大量的时间，建议用你能达到的最高电压处理它们。"
-				""
-				"做出无尽锭，意味着你从传统意义上“通关”了该整合包！但请记住，Minecraft是一款开放式沙盒游戏，真正意义上的玩法是永无止境的。"
-				""
-				"在该整合包中，有如机械动力这类自由度非常高的模组，也有诸如农夫乐事、葡园酒香这类为生存增添闲情逸趣的模组。除了“通关”整合包外，你还有很多的事情可以去做，一部分甚至可以成为你的长期目标："
+				"{@pagebreak}"
+				"       在该整合包中，有如机械动力这类自由度非常高的模组，也有诸如农夫乐事、葡园酒香这类为生存增添闲情逸趣的模组。除了“通关”整合包外，你还有很多的事情可以去做，一部分甚至可以成为你的长期目标："
 				"1.发展壮大你的工业事业，尝试为一切可能实现自动化生产的物品搭建专门的产线。建立起庞大的物资仓库来储存种类繁多的物品，并通过巨大的自动化网络来调配它们。"
 				"2.利用生产得到的巨量物资，修建大规模的聚落、城镇甚至都会（你可能需要掌握一定的建筑技巧，同时还需要大量的空闲时间）。"
 				"3.综合利用水路、公路、铁路、航空、传送等方式，在聚落间、市镇间修建巨大的交通网络，最终支撑起属于你自己的飞轮格雷帝国！"
@@ -376,7 +370,37 @@
 			]
 			title: "万物归一"
 			x: 0.0d
-			y: 39.0d
+			y: 36.0d
+		}
+		{
+			dependencies: ["39D01876D86FAD36"]
+			hide: true
+			id: "1F364F3DEB6E78BA"
+			size: 2.0d
+			tasks: [{
+				id: "0D6ED64DA63866A0"
+				item: "createchromaticreturn:radiant_glow_saber"
+				type: "item"
+			}]
+			title: "一剑蒸发"
+			x: 6.0d
+			y: 19.0d
+		}
+		{
+			dependencies: [
+				"1F364F3DEB6E78BA"
+				"63FBE2676C20C11C"
+			]
+			id: "1237108C5A303833"
+			size: 3.0d
+			tasks: [{
+				id: "33F7A9320D1F5EC8"
+				item: "createchromaticreturn:radiant_glow_claws"
+				type: "item"
+			}]
+			title: "瓦解万物！"
+			x: 6.0d
+			y: 22.5d
 		}
 	]
 	title: "终极挑战"
