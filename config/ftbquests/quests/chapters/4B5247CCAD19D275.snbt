@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "4B5247CCAD19D275"
 	group: "06A4A76E7D58F321"
+	hide_quest_until_deps_visible: true
 	icon: "create:item_vault"
 	id: "4B5247CCAD19D275"
 	images: [
@@ -19,7 +20,7 @@
 			image: "ae2:block/controller_powered"
 			rotation: 0.0d
 			width: 3.0d
-			x: -22.5d
+			x: 10.5d
 			y: 16.0d
 		}
 	]
@@ -110,6 +111,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["3C22B3719AD79110"]
 			icon: "minecraft:chest"
 			id: "7E0378EE23A3287B"
 			size: 3.0d
@@ -131,6 +133,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["7E0378EE23A3287B"]
 			id: "2CE5873124DA47AC"
 			size: 2.0d
 			tasks: [{
@@ -156,6 +159,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["7E0378EE23A3287B"]
 			icon: "gtceu:wood_crate"
 			id: "5A72841530480DB1"
 			size: 2.0d
@@ -169,6 +173,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["7E0378EE23A3287B"]
 			icon: "gtceu:wood_drum"
 			id: "4021A4B76AAE7463"
 			size: 2.0d
@@ -182,6 +187,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["5A72841530480DB1"]
 			icon: "gtceu:lv_super_chest"
 			id: "61B2F84A2AE77F83"
 			size: 2.0d
@@ -195,6 +201,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["4021A4B76AAE7463"]
 			icon: "gtceu:lv_super_tank"
 			id: "5E2BD07242D7A4C6"
 			size: 2.0d
@@ -237,6 +244,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["3C2075FD83FC8837"]
 			icon: "ae2:calculation_processor_press"
 			id: "5F28A106525E396A"
 			size: 1.5d
@@ -268,6 +276,7 @@
 			y: 9.0d
 		}
 		{
+			dependencies: ["3C2075FD83FC8837"]
 			icon: "ae2:silicon"
 			id: "1D5D2B76DE08CCA9"
 			size: 1.5d
@@ -312,6 +321,7 @@
 			y: 11.0d
 		}
 		{
+			dependencies: ["3C2075FD83FC8837"]
 			icon: "ae2:quartz_glass"
 			id: "75C20DA15041AE78"
 			size: 2.0d
@@ -372,6 +382,7 @@
 			y: 11.0d
 		}
 		{
+			dependencies: ["3C2075FD83FC8837"]
 			id: "58A1CD39B266BFE8"
 			size: 2.0d
 			tasks: [{

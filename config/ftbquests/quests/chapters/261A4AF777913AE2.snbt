@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "261A4AF777913AE2"
 	group: "6CF96DBC43DD24C9"
-	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
 	icon: "gtceu:bronze_ingot"
 	id: "261A4AF777913AE2"
 	order_index: 1
@@ -589,6 +589,7 @@
 			y: -7.0d
 		}
 		{
+			dependencies: ["640B011CEB7E74D0"]
 			icon: "gtceu:brick_wooden_form"
 			id: "0D07DF8052BDFAA1"
 			size: 2.0d
@@ -903,6 +904,7 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["640B011CEB7E74D0"]
 			description: ["    推荐使用机械动力辊压机制作纸。"]
 			id: "546D3789C833F681"
 			size: 2.0d
@@ -927,6 +929,7 @@
 			y: 13.0d
 		}
 		{
+			dependencies: ["640B011CEB7E74D0"]
 			description: ["    你需要非常多的铜导线。"]
 			id: "6E8821396231E3BD"
 			size: 2.0d
@@ -1098,6 +1101,7 @@
 			y: 16.0d
 		}
 		{
+			dependencies: ["640B011CEB7E74D0"]
 			description: ["    为了挖掘硫矿，你需要先到达下界。硫矿一般生成在岩浆面高度之下。"]
 			icon: "gtceu:netherrack_sulfur_ore"
 			id: "585215C1551527E5"
@@ -1123,10 +1127,16 @@
 			y: 16.0d
 		}
 		{
+			dependencies: [
+				"239A27D99D775714"
+				"3C22B3719AD79110"
+			]
 			description: [
 				"        格雷科技是一款有着超长流程与大量内容的科技模组，如果你曾经没有接触过，那会需要很多时间学习上手。不过别担心，本任务线的存在就是提供发展时相对较优的选择，避免你走弯路，可能会存在其他更优的办法，需要自己发掘。另外，本任务线仅仅只提供引导，不会有太多实用奖励，也就是说，任何格雷必要流程都不会跳过。"
 				"        格雷科技流程非常非常长，请保持耐心与持续学习的态度，并且善用REI和互联网。"
 			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -1229,6 +1239,7 @@
 			y: -5.0d
 		}
 		{
+			dependencies: ["640B011CEB7E74D0"]
 			description: [
 				"    有很多办法制作玻璃，这里推荐先用机械动力的配方。玻璃粉使用研钵研磨沙子和燧石混合。"
 				"    或者，你可以找那些“聪明”的图书管理员购买。"
