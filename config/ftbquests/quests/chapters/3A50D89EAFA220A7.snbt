@@ -7,6 +7,22 @@
 	id: "3A50D89EAFA220A7"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "033E08B687558D96"
+		size: 2.0d
+		subtitle: "放置100个列车站"
+		tasks: [{
+			block: "create:track_station"
+			block_type: 0
+			id: "47174DC0A6233B7C"
+			replace: false
+			replaced: "minecraft:air"
+			type: "questsadditions:place"
+			value: 100L
+		}]
+		title: "一百种方式！"
+		x: -16.0d
+		y: 4.0d
+	}]
 	title: "铁路系统"
 }
