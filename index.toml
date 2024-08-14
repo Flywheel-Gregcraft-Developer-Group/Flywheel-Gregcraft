@@ -4305,6 +4305,11 @@ hash = "1e56f528d8e21b0cf9c52c3d6deea2a4eafa408170b39a070195dbf66617f373"
 metafile = true
 
 [[files]]
+file = "mods/copycats.pw.toml"
+hash = "2e0891926994e72a64688443122796c1800c954e3ba1a779ace81c7f8ec6547d"
+metafile = true
+
+[[files]]
 file = "mods/corpse-forge-1.20.1-1.0.12.jar"
 hash = "ecefeab9cb6da83bfb252cd116b5d0ddf30570b3ee2a91ec29ed4842846251db"
 
@@ -4425,6 +4430,11 @@ metafile = true
 [[files]]
 file = "mods/embeddium.pw.toml"
 hash = "b3417e7c03644152f775f2b6c4cd7eef8437d68a898b639640d37788a6c564d9"
+metafile = true
+
+[[files]]
+file = "mods/embeddiumplus.pw.toml"
+hash = "3f7d7e961be44b270240e6d8b6b7359027a0de4cd5bbef2ff66db2a67b4ac891"
 metafile = true
 
 [[files]]
