@@ -193,8 +193,8 @@ ServerEvents.recipes(event => {
         'RR '
     ],
     {
-        T: 'createbigcannons:nethersteel_ingot',
-        R: 'minecraft:dried_kelp_block'
+        T: '#forge:rods/aluminium',
+        R: '#forge:plates/rubber'
     })
   event.shaped(Item.of('immersive_aircraft:improved_landing_gear',1), [
         ' TT',
@@ -202,8 +202,17 @@ ServerEvents.recipes(event => {
         'RR '
     ],
     {
-        T: '#forge:ingots/aluminium',
-        R: '#forge:plates/rubber'
+        T: '#forge:rods/aluminium',
+        R: '#forge:plates/silicone_rubber'
+    })
+  event.shaped(Item.of('immersive_aircraft:improved_landing_gear',1), [
+        ' TT',
+        'RRT',
+        'RR '
+    ],
+    {
+        T: '#forge:rods/aluminium',
+        R: '#forge:plates/styrene_butadiene_rubber'
     })
   event.remove({ id: 'immersive_aircraft:bomb_bay' })
   event.shaped(Item.of('immersive_aircraft:bomb_bay',1), [
@@ -280,5 +289,19 @@ ServerEvents.recipes(event => {
     P: 'immersive_aircraft:propeller',
     B: 'minecraft:bamboo',
     A: 'create:precision_mechanism'
-  })  
+  })
+  event.remove({ id: 'immersive_aircraft:warship' })
+  event.recipes.create.mechanical_crafting('immersive_aircraft:warship', [
+    'SSSSS',
+    'SHHHS',
+    'SSCSS',
+    'EEGEE',
+    'HHGHH'
+  ], {
+    H: 'immersive_aircraft:hull',
+    E: 'immersive_aircraft:engine',
+    G: 'immersive_aircraft:industrial_gears',
+    C: 'immersive_aircraft:cargo_airship',
+    S: 'immersive_aircraft:sail'
+  })
 })
