@@ -3,6 +3,8 @@
 	default_quest_shape: ""
 	filename: "14A262D42F923950"
 	group: ""
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
 	icon: "immersive_aircraft:industrial_gears"
 	id: "14A262D42F923950"
 	order_index: 0
@@ -292,12 +294,7 @@
 			icon: "create:andesite_casing"
 			id: "4E5CE5DA1C3DAF80"
 			size: 3.0d
-			subtitle: "机械动力的基础机械"
-			tasks: [{
-				id: "46DBD0E756DA454E"
-				item: "create:andesite_casing"
-				type: "item"
-			}]
+			subtitle: "机械动力的基础"
 			title: "安山时代"
 			x: 1.5d
 			y: -13.5d
@@ -307,14 +304,10 @@
 				"65DDEA2AF978F2A9"
 				"4E5CE5DA1C3DAF80"
 			]
+			icon: "create:brass_casing"
 			id: "1DC2161317B8D581"
 			size: 3.0d
 			subtitle: "机器轰鸣！"
-			tasks: [{
-				id: "291877E2E2669A32"
-				item: "create:brass_casing"
-				type: "item"
-			}]
 			title: "黄铜时代"
 			x: 6.0d
 			y: -18.0d
@@ -324,14 +317,10 @@
 				"239A27D99D775714"
 				"4E5CE5DA1C3DAF80"
 			]
+			icon: "gtceu:lp_steam_solid_boiler"
 			id: "1AE15529B8D42531"
 			size: 3.0d
 			subtitle: "电力发现前的准备"
-			tasks: [{
-				id: "0829634C7F46C361"
-				item: "gtceu:lp_steam_solid_boiler"
-				type: "item"
-			}]
 			title: "蒸汽时代"
 			x: 6.0d
 			y: -13.5d
@@ -341,14 +330,10 @@
 				"1DC2161317B8D581"
 				"5B6BAEAB218D7227"
 			]
+			icon: "createchromaticreturn:chromatic_compound"
 			id: "4C05EBA0D1A09023"
 			size: 3.0d
 			subtitle: "彩色的，是我......"
-			tasks: [{
-				id: "6A67E5937C74FAED"
-				item: "createchromaticreturn:chromatic_compound"
-				type: "item"
-			}]
 			title: "异彩时代"
 			x: 10.5d
 			y: -18.0d
@@ -358,13 +343,9 @@
 				"1AE15529B8D42531"
 				"4F831D8F4EFC370D"
 			]
+			icon: "gtceu:steel_block"
 			id: "4B3B776F33F2AFC3"
 			size: 3.0d
-			tasks: [{
-				id: "78D1BDE9F36D231D"
-				item: "gtceu:steel_block"
-				type: "item"
-			}]
 			title: "LV时代"
 			x: 10.5d
 			y: -13.5d
@@ -374,13 +355,9 @@
 				"4B3B776F33F2AFC3"
 				"48D53271C0A0394B"
 			]
+			icon: "gtceu:aluminium_block"
 			id: "0774CC0DDD6A0EF0"
 			size: 3.0d
-			tasks: [{
-				id: "5750BAEDF7376DA2"
-				item: "gtceu:aluminium_block"
-				type: "item"
-			}]
 			title: "MV时代"
 			x: 10.5d
 			y: -9.0d
@@ -390,13 +367,9 @@
 				"7FEA1D8E09266522"
 				"084503D01A69472F"
 			]
+			icon: "gtceu:titanium_block"
 			id: "1230EEDFBD51BD91"
 			size: 3.0d
-			tasks: [{
-				id: "266CF3EB4ACF011E"
-				item: "gtceu:titanium_block"
-				type: "item"
-			}]
 			title: "EV时代"
 			x: 6.0d
 			y: -4.5d
@@ -406,13 +379,9 @@
 				"0774CC0DDD6A0EF0"
 				"62BC514FE9DF4228"
 			]
+			icon: "gtceu:stainless_steel_block"
 			id: "084503D01A69472F"
 			size: 3.0d
-			tasks: [{
-				id: "3D9C390E89B67B2F"
-				item: "gtceu:stainless_steel_block"
-				type: "item"
-			}]
 			title: "HV时代"
 			x: 10.5d
 			y: -4.5d
@@ -422,13 +391,9 @@
 				"4C3CD17FB863D855"
 				"1230EEDFBD51BD91"
 			]
+			icon: "gtceu:tungsten_steel_block"
 			id: "3AB69D8FC14D7E4E"
 			size: 3.0d
-			tasks: [{
-				id: "2D3FB37ADC9C4FD9"
-				item: "gtceu:tungsten_steel_block"
-				type: "item"
-			}]
 			title: "IV时代"
 			x: 1.5d
 			y: -4.5d
@@ -438,13 +403,9 @@
 				"69493DB2E1544F48"
 				"3AB69D8FC14D7E4E"
 			]
+			icon: "gtceu:rhodium_plated_palladium_block"
 			id: "398EFEEC3E325385"
 			size: 3.0d
-			tasks: [{
-				id: "32C8919054A052AE"
-				item: "gtceu:rhodium_plated_palladium_block"
-				type: "item"
-			}]
 			title: "LuV时代"
 			x: -3.0d
 			y: -4.5d
@@ -454,13 +415,9 @@
 				"398EFEEC3E325385"
 				"5D123CB04091F0C8"
 			]
+			icon: "gtceu:naquadah_alloy_block"
 			id: "39CBF412A81D3ECB"
 			size: 3.0d
-			tasks: [{
-				id: "21382CA7C5511407"
-				item: "gtceu:naquadah_alloy_block"
-				type: "item"
-			}]
 			title: "ZPM时代"
 			x: -7.5d
 			y: -4.5d
@@ -470,13 +427,9 @@
 				"1C7B38556D7742DC"
 				"39CBF412A81D3ECB"
 			]
+			icon: "gtceu:darmstadtium_block"
 			id: "42CC6C99DCB4375C"
 			size: 3.0d
-			tasks: [{
-				id: "0B50F231E3859971"
-				item: "gtceu:darmstadtium_block"
-				type: "item"
-			}]
 			title: "UV时代"
 			x: -12.0d
 			y: -4.5d
@@ -486,13 +439,9 @@
 				"3E30B8101FA1B60A"
 				"42CC6C99DCB4375C"
 			]
+			icon: "gtceu:neutronium_block"
 			id: "43A63DFF96783D4C"
 			size: 3.0d
-			tasks: [{
-				id: "58906D7F406FC8E6"
-				item: "gtceu:neutronium_block"
-				type: "item"
-			}]
 			title: "UHV时代"
 			x: -16.5d
 			y: -4.5d
@@ -502,13 +451,9 @@
 				"13AA25E372EB693B"
 				"43A63DFF96783D4C"
 			]
+			icon: "witherstormmod:withered_nether_star"
 			id: "3560BBEDBF346CE3"
 			size: 3.0d
-			tasks: [{
-				id: "68A333908321A7C4"
-				item: "witherstormmod:withered_nether_star"
-				type: "item"
-			}]
 			title: "世界再构时代"
 			x: -16.5d
 			y: 1.5d
@@ -518,13 +463,9 @@
 				"0CCE0F67475C4822"
 				"3560BBEDBF346CE3"
 			]
+			icon: "gtceu:infinity_ingot"
 			id: "1C1C586FB61E0477"
 			size: 3.0d
-			tasks: [{
-				id: "72247F069280F038"
-				item: "gtceu:infinity_ingot"
-				type: "item"
-			}]
 			title: "无尽时代"
 			x: -12.0d
 			y: 1.5d

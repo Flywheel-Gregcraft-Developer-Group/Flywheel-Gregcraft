@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "2DD31F3AA6E24C5A"
 	group: "3A8D137D2E3EED65"
+	hide_quest_until_deps_visible: true
 	icon: "gtceu:platinum_ingot"
 	id: "2DD31F3AA6E24C5A"
 	order_index: 1

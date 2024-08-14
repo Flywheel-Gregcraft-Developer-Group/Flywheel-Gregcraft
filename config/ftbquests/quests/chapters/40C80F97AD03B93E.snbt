@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "40C80F97AD03B93E"
 	group: "6CF96DBC43DD24C9"
-	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
 	icon: "create:brass_casing"
 	id: "40C80F97AD03B93E"
 	order_index: 0
@@ -96,7 +96,7 @@
 				item: "create:brass_ingot"
 				type: "item"
 			}]
-			title: "黄铜"
+			title: "黄澄澄的黄铜！"
 			x: 10.0d
 			y: 2.0d
 		}
@@ -429,7 +429,7 @@
 				item: "gtceu:bronze_ingot"
 				type: "item"
 			}]
-			title: "青铜"
+			title: "梆梆硬的青铜！"
 			x: 10.0d
 			y: 4.0d
 		}

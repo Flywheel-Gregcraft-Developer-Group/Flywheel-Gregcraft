@@ -944,34 +944,183 @@
 		}
 		{
 			id: "0C28F1104166C0B4"
+			rewards: [{
+				count: 2
+				id: "1B88740057FF257D"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "获得来自水域更新和下界更新的所有唱片（Pigstep除外）"
-			title: "水与火（WIP）"
+			tasks: [
+				{
+					id: "7DF044F7A19A3560"
+					item: "kubejs:disc_axolotl"
+					type: "item"
+				}
+				{
+					id: "5FDAE50B9CDA17FA"
+					item: "kubejs:disc_dragon_fish"
+					type: "item"
+				}
+				{
+					id: "4DDBC427563673D7"
+					item: "kubejs:disc_shuniji"
+					type: "item"
+				}
+				{
+					id: "73C3B98DDD066027"
+					item: "kubejs:disc_chrysopoeia"
+					type: "item"
+				}
+				{
+					id: "406962FF69F00BFB"
+					item: "kubejs:disc_rubedo"
+					type: "item"
+				}
+				{
+					id: "549CFEEAB915D23D"
+					item: "kubejs:disc_so_below"
+					type: "item"
+				}
+			]
+			title: "水与火"
 			x: 2.0d
 			y: -7.0d
 		}
 		{
 			id: "4E9960495BBB1338"
+			rewards: [{
+				count: 2
+				id: "6B1C6DC656F9785E"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "获得来自洞穴与山崖更新的所有唱片（Otherside除外）"
+			tasks: [
+				{
+					id: "5CB450FF6A84CBF9"
+					item: "kubejs:disc_an_ordinary_day"
+					type: "item"
+				}
+				{
+					id: "0F2AC5D99BD9C48B"
+					item: "kubejs:disc_comforting_memories"
+					type: "item"
+				}
+				{
+					id: "5999716A9FE6C5D9"
+					item: "kubejs:disc_floating_dream"
+					type: "item"
+				}
+				{
+					id: "125367F67D83C39A"
+					item: "kubejs:disc_ancestry"
+					type: "item"
+				}
+				{
+					id: "456C653758E405D7"
+					item: "kubejs:disc_infinite_amethyst"
+					type: "item"
+				}
+				{
+					id: "393DE3E4A725192C"
+					item: "kubejs:disc_left_to_bloom"
+					type: "item"
+				}
+				{
+					id: "01215A07C9CFD73D"
+					item: "kubejs:disc_one_more_day"
+					type: "item"
+				}
+				{
+					id: "16B8D49668B209F1"
+					item: "kubejs:disc_stand_tall"
+					type: "item"
+				}
+			]
 			title: "高山仰止（WIP）"
 			x: 6.0d
 			y: -7.0d
 		}
 		{
 			id: "2F6C83DFABAB728C"
+			rewards: [{
+				count: 2
+				id: "70944F370D0FDE33"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "获得来自荒野更新和足迹与故事更新的所有唱片（Relic除外）"
-			title: "荒沼、沙漠、樱林（WIP）"
+			tasks: [
+				{
+					id: "493BC371FE655719"
+					item: "kubejs:disc_aerie"
+					type: "item"
+				}
+				{
+					id: "29207E71A0B1DBD5"
+					item: "kubejs:disc_firebugs"
+					type: "item"
+				}
+				{
+					id: "125826CF05C44ED9"
+					item: "kubejs:disc_labyrinthine"
+					type: "item"
+				}
+				{
+					id: "6668A94E863D7894"
+					item: "kubejs:disc_a_familiar_room"
+					type: "item"
+				}
+				{
+					id: "6EEC852FFD4D1A62"
+					item: "kubejs:disc_bromeliad"
+					type: "item"
+				}
+				{
+					id: "520216128BEEDE0C"
+					item: "kubejs:disc_crescent_dunes"
+					type: "item"
+				}
+				{
+					id: "6C722449EF5B01DA"
+					item: "kubejs:disc_echo_in_the_wind"
+					type: "item"
+				}
+			]
+			title: "荒沼、沙漠、樱林"
 			x: 10.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["266E9B476DE35BE2"]
 			id: "7ED2F6FD7D9E2888"
+			rewards: [
+				{
+					count: 4
+					id: "0A33A9733E7BF502"
+					item: "gtceu:platinum_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5308BE0B449FCE2E"
+					table_id: 328085211529791517L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F0C62B70693D410"
+					table_id: 4210225765629115356L
+					type: "choice"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "累计游玩时长达到7天"
@@ -985,6 +1134,83 @@
 			}]
 			x: -10.0d
 			y: -11.0d
+		}
+		{
+			id: "322381B81E0E9938"
+			rewards: [{
+				count: 4
+				id: "3B33513FA13875E2"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "获得来自棘巧试炼更新的所有唱片"
+			tasks: [
+				{
+					id: "17110C785A284BD8"
+					item: "kubejs:disc_creator"
+					type: "item"
+				}
+				{
+					id: "62934D789A64D753"
+					item: "kubejs:disc_creator_music_box"
+					type: "item"
+				}
+				{
+					id: "43100C60451F6F64"
+					item: "kubejs:disc_deeper"
+					type: "item"
+				}
+				{
+					id: "311611101068DD64"
+					item: "kubejs:disc_eld_unknown"
+					type: "item"
+				}
+				{
+					id: "1319ADD54BA1CBAB"
+					item: "kubejs:disc_endless"
+					type: "item"
+				}
+				{
+					id: "066C773C5E96D271"
+					item: "kubejs:disc_featherfall"
+					type: "item"
+				}
+				{
+					id: "40F854D4392D9AB9"
+					item: "kubejs:disc_komorebi"
+					type: "item"
+				}
+				{
+					id: "6039F8FEF4101723"
+					item: "kubejs:disc_pokopoko"
+					type: "item"
+				}
+				{
+					id: "662B5025E4E56F37"
+					item: "kubejs:disc_precipice"
+					type: "item"
+				}
+				{
+					id: "374190A354E797B9"
+					item: "kubejs:disc_puzzlebox"
+					type: "item"
+				}
+				{
+					id: "005568B50836D249"
+					item: "kubejs:disc_watcher"
+					type: "item"
+				}
+				{
+					id: "7E95984486761BE7"
+					item: "kubejs:disc_yakusoku"
+					type: "item"
+				}
+			]
+			title: "试炼要塞"
+			x: 14.0d
+			y: -7.0d
 		}
 	]
 	title: "镐♂事狂"

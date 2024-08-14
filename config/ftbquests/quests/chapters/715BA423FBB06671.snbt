@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "715BA423FBB06671"
 	group: "3A8D137D2E3EED65"
+	hide_quest_until_deps_visible: true
 	icon: "gtceu:darmstadtium_ingot"
 	id: "715BA423FBB06671"
 	order_index: 2
