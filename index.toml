@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "LICENSE"
-hash = "b9709407aa81f036b7d2ffaaea9b5cccca1cbb6bf84a7e56ba782cbaf2f3b055"
+hash = "4478eebd4d20431e458e167e9c39699dcac7501bdce60db51b48d01e45f14714"
 
 [[files]]
 file = "config/ModernUI/bootstrap.properties"
@@ -1022,35 +1022,35 @@ hash = "bba858803826717c4314a21b50dcc0be5293699be4aba4c5689b6264cdb1cfc3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/14A262D42F923950.snbt"
-hash = "4c56dd62aa6012b081fa139bb794f9c6347cdf7b321404fe6bb1a697a0bc8d65"
+hash = "4625b97ac09b6489cfd71fb33ad677f62d2dd15e6299dccf906551f89620995c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1B3B15BB8A39466B.snbt"
-hash = "e23f8d6b3c48dedc9973bfa823e2aaccc0842ecf62072945b47f0dd294aa7d61"
+hash = "6a923b6c8d2f23dcdcd9b87f3826226a58de36430c3ca3c44f4eca6593da15e4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1E3ACF07AE49E0A1.snbt"
-hash = "b4c9a6e92fe4e28ff4533a5b022f030f49906cfa3d9151ee2795dfa65f425bc9"
+hash = "1ef5447c33d3787be37d5e6871260488e043e3b1078994720e941c89ed3f78bd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1FBD14CA0DD6B7BE.snbt"
-hash = "29978fb99069869b00a248ec3127da046f9377f28bdc9690fdf96f694fa7e0cf"
+hash = "7fb05a950d95bad0c7e73683e5897cd44e666df5934796fa3238cdaad11d4c3e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/261A4AF777913AE2.snbt"
-hash = "b425f4c9257a82038384236172cf9fc5c151168e20d0f4a8b77b582a5bb3e96d"
+hash = "ae2736ee4dc834eee5b3519a94fbab97f7340785d8d7acb64b00771beb1879ca"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/2DD31F3AA6E24C5A.snbt"
-hash = "1c25206f2465514fb7a138ea26022d0ef360a2fe69b3d2ebe8f93e3b8d33963c"
+hash = "4d9e51f19829e6cc69c76d04cc23144bf5650bda0a7f24d77aa47c8c10135ceb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/3A50D89EAFA220A7.snbt"
-hash = "ad79857851ce976f4d5baf51edb526c67722947f3c40b038b62d85e58c437d35"
+hash = "17e09e423e5e183dadd5c04733bd152853611f27dc3a08a1408bd6eb2747c753"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/40C80F97AD03B93E.snbt"
-hash = "1a505c36bdf86225cfb95cb65b18b6c533108ff29a9280c356972d52f0651553"
+hash = "d03f0dc7a9bfcb3308fed3124841c14e5d1018443476a5a49a31de9781a095bf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/49293A59CA6A2C32.snbt"
@@ -1058,11 +1058,11 @@ hash = "3a036d70bfea98c0d47b1002c4e7f97f90278c12991a1d414f676d1d63547fca"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/4B5247CCAD19D275.snbt"
-hash = "80256afec1577e887f5bf3de9a43bf5d4551a3ac14ed92d0b48ffb1b0ff75012"
+hash = "6264ac6e3dc2b0ab4354661f27bb34bee40aa13601965ecb7ae6aed7d0ecbee5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6EA1D3B254ACB849.snbt"
-hash = "ce55bdc6d63cc6a45b03108bbcb549c1815dd621bdb3b4d64cd0c0db2b6243c1"
+hash = "ca23f619ecdfcf162db2c02a4cc88e915d1df776183327265b0980102688adab"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/7012ABF82C9D6B1E.snbt"
@@ -1070,7 +1070,7 @@ hash = "c16e2c6d331304c5ee87f37e52f13d923ea467ce64a6fae3271d3dbef4071b55"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/715BA423FBB06671.snbt"
-hash = "18a7dcc9513731b62d5a7b0501829220818409f407802b786cedf93c2ec40a3d"
+hash = "eb935fe0cff9e69e95a72397b79ffe25298df41cb512d1ed708d9bb1cd973275"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/7CAEE491A68F22EC.snbt"
@@ -1078,7 +1078,7 @@ hash = "5dc9ea7c7146d84a5d012fcd5113d8ed6e8601f71f2c664c77ccdb8a8cd56428"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lv.snbt"
-hash = "2a49dfcd76d81e25cd30edfb5479dae65e081795ed64fab73cc41fedb0adbcc5"
+hash = "70e174de4c1eb1f54f960fdd6e2951fd2e61d10a160569d83793d36974dd3bd8"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -1810,11 +1810,19 @@ hash = "56bd1e7eabf2dcb7407ff25ca44649d26ecea333364cdb9854a53924db644fe8"
 
 [[files]]
 file = "hmclversion.cfg"
-hash = "aea8824ad90700f3dd7891fd3fb962862e266b8dc032abde6759db8aa5429579"
+hash = "b6d2d71318c25d01567015f1b0be09227c78af6f7b72371127b6c7283adfd4b5"
 
 [[files]]
 file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
+
+[[files]]
+file = "kubejs/assets/ad_astra/lang/en_us.json"
+hash = "3e9f193f8bd28a0c206af4fe08c5334a603cf40dc87752be43b9768078c6c904"
+
+[[files]]
+file = "kubejs/assets/ad_astra/lang/zh_cn.json"
+hash = "f88fa0a7f9d63d695f47eadd0cac3e43675f005d0dc43f2c7ced4520702a40a7"
 
 [[files]]
 file = "kubejs/assets/bakery/lang/zh_cn.json"
@@ -4050,7 +4058,7 @@ hash = "9658f2911b8ae892131186709f5b9265960b884f344101de0b3e98c81ad778dc"
 
 [[files]]
 file = "kubejs/server_scripts/transport.js"
-hash = "d1a5a24cc4ca329439360a6d194c21ff05f8969a42ff3ecaf2ba0fe8b663dfbe"
+hash = "cff4fa89682aeee97b6a95469242a406f41d3de61d67073a914804048df5fae9"
 
 [[files]]
 file = "kubejs/server_scripts/tweaks.js"
@@ -4086,7 +4094,7 @@ hash = "52021232624961a620ef0cb9e2fc2040331decdaba088dd018e640367c6e1976"
 
 [[files]]
 file = "modpack.cfg"
-hash = "3370cb133ab115b65139ba9c4dc9694dd3660a4a940bfcc8a698578242057271"
+hash = "a21d2c79d10dc7af203f92a2e9f499be0c0f4e85fde4d605e3da2ba4df097ed5"
 
 [[files]]
 file = "mods/EnderIO-1.20.1-6.1.8-beta-all.jar"
@@ -4995,9 +5003,4 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "511403065c298d4b93d564e3998a025e82ad56a2fbb62e156df7d917f94f1613"
-
-[[files]]
-file = "resourcepacks/presense-footsteps-sounds.pw.toml"
-hash = "08c29712c96e34e03f700d6f2c3d2e68281e0b5163c9587a335ef3e7dd473f37"
-metafile = true
+hash = "a500a8032310a4f29d2748ec2ac4fdaf4cde538d8e4ca8caadcc4ae0b5395fe4"
