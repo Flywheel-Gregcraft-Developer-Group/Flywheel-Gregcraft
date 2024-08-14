@@ -223,6 +223,13 @@
   "item.kubejs.disc_dreiton": "Minecraft Music Disc (Volume Beta)",
   "item.kubejs.disc_the_end": "Minecraft Music Disc (Volume Beta)",
 
+  "item.kubejs.disc_axolotl.desc": "§9Axolotl - §7C418",
+  "item.kubejs.disc_dragon_fish.desc": "§9Dragon Fish - §7C418",
+  "item.kubejs.disc_shuniji.desc": "§9Shuniji - §7C418",
+  "item.kubejs.disc_axolotl": "Music Disc (Ocean Update)",
+  "item.kubejs.disc_dragon_fish": "Music Disc (Ocean Update)",
+  "item.kubejs.disc_shuniji": "Music Disc (Ocean Update)",
+
   "item.kubejs.disc_chrysopoeia.desc": "§4Chrysopoeia - §7Lena Raine",
   "item.kubejs.disc_rubedo.desc": "§4Rubedo - §7Lena Raine",
   "item.kubejs.disc_so_below.desc": "§4So Below - §7Lena Raine",
