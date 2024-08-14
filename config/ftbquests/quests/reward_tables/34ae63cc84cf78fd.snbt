@@ -6,7 +6,7 @@
 		{ item: "create:andesite_alloy", weight: 20.0f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "create:shaft"
 				tag: { }
 			}
@@ -20,7 +20,7 @@
 		{ item: "create:iron_sheet", weight: 4.0f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "create:copper_sheet"
 				tag: { }
 			}

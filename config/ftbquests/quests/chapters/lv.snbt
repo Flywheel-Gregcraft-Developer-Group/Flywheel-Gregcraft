@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "lv"
-	group: "3F12A3D145F5F546"
+	group: "3A8D137D2E3EED65"
 	icon: "gtceu:steel_ingot"
 	id: "1CA6AC6EFD219DAA"
 	order_index: 0
@@ -15,38 +15,41 @@
 			]
 			description: ["        恭喜你进入了格雷的电力时代。"]
 			id: "4D1C91FE1518405B"
-			shape: "square"
-			subtitle: "你需要一点想象力来使用它"
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "你需要亿点想象力来使用它"
 			tasks: [{
 				id: "0071C22E1DE5C0C1"
 				item: "gtceu:lv_machine_hull"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -0.5d
+			x: -12.0d
+			y: -21.75d
 		}
 		{
 			dependencies: [
 				"3B9751B35499060D"
 				"4D1C91FE1518405B"
 			]
-			description: ["在现代的工业机械中，马达理所应当地成为最重要的角色之一。你可能需要准备成组的马达。"]
+			description: ["        在现代的工业机械中，马达理所应当地成为最重要的角色之一。你可能需要准备成组的马达。"]
 			id: "38FDB1969589283C"
 			shape: "square"
+			size: 2.0d
 			subtitle: "机械的优秀动力元件"
 			tasks: [{
 				id: "3AADDFFEB8CF78E1"
 				item: "gtceu:lv_electric_motor"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 1.5d
+			x: -12.0d
+			y: -15.75d
 		}
 		{
 			dependencies: ["38FDB1969589283C"]
 			description: ["    这些基础构件会贯穿格雷的始末。"]
 			id: "3B01EAB12AA666E2"
 			shape: "square"
+			size: 2.0d
 			tasks: [
 				{
 					id: "62E5346297708375"
@@ -70,32 +73,35 @@
 				}
 			]
 			title: "四幻神"
-			x: 0.0d
-			y: 3.5d
+			x: -12.0d
+			y: -12.75d
 		}
 		{
 			dependencies: ["38FDB1969589283C"]
 			description: ["    使用线材轧机可以用一个金属锭制作两个1x线缆。"]
 			id: "49608198E01A691E"
+			size: 2.0d
+			subtitle: "挤出来了！"
 			tasks: [{
 				id: "3C9ED96D9F9BE576"
 				item: "gtceu:lv_wiremill"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.5d
+			x: -9.0d
+			y: -15.75d
 		}
 		{
 			dependencies: ["3B01EAB12AA666E2"]
 			description: ["    卷板机可以使你使用一锭制作一板。"]
 			id: "0D3CC433BBECA25E"
+			size: 2.0d
 			tasks: [{
 				id: "01EF67C66FAEF8BF"
 				item: "gtceu:lv_bender"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 3.5d
+			x: -18.0d
+			y: -6.75d
 		}
 		{
 			dependencies: ["38FDB1969589283C"]
@@ -107,14 +113,15 @@
 				item: "gtceu:tin_quadruple_cable"
 				type: "item"
 			}]
+			size: 2.0d
 			subtitle: "新旧能源的过渡"
 			tasks: [{
 				id: "1DF9BE779CC8FE97"
 				item: "gtceu:lv_steam_turbine"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 1.5d
+			x: -15.0d
+			y: -15.75d
 		}
 		{
 			dependencies: [
@@ -124,27 +131,29 @@
 			dependency_requirement: "one_completed"
 			description: ["        虽说你可以直接用红石和铁部件合成对应的磁化铁部件，但对于这类用途极广且将来要大规模生产的材料来说，实在是太不合算了。两极磁化机可以低消耗且高效地完成这项任务，且随着以后机器每提高一个电压等级，这类配方可以选择用消耗更大电力为代价，换取翻倍的速度，我们将此称之为“超频”。"]
 			id: "3B9751B35499060D"
+			size: 2.0d
 			subtitle: "软磁性材料"
 			tasks: [{
 				id: "0A093B6D21DB8BB3"
 				item: "gtceu:magnetic_iron_rod"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 0.5d
+			x: -15.0d
+			y: -18.75d
 		}
 		{
 			dependencies: ["4D1C91FE1518405B"]
 			description: ["        磁化机可以制作磁化杆。如果你还没有做出发电装置，可以使用红石放在GUI的电力格供电。"]
 			id: "2BEFC966A074BE75"
+			size: 2.0d
 			subtitle: "影响分子电流"
 			tasks: [{
 				id: "5BA8FDA5F90698F5"
 				item: "gtceu:lv_polarizer"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -0.5d
+			x: -15.0d
+			y: -21.75d
 		}
 		{
 			dependencies: ["5C153644C9C05C42"]
@@ -153,6 +162,8 @@
 				"    另外，推荐利用机械动力制作一个无限岩浆池，以满足锅炉的燃料消耗。树场供给木炭也是可以的，不过你可能需要做很大一片树场了。"
 			]
 			id: "26115E6236A79C72"
+			size: 2.0d
+			subtitle: "茶炉阵列"
 			tasks: [
 				{
 					id: "02E86DA4F981E7B7"
@@ -195,8 +206,8 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
-			y: 1.5d
+			x: -18.0d
+			y: -15.75d
 		}
 		{
 			dependencies: [
@@ -209,8 +220,10 @@
 				"    要烧炼下个阶段的金属铝，你需要两个能源仓，每个能源仓最多接受2A电流。(所以请保证你有4aLV的供电)"
 				"    电力高炉还存在炉温奖励机制，在提升电压的同时升级你的高炉线圈，可以降低加工的电力消耗，不过现在你不需要关注这些。"
 			]
+			icon: "gtceu:electric_blast_furnace"
 			id: "3AE913B342684380"
 			shape: "square"
+			size: 2.0d
 			tasks: [
 				{
 					id: "2D624519FFDDFD27"
@@ -254,53 +267,58 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 7.5d
+			x: -12.0d
+			y: -2.75d
 		}
 		{
 			dependencies: ["3B01EAB12AA666E2"]
 			id: "378218737BFD41CA"
+			size: 2.0d
 			tasks: [{
 				id: "0E263BD789FCE716"
 				item: "gtceu:lv_assembler"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 5.5d
+			x: -10.0d
+			y: -6.75d
 		}
 		{
 			dependencies: ["3B01EAB12AA666E2"]
 			id: "51682529AB8F6E8E"
+			size: 2.0d
 			tasks: [{
 				id: "135DE6016E98B30F"
 				item: "gtceu:lv_extractor"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 5.5d
+			x: -14.0d
+			y: -6.75d
 		}
 		{
 			dependencies: ["3B01EAB12AA666E2"]
 			id: "783D950B17AA1D25"
 			shape: "circle"
+			size: 2.0d
 			tasks: [{
 				id: "12F96BA665C7615F"
 				item: "gtceu:lv_mixer"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 5.5d
+			x: -12.0d
+			y: -6.75d
 		}
 		{
 			dependencies: ["3B01EAB12AA666E2"]
 			id: "2A4F33B35305AA85"
+			size: 2.0d
+			subtitle: "高温融合！"
 			tasks: [{
 				id: "1A3A0BAEBEECBFB6"
 				item: "gtceu:lv_alloy_smelter"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 3.5d
+			x: -15.0d
+			y: -12.75d
 		}
 		{
 			dependencies: [
@@ -313,6 +331,8 @@
 				"    这是很有用的机器，请务必做几个来处理矿物增产。"
 			]
 			id: "2AD6ADA59A7DCDE1"
+			size: 2.0d
+			subtitle: "大碾子"
 			tasks: [
 				{
 					id: "18F05495B2EE7637"
@@ -340,8 +360,8 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
-			y: 3.5d
+			x: -18.0d
+			y: -12.75d
 		}
 		{
 			dependencies: ["3B01EAB12AA666E2"]
@@ -353,25 +373,27 @@
 				item: "gtceu:green_sapphire_ore"
 				type: "item"
 			}]
+			size: 2.0d
 			tasks: [{
 				id: "327202128B538D7E"
 				item: "gtceu:lv_electrolyzer"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 5.5d
+			x: -16.0d
+			y: -6.75d
 		}
 		{
 			dependencies: ["7D31E48A5C1C2A37"]
 			description: ["    电解绿色蓝宝石获得铝粉。之后你还可以用别的矿物电解获得。"]
 			id: "4BA95D1083045294"
+			size: 2.0d
 			tasks: [{
 				id: "4C50F6939D609317"
 				item: "gtceu:aluminium_dust"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 7.5d
+			x: -16.0d
+			y: 1.25d
 		}
 		{
 			dependencies: [
@@ -381,29 +403,32 @@
 			description: ["    铝可以拿来做储罐、工具以及机器外壳。"]
 			id: "11EA87FD280C6395"
 			shape: "square"
+			size: 2.0d
 			tasks: [{
 				id: "53179616A5C9ACBC"
 				item: "gtceu:aluminium_ingot"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 9.5d
+			x: -12.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["3B01EAB12AA666E2"]
-			description: ["    在地狱你可以找到石英岩矿脉。它是制作信号元件的材料。"]
+			description: ["        在下界你可以找到石英岩矿脉。它是制作信号元件的材料。"]
 			id: "366D36898A3CFDEF"
+			size: 2.0d
 			tasks: [{
 				id: "5B030DED62315239"
 				item: "gtceu:quartzite_gem"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 2.5d
+			x: -9.0d
+			y: -12.75d
 		}
 		{
 			dependencies: ["366D36898A3CFDEF"]
 			id: "1A43BB52A56FE652"
+			size: 2.0d
 			tasks: [
 				{
 					id: "3C90F67958844A2E"
@@ -416,8 +441,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 2.5d
+			x: -6.0d
+			y: -12.75d
 		}
 		{
 			dependencies: ["1A43BB52A56FE652"]
@@ -427,7 +452,7 @@
 				count: 4
 				id: "27E493547D57514F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:potion"
 					tag: {
 						Potion: "minecraft:night_vision"
@@ -435,24 +460,28 @@
 				}
 				type: "item"
 			}]
+			size: 2.0d
+			subtitle: "元素感应器"
 			tasks: [{
 				id: "200FA3F6A3097F1A"
 				item: "gtceu:prospector.lv"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 2.5d
+			x: -3.0d
+			y: -12.75d
 		}
 		{
 			dependencies: ["1A43BB52A56FE652"]
 			id: "348F7974C8701C31"
+			size: 2.0d
+			subtitle: "心不灵，手更巧"
 			tasks: [{
 				id: "4625AF90BECB8B48"
 				item: "gtceu:lv_circuit_assembler"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 3.5d
+			x: -6.0d
+			y: -9.75d
 		}
 		{
 			dependencies: [
@@ -461,13 +490,14 @@
 			]
 			description: ["    你做的前几个电路板还只能用工作台合成。有了电路板以后可以制作本等级的电路组装机，可以帮你节省材料制作电路板。"]
 			id: "1FBC92CC3C66147E"
+			size: 2.0d
 			tasks: [{
 				id: "757D4284CB62EF27"
 				item: "gtceu:good_electronic_circuit"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 9.5d
+			x: -6.0d
+			y: 1.25d
 		}
 		{
 			dependencies: [
@@ -475,13 +505,14 @@
 				"0A843FB0C2051F52"
 			]
 			id: "3980C6178FA417A7"
+			size: 2.0d
 			tasks: [{
 				id: "32916D02F6BAC620"
 				item: "gtceu:phenolic_printed_circuit_board"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 7.5d
+			x: -6.0d
+			y: -2.75d
 		}
 		{
 			dependencies: [
@@ -490,25 +521,27 @@
 				"75DA43F0238256AE"
 			]
 			id: "7E9FA796D1D47C1B"
+			size: 2.0d
 			tasks: [{
 				id: "7C0A41854F275814"
 				item: "gtceu:diode"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 7.5d
+			x: -8.0d
+			y: -2.75d
 		}
 		{
 			dependencies: ["3B01EAB12AA666E2"]
 			description: ["    离心机可以离心树脂获得胶水。"]
 			id: "0A843FB0C2051F52"
+			size: 2.0d
 			tasks: [{
 				id: "704BC24871D03D66"
 				item: "gtceu:lv_centrifuge"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 5.5d
+			x: -6.0d
+			y: -6.75d
 		}
 		{
 			dependencies: ["0A843FB0C2051F52"]
@@ -517,13 +550,14 @@
 				"    镓可以从闪锌矿离心得来。砷可以从雄黄离心得来。"
 			]
 			id: "382A2BB6C643C50B"
+			size: 2.0d
 			tasks: [{
 				id: "2AD2570F9BE14A1B"
 				item: "gtceu:gallium_arsenide_dust"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 6.5d
+			x: -4.0d
+			y: -2.75d
 		}
 		{
 			dependencies: ["3B01EAB12AA666E2"]
@@ -533,56 +567,827 @@
 				"    乙烯的乙醇可以利用机械动力做农场进行酿造蒸馏。硫酸通过硫和氧化反来获得。"
 			]
 			id: "75DA43F0238256AE"
+			size: 2.0d
 			tasks: [{
 				id: "78590825B02C99D5"
 				item: "gtceu:lv_chemical_reactor"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["11EA87FD280C6395"]
-			description: ["    你离MV阶段不远了，不过你可能需要看看那些需要自动化的东西。"]
-			id: "4D1BC95EA37D0F2D"
-			shape: "square"
-			tasks: [{
-				id: "6FF638258B81D319"
-				item: "gtceu:mv_machine_hull"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 11.5d
+			x: -8.0d
+			y: -6.75d
 		}
 		{
 			dependencies: ["1A43BB52A56FE652"]
 			description: ["    采矿机可以自动采矿，不过速度有点慢慢，而且野外供电需要使用如内燃机之类的可以使用便携燃料的发电机。需要保持被挖掘区块加载。"]
 			id: "3665AC2CD96AACCD"
+			size: 2.0d
+			subtitle: "掏空地下空间"
 			tasks: [{
 				id: "1DF56D901B938B2A"
 				item: "gtceu:lv_miner"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 1.5d
+			x: -6.0d
+			y: -15.75d
 		}
 		{
 			dependencies: [
-				"11EA87FD280C6395"
 				"1FBC92CC3C66147E"
+				"11EA87FD280C6395"
 			]
-			icon: "gtceu:good_integrated_circuit"
-			id: "29D326D2ADF1E656"
+			icon: "gtceu:mv_machine_hull"
+			id: "48D53271C0A0394B"
+			rewards: [
+				{
+					count: 4
+					id: "30DF9B2028BE0D0B"
+					item: "gtceu:gold_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E50600DF3685ABE"
+					table_id: 3241289162831382726L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31F34440758CD9C2"
+					table_id: 3241289162831382726L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7CDEC36A7648B29E"
+					table_id: 1014527674025395498L
+					type: "loot"
+				}
+				{
+					id: "04CEE0A67F300F20"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 3.0d
+			subtitle: "进入中压电力时代"
+			tasks: [
+				{
+					id: "134F07F12390F10B"
+					item: "gtceu:mv_machine_hull"
+					type: "item"
+				}
+				{
+					id: "4D0F9EE7826AB287"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "gtceu:circuits/mv"
+						}
+					}
+					title: "Any #gtceu:circuits/mv"
+					type: "item"
+				}
+			]
+			title: "MV时代"
+			x: -6.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["48D53271C0A0394B"]
+			icon: "immersive_aircraft:biplane"
+			id: "684E2F7A362FA79A"
 			size: 2.0d
-			subtitle: "获得铝和MV级电路板标志着你可以进入MV电压时代了，请参阅旧版引导以继续。"
+			subtitle: "制造飞机机身，以组装不同类型的飞机"
 			tasks: [{
-				id: "359945ADCF7ED9F2"
-				title: "MV时代"
+				id: "1A2B7F7ADA2085D6"
+				item: "immersive_aircraft:hull"
+				type: "item"
+			}]
+			title: "向往天空"
+			x: -9.0d
+			y: 8.25d
+		}
+		{
+			dependencies: ["684E2F7A362FA79A"]
+			icon: "immersive_aircraft:quadrocopter"
+			id: "297773713DDD1C5F"
+			size: 2.0d
+			subtitle: "制造所有类型的飞行器"
+			tasks: [
+				{
+					id: "246BCC983F0B1AE6"
+					item: "immersive_aircraft:biplane"
+					type: "item"
+				}
+				{
+					id: "5183E4993EC2CC6C"
+					item: "immersive_aircraft:airship"
+					type: "item"
+				}
+				{
+					id: "547B38CF1C60EA02"
+					item: "immersive_aircraft:gyrodyne"
+					type: "item"
+				}
+				{
+					id: "1210CD30001616CC"
+					item: "immersive_aircraft:quadrocopter"
+					type: "item"
+				}
+			]
+			title: "达芬奇幻想！"
+			x: -12.0d
+			y: 8.25d
+		}
+		{
+			dependencies: ["48D53271C0A0394B"]
+			id: "54F094B427D19940"
+			size: 2.0d
+			subtitle: "制造第一台电脑"
+			tasks: [{
+				id: "594594B0019BF120"
+				item: "computercraft:computer_normal"
+				type: "item"
+			}]
+			title: "信息时代的曙光"
+			x: -6.0d
+			y: 8.25d
+		}
+		{
+			dependencies: [
+				"0FB391A4F0C67B3D"
+				"3322D4466466439A"
+			]
+			icon: "gtceu:hv_machine_hull"
+			id: "62BC514FE9DF4228"
+			rewards: [
+				{
+					id: "63D6A2A8704F1374"
+					item: "gtceu:platinum_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "56661B6D38D44CA0"
+					table_id: 1014527674025395498L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5AC4534FB508FD43"
+					table_id: 1014527674025395498L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6BF989425D2F19A5"
+					table_id: 3363814704214781808L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "05C20B9FCB002F22"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 3.0d
+			subtitle: "进入高压时代"
+			tasks: [
+				{
+					id: "198D32CC49B6D062"
+					item: "gtceu:hv_machine_hull"
+					type: "item"
+				}
+				{
+					id: "316015D400D3C6C9"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "gtceu:circuits/hv"
+						}
+					}
+					title: "Any #gtceu:circuits/hv"
+					type: "item"
+				}
+			]
+			title: "高压电力"
+			x: 14.0d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"2AB67B83058EA646"
+				"0B54096D2DF9ED7A"
+			]
+			icon: "gtceu:titanium_ingot"
+			id: "7FEA1D8E09266522"
+			rewards: [
+				{
+					count: 2
+					id: "7BE1748F3D62E95A"
+					item: "gtceu:platinum_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5CCA12F70E24A903"
+					table_id: 3363814704214781808L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "622944246A7BEC6D"
+					table_id: 3363814704214781808L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B208688B7FC190E"
+					table_id: 5268861635492843781L
+					type: "loot"
+				}
+				{
+					count: 4
+					id: "32DF872A561405C9"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 3.0d
+			subtitle: "通过多重步骤提取钛并熔炼成钛锭，进入EV时代"
+			tasks: [
+				{
+					id: "58E77EF5CD87CE71"
+					item: "gtceu:titanium_ingot"
+					type: "item"
+				}
+				{
+					id: "7D9F019DB37820BE"
+					item: "gtceu:micro_processor_computer"
+					type: "item"
+				}
+			]
+			title: "EV电力"
+			x: 13.0d
+			y: -10.75d
+		}
+		{
+			dependencies: ["48D53271C0A0394B"]
+			icon: "gtceu:mv_laser_engraver"
+			id: "5EF8FF59A192BC2D"
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					id: "13D20F3E6FB7C9E3"
+					item: "gtceu:mv_cutter"
+					type: "item"
+				}
+				{
+					id: "5B0D251639D832D2"
+					item: "gtceu:mv_laser_engraver"
+					type: "item"
+				}
+				{
+					id: "791D0B6FF2ECA947"
+					item: "gtceu:mv_lathe"
+					type: "item"
+				}
+			]
+			title: "生产芯片的准备"
+			x: -2.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["5EF8FF59A192BC2D"]
+			icon: "gtceu:silicon_boule"
+			id: "6320B24763E1E513"
+			require_sequential_tasks: true
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "507D058C3C4E56A9"
+				item: "gtceu:silicon_wafer"
+				type: "item"
+			}]
+			title: "硅基产业"
+			x: 1.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["6320B24763E1E513"]
+			icon: "gtceu:ilc_chip"
+			id: "6A18A22FDA038E33"
+			require_sequential_tasks: true
+			shape: "square"
+			size: 2.0d
+			subtitle: "基本集成电路元件"
+			tasks: [
+				{
+					id: "21570D7BC630BF1D"
+					item: "gtceu:ilc_chip"
+					type: "item"
+				}
+				{
+					id: "46D32C01767C9C02"
+					item: "gtceu:ulpic_chip"
+					type: "item"
+				}
+				{
+					id: "6D7368532CEA52B4"
+					item: "gtceu:ram_chip"
+					type: "item"
+				}
+			]
+			title: "芯片制造"
+			x: 4.0d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"6A18A22FDA038E33"
+				"1BDA57D46A3522D6"
+			]
+			icon: "gtceu:mv_energy_input_hatch"
+			id: "6BA9CBBF8579CBEF"
+			require_sequential_tasks: true
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				count: 2L
+				id: "28A9658C7BBCECF6"
+				item: "gtceu:mv_energy_input_hatch"
+				type: "item"
+			}]
+			title: "中压能源仓"
+			x: 4.0d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"6A18A22FDA038E33"
+				"488E9ACD91C3F236"
+				"193426A805DD3C48"
+				"0F6F6586E2C8E07F"
+				"5D5B114326CA6DD4"
+				"72A881D49AA53C23"
+			]
+			icon: "gtceu:advanced_integrated_circuit"
+			id: "3322D4466466439A"
+			require_sequential_tasks: true
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "70FD86BDBB7BB820"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
+			title: "高压级电路板"
+			x: 7.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["48D53271C0A0394B"]
+			icon: "gtceu:mv_electrolyzer"
+			id: "5C40222EE0F499A0"
+			shape: "square"
+			size: 2.0d
+			subtitle: "提纯再混合"
+			tasks: [
+				{
+					id: "76CB64CE145B5A60"
+					item: "gtceu:mv_electrolyzer"
+					type: "item"
+				}
+				{
+					id: "2A6722E36DDB3D59"
+					item: "gtceu:mv_mixer"
+					type: "item"
+				}
+			]
+			title: "制造更多合金粉末的准备"
+			x: -2.0d
+			y: 8.25d
+		}
+		{
+			dependencies: ["5C40222EE0F499A0"]
+			icon: "gtceu:stainless_steel_dust"
+			id: "1329FEEC7A11B44D"
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					id: "65A602EABFDA219F"
+					item: "gtceu:chromium_dust"
+					type: "item"
+				}
+				{
+					id: "2EF42BF90344E817"
+					item: "gtceu:manganese_dust"
+					type: "item"
+				}
+				{
+					id: "196F2067BBF96C8F"
+					item: "gtceu:stainless_steel_dust"
+					type: "item"
+				}
+			]
+			title: "不锈钢粉末"
+			x: 1.0d
+			y: 8.25d
+		}
+		{
+			dependencies: [
+				"1329FEEC7A11B44D"
+				"6BA9CBBF8579CBEF"
+			]
+			id: "0FB391A4F0C67B3D"
+			shape: "square"
+			size: 2.0d
+			subtitle: "第二代通用材料"
+			tasks: [{
+				id: "151E32FB86795706"
+				item: "gtceu:stainless_steel_ingot"
+				type: "item"
+			}]
+			title: "不锈钢生产"
+			x: 10.0d
+			y: 8.25d
+		}
+		{
+			dependencies: ["48D53271C0A0394B"]
+			icon: "gtceu:lv_distillery"
+			id: "6237EAB8FF92BFB5"
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					id: "0FC29AE212B3BA32"
+					item: "gtceu:lv_distillery"
+					type: "item"
+				}
+				{
+					id: "280CAA2A591D4C44"
+					item: "gtceu:lv_chemical_reactor"
+					type: "item"
+				}
+			]
+			title: "化工的准备"
+			x: -2.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["48D53271C0A0394B"]
+			hide_dependency_lines: true
+			icon: "gtceu:mv_assembler"
+			id: "1BDA57D46A3522D6"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "33A58173C038FB8D"
+				item: "gtceu:mv_assembler"
+				type: "item"
+			}]
+			title: "中压级组装"
+			x: 1.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["48D53271C0A0394B"]
+			description: ["        如果你生产了足够的MV材料，你也可以一步到位制作MV级化工设备。"]
+			hide_dependency_lines: true
+			icon: "gtceu:mv_distillery"
+			id: "16306915033C5FB8"
+			shape: "circle"
+			size: 1.5d
+			tasks: [
+				{
+					id: "31FB57FD22589BA2"
+					item: "gtceu:mv_distillery"
+					type: "item"
+				}
+				{
+					id: "49A21E3FF30E8AF4"
+					item: "gtceu:mv_chemical_reactor"
+					type: "item"
+				}
+			]
+			title: "化工的准备（上位替代）"
+			x: -1.75d
+			y: -2.75d
+		}
+		{
+			dependencies: [
+				"6237EAB8FF92BFB5"
+				"16306915033C5FB8"
+			]
+			dependency_requirement: "all_started"
+			icon: "gtceu:polyethylene_bucket"
+			id: "193426A805DD3C48"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "1F8EF9872C1584D1"
+				item: "gtceu:polyethylene_plate"
+				type: "item"
+			}]
+			title: "制备聚乙烯"
+			x: 1.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["48D53271C0A0394B"]
+			hide_dependency_lines: true
+			icon: "gtceu:lv_circuit_assembler"
+			id: "488E9ACD91C3F236"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "4590F5F8AB2227BB"
+				item: "gtceu:lv_circuit_assembler"
+				type: "item"
+			}]
+			title: "你的手不够精巧"
+			x: 4.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["48D53271C0A0394B"]
+			hide_dependency_lines: true
+			icon: "gtceu:annealed_copper_ingot"
+			id: "0F6F6586E2C8E07F"
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					id: "7A2CDBF50B2AE786"
+					item: "gtceu:lv_arc_furnace"
+					type: "item"
+				}
+				{
+					id: "2297C77E9BCA784E"
+					item: "gtceu:mv_arc_furnace"
+					type: "item"
+				}
+				{
+					id: "318669F31C5EF98B"
+					item: "gtceu:annealed_copper_ingot"
+					type: "item"
+				}
+			]
+			title: "退火铜"
+			x: 7.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["5C40222EE0F499A0"]
+			icon: "gtceu:kanthal_dust"
+			id: "7F30F321574474D0"
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					id: "3B1C624D7E7D394F"
+					item: "gtceu:chromium_dust"
+					type: "item"
+				}
+				{
+					id: "253ECCBF6FA8DDF7"
+					item: "gtceu:kanthal_dust"
+					type: "item"
+				}
+			]
+			title: "坎塔尔合金粉末"
+			x: 1.0d
+			y: 11.25d
+		}
+		{
+			dependencies: [
+				"7F30F321574474D0"
+				"6BA9CBBF8579CBEF"
+			]
+			icon: "gtceu:kanthal_ingot"
+			id: "271B65D0E165A478"
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					id: "4EFEF268F3F69113"
+					item: "gtceu:mv_chemical_bath"
+					type: "item"
+				}
+				{
+					id: "26ED9435128B304D"
+					item: "gtceu:kanthal_ingot"
+					type: "item"
+				}
+			]
+			title: "坎塔尔合金"
+			x: 4.0d
+			y: 11.25d
+		}
+		{
+			dependencies: ["271B65D0E165A478"]
+			id: "329AA8118F42673B"
+			shape: "square"
+			size: 2.0d
+			subtitle: "更热了！"
+			tasks: [{
+				count: 16L
+				id: "769E3BAAAB89547F"
+				item: "gtceu:kanthal_coil_block"
+				type: "item"
+			}]
+			title: "线圈升级"
+			x: 7.0d
+			y: 11.25d
+		}
+		{
+			dependencies: ["329AA8118F42673B"]
+			id: "5D5B114326CA6DD4"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "71A1952821C013DC"
+				item: "gtceu:silicon_ingot"
+				type: "item"
+			}]
+			title: "硅锭"
+			x: 7.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["48D53271C0A0394B"]
+			hide_dependency_lines: true
+			icon: "gtceu:electrum_ingot"
+			id: "72A881D49AA53C23"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "442B9F21EEB81091"
+				item: "gtceu:electrum_ingot"
+				type: "item"
+			}]
+			title: "琥珀金"
+			x: 10.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["62BC514FE9DF4228"]
+			icon: "gtceu:chlorine_bucket"
+			id: "29E9EAA1B4040431"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "448559EFCD0F5C80"
+				title: "制氯气"
 				type: "checkmark"
 			}]
-			x: 2.0d
-			y: 11.5d
+			title: "制备氯气"
+			x: 10.0d
+			y: -6.75d
+		}
+		{
+			dependencies: [
+				"29E9EAA1B4040431"
+				"1B4D69DD655E5056"
+				"170672B5767BB820"
+			]
+			icon: "gtceu:titanium_ingot"
+			id: "0B54096D2DF9ED7A"
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					id: "06FA99B2AF95D325"
+					item: "gtceu:vacuum_freezer"
+					type: "item"
+				}
+				{
+					id: "191D3795E2F531EF"
+					item: "gtceu:titanium_ingot"
+					type: "item"
+				}
+			]
+			title: "获得钛锭"
+			x: 7.0d
+			y: -10.75d
+		}
+		{
+			dependencies: ["62BC514FE9DF4228"]
+			id: "1B4D69DD655E5056"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "3F220480989970D5"
+				item: "gtceu:rutile_dust"
+				type: "item"
+			}]
+			title: "金红石"
+			x: 13.0d
+			y: -6.75d
+		}
+		{
+			dependencies: ["62BC514FE9DF4228"]
+			id: "170672B5767BB820"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "4E0C5DF21E9283FB"
+				item: "gtceu:magnesium_dust"
+				type: "item"
+			}]
+			title: "镁粉"
+			x: 7.0d
+			y: -6.75d
+		}
+		{
+			dependencies: ["2A79F2261091680F"]
+			id: "4829C6FA289CD786"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "3D3F2C311A2687A0"
+				item: "gtceu:plastic_printed_circuit_board"
+				type: "item"
+			}]
+			title: "塑料电路板"
+			x: 22.0d
+			y: -10.75d
+		}
+		{
+			dependencies: [
+				"4829C6FA289CD786"
+				"210E4713B732E852"
+				"7442ED799BC10E87"
+			]
+			icon: "gtceu:micro_processor_computer"
+			id: "2AB67B83058EA646"
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					id: "17D8126B0D7809CC"
+					item: "gtceu:mv_circuit_assembler"
+					type: "item"
+				}
+				{
+					id: "52D4333C522F9202"
+					item: "gtceu:micro_processor_computer"
+					type: "item"
+				}
+			]
+			title: "超算处理器"
+			x: 19.0d
+			y: -10.75d
+		}
+		{
+			dependencies: ["62BC514FE9DF4228"]
+			id: "210E4713B732E852"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "0FEDCB058B63E040"
+				item: "gtceu:cleanroom"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -6.75d
+		}
+		{
+			dependencies: ["62BC514FE9DF4228"]
+			icon: "gtceu:sulfuric_acid_bucket"
+			id: "2A79F2261091680F"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "3ACD0CE5CF4211CF"
+				title: "硫酸工业"
+				type: "checkmark"
+			}]
+			x: 22.0d
+			y: -6.75d
+		}
+		{
+			dependencies: ["62BC514FE9DF4228"]
+			id: "7442ED799BC10E87"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "694E69988884B1B8"
+				item: "gtceu:blue_alloy_ingot"
+				type: "item"
+			}]
+			title: "蓝色合金"
+			x: 19.0d
+			y: -6.75d
 		}
 	]
-	title: "格雷科技：低压LV"
+	title: "基础电力"
 }

@@ -1,0 +1,991 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1FBD14CA0DD6B7BE"
+	group: "2F0FBA7217AE95FB"
+	icon: {
+		Count: 1
+		id: "avaritia:infinity_pickaxe"
+		tag: { }
+	}
+	id: "1FBD14CA0DD6B7BE"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "46993D753AA32FBD"
+			rewards: [{
+				id: "69A7EDFB13F3419B"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "击杀第一个生物"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:wooden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "17DCAD5F460BA22F"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 1
+			}]
+			title: "第一滴血"
+			x: -18.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["734B13E47B70FA53"]
+			id: "2769A4D3A4DC69F5"
+			rewards: [
+				{
+					id: "2ADFAAD5CC2217DE"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7CB85DB5382DF751"
+					table_id: 328085211529791517L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "击杀100个生物"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "14F54D40071FD75A"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 100
+			}]
+			title: "百灵斩"
+			x: -10.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["2769A4D3A4DC69F5"]
+			id: "1495C812191A30F1"
+			rewards: [
+				{
+					id: "143C8026F9E66534"
+					item: "gtceu:gold_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F7EBEF58887C5D1"
+					table_id: 4210225765629115356L
+					type: "loot"
+				}
+				{
+					id: "675D916B4FA2B1B1"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "击杀1000个生物"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0336EB18A105D6A1"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 1000
+			}]
+			title: "千魂散"
+			x: -6.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["46993D753AA32FBD"]
+			id: "734B13E47B70FA53"
+			rewards: [{
+				count: 4
+				id: "4DC5A16D47B1B648"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "击杀10个生物"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:stone_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0B049061C5E6B3A3"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 10
+			}]
+			title: "十条命"
+			x: -14.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["1495C812191A30F1"]
+			id: "27CEF4C8E2416825"
+			rewards: [
+				{
+					id: "5B545967BF6C339B"
+					item: "gtceu:platinum_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4DF51AEE735D3296"
+					table_id: 328085211529791517L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "4ED9E15FAC6BBEB2"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "击杀10000个生物"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:netherite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3FD9F5CBDC62F17B"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 10000
+			}]
+			title: "万尽灭"
+			x: -2.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["27CEF4C8E2416825"]
+			id: "7D4FF435AFF2D544"
+			rewards: [
+				{
+					id: "79D3BFC433F9DBC6"
+					item: "gtceu:osmium_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "327979AFFCA364B4"
+					table_id: 4210225765629115356L
+					type: "loot"
+				}
+				{
+					count: 4
+					id: "3047CD6F143F0D9A"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "击杀100000个生物"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "gtceu:tungsten_steel_sword"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							AttackDamage: 10.0f
+							AttackSpeed: -2.4f
+							Damage: 0
+							MaxDamage: 2047
+						}
+						HideFlags: 2
+					}
+				}
+				id: "7002F4B0D0694B55"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 100000
+			}]
+			title: "十万碎"
+			x: 2.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["7D4FF435AFF2D544"]
+			id: "69653678AA1F9414"
+			rewards: [
+				{
+					id: "6788044352F57BF6"
+					item: "gtceu:naquadah_credit"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "154BAC57631B753C"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B697F909CC05FD2"
+					table_id: 6709666230684452828L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "击杀1000000个生物"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "gtceu:naquadah_alloy_sword"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: {
+							RelocateMinedBlocks: 1b
+						}
+						GT.Tool: {
+							AttackDamage: 15.0f
+							AttackSpeed: -2.1000001f
+							Damage: 0
+							MaxDamage: 3071
+						}
+						HideFlags: 2
+					}
+				}
+				id: "4474F7D20EE7C0DD"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 1000000
+			}]
+			title: "死神"
+			x: 6.0d
+			y: -19.0d
+		}
+		{
+			id: "3D0A7A4FA856EBE3"
+			rewards: [{
+				id: "5EB40E358BB25AA6"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "遭遇死亡"
+			tasks: [{
+				icon: "minecraft:skeleton_skull"
+				id: "089301FE71C9E8B1"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 1
+			}]
+			title: "R.I.P."
+			x: -18.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["3D0A7A4FA856EBE3"]
+			id: "5C06F647EE9A011E"
+			rewards: [
+				{
+					id: "310CFB7D45164CD3"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17ABAB58AD7B5DD9"
+					table_id: 328085211529791517L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "死亡50次"
+			tasks: [{
+				icon: "minecraft:wither_skeleton_skull"
+				id: "030E790A208657AE"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 50
+			}]
+			title: "冥界常客"
+			x: -14.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["5C06F647EE9A011E"]
+			hide: false
+			id: "66B72FD6E55F9436"
+			invisible: true
+			rewards: [
+				{
+					id: "6E954ECC9F28ADFD"
+					item: "gtceu:gold_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2C025BCDE0C4B6AE"
+					table_id: 4210225765629115356L
+					type: "loot"
+				}
+				{
+					id: "0AA719AE6C6F2D50"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1314BBC27020CE1C"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "死亡1000次"
+			tasks: [{
+				icon: "cataclysm:remnant_skull"
+				id: "627D437206BA63EC"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 1000
+			}]
+			title: "阎王爷我亲戚"
+			x: -10.0d
+			y: -15.0d
+		}
+		{
+			id: "1D72778225A31CF9"
+			rewards: [{
+				id: "4EA6F570C09A4FDF"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "累计游玩时长达到1小时"
+			tasks: [{
+				icon: "minecraft:clock"
+				id: "7E2DC29A6891F4B6"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 72000
+			}]
+			title: "渐入佳境"
+			x: -18.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["1D72778225A31CF9"]
+			id: "266E9B476DE35BE2"
+			rewards: [
+				{
+					id: "6A647F14CD453BDD"
+					item: "gtceu:platinum_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1EB7F730799D24D0"
+					table_id: 4210225765629115356L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "累计游玩时长达到1天"
+			tasks: [{
+				icon: "create:cuckoo_clock"
+				id: "39245154C7035EE6"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 1728000
+			}]
+			title: "老熟人"
+			x: -14.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["7ED2F6FD7D9E2888"]
+			id: "76C627D2C5397F4B"
+			invisible: true
+			rewards: [
+				{
+					id: "5A251AA3F336C259"
+					item: "gtceu:naquadah_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "064CF18BA8C73ADF"
+					table_id: 328085211529791517L
+					type: "loot"
+				}
+				{
+					id: "688F4BCDC75461F4"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_mining_hammer"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								AoEColumn: 1
+								AoELayer: 0
+								AoERow: 1
+								MaxAoEColumn: 1
+								MaxAoELayer: 0
+								MaxAoERow: 1
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 6
+								MaxDamage: 196604
+								ToolSpeed: 76.0f
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "累计游玩时长达到30天"
+			tasks: [{
+				icon: "gtceu:wetware_processor_mainframe"
+				id: "47D144D2AE34054E"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 51840000
+			}]
+			title: "肝帝"
+			x: -6.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["69653678AA1F9414"]
+			id: "177658BB53E730AD"
+			invisible: true
+			rewards: [
+				{
+					id: "2B7AC3BC91341174"
+					item: "gtceu:naquadah_credit"
+					type: "item"
+				}
+				{
+					id: "7A926ED5105032FF"
+					item: "minecraft:music_disc_5"
+					title: "24岁，是监守者——Aircraft飞翼之心"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "击杀1919810个生物（迫真）"
+			tasks: [{
+				icon: "minecraft:sculk_shrieker"
+				id: "29348277D4F4760B"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 1919810
+			}]
+			title: "哼，哼，哼，啊"
+			x: 10.0d
+			y: -19.0d
+		}
+		{
+			id: "3CE3A4B9ABA9A999"
+			rewards: [{
+				id: "5D9D38AC8ED57332"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "获得一张唱片"
+			tasks: [{
+				icon: "minecraft:music_disc_stal"
+				id: "7D377A34DD51A92B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:music_discs"
+					}
+				}
+				title: "Any #minecraft:music_discs"
+				type: "item"
+			}]
+			title: "先人佳曲"
+			x: -18.0d
+			y: -7.0d
+		}
+		{
+			icon: "minecraft:music_disc_11"
+			id: "1C6D02990E68F5CA"
+			rewards: [{
+				id: "18DD2CBD5FE6F959"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "收集所有原版Minecraft自带的唱片"
+			tasks: [
+				{
+					id: "1F594E96A98A5DA5"
+					item: "minecraft:music_disc_13"
+					type: "item"
+				}
+				{
+					id: "15E890144ABF3638"
+					item: "minecraft:music_disc_cat"
+					type: "item"
+				}
+				{
+					id: "3E98EBFD19FB2A56"
+					item: "minecraft:music_disc_blocks"
+					type: "item"
+				}
+				{
+					id: "0E04F34F558DC206"
+					item: "minecraft:music_disc_chirp"
+					type: "item"
+				}
+				{
+					id: "25EBD79DE48A4ACE"
+					item: "minecraft:music_disc_far"
+					type: "item"
+				}
+				{
+					id: "12BC3A2703EAD6B2"
+					item: "minecraft:music_disc_mall"
+					type: "item"
+				}
+				{
+					id: "6F22EF14AA188B71"
+					item: "minecraft:music_disc_mellohi"
+					type: "item"
+				}
+				{
+					id: "495D1667284D13AD"
+					item: "minecraft:music_disc_stal"
+					type: "item"
+				}
+				{
+					id: "2BDAB8BB5238ECF1"
+					item: "minecraft:music_disc_strad"
+					type: "item"
+				}
+				{
+					id: "468D00ABD111A570"
+					item: "minecraft:music_disc_ward"
+					type: "item"
+				}
+				{
+					id: "5D1555A21E7ED053"
+					item: "minecraft:music_disc_11"
+					type: "item"
+				}
+				{
+					id: "20A054B3FD1EF776"
+					item: "minecraft:music_disc_wait"
+					type: "item"
+				}
+				{
+					id: "775C4EE5EF059289"
+					item: "minecraft:music_disc_otherside"
+					type: "item"
+				}
+				{
+					id: "7AB83F73513469F8"
+					item: "minecraft:music_disc_5"
+					type: "item"
+				}
+				{
+					id: "23EAFC77E0309D8D"
+					item: "minecraft:music_disc_pigstep"
+					type: "item"
+				}
+				{
+					id: "33613770E79FC748"
+					item: "minecraft:music_disc_relic"
+					type: "item"
+				}
+			]
+			title: "原汁原味"
+			x: -14.0d
+			y: -7.0d
+		}
+		{
+			icon: "cataclysm:music_disc_ignis"
+			id: "60C27DDB3930D635"
+			rewards: [{
+				id: "770441D2D3C0DA73"
+				item: "gtceu:osmium_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "收集所有由模组提供的唱片（包括与末影龙战斗的bgm）"
+			tasks: [
+				{
+					id: "01B4A1BD315E7BD4"
+					item: "cataclysm:music_disc_netherite_monstrosity"
+					type: "item"
+				}
+				{
+					id: "1B970B9D22448F6A"
+					item: "cataclysm:music_disc_ender_guardian"
+					type: "item"
+				}
+				{
+					id: "11862E1C9A62D37B"
+					item: "cataclysm:music_disc_ignis"
+					type: "item"
+				}
+				{
+					id: "6E95D6D254727BCA"
+					item: "cataclysm:music_disc_the_harbinger"
+					type: "item"
+				}
+				{
+					id: "75D930F57A5245CB"
+					item: "cataclysm:music_disc_the_leviathan"
+					type: "item"
+				}
+				{
+					id: "5C4FCF47D3EBC36E"
+					item: "cataclysm:music_disc_ancient_remnant"
+					type: "item"
+				}
+				{
+					id: "3ADA8325BF011FC7"
+					item: "ars_nouveau:music_disc_aria_biblio"
+					type: "item"
+				}
+				{
+					id: "4FB55772383D1C36"
+					item: "ars_nouveau:music_disc_thistle_the_sound_of_glass"
+					type: "item"
+				}
+				{
+					id: "190FBEF9611D1952"
+					item: "ars_nouveau:music_disc_firel_the_wild_hunt"
+					type: "item"
+				}
+			]
+			title: "勇气赞歌"
+			x: -10.0d
+			y: -7.0d
+		}
+		{
+			id: "6353405972301444"
+			rewards: [{
+				id: "2BBA1878FCFA0F81"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "收集所有《Minecraft - Volume Alpha》中的唱片（已包含在原版里的除外）"
+			tasks: [
+				{
+					id: "163C0B526327FF79"
+					item: "kubejs:disc_key"
+					type: "item"
+				}
+				{
+					id: "2D4635314EB79A8E"
+					item: "kubejs:disc_door"
+					type: "item"
+				}
+				{
+					id: "2DA980193A63128B"
+					item: "kubejs:disc_subwoofer_lullaby"
+					type: "item"
+				}
+				{
+					id: "5FC08491EBD25961"
+					item: "kubejs:disc_living_mice"
+					type: "item"
+				}
+				{
+					id: "0EBA9C3FD5080E7C"
+					item: "kubejs:disc_moog_city"
+					type: "item"
+				}
+				{
+					id: "58A3992E3981E952"
+					item: "kubejs:disc_haggstrom"
+					type: "item"
+				}
+				{
+					id: "07CE95C022758C97"
+					item: "kubejs:disc_minecraft"
+					type: "item"
+				}
+				{
+					id: "604F649CA9E9E1BF"
+					item: "kubejs:disc_oxygene"
+					type: "item"
+				}
+				{
+					id: "1BCCA9617FEC0859"
+					item: "kubejs:disc_equinoxe"
+					type: "item"
+				}
+				{
+					id: "5F22CA079845774A"
+					item: "kubejs:disc_mice_on_venus"
+					type: "item"
+				}
+				{
+					id: "78D1BA4CDE200E18"
+					item: "kubejs:disc_dry_hands"
+					type: "item"
+				}
+				{
+					id: "7814550B0A29E45D"
+					item: "kubejs:disc_wet_hands"
+					type: "item"
+				}
+				{
+					id: "1E6DD7C3344FC1B1"
+					item: "kubejs:disc_clark"
+					type: "item"
+				}
+				{
+					id: "21D06EB5DD653831"
+					item: "kubejs:disc_chris"
+					type: "item"
+				}
+				{
+					id: "2495EC1272D6866B"
+					item: "kubejs:disc_excuse"
+					type: "item"
+				}
+				{
+					id: "79A152CD5639BA88"
+					item: "kubejs:disc_sweden"
+					type: "item"
+				}
+				{
+					id: "04214534AC20054D"
+					item: "kubejs:disc_dog"
+					type: "item"
+				}
+				{
+					id: "005B7FADF2F9E4AB"
+					item: "kubejs:disc_danny"
+					type: "item"
+				}
+				{
+					id: "249E3BD1260D484D"
+					item: "kubejs:disc_beginning"
+					type: "item"
+				}
+				{
+					id: "14FE40783047EAF6"
+					item: "kubejs:disc_droopy_likes_ricochet"
+					type: "item"
+				}
+				{
+					id: "5BD41CF912060097"
+					item: "kubejs:disc_droopy_likes_your_face"
+					type: "item"
+				}
+			]
+			title: "源初回忆"
+			x: -6.0d
+			y: -7.0d
+		}
+		{
+			id: "14199439CDFEB0F6"
+			rewards: [{
+				id: "0DF06A0567FBFF39"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "收集所有《Minecraft - Volume Beta》中的唱片（已包含在原版里的除外）"
+			tasks: [
+				{
+					id: "3AC9443AE54262BD"
+					item: "kubejs:disc_ki"
+					type: "item"
+				}
+				{
+					id: "28058A4CEDA41569"
+					item: "kubejs:disc_alpha"
+					type: "item"
+				}
+				{
+					id: "479D5F6D1DB92B38"
+					item: "kubejs:disc_dead_voxel"
+					type: "item"
+				}
+				{
+					id: "08FADE058B3CF877"
+					item: "kubejs:disc_blind_spots"
+					type: "item"
+				}
+				{
+					id: "4D581C825FCE4CF0"
+					item: "kubejs:disc_flake"
+					type: "item"
+				}
+				{
+					id: "0D583703842ADFC4"
+					item: "kubejs:disc_moog_city_2"
+					type: "item"
+				}
+				{
+					id: "76E4D0C42CC22875"
+					item: "kubejs:disc_concrete_halls"
+					type: "item"
+				}
+				{
+					id: "484F7F73E3931657"
+					item: "kubejs:disc_biome_fest"
+					type: "item"
+				}
+				{
+					id: "5BE510EB2B2D5CCC"
+					item: "kubejs:disc_mutation"
+					type: "item"
+				}
+				{
+					id: "001301E7B73A4280"
+					item: "kubejs:disc_haunt_muskie"
+					type: "item"
+				}
+				{
+					id: "4F6769F666EF5E19"
+					item: "kubejs:disc_warmth"
+					type: "item"
+				}
+				{
+					id: "584FAE21EBA30E64"
+					item: "kubejs:disc_floating_trees"
+					type: "item"
+				}
+				{
+					id: "7D41D4B1651D58D1"
+					item: "kubejs:disc_aria_math"
+					type: "item"
+				}
+				{
+					id: "53D653C2C3220E04"
+					item: "kubejs:disc_kyoto"
+					type: "item"
+				}
+				{
+					id: "395440654FB9AD3C"
+					item: "kubejs:disc_ballad_of_the_cats"
+					type: "item"
+				}
+				{
+					id: "5791F69D2667B8BA"
+					item: "kubejs:disc_taswell"
+					type: "item"
+				}
+				{
+					id: "396CEB66C41738BE"
+					item: "kubejs:disc_beginning_2"
+					type: "item"
+				}
+				{
+					id: "2EE4030543D6B125"
+					item: "kubejs:disc_dreiton"
+					type: "item"
+				}
+				{
+					id: "7CBFBBC9DACD70B0"
+					item: "kubejs:disc_the_end"
+					type: "item"
+				}
+			]
+			title: "黄金经典"
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			id: "0C28F1104166C0B4"
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "获得来自水域更新和下界更新的所有唱片（Pigstep除外）"
+			title: "水与火（WIP）"
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			id: "4E9960495BBB1338"
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "获得来自洞穴与山崖更新的所有唱片（Otherside除外）"
+			title: "高山仰止（WIP）"
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			id: "2F6C83DFABAB728C"
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "获得来自荒野更新和足迹与故事更新的所有唱片（Relic除外）"
+			title: "荒沼、沙漠、樱林（WIP）"
+			x: 10.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["266E9B476DE35BE2"]
+			id: "7ED2F6FD7D9E2888"
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "累计游玩时长达到7天"
+			tasks: [{
+				icon: "ae2:controller"
+				id: "1C080D372FC652BA"
+				stat: "minecraft:play_time"
+				title: "大佬"
+				type: "stat"
+				value: 12096000
+			}]
+			x: -10.0d
+			y: -11.0d
+		}
+	]
+	title: "镐♂事狂"
+}

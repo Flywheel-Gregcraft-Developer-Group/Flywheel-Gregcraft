@@ -7,40 +7,20 @@
 	id: "4B5247CCAD19D275"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.0d
-			hover: [ ]
-			image: "toms_storage:block/crafting_terminal_front"
-			rotation: 0.0d
-			width: 3.0d
-			x: -16.5d
-			y: 12.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 3.0d
-			hover: [ ]
 			image: "storagedrawers:block/drawers_oak_front_2"
 			rotation: 0.0d
 			width: 3.0d
-			x: 0.0d
-			y: -7.5d
+			x: 10.5d
+			y: -4.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.0d
-			hover: [ ]
 			image: "ae2:block/controller_powered"
 			rotation: 0.0d
 			width: 3.0d
-			x: 16.5d
-			y: 12.0d
+			x: -22.5d
+			y: 16.0d
 		}
 	]
 	order_index: 0
@@ -48,13 +28,26 @@
 	quests: [
 		{
 			dependencies: ["7E0378EE23A3287B"]
+			description: [
+				"        功能强大，结构紧凑且美观的存储解决方案。这种抽屉不需要打开 GUI 就可以将物品存入与取出。"
+				"        抽屉的每一个格子只能存放一种物品。不同规格的抽屉，抽屉格子数和能存放的物品总数成反比例。"
+				""
+				"{@pagebreak}"
+				"        &l基本使用方法"
+				"&o右键单击：&r将 1 组物品放入抽屉；"
+				"&o右键双击：&r将身上所有同种类物品全部放入抽屉；"
+				"&o左键单击：&r取出 1 个物品；"
+				"&oShift+左键单击：&r从抽屉中取出一组的物品；"
+				"&o空手 Shift+右键单击：&r打开 GUI 以查看存储的物品数量并管理抽屉升级组件，最多可放 7 个不同的组件。"
+			]
 			icon: "storagedrawers:oak_full_drawers_1"
 			id: "22CA01A9D2F44F63"
-			size: 1.5d
+			size: 2.0d
+			subtitle: "便利存储"
 			tasks: [{
 				id: "576FEDB894C9EF34"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "storagedrawers:drawers"
@@ -64,26 +57,29 @@
 				type: "item"
 			}]
 			title: "储物抽屉"
-			x: -7.5d
-			y: 0.75d
+			x: 0.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["22CA01A9D2F44F63"]
 			id: "5139098C79AAA546"
-			size: 1.5d
+			size: 2.0d
+			subtitle: "同时存放一种材料的多种形态"
 			tasks: [{
 				id: "2D59CD11326C43C6"
 				item: "storagedrawers:compacting_drawers_3"
 				type: "item"
 			}]
 			title: "粒、锭、块"
-			x: -9.0d
-			y: 3.75d
+			x: 3.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["22CA01A9D2F44F63"]
+			icon: "storagedrawers:controller"
 			id: "65823344343325A9"
-			size: 1.5d
+			size: 2.0d
+			subtitle: "半自动的便捷规模存储"
 			tasks: [
 				{
 					id: "55B17AF40E829A71"
@@ -97,31 +93,31 @@
 				}
 			]
 			title: "抽屉网络"
-			x: -7.5d
-			y: 3.75d
+			x: 3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["22CA01A9D2F44F63"]
 			id: "061F4DC89F22FAED"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "250FDBCC8A897101"
 				item: "storagedrawers:upgrade_template"
 				type: "item"
 			}]
 			title: "抽屉升级"
-			x: -6.0d
-			y: 3.75d
+			x: 3.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["1DA6DAAF55402827"]
 			icon: "minecraft:chest"
 			id: "7E0378EE23A3287B"
-			size: 1.5d
+			size: 3.0d
+			subtitle: "基础的存储方块"
 			tasks: [{
 				id: "7C750C7D08959092"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:chests/wooden"
@@ -131,194 +127,116 @@
 				type: "item"
 			}]
 			title: "箱子"
-			x: -7.5d
-			y: -2.25d
+			x: -4.0d
+			y: -4.0d
 		}
 		{
-			dependencies: ["1DA6DAAF55402827"]
 			id: "2CE5873124DA47AC"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "0F3B787F290F81AC"
 				item: "minecraft:barrel"
 				type: "item"
 			}]
 			title: "木桶"
-			x: -5.25d
-			y: -2.25d
+			x: -4.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2CE5873124DA47AC"]
 			id: "1FBC42EEEDCA9D7D"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "27B9FD5A751B5095"
 				item: "create:item_vault"
 				type: "item"
 			}]
 			title: "更保险的桶"
-			x: -5.25d
-			y: 0.75d
+			x: -4.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["1DA6DAAF55402827"]
 			icon: "gtceu:wood_crate"
 			id: "5A72841530480DB1"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "1DA866364CC0DE31"
 				title: "板条箱"
 				type: "checkmark"
 			}]
 			title: "格雷板条箱"
-			x: -3.0d
-			y: -2.25d
+			x: -1.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["1DA6DAAF55402827"]
 			icon: "gtceu:wood_drum"
 			id: "4021A4B76AAE7463"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "7BFF59099B34AFB2"
 				title: "板条箱"
 				type: "checkmark"
 			}]
 			title: "格雷流体桶"
-			x: -0.75d
-			y: -2.25d
+			x: 1.0d
+			y: -1.0d
 		}
 		{
 			icon: "gtceu:lv_super_chest"
 			id: "61B2F84A2AE77F83"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
-				id: "255916985492665A"
-				title: "板条箱"
+				id: "76019CEBB697281B"
+				title: "超级箱"
 				type: "checkmark"
 			}]
 			title: "超级箱"
-			x: -3.0d
-			y: 0.75d
+			x: -1.0d
+			y: 2.0d
 		}
 		{
 			icon: "gtceu:lv_super_tank"
 			id: "5E2BD07242D7A4C6"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
-				id: "62C74026BA50EF00"
-				title: "板条箱"
+				id: "0F34E5028E54624B"
+				title: "超级缸"
 				type: "checkmark"
 			}]
 			title: "超级缸"
-			x: -0.75d
-			y: 0.75d
+			x: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7E0378EE23A3287B"]
 			id: "4FD1BBD20C801045"
-			size: 1.5d
+			size: 2.0d
+			subtitle: "额外存储！"
 			tasks: [{
 				id: "1F55D6AD19E5961F"
 				item: "sophisticatedbackpacks:backpack"
 				type: "item"
 			}]
 			title: "随身背包"
-			x: -11.25d
-			y: 0.75d
+			x: -8.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4FD1BBD20C801045"]
+			description: ["        制作空白背包升级，开始自定义背包的第一步！背包升级可以为背包提供更多样的存储和额外功能！其中一部分还可以继续升级！"]
 			id: "7BF563FD0648F0AF"
-			size: 1.5d
+			size: 2.0d
+			subtitle: "客制化背包"
 			tasks: [{
 				id: "7716B71983103233"
 				item: "sophisticatedbackpacks:upgrade_base"
 				type: "item"
 			}]
 			title: "背包升级"
-			x: -11.25d
-			y: 3.75d
+			x: -8.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["129BCB0508AA5069"]
-			id: "0CCA57CC65051C6E"
-			size: 1.5d
-			tasks: [{
-				id: "726921C607D46329"
-				item: "toms_storage:ts.storage_terminal"
-				type: "item"
-			}]
-			title: "简易存储终端"
-			x: -13.5d
-			y: 9.0d
-		}
-		{
-			dependencies: ["0CCA57CC65051C6E"]
-			icon: "toms_storage:ts.inventory_cable"
-			id: "476F67AE25AC2EA7"
-			size: 1.5d
-			tasks: [
-				{
-					id: "561BDCB74058EE43"
-					item: "toms_storage:ts.inventory_cable"
-					type: "item"
-				}
-				{
-					id: "36E23B52804F21D6"
-					item: "toms_storage:ts.inventory_cable_connector"
-					type: "item"
-				}
-			]
-			title: "远距存储"
-			x: -10.5d
-			y: 6.75d
-		}
-		{
-			dependencies: ["0CCA57CC65051C6E"]
-			icon: "toms_storage:ts.inventory_connector"
-			id: "167772CDA6412A63"
-			size: 1.5d
-			tasks: [
-				{
-					id: "12140BCD1B3E00C6"
-					item: "toms_storage:ts.inventory_connector"
-					type: "item"
-				}
-				{
-					id: "3CB22BA0BFB05DEE"
-					item: "toms_storage:ts.trim"
-					type: "item"
-				}
-			]
-			title: "集中存储"
-			x: -10.5d
-			y: 9.0d
-		}
-		{
-			dependencies: ["0CCA57CC65051C6E"]
-			icon: "toms_storage:ts.wireless_terminal"
-			id: "6C28D275564A15E7"
-			require_sequential_tasks: true
-			size: 1.5d
-			tasks: [
-				{
-					id: "60BE1BEC202A5BAC"
-					item: "toms_storage:ts.wireless_terminal"
-					type: "item"
-				}
-				{
-					id: "3AD1D06508F355DC"
-					item: "toms_storage:ts.adv_wireless_terminal"
-					type: "item"
-				}
-			]
-			title: "无线存储"
-			x: -10.5d
-			y: 11.25d
-		}
-		{
-			dependencies: ["7AC685E97D71D133"]
 			icon: "ae2:calculation_processor_press"
 			id: "5F28A106525E396A"
 			size: 1.5d
@@ -346,11 +264,10 @@
 				}
 			]
 			title: "压印模板"
-			x: -0.75d
-			y: 3.75d
+			x: -6.0d
+			y: 9.0d
 		}
 		{
-			dependencies: ["7AC685E97D71D133"]
 			icon: "ae2:silicon"
 			id: "1D5D2B76DE08CCA9"
 			size: 1.5d
@@ -377,28 +294,27 @@
 				}
 			]
 			title: "压印原料"
-			x: -2.25d
-			y: 5.25d
+			x: -8.25d
+			y: 9.0d
 		}
 		{
 			dependencies: ["10B06F8D096F317A"]
 			icon: "ae2:inscriber"
 			id: "25707353F6E2D7F2"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "4EDDACC73627CFC0"
 				item: "ae2:inscriber"
 				type: "item"
 			}]
 			title: "压印器"
-			x: -0.75d
-			y: 8.25d
+			x: -10.0d
+			y: 11.0d
 		}
 		{
-			dependencies: ["7AC685E97D71D133"]
 			icon: "ae2:quartz_glass"
 			id: "75C20DA15041AE78"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				icon: "ae2:quartz_glass"
 				id: "69B113FBD0E16F62"
@@ -406,14 +322,14 @@
 				type: "item"
 			}]
 			title: "赛特斯石英玻璃"
-			x: -6.75d
-			y: 8.25d
+			x: -18.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["75C20DA15041AE78"]
 			icon: "ae2:energy_acceptor"
 			id: "10B06F8D096F317A"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				icon: "ae2:energy_acceptor"
 				id: "70A0F39A959EA17E"
@@ -422,8 +338,8 @@
 				type: "item"
 			}]
 			title: "能源转换"
-			x: -3.75d
-			y: 8.25d
+			x: -13.0d
+			y: 11.0d
 		}
 		{
 			dependencies: [
@@ -433,7 +349,7 @@
 			]
 			icon: "ae2:logic_processor"
 			id: "78B32ECF9CB22428"
-			size: 1.5d
+			size: 2.0d
 			tasks: [
 				{
 					id: "79B8E5C42C0A342E"
@@ -452,28 +368,27 @@
 				}
 			]
 			title: "存储网络处理器"
-			x: 2.25d
-			y: 8.25d
+			x: -7.0d
+			y: 11.0d
 		}
 		{
-			dependencies: ["7AC685E97D71D133"]
 			id: "58A1CD39B266BFE8"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "55D52C42953D7F2F"
 				item: "ae2:fluix_crystal"
 				type: "item"
 			}]
 			title: "福鲁伊克斯水晶"
-			x: -6.75d
-			y: 12.75d
+			x: -18.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["421F2479266F5FF6"]
 			icon: "ae2:sky_dust"
 			id: "2DBE6F42C500A64A"
 			require_sequential_tasks: true
-			size: 1.5d
+			size: 2.0d
 			tasks: [
 				{
 					id: "339F37F052232FDF"
@@ -487,21 +402,22 @@
 				}
 			]
 			title: "收集陨石"
-			x: 9.0d
-			y: 11.25d
+			x: 2.0d
+			y: 19.0d
 		}
 		{
 			dependencies: ["2DBE6F42C500A64A"]
 			id: "24EE161879600883"
-			size: 1.5d
+			size: 2.0d
+			subtitle: "交换机"
 			tasks: [{
 				id: "2BFA1E7F91F291B7"
 				item: "ae2:controller"
 				type: "item"
 			}]
 			title: "全面控制"
-			x: 12.0d
-			y: 11.25d
+			x: 5.0d
+			y: 19.0d
 		}
 		{
 			dependencies: [
@@ -510,7 +426,7 @@
 			]
 			icon: "ae2:formation_core"
 			id: "421F2479266F5FF6"
-			size: 1.5d
+			size: 2.0d
 			tasks: [
 				{
 					id: "7E10802704EA636F"
@@ -524,27 +440,36 @@
 				}
 			]
 			title: "有破就有立"
-			x: 6.0d
-			y: 9.0d
+			x: -2.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["421F2479266F5FF6"]
+			icon: "ae2:crafting_terminal"
 			id: "7227F0D81D5FD985"
-			size: 1.5d
-			tasks: [{
-				id: "7A1C189A5B3A915F"
-				item: "ae2:terminal"
-				type: "item"
-			}]
+			size: 2.0d
+			subtitle: "访问网络"
+			tasks: [
+				{
+					id: "7A1C189A5B3A915F"
+					item: "ae2:terminal"
+					type: "item"
+				}
+				{
+					id: "57D5A3D2D279A39C"
+					item: "ae2:crafting_terminal"
+					type: "item"
+				}
+			]
 			title: "高科技存储终端"
-			x: 9.0d
-			y: 6.75d
+			x: 2.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["7227F0D81D5FD985"]
 			icon: "ae2:blank_pattern"
 			id: "31A82B45781A1347"
-			size: 1.5d
+			size: 2.0d
 			tasks: [
 				{
 					id: "7DBDB0A94E2FC1F6"
@@ -563,8 +488,8 @@
 				}
 			]
 			title: "样板管理"
-			x: 12.0d
-			y: 6.75d
+			x: 5.0d
+			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -572,21 +497,21 @@
 				"75C20DA15041AE78"
 			]
 			id: "40CAD00DB06D2673"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "3175DCAC7C21E33C"
 				item: "ae2:fluix_glass_cable"
 				type: "item"
 			}]
 			title: "玻璃线缆"
-			x: -3.0d
-			y: 14.25d
+			x: -13.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["40CAD00DB06D2673"]
 			icon: "ae2:fluix_covered_cable"
 			id: "732DF88007D9A5B4"
-			size: 1.5d
+			size: 2.0d
 			tasks: [
 				{
 					id: "0200C7F6071F0993"
@@ -600,14 +525,14 @@
 				}
 			]
 			title: "包层线缆"
-			x: 0.0d
-			y: 15.75d
+			x: -11.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["732DF88007D9A5B4"]
 			icon: "ae2:fluix_covered_cable"
 			id: "6E0E382731488E43"
-			size: 1.5d
+			size: 2.0d
 			tasks: [
 				{
 					id: "69EAB8E6D501C24D"
@@ -621,27 +546,27 @@
 				}
 			]
 			title: "智能线缆"
-			x: 3.0d
-			y: 17.25d
+			x: -9.0d
+			y: 20.0d
 		}
 		{
 			dependencies: ["40CAD00DB06D2673"]
 			id: "0D19C86B67F7B725"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "6C5138E3E6DE0581"
 				item: "ae2:cable_anchor"
 				type: "item"
 			}]
 			title: "为线缆间意外的连接而发愁？"
-			x: -2.25d
-			y: 16.5d
+			x: -15.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["421F2479266F5FF6"]
 			icon: "ae2:import_bus"
 			id: "113D6CD852083A25"
-			size: 1.5d
+			size: 2.0d
 			tasks: [
 				{
 					id: "7115C2B93452B8FE"
@@ -655,15 +580,16 @@
 				}
 			]
 			title: "出入网络"
-			x: 9.0d
-			y: 9.0d
+			x: 2.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["113D6CD852083A25"]
 			dependency_requirement: "all_started"
 			icon: "ae2:interface"
 			id: "5999E2F7EFCC471A"
-			size: 1.5d
+			size: 2.0d
+			subtitle: "网上传达室"
 			tasks: [
 				{
 					id: "2DB358C54579D134"
@@ -677,8 +603,8 @@
 				}
 			]
 			title: "更高级的自动化交互"
-			x: 12.0d
-			y: 9.0d
+			x: 5.0d
+			y: 16.0d
 		}
 		{
 			dependencies: [
@@ -686,62 +612,63 @@
 				"78B32ECF9CB22428"
 			]
 			id: "3A79885121E84BB3"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "370617D5F59766A2"
 				item: "ae2:drive"
 				type: "item"
 			}]
 			title: "数字化存储"
-			x: 9.75d
-			y: 15.0d
+			x: -2.0d
+			y: 20.0d
 		}
 		{
 			dependencies: ["3A79885121E84BB3"]
 			id: "59E605A5B24DE235"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "74107FA7335C48A8"
 				item: "ae2:io_port"
 				type: "item"
 			}]
 			title: "自动化插拔"
-			x: 12.0d
-			y: 13.5d
+			x: 1.0d
+			y: 23.0d
 		}
 		{
 			dependencies: ["3A79885121E84BB3"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ae2:item_storage_cell_256k"
 				tag: { }
 			}
 			id: "4EA51CF4ACBB9599"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "7AF59D7F5F36FCD2"
 				title: "存储元件"
 				type: "checkmark"
 			}]
 			title: "存储元件"
-			x: 12.0d
-			y: 16.5d
+			x: -2.0d
+			y: 23.0d
 		}
 		{
 			dependencies: [
 				"58A1CD39B266BFE8"
 				"75C20DA15041AE78"
 			]
+			hide_dependency_lines: true
 			id: "2F989E5C9821235A"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "39D99916B67E9C1E"
 				item: "ae2:condenser"
 				type: "item"
 			}]
 			title: "聚合万物"
-			x: -3.0d
-			y: 18.75d
+			x: -18.0d
+			y: 22.0d
 		}
 		{
 			dependencies: [
@@ -749,12 +676,12 @@
 				"10B06F8D096F317A"
 			]
 			id: "350B38D6774FEAE8"
-			size: 1.5d
+			size: 2.0d
 			tasks: [
 				{
 					id: "55CEAD7771AC3931"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ae2:energy_cell"
 						tag: { }
 					}
@@ -763,7 +690,7 @@
 				{
 					id: "657699D064DFF8B9"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ae2:dense_energy_cell"
 						tag: { }
 					}
@@ -771,8 +698,8 @@
 				}
 			]
 			title: "存储能源"
-			x: 1.5d
-			y: 12.0d
+			x: -7.0d
+			y: 14.0d
 		}
 		{
 			dependencies: [
@@ -781,56 +708,43 @@
 				"3EA43BD369C404C3"
 			]
 			id: "18221BC3FD918E04"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "13118F75F183640A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:matter_cannon"
 					tag: { }
 				}
 				type: "item"
 			}]
 			title: "发射物质"
-			x: 6.75d
-			y: 6.0d
+			x: -2.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["10B06F8D096F317A"]
 			id: "3EA43BD369C404C3"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "26FB69992512E23E"
 				item: "ae2:charger"
 				type: "item"
 			}]
 			title: "充能！"
-			x: 3.75d
-			y: 6.0d
-		}
-		{
-			dependencies: ["2F989E5C9821235A"]
-			id: "34EF156F163E8D83"
-			size: 1.5d
-			tasks: [{
-				id: "4C9A7DC0841E0E8D"
-				item: "ae2:singularity"
-				type: "item"
-			}]
-			title: "万物归一"
-			x: 0.75d
-			y: 18.75d
+			x: -10.0d
+			y: 7.0d
 		}
 		{
 			dependencies: [
-				"34EF156F163E8D83"
 				"78B32ECF9CB22428"
 				"350B38D6774FEAE8"
 				"6E0E382731488E43"
+				"78DAD6199C0A13E1"
 			]
 			icon: "ae2:quantum_ring"
 			id: "43646D23BA6B3129"
-			size: 1.5d
+			size: 2.0d
 			tasks: [
 				{
 					count: 2L
@@ -852,8 +766,8 @@
 				}
 			]
 			title: "量子链接"
-			x: 6.0d
-			y: 18.75d
+			x: -7.0d
+			y: 22.0d
 		}
 		{
 			dependencies: [
@@ -862,7 +776,7 @@
 			]
 			icon: "ae2:spatial_anchor"
 			id: "06589A0A3A106281"
-			size: 1.5d
+			size: 2.0d
 			tasks: [
 				{
 					id: "16C3547E18F38C02"
@@ -876,9 +790,201 @@
 				}
 			]
 			title: "区块跟着线网走"
-			x: 6.0d
-			y: 13.5d
+			x: -10.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["4FD1BBD20C801045"]
+			description: [
+				"        只需要8个铁锭，便可让背包扩容一倍！甚至......"
+				"使用更珍贵的矿物，可以继续扩容！"
+			]
+			id: "547C17FEF4AE05B9"
+			size: 2.0d
+			subtitle: "更大的背包"
+			tasks: [{
+				id: "55E19EDD389BF9FD"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["547C17FEF4AE05B9"]
+			description: ["        你已经将背包本体升至最高等级。但是，你可能还未体验到背包的“精妙”之处。合理调配背包升级，让背包在合适的位置发挥最大的作用！"]
+			id: "23465DF9566A3F4C"
+			shape: "octagon"
+			size: 3.0d
+			subtitle: "终极基础容量"
+			tasks: [{
+				id: "2391C2058E2A893B"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7BF563FD0648F0AF"]
+			description: ["        为背包添加压缩升级，可以让单个格子内物品的最大堆叠数加倍！多个类似升级的倍数还可叠加，让存储规模超级加倍！"]
+			id: "7E0653B934475DB1"
+			size: 2.0d
+			subtitle: "一格放更多！"
+			tasks: [{
+				id: "21939B497F2EAB97"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			title: "堆叠升级"
+			x: -11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"14CCABE668ABB839"
+				"2F989E5C9821235A"
+			]
+			description: [
+				"        听起来很疯狂，但你确实可以制造奇点！只需要……将大量的物品压缩在一个点上，大概是256k个吧。"
+				"        一般的机器是肯定做不到这一点的，为此，你不得借助应用能源的力量。"
+				"        使用装配线制作一个物质聚合器，然后将其接入网络，安插上存满物品的存储组件进行聚合吧。"
+				"        然而，用于制作奇点的256k存储元件需要到ZPM阶段后才能制造。因此一开始你只能先用小一些的存储元件聚合一些小的物质球，作为物质炮的弹药。"
+				"        尽管如此，奇点在后期仍然是不可缺少的重要物品，因此尽早生产它们吧。"
+			]
+			icon: "ae2:singularity"
+			id: "78DAD6199C0A13E1"
+			shape: "circle"
+			size: 2.0d
+			subtitle: "把物质压成......"
+			tasks: [
+				{
+					id: "68D1F6D7E5581C30"
+					item: "ae2:condenser"
+					type: "item"
+				}
+				{
+					id: "7D5ECF587487FFC3"
+					item: "ae2:singularity"
+					type: "item"
+				}
+			]
+			title: "万物归一"
+			x: -13.0d
+			y: 22.0d
+		}
+		{
+			dependencies: [
+				"31A82B45781A1347"
+				"607013D9609DD26B"
+			]
+			id: "084589D1D0A53766"
+			size: 2.0d
+			subtitle: "一声令下，自己开工"
+			tasks: [{
+				id: "1FA6498063DFDAD1"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			title: "全自动合成"
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["421F2479266F5FF6"]
+			id: "607013D9609DD26B"
+			size: 2.0d
+			tasks: [{
+				id: "7056204336B3603B"
+				item: "ae2:pattern_provider"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["78B32ECF9CB22428"]
+			id: "510B6533862C3EB3"
+			size: 2.0d
+			subtitle: "P2P!"
+			tasks: [{
+				id: "338A457879109A10"
+				item: "ae2:me_p2p_tunnel"
+				type: "item"
+			}]
+			title: "网上直连"
+			x: -4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["7227F0D81D5FD985"]
+			icon: "ae2:wireless_terminal"
+			id: "632C0AC43C5D91B4"
+			size: 2.0d
+			subtitle: "WIFI覆盖！"
+			tasks: [
+				{
+					id: "04F74CA192A36863"
+					item: "ae2:wireless_terminal"
+					type: "item"
+				}
+				{
+					id: "1895762C93845C1C"
+					item: "ae2:wireless_access_point"
+					type: "item"
+				}
+			]
+			title: "无线接入"
+			x: 5.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["632C0AC43C5D91B4"]
+			icon: "ae2:wireless_booster"
+			id: "41D9FB0550419142"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "园区WIFI全覆盖！"
+			tasks: [
+				{
+					id: "43CBC74BB24E9C80"
+					item: "ae2:wireless_booster"
+					type: "item"
+				}
+				{
+					block: "ae2:wireless_access_point"
+					block_type: 0
+					id: "0594389318C6132A"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 64L
+				}
+			]
+			title: "规模铺网"
+			x: 8.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["421F2479266F5FF6"]
+			id: "787BC725FC1DEAAC"
+			size: 2.0d
+			tasks: [
+				{
+					id: "68908C3C0CE2DA5B"
+					item: "ae2:storage_monitor"
+					type: "item"
+				}
+				{
+					id: "7FA12E7E0CD2A3DC"
+					item: "ae2:conversion_monitor"
+					type: "item"
+				}
+			]
+			title: "实时监控"
+			x: 2.0d
+			y: 21.0d
 		}
 	]
-	title: "存储管理（WIP）"
+	title: "存储管理"
 }

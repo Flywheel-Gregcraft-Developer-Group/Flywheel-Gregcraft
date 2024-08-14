@@ -4,7 +4,7 @@
 	filename: "49293A59CA6A2C32"
 	group: ""
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "minecraft:netherite_sword"
 		tag: {
 			Damage: 0
@@ -13,11 +13,7 @@
 	id: "49293A59CA6A2C32"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 4.0d
-			hover: [ ]
 			image: "minecraft:block/grass_block_side"
 			rotation: 0.0d
 			width: 4.0d
@@ -25,11 +21,7 @@
 			y: -1.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "minecraft:textures/mob_effect/bad_omen.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -37,11 +29,7 @@
 			y: 4.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 4.0d
-			hover: [ ]
 			image: "minecraft:block/netherrack"
 			rotation: 0.0d
 			width: 4.0d
@@ -49,11 +37,7 @@
 			y: 3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "minecraft:block/end_stone"
 			rotation: 0.0d
 			width: 2.0d
@@ -265,7 +249,7 @@
 		{
 			can_repeat: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:player_head"
 				tag: {
 					SkullOwner: {
@@ -310,7 +294,7 @@
 				{
 					entity: "player_mobs:player_mob"
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:player_head"
 						tag: {
 							SkullOwner: {
@@ -524,7 +508,7 @@
 		{
 			can_repeat: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:crossbow"
 				tag: {
 					Damage: 0
@@ -541,7 +525,7 @@
 				{
 					entity: "minecraft:pillager"
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:crossbow"
 						tag: {
 							Damage: 0
@@ -565,7 +549,7 @@
 		{
 			can_repeat: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:iron_axe"
 				tag: {
 					Damage: 0
@@ -583,7 +567,7 @@
 				{
 					entity: "minecraft:vindicator"
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:iron_axe"
 						tag: {
 							Damage: 0
@@ -785,7 +769,7 @@
 		{
 			can_repeat: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:golden_axe"
 				tag: {
 					Damage: 0
@@ -810,7 +794,7 @@
 				{
 					entity: "minecraft:piglin_brute"
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:golden_axe"
 						tag: {
 							Damage: 0
@@ -1196,9 +1180,10 @@
 		{
 			can_repeat: true
 			description: [
-				"与末影龙的战斗，相比原版而言更具有挑战性了。现在的末影龙血量高达3000，请做好持久作战的准备。此外，整场战斗也被分为了两个阶段："
-				"第一阶段的战斗和原版没有太大的差别，但末影龙喷出的火球有概率为爆炸变种，威力较大，需要当心躲避。同时，每隔一段时间便会生成一些主动与玩家敌对的末影人，以及穿着精锐装备的末地僵尸。"
-				"末影龙血量下降至1/3时会开启第二阶段。阶段开始时，会有随机三个末地水晶复活，需要注意解决。同时，会生成一只精英骷髅射手（小boss，有血条显示），玩家只有解决它才能继续攻击末影龙。在整个第二阶段期间，生成的小怪具有更强的药水效果，因而更加危险。此外，每隔一段时间，会在玩家上空生成落雷或下落的铁砧，需注意躲避。"
+				"                &l&o[原版&m(魔改)&r&l&oBoss，3000HP]"
+				"        与末影龙的战斗，相比原版而言更具有挑战性了。现在的末影龙血量高达3000，请做好持久作战的准备。此外，整场战斗也被分为了两个阶段："
+				"        第一阶段的战斗和原版没有太大的差别，但末影龙喷出的火球有概率为爆炸变种，威力较大，需要当心躲避。同时，每隔一段时间便会生成一些主动与玩家敌对的末影人，以及穿着精锐装备的末地僵尸。"
+				"        末影龙血量下降至1/3时会开启第二阶段。阶段开始时，会有随机三个末地水晶复活，需要注意解决。同时，会生成一只精英骷髅射手（小boss，有血条显示），玩家只有解决它才能继续攻击末影龙。在整个第二阶段期间，生成的小怪具有更强的药水效果，因而更加危险。此外，每隔一段时间，会在玩家上空生成落雷或下落的铁砧，需注意躲避。"
 			]
 			id: "0353756494274444"
 			rewards: [
@@ -1358,7 +1343,7 @@
 				"2.喷吐熔岩炸弹：当目标较远时，下界合金巨兽会收缩手臂并抬起头颅，发射5颗熔岩炸弹。熔岩炸弹会在击中后产生爆炸并生成熔岩，对玩家进行干扰。每释放五次该技能后，Boss都会重新吸收场上的所有熔岩，进行弹药补充并回复一定生命值。"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "cataclysm:monstrous_helm"
 				tag: {
 					Damage: 0
@@ -1390,7 +1375,7 @@
 				{
 					entity: "cataclysm:netherite_monstrosity"
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "cataclysm:monstrous_helm"
 						tag: {
 							Damage: 0
@@ -1575,12 +1560,11 @@
 		{
 			can_repeat: true
 			description: [
-				"上位Boss，血量2000。"
-				"利维坦，掌握深渊之力，甚至能撕裂时空的恐怖掠食者。"
-				"其需通过在沉没之城中心的水底用深渊祭品右击中心的深渊祭坛召唤，深渊祭品通过收集附近生物的战利品合成。"
-				"利维坦善于向敌人释放来自深渊的黑暗：使用触手抓取敌人，进行撕咬；撕裂身边的时空，吞噬任何陷入其中的人；释放深渊冲击波，将敌人化为灰烬。"
-				"当初始血条耗尽后进入第二阶段，利维坦会获得新的血条，随后释放大量深渊灵珠追踪敌人并对击中的敌人造成伤害。"
-				"利维坦死亡时会掉落深渊之卵，可用于孵化幼年利维坦，同时也是虚空精华的重要原料。"
+				"                &l&o[灾变上位Boss，2000HP]"
+				"        利维坦，掌握深渊之力，甚至能撕裂时空的恐怖掠食者。其需通过在沉没之城中心的水底用深渊祭品右击中心的深渊祭坛召唤，深渊祭品通过收集附近生物的战利品合成。"
+				"        利维坦善于向敌人释放来自深渊的黑暗：使用触手抓取敌人，进行撕咬；撕裂身边的时空，吞噬任何陷入其中的人；释放深渊冲击波，将敌人化为灰烬。"
+				"        当初始血条耗尽后进入第二阶段，利维坦会获得新的血条，随后释放大量深渊灵珠追踪敌人并对击中的敌人造成伤害。"
+				"        利维坦死亡时会掉落深渊之卵，可用于孵化幼年利维坦，同时也是虚空精华的重要原料。"
 			]
 			icon: "cataclysm:abyssal_egg"
 			id: "506A55857EE11451"
@@ -1678,13 +1662,13 @@
 		{
 			can_repeat: true
 			description: [
-				"新生魔艺的Boss，血量1000。"
-				"荒野奇美拉需要通过荒野召唤仪式生成（详见主线内容的“新生魔艺”章节）。"
+				"                &o&l[新生魔艺Boss，1000HP]"
+				"        荒野奇美拉需要通过荒野召唤仪式生成（详见主线内容的“新生魔艺”章节）。"
 				"这种充满魔力的野兽掌控着整个荒野族群。其血量非常高，战斗按血量平均分为四个阶段，从前往后，每过一个阶段攻击力和攻击欲望就会有所增加。"
-				"在阶段转换时，Boss会暂时获得魔法的保护，无法被攻击，此时任何试图近身的人都会被甩出去很远。"
-				"荒野奇美拉通过近战撕咬、发射尖刺、飞空扑击等方法来解决敌人。同时每过一段时间，Boss会发出嚎叫，召唤大量的荒野怪物协助攻击敌人。"
-				"在发射尖刺时，荒野奇美拉的身体会长出许多尖刺，此时攻击Boss会受到荆棘伤害。"
-				"击败荒野奇美拉即可得到荒野供物，这是制造自然精华的重要原料。"
+				"        在阶段转换时，Boss会暂时获得魔法的保护，无法被攻击，此时任何试图近身的人都会被甩出去很远。"
+				"        荒野奇美拉通过近战撕咬、发射尖刺、飞空扑击等方法来解决敌人。同时每过一段时间，Boss会发出嚎叫，召唤大量的荒野怪物协助攻击敌人。"
+				"        在发射尖刺时，荒野奇美拉的身体会长出许多尖刺，此时攻击Boss会受到荆棘伤害。"
+				"        击败荒野奇美拉即可得到荒野供物，这是制造自然精华的重要原料。"
 			]
 			icon: "ars_nouveau:wilden_tribute"
 			id: "0B64D26799F627B7"
@@ -1821,7 +1805,7 @@
 		{
 			can_repeat: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:potion"
 				tag: {
 					Potion: "minecraft:mundane"
@@ -1839,7 +1823,7 @@
 				{
 					entity: "minecraft:witch"
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:mundane"
@@ -1863,7 +1847,7 @@
 		{
 			can_repeat: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "cataclysm:coral_spear"
 				tag: {
 					Damage: 0
@@ -1881,7 +1865,7 @@
 				{
 					entity: "cataclysm:deepling"
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "cataclysm:coral_spear"
 						tag: {
 							Damage: 0
@@ -1905,7 +1889,7 @@
 		{
 			can_repeat: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:fishing_rod"
 				tag: {
 					Damage: 0
@@ -1923,7 +1907,7 @@
 				{
 					entity: "cataclysm:deepling_angler"
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:fishing_rod"
 						tag: {
 							Damage: 0
@@ -1947,7 +1931,7 @@
 		{
 			can_repeat: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "cataclysm:coral_bardiche"
 				tag: {
 					Damage: 0
@@ -1964,7 +1948,7 @@
 				{
 					entity: "cataclysm:deepling_angler"
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "cataclysm:coral_bardiche"
 						tag: {
 							Damage: 0
@@ -2018,7 +2002,7 @@
 		{
 			can_repeat: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "cataclysm:laser_gatling"
 				tag: {
 					Damage: 0
@@ -2036,7 +2020,7 @@
 				{
 					entity: "cataclysm:the_watcher"
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "cataclysm:laser_gatling"
 						tag: {
 							Damage: 0
