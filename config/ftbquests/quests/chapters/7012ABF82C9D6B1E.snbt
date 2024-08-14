@@ -270,7 +270,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["02663D10D0C58BAC"]
 			icon: "minecraft:netherrack"
 			id: "667FBA9308EB130F"
 			rewards: [{
@@ -292,7 +291,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["02663D10D0C58BAC"]
 			icon: "minecraft:blackstone"
 			id: "3CB88577ACD25F11"
 			rewards: [{
@@ -315,7 +313,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["02663D10D0C58BAC"]
 			icon: "minecraft:basalt"
 			id: "7B7E52079664B6B6"
 			rewards: [{
@@ -337,7 +334,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["45BE811EDD64FB43"]
 			icon: "minecraft:end_stone"
 			id: "21EF9483CD26EDFB"
 			rewards: [{
@@ -860,7 +856,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["02663D10D0C58BAC"]
 			icon: "nethervinery:crimson_grape_seeds"
 			id: "6F0F2DDBD363C93A"
 			rewards: [{
@@ -883,7 +878,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["02663D10D0C58BAC"]
 			icon: "nethervinery:warped_grape_seeds"
 			id: "162219BB81AD6F6A"
 			rewards: [{
@@ -906,7 +900,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["02663D10D0C58BAC"]
 			icon: "minecraft:nether_wart"
 			id: "7471C26F72F4F6A3"
 			rewards: [{
@@ -928,7 +921,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["02663D10D0C58BAC"]
 			icon: "minecraft:strider_spawn_egg"
 			id: "0B0E966CFD45D743"
 			rewards: [{
