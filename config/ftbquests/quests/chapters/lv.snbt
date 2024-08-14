@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "lv"
 	group: "3A8D137D2E3EED65"
+	hide_quest_details_until_startable: true
 	icon: "gtceu:steel_ingot"
 	id: "1CA6AC6EFD219DAA"
 	order_index: 0

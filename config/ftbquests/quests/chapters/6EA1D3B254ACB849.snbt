@@ -3,36 +3,14 @@
 	default_quest_shape: ""
 	filename: "6EA1D3B254ACB849"
 	group: "4D9905FD3514175F"
+	hide_quest_until_deps_visible: true
 	icon: "ars_nouveau:creative_spell_book"
 	id: "6EA1D3B254ACB849"
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"        了解魔法，掌握魔法，怎能没有一本魔法书呢？"
-				"        这本简单的法术书可以让你掌握一些基本的法术。但为了获取更多的法术、更强大的法术，你还需要做很多的工作。"
-			]
-			id: "619CDA7420CF397E"
-			rewards: [{
-				count: 4
-				id: "4B2EB9637FF95D49"
-				item: "gtceu:cupronickel_credit"
-				type: "item"
-			}]
-			shape: "square"
-			size: 2.0d
-			tasks: [{
-				id: "14D303C1A2695284"
-				item: "ars_nouveau:novice_spell_book"
-				type: "item"
-			}]
-			title: "初来乍到"
-			x: -6.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["619CDA7420CF397E"]
+			dependencies: ["40A69BE6DDADD610"]
 			description: ["        你手上的这本简单的法术书已经无法发挥那些更强大法术中的力量了，用点厉害的材料升级一下吧。"]
 			id: "44878B1728FB5C50"
 			rewards: [{
@@ -90,7 +68,7 @@
 			y: 2.25d
 		}
 		{
-			dependencies: ["619CDA7420CF397E"]
+			dependencies: ["40A69BE6DDADD610"]
 			description: [
 				"        要想制造新生魔艺里的绝大多数物品，首先要收集的便是一种特殊的木材，它蕴含着独特的魔法力量。"
 				"        在主世界存在着多种至高木，这些树木往往独自生长，很少形成树林，其树冠的颜色也非常鲜艳，在一众普通的树木中特别鲜艳。"
@@ -754,6 +732,24 @@
 			}]
 			x: -9.0d
 			y: 6.0d
+		}
+		{
+			dependencies: ["73869DD50D30F57F"]
+			description: [
+				"        了解魔法，掌握魔法，怎能没有一本魔法书呢？"
+				"        这本简单的法术书可以让你掌握一些基本的法术。但为了获取更多的法术、更强大的法术，你还需要做很多的工作。"
+			]
+			id: "40A69BE6DDADD610"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "36BDD767C68476D5"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			title: "初来乍到"
+			x: -6.0d
+			y: -3.0d
 		}
 	]
 	title: "新生魔艺"

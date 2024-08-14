@@ -3,6 +3,8 @@
 	default_quest_shape: ""
 	filename: "1B3B15BB8A39466B"
 	group: "4D9905FD3514175F"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
 	icon: "createchromaticreturn:chromatic_compound"
 	id: "1B3B15BB8A39466B"
 	order_index: 1
