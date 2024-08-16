@@ -1,0 +1,42 @@
+{
+	id: "0507A894E8AA226E"
+	loot_size: 1
+	order_index: 15
+	rewards: [
+		{ item: "kubejs:disc_axolotl" }
+		{ item: "kubejs:disc_dragon_fish" }
+		{ item: "kubejs:disc_shuniji" }
+		{ item: "kubejs:disc_chrysopoeia" }
+		{ item: "kubejs:disc_rubedo" }
+		{ item: "kubejs:disc_so_below" }
+		{ item: "kubejs:disc_an_ordinary_day" }
+		{ item: "kubejs:disc_comforting_memories" }
+		{ item: "kubejs:disc_floating_dream" }
+		{ item: "kubejs:disc_ancestry" }
+		{ item: "kubejs:disc_infinite_amethyst" }
+		{ item: "kubejs:disc_left_to_bloom" }
+		{ item: "kubejs:disc_one_more_day" }
+		{ item: "kubejs:disc_stand_tall" }
+		{ item: "kubejs:disc_wending" }
+		{ item: "kubejs:disc_aerie" }
+		{ item: "kubejs:disc_firebugs" }
+		{ item: "kubejs:disc_labyrinthine" }
+		{ item: "kubejs:disc_a_familiar_room" }
+		{ item: "kubejs:disc_bromeliad" }
+		{ item: "kubejs:disc_crescent_dunes" }
+		{ item: "kubejs:disc_echo_in_the_wind" }
+		{ item: "kubejs:disc_creator" }
+		{ item: "kubejs:disc_creator_music_box" }
+		{ item: "kubejs:disc_deeper" }
+		{ item: "kubejs:disc_eld_unknown" }
+		{ item: "kubejs:disc_endless" }
+		{ item: "kubejs:disc_featherfall" }
+		{ item: "kubejs:disc_komorebi" }
+		{ item: "kubejs:disc_pokopoko" }
+		{ item: "kubejs:disc_precipice" }
+		{ item: "kubejs:disc_puzzlebox" }
+		{ item: "kubejs:disc_watcher" }
+		{ item: "kubejs:disc_yakusoku" }
+	]
+	title: "唱片（1.12后）"
+}

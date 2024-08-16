@@ -33,6 +33,12 @@
 			dependencies: ["69493DB2E1544F48"]
 			icon: "gtceu:luv_electric_motor"
 			id: "379ACC2B7DCA9DBA"
+			rewards: [{
+				count: 6
+				id: "6BE3A791B502C334"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -80,6 +86,12 @@
 			dependencies: ["08C61A48D6293210"]
 			icon: "gtceu:multilayer_fiber_reinforced_printed_circuit_board"
 			id: "27232E11CA0ECD41"
+			rewards: [{
+				count: 4
+				id: "063C0E5D4CEF0625"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -102,6 +114,12 @@
 			dependencies: ["69493DB2E1544F48"]
 			icon: "gtceu:crystal_cpu"
 			id: "7EBFA9185A5B7196"
+			rewards: [{
+				count: 6
+				id: "5A0934AF151AABBA"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -132,6 +150,12 @@
 			]
 			icon: "gtceu:crystal_processor_mainframe"
 			id: "2C4FE214B671E959"
+			rewards: [{
+				count: 2
+				id: "4ABB1BCFAC9C38F2"
+				item: "gtceu:osmium_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -164,6 +188,11 @@
 			dependencies: ["69493DB2E1544F48"]
 			icon: "gtceu:enriched_naquadah_ingot"
 			id: "66B360862D404192"
+			rewards: [{
+				id: "001E9C40475717C3"
+				item: "gtceu:osmium_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -219,6 +248,12 @@
 			]
 			icon: "gtceu:naquadria_ingot"
 			id: "6326664C1510A3A5"
+			rewards: [{
+				count: 4
+				id: "5CCE75BE4F8F9A5B"
+				item: "gtceu:osmium_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -271,6 +306,12 @@
 			dependencies: ["66B360862D404192"]
 			icon: "gtceu:trinium_ingot"
 			id: "65D626D30365BB54"
+			rewards: [{
+				count: 6
+				id: "65D59BB98F622949"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -301,6 +342,12 @@
 			]
 			icon: "gtceu:luv_fusion_reactor"
 			id: "7474480AB9897C7B"
+			rewards: [{
+				count: 2
+				id: "7C52DF9FF1353F41"
+				item: "gtceu:osmium_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [{
@@ -316,6 +363,19 @@
 			dependencies: ["65D626D30365BB54"]
 			icon: "gtceu:naquadah_alloy_ingot"
 			id: "2C4D0952F09794AA"
+			rewards: [
+				{
+					id: "782C7A1B26BFC598"
+					item: "gtceu:osmium_credit"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "22F0ED585A9C0754"
+					item: "gtceu:platinum_credit"
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -338,6 +398,19 @@
 			dependencies: ["7474480AB9897C7B"]
 			icon: "gtceu:europium_ingot"
 			id: "0F40FE2BB6D7E8BA"
+			rewards: [
+				{
+					id: "084A82B836485CB2"
+					item: "gtceu:osmium_credit"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7872FEE0CCB44213"
+					item: "gtceu:platinum_credit"
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 2.0d
 			tasks: [{
@@ -357,6 +430,12 @@
 			hide_dependency_lines: false
 			icon: "gtceu:zpm_machine_hull"
 			id: "5D123CB04091F0C8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03917AE27C626F10"
+				table_id: 2681991074800570146L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 3.0d
 			tasks: [{
@@ -372,6 +451,12 @@
 			dependencies: ["5D123CB04091F0C8"]
 			icon: "gtceu:zpm_electric_motor"
 			id: "2BB6C69057542656"
+			rewards: [{
+				count: 2
+				id: "56F59916C9E4FE9C"
+				item: "gtceu:osmium_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -419,6 +504,12 @@
 			dependencies: ["2BB6C69057542656"]
 			icon: "gtceu:sterilizing_filter_casing"
 			id: "6F83A91B74D0E843"
+			rewards: [{
+				count: 2
+				id: "5EAF22EB44A27FAA"
+				item: "gtceu:osmium_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [{
@@ -434,6 +525,12 @@
 			dependencies: ["6F83A91B74D0E843"]
 			icon: "gtceu:mutagen_bucket"
 			id: "3AE6D6C9E9F1ECF4"
+			rewards: [{
+				count: 2
+				id: "76288AF3B8D68D9C"
+				item: "gtceu:osmium_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -466,6 +563,12 @@
 			dependencies: ["6F83A91B74D0E843"]
 			icon: "gtceu:agar_dust"
 			id: "6FB4F761A502E4B8"
+			rewards: [{
+				count: 2
+				id: "7EF2D31BDB2BE542"
+				item: "gtceu:osmium_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -501,6 +604,12 @@
 			]
 			icon: "gtceu:stem_cells"
 			id: "5584C77D0A185678"
+			rewards: [{
+				count: 4
+				id: "66F819B11D5B0C92"
+				item: "gtceu:osmium_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -541,6 +650,7 @@
 					type: "item"
 				}
 			]
+			title: "量产生物"
 			x: 5.0d
 			y: 20.0d
 		}
@@ -548,6 +658,12 @@
 			dependencies: ["5584C77D0A185678"]
 			icon: "gtceu:wetware_processor_mainframe"
 			id: "47776B86E127CFE3"
+			rewards: [{
+				count: 2
+				id: "32379437D64D14B4"
+				item: "gtceu:naquadah_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			subtitle: "指生物电路"
@@ -596,6 +712,12 @@
 			dependencies: ["5D123CB04091F0C8"]
 			icon: "gtceu:uranium_rhodium_dinaquadide_ingot"
 			id: "36E606397BB9A65A"
+			rewards: [{
+				count: 2
+				id: "5D550F3AB939D66E"
+				item: "gtceu:osmium_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -621,6 +743,12 @@
 			]
 			icon: "gtceu:zpm_fusion_reactor"
 			id: "0A6A6501DCB576CE"
+			rewards: [{
+				count: 4
+				id: "57E295FB813DC796"
+				item: "gtceu:osmium_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [{
@@ -636,6 +764,12 @@
 			dependencies: ["0A6A6501DCB576CE"]
 			icon: "gtceu:darmstadtium_ingot"
 			id: "72EE8C1DFCBB75B7"
+			rewards: [{
+				count: 4
+				id: "01CE6F2C4A53DDE6"
+				item: "gtceu:osmium_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [{
@@ -651,6 +785,19 @@
 			dependencies: ["7474480AB9897C7B"]
 			icon: "gtceu:duranium_ingot"
 			id: "3BD2D1429C5D2DBD"
+			rewards: [
+				{
+					id: "725C3437A6DA6303"
+					item: "gtceu:osmium_credit"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "728EAE70DADD7567"
+					item: "gtceu:platinum_credit"
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 2.0d
 			tasks: [{
@@ -669,6 +816,12 @@
 			]
 			icon: "gtceu:tritanium_ingot"
 			id: "516CF4BCBD30C706"
+			rewards: [{
+				count: 4
+				id: "1527DF1550EB2799"
+				item: "gtceu:osmium_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [{
@@ -684,6 +837,19 @@
 			dependencies: ["7474480AB9897C7B"]
 			icon: "gtceu:lutetium_bucket"
 			id: "24127FB7E84CB93B"
+			rewards: [
+				{
+					id: "64DD964C4613C14E"
+					item: "gtceu:osmium_credit"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "07B55F1A867AC7DC"
+					item: "gtceu:platinum_credit"
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -709,6 +875,12 @@
 			]
 			icon: "gtceu:americium_ingot"
 			id: "51397CDF8C79D956"
+			rewards: [{
+				count: 4
+				id: "65E5397184DE373A"
+				item: "gtceu:osmium_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [{
@@ -728,6 +900,12 @@
 			hide_dependency_lines: false
 			icon: "gtceu:uv_machine_hull"
 			id: "1C7B38556D7742DC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "166375700D68B068"
+				table_id: 2848324682372958615L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 3.0d
 			tasks: [{
@@ -743,6 +921,12 @@
 			dependencies: ["516CF4BCBD30C706"]
 			icon: "gtceu:enriched_naquadah_trinium_europium_duranide_ingot"
 			id: "0B2D9CBC74C0874F"
+			rewards: [{
+				count: 6
+				id: "36E9AA8D30100741"
+				item: "gtceu:osmium_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -765,6 +949,12 @@
 			dependencies: ["1C7B38556D7742DC"]
 			icon: "gtceu:uv_electric_motor"
 			id: "7EAD2428E4E74DDE"
+			rewards: [{
+				count: 6
+				id: "1013CE07067B67F4"
+				item: "gtceu:osmium_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -815,6 +1005,11 @@
 			]
 			icon: "gtceu:zpm_fusion_reactor"
 			id: "1DD79C2921A71CEE"
+			rewards: [{
+				id: "700A9A0CB8E9C89A"
+				item: "gtceu:naquadah_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [{
@@ -830,6 +1025,11 @@
 			dependencies: ["1DD79C2921A71CEE"]
 			icon: "gtceu:neutronium_ingot"
 			id: "402B7EF9ACB11D71"
+			rewards: [{
+				id: "4C9107D4C8C377FB"
+				item: "gtceu:naquadah_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [{
@@ -845,6 +1045,12 @@
 			dependencies: ["402B7EF9ACB11D71"]
 			icon: "gtceu:ruthenium_trinium_americium_neutronate_ingot"
 			id: "7557F49E3D4E0131"
+			rewards: [{
+				count: 2
+				id: "215D2DB27EB0BCB5"
+				item: "gtceu:naquadah_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -871,6 +1077,12 @@
 				tag: { }
 			}
 			id: "26D8369B765B88FC"
+			rewards: [{
+				count: 2
+				id: "7D6E557F2F1DA15F"
+				item: "gtceu:naquadah_credit"
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 2.0d
 			tasks: [
@@ -907,6 +1119,19 @@
 			dependencies: ["402B7EF9ACB11D71"]
 			icon: "gtceu:uhv_machine_hull"
 			id: "3E30B8101FA1B60A"
+			rewards: [
+				{
+					id: "2F15278F8E23F905"
+					item: "gtceu:naquadah_credit"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0D9E91F41396C43B"
+					item: "gtceu:osmium_credit"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			size: 2.0d
 			tasks: [{
@@ -922,6 +1147,19 @@
 			dependencies: ["402B7EF9ACB11D71"]
 			icon: "gtceu:neutronium_wafer"
 			id: "708F955829E3ED2A"
+			rewards: [
+				{
+					id: "0C6D799A3F048694"
+					item: "gtceu:naquadah_credit"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "55707F997ADF16DD"
+					item: "gtceu:osmium_credit"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			size: 2.0d
 			tasks: [
@@ -944,6 +1182,12 @@
 			dependencies: ["402B7EF9ACB11D71"]
 			icon: "gtceu:nan_certificate"
 			id: "155E802AED392782"
+			rewards: [{
+				count: 2
+				id: "52C2453818D093BD"
+				item: "gtceu:naquadah_credit"
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 2.0d
 			subtitle: "获得“不再是菜鸟的证明”"
@@ -960,6 +1204,20 @@
 			dependencies: ["7557F49E3D4E0131"]
 			icon: "gtceu:max_battery"
 			id: "20A8AA24D1418109"
+			rewards: [
+				{
+					count: 4
+					id: "6C5FE05F2BD926AF"
+					item: "gtceu:naquadah_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "424BC924372E79F3"
+					table_id: 1138602102742099260L
+					type: "loot"
+				}
+			]
 			shape: "gear"
 			size: 3.0d
 			tasks: [{

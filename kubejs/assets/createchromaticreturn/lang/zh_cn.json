@@ -41,6 +41,9 @@
   "item.createchromaticreturn.four_leaf_clover": "四叶草",
   "item.createchromaticreturn.cyber_plating": "赛博之板",
 
+  "fluid_type.createchromaticreturn.shadow_essence": "暗影精华液",
+  "fluid_type.createchromaticreturn.refined_mixture": "光辉混合物液",
+
   "block.createchromaticreturn.brass_component": "黄铜组件",
   "block.createchromaticreturn.andesite_component": "安山组件"
 }

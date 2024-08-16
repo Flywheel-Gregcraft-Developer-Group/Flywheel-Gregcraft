@@ -1,11 +1,11 @@
 {
 	"music.menu": {
-        "replace": false,
+        "replace": true,
 		"catagory": "music",
 		"sounds": [
-			"city_of_green",
-			"go_to_work",
-			"clear_skyscrapers",
+			"white_trees",
+			"among_the_stars",
+			"little_town",
 			"the_long_construction",
 			"eld_unknown",
 			"endless",

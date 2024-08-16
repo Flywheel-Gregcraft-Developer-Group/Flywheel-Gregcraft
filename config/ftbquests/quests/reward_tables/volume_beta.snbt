@@ -22,15 +22,6 @@
 		{ item: "kubejs:disc_beginning_2" }
 		{ item: "kubejs:disc_dreiton" }
 		{ item: "kubejs:disc_the_end" }
-		{ item: "minecraft:music_disc_blocks" }
-		{ item: "minecraft:music_disc_chirp" }
-		{ item: "minecraft:music_disc_far" }
-		{ item: "minecraft:music_disc_mall" }
-		{ item: "minecraft:music_disc_mellohi" }
-		{ item: "minecraft:music_disc_stal" }
-		{ item: "minecraft:music_disc_strad" }
-		{ item: "minecraft:music_disc_ward" }
-		{ item: "minecraft:music_disc_wait" }
 	]
 	title: "唱片（Volume Beta）"
 }

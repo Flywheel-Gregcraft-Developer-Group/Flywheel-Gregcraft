@@ -12,13 +12,14 @@
 		{
 			dependencies: ["47A9326BF7B7D56B"]
 			description: [
-				"        没有安山合金，就无法制作机械动力中的绝大多数物品。你需要混合铁粒和安山岩来制作安山合金，在拥有机械动力的动力搅拌机后，使用机器进行混合可以节省一半的材料。"
+				"        没有安山合金，就无法制作机械动力中的绝大多数物品。你需要混合铁粒和安山岩来制作安山合金，在拥有动力搅拌机后，使用机器进行混合可以节省一半的材料。"
+				"        提示：生存初期的金属粒（包括铁粒）可以通过消耗大量的燧石研磨金属锭（工作台配方）获得。"
 				""
 				"        在获取安山合金后，你需要制作安山机壳作为前期机器的外壳材料。安山机壳可以通过对去皮原木使用安山合金获得。同理，后面遇到的其他机壳都可以通过将对应材料应用到去皮原木上获得。"
 			]
+			icon: "create:andesite_alloy"
 			id: "16AF2F73617701CC"
 			rewards: [{
-				count: 4
 				id: "417D6D7EA6058522"
 				item: "gtceu:cupronickel_credit"
 				type: "item"
@@ -26,11 +27,18 @@
 			shape: "square"
 			size: 2.0d
 			subtitle: "获得安山合金"
-			tasks: [{
-				id: "50E3D725DD593824"
-				item: "create:andesite_alloy"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "50E3D725DD593824"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					id: "212A218B5CF4D645"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+			]
 			title: "第一种合金"
 			x: -3.0d
 			y: 3.0d
@@ -51,8 +59,9 @@
 			id: "2294BA265E76EFC9"
 			require_sequential_tasks: true
 			rewards: [{
+				count: 2
 				id: "2DBE9E9F790BAC1A"
-				item: "gtceu:silver_credit"
+				item: "gtceu:cupronickel_credit"
 				type: "item"
 			}]
 			shape: "square"
@@ -81,6 +90,7 @@
 				"你需要将铜和锌在加热下搅拌以获得黄铜。"
 				"使用黄铜制造的机器可以进行精确的调节，从事精密的工作。拥有黄铜后，就可以开始搭建更加高级复杂的机械装置和生产线了。"
 			]
+			icon: "create:brass_ingot"
 			id: "65DDEA2AF978F2A9"
 			rewards: [{
 				count: 4
@@ -91,11 +101,18 @@
 			shape: "square"
 			size: 2.0d
 			subtitle: "获得黄铜，解锁高级的机械动力物品"
-			tasks: [{
-				id: "29579D4763C1B0E5"
-				item: "create:brass_ingot"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "29579D4763C1B0E5"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+				{
+					id: "523A5EF27C34FF19"
+					item: "create:brass_casing"
+					type: "item"
+				}
+			]
 			title: "黄澄澄的黄铜！"
 			x: 10.0d
 			y: 2.0d
@@ -131,7 +148,7 @@
 			id: "274236D7A9DE8C32"
 			require_sequential_tasks: true
 			rewards: [{
-				count: 4
+				count: 2
 				id: "6AEA1FAB574D8997"
 				item: "gtceu:cupronickel_credit"
 				type: "item"
@@ -176,7 +193,7 @@
 			icon: "create:copper_casing"
 			id: "00F495410A45A850"
 			rewards: [{
-				count: 6
+				count: 4
 				id: "1AD36CDBBE837001"
 				item: "gtceu:cupronickel_credit"
 				type: "item"
@@ -219,26 +236,12 @@
 				"遵循这套流程，多数时候可以生产出能用的精密构件，但也有一定概率会生产出废品，至于会得到什么就要看你的运气了……"
 			]
 			id: "2730F5FACA44852C"
-			rewards: [
-				{
-					count: 2
-					id: "3CCF87DA3826C281"
-					item: "gtceu:silver_credit"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "03F524DED256338B"
-					table_id: 3796081265972574461L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "01B987D9EEE69B81"
-					table_id: 3796081265972574461L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				count: 6
+				id: "3CCF87DA3826C281"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			subtitle: "制造精密构件，这是所有高级构件的基础"
@@ -255,49 +258,17 @@
 			dependencies: [
 				"00F495410A45A850"
 				"2730F5FACA44852C"
-				"239A27D99D775714"
 			]
 			description: [
 				"        电子构件是你在初期可以制造的简单电路。"
 				"        电子构件的制造同样需要一套序列组装流程，但比制造精密构件的要更复杂。"
 			]
 			id: "4CD1BB1DD8BE3FE4"
-			rewards: [
-				{
-					id: "1F61D9DA4020153E"
-					item: "gtceu:gold_credit"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "24DA337DA1441F9B"
-					table_id: 3796081265972574461L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2308A747C6C85FFE"
-					table_id: 3796081265972574461L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0A7B1B59DA29E86E"
-					table_id: 3584072387679168022L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "07003A28428AEE17"
-					table_id: 3584072387679168022L
-					type: "loot"
-				}
-				{
-					id: "772D6755498C8073"
-					item: "simplyswords:runic_tablet"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "6613F70C84698F27"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			subtitle: "制造电子构件"
@@ -308,32 +279,17 @@
 			}]
 			title: "机电一体"
 			x: 17.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["50158AF63B1ECFBA"]
 			description: ["        黑曜石粉是制造坚固板和异彩化合物的重要原料，将黑曜石投入粉碎轮中粉碎以得到它。如果运气够好，黑曜石没有被完全粉碎，你可以将其再次投进粉碎轮中，以获得更多的黑曜石粉。"]
 			id: "77CC1C77F34FCB48"
-			rewards: [
-				{
-					count: 4
-					id: "0478D99415CD6643"
-					item: "gtceu:silver_credit"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "67657C2155518C9B"
-					table_id: 3584072387679168022L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "305025ADB21FBF25"
-					table_id: 3584072387679168022L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				id: "0478D99415CD6643"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			subtitle: "优质高强度材料基底"
@@ -374,17 +330,19 @@
 				"4E5CE5DA1C3DAF80"
 			]
 			description: [
-				"将金属压成片是工业生产的重要一步。"
-				"机械动力时期涉及到的金属都可以通过动力辊压机进行压片，在辊压机下面放置待处理物品，物品可以放在置物台上，也可以在传送带上，甚至还可以直接扔在地上。"
-				"除了将金属压成片，动力辊压机还可以用于甘蔗造纸（原版甘蔗造纸的配方被禁用了）、压块配方、序列组装等场合。"
+				"        将金属压成片是工业生产的重要一步。"
+				"        机械动力时期涉及到的金属都可以通过动力辊压机进行压片，在辊压机下面放置待处理物品，物品可以放在置物台上，也可以在传送带上，甚至还可以直接扔在地上。"
+				"        除了将金属压成片，动力辊压机还可以用于压块配方、序列组装等场合。"
+				""
+				"        提示：动力辊压机的生产需要铁块，可以将粗铁矿压成块状后投入熔炉中熔炼得到。"
 			]
 			icon: "create:mechanical_press"
 			id: "45C962A643A3C85D"
 			require_sequential_tasks: true
 			rewards: [{
-				count: 2
-				id: "0F3DDF2FD836F8E8"
-				item: "gtceu:cupronickel_credit"
+				count: 4
+				id: "252B7887B3A4D709"
+				item: "gtceu:copper_credit"
 				type: "item"
 			}]
 			shape: "square"
@@ -410,8 +368,7 @@
 			dependencies: ["2294BA265E76EFC9"]
 			description: [
 				"你需要将铜和锡在加热下搅拌以获得青铜。"
-				"青铜开启了通往格雷科技的大门，搭建GTM开端的蒸汽生产线需要大量的青铜。"
-				"此外，青铜也可以在进行熔融后用于大炮和电子构件的制造。"
+				"青铜开启了通往格雷科技的大门，搭建蒸汽生产线需要大量的青铜。"
 			]
 			icon: "gtceu:bronze_ingot"
 			id: "239A27D99D775714"
@@ -421,17 +378,17 @@
 				item: "gtceu:cupronickel_credit"
 				type: "item"
 			}]
-			shape: "square"
-			size: 2.0d
-			subtitle: "获得青铜，以及……解锁另一条路线？"
+			shape: "gear"
+			size: 3.0d
+			subtitle: "获得青铜，以及……进入蒸汽时代？"
 			tasks: [{
 				id: "6C11A6F1329F13EF"
 				item: "gtceu:bronze_ingot"
 				type: "item"
 			}]
 			title: "梆梆硬的青铜！"
-			x: 10.0d
-			y: 4.0d
+			x: 9.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -445,8 +402,7 @@
 			]
 			id: "1964764D9980434C"
 			rewards: [{
-				count: 4
-				id: "7DF69D33E2ED42B2"
+				id: "735BBF8133E779BA"
 				item: "gtceu:cupronickel_credit"
 				type: "item"
 			}]
@@ -577,9 +533,9 @@
 			icon: "create:cogwheel"
 			id: "15050FC465F764BD"
 			rewards: [{
-				count: 2
-				id: "136971B988258206"
-				item: "gtceu:cupronickel_credit"
+				count: 4
+				id: "2178AE7D3E66FF37"
+				item: "gtceu:copper_credit"
 				type: "item"
 			}]
 			shape: "square"
@@ -661,8 +617,7 @@
 			]
 			id: "4429A7DDFB9DD462"
 			rewards: [{
-				count: 2
-				id: "2B66946ECC403941"
+				id: "07E8928CE2169366"
 				item: "gtceu:silver_credit"
 				type: "item"
 			}]
@@ -691,9 +646,9 @@
 			]
 			id: "50158AF63B1ECFBA"
 			rewards: [{
-				count: 2
-				id: "0BC6CB2E65CA57BD"
-				item: "gtceu:silver_credit"
+				count: 6
+				id: "4BACEA47D93F2B60"
+				item: "gtceu:cupronickel_credit"
 				type: "item"
 			}]
 			shape: "square"
@@ -718,7 +673,6 @@
 			]
 			id: "733CBDE120B3F268"
 			rewards: [{
-				count: 2
 				id: "1D9E67C37E83C8DE"
 				item: "gtceu:cupronickel_credit"
 				type: "item"
@@ -732,7 +686,7 @@
 				type: "item"
 			}]
 			title: "汲取经验"
-			x: 14.25d
+			x: 15.0d
 			y: 9.0d
 		}
 		{
@@ -742,38 +696,11 @@
 				"黄铜锭发出了非常耀眼的光芒，这中间一定有什么特别之处……"
 			]
 			id: "441C3D00095107D0"
-			rewards: [
-				{
-					count: 4
-					id: "5CCCDF301AB0E627"
-					item: "gtceu:gold_credit"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "3062053F7FEF5086"
-					table_id: 3584072387679168022L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "362E3302C07A801E"
-					table_id: 3584072387679168022L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1C697170428C5A86"
-					table_id: 3584072387679168022L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7735957FBF3164CC"
-					table_id: 3584072387679168022L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				id: "1655797FA318D4D6"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			subtitle: "似乎注了魔"
@@ -798,38 +725,11 @@
 				"        转到“异彩时代”章节以继续你的探索吧。"
 			]
 			id: "5B6BAEAB218D7227"
-			rewards: [
-				{
-					count: 2
-					id: "45B773B56EC62CEA"
-					item: "gtceu:platinum_credit"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "06A4912547C60468"
-					table_id: 3584072387679168022L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "3B3C219E792CFEA1"
-					table_id: 3584072387679168022L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "3BCE7D7F2E0350DF"
-					table_id: 7048715706084453192L
-					type: "loot"
-				}
-				{
-					count: 2
-					id: "53F547D2E8F5CFB7"
-					item: "simplyswords:runic_tablet"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "3657CFACB3B29CE4"
+				item: "simplyswords:runic_tablet"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 3.0d
 			tasks: [{
@@ -842,34 +742,53 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["2294BA265E76EFC9"]
+			dependencies: ["16AF2F73617701CC"]
 			description: [
-				"直接将沙子熔炼成玻璃显然是不可能了（至少一般的加热无法做到这一点），你需要合成玻璃粉后在加热条件下压块以制造玻璃。"
-				"玻璃粉的合成需要石英砂和燧石粉（小撮），在生存初期，你可以通过机械动力的磨石或GTM的研钵来制造这些粉末。"
-				"在解锁超级加热后，你可以将沙子在超级加热条件下直接压块得到玻璃。"
-				"此外，GTM也提供了一些玻璃制取方法，相比机械动力的方法而言拥有更高的产量。"
+				"        直接将沙子熔炼成玻璃显然是不可能了（至少一般的加热无法做到这一点），要想在前期制造玻璃，你首先需要合成一些玻璃粉。"
+				"        玻璃粉的合成需要石英砂和燧石粉（小撮），在生存初期，你可以通过研钵工具（初期可制作燧石研钵或铁研钵）来制造这些粉末。"
+				"        使用熔炉只能将玻璃粉熔炼成玻璃碎片，将四块玻璃碎片拼合起来可以得到完整的玻璃，共消耗四个玻璃粉。"
+				"        在获得烈焰人燃烧室后，你可以仅用两个玻璃粉在加热条件下压块得到玻璃。"
+				"        解锁超级加热后，你可以将沙子在超级加热条件下直接压块得到玻璃！"
+				"        此外，格雷科技也提供了一些玻璃制取方法，相比机械动力的方法而言拥有更高的产量。"
 			]
 			icon: "minecraft:glass"
 			id: "3908F6D558743C37"
 			require_sequential_tasks: true
+			rewards: [{
+				count: 6
+				id: "79AA17F99E515714"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 1.5d
 			tasks: [
 				{
-					count: 2L
-					id: "0080FC710CC838E3"
+					id: "10495B4BFC26151A"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/mortars"
+						}
+					}
+					title: "制作研钵"
+					type: "item"
+				}
+				{
+					id: "584A765B333A5493"
 					item: "gtceu:glass_dust"
 					type: "item"
 				}
 				{
-					id: "49F8B851D70FF9B6"
+					id: "32D216E3569E5F42"
 					item: "minecraft:glass"
 					type: "item"
 				}
 			]
 			title: "玻璃生产"
-			x: 6.0d
-			y: 5.25d
+			x: -1.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3908F6D558743C37"]
@@ -888,6 +807,11 @@
 			]
 			icon: "create:goggles"
 			id: "59E598155BCBD7F0"
+			rewards: [{
+				id: "06282D63874176E4"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 1.5d
 			subtitle: "观察，调节"
@@ -904,11 +828,14 @@
 				}
 			]
 			title: "工程师的心头好"
-			x: 8.25d
-			y: 5.25d
+			x: 0.0d
+			y: 9.0d
 		}
 		{
-			dependencies: ["77CC1C77F34FCB48"]
+			dependencies: [
+				"77CC1C77F34FCB48"
+				"4CD1BB1DD8BE3FE4"
+			]
 			description: [
 				"        如果觉得搭建一个机械手打印机有点麻烦的话，这里提供了一种懒人化的方法。"
 				"        一个蓝图加农炮，在装有火药作为能源时，可以利用周围箱子内的材料来帮助你打印蓝图中的建筑，虽然它的打印速度并不算特别快。"
@@ -923,12 +850,22 @@
 				type: "item"
 			}]
 			title: "蓝图大炮"
-			x: 24.0d
-			y: 0.0d
+			x: 21.0d
+			y: 5.25d
 		}
 		{
 			dependencies: ["73869DD50D30F57F"]
-			description: ["        生存前期，你能够接触到的工业系统便是机械动力了。为了解锁格雷科技，以及前往末地。不仅要先前往下界，还需要建立起基本的机械动力生产设施。"]
+			description: [
+				"        农民的生活受够了？是时候拥抱工业了——从齿轮的传动开始！"
+				"        在这一阶段你需要建立起你的机械动力生产设施，为进一步的发展作准备。"
+				"        大多数机械动力机器的正常运作需要足够的应力，一个应力网络因此可以分为三个部分，很快你便会在接下来的任务中接触到它们："
+				"                1.应力源：产生应力，并将应力输入至其接入的网络中。"
+				"                2.传递部件：主要有大小齿轮、传动杆、传送带、齿轮箱等，负责将应力网络中的各个部分相互连接起来。"
+				"                3.应力消耗端：消耗应力工作的机器，从其接入的应力网络中提取所需的应力，如果网络中的应力余量不足，则会发生过载现象，导致整个网络中的所有机器停运。"
+				"        在开始搭建应力网络之前，你还差一件事情——&l做一些安山合金&r。"
+				""
+				"        注：机械动力的大多数机器和部件都带有&a思索功能（光标置于其上后长按[W]键）&r，通过动画形式帮助新手了解其功能。"
+			]
 			icon: "create:wrench"
 			id: "47A9326BF7B7D56B"
 			size: 4.0d
@@ -940,6 +877,177 @@
 			title: "欢迎来到机械动力"
 			x: -7.0d
 			y: 3.0d
+		}
+		{
+			dependencies: [
+				"77CC1C77F34FCB48"
+				"4CD1BB1DD8BE3FE4"
+			]
+			description: [
+				"        您是否为稀有矿脉的枯竭而感到烦恼？是否厌倦了不断下矿的过程？"
+				"        机械动力附属提供的矿物钻井和流体提取井将会帮你从中解放出来！"
+				"        首先，你需要制作一把探矿杖，它可以探测周围一定区域内的基岩矿脉情况，并告诉你距离最近的矿脉以及与你之间的距离。"
+				"        在这个过程中，你可以四处走动一段距离，再次进行探测，观察矿脉与你距离的变化情况，一步步定位到矿脉所处的区块。"
+				"        定位到矿脉所在区块后，便可以在该区块中放下钻井，准备钻探了（如果矿脉是流体的话则需要用流体提取井而不是矿物钻井）。"
+				"        在开始钻探前，你还需要向钻井中接入足够多的应力，并根据需求通入额外的润滑液体（下界矿脉为熔岩，末地矿脉为龙息）。"
+				"        机器开始工作后，每隔一段时间便会产出一些矿物（或流体），并尝试从输出端输出。转速越高，收获速度越快。"
+				"        注：基岩钻井的应力消耗非常大，你可能需要在周围准备多个九级蒸汽锅炉才能支撑其工作！"
+			]
+			icon: "createoreexcavation:drilling_machine"
+			id: "07DF3FCCDFE32F3E"
+			size: 1.5d
+			subtitle: "向地层深处索取……"
+			tasks: [
+				{
+					id: "40EFFFAD32BEB83C"
+					item: "createoreexcavation:vein_finder"
+					type: "item"
+				}
+				{
+					id: "22C9CC057C86FD5A"
+					item: "createoreexcavation:drilling_machine"
+					type: "item"
+				}
+				{
+					id: "5E0470AC33A660C0"
+					item: "createoreexcavation:extractor"
+					type: "item"
+				}
+			]
+			title: "早期基岩采矿"
+			x: 21.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4CD1BB1DD8BE3FE4"]
+			description: ["        黄铜无人机是你的得力助手，为其安装功能模块，利用遥控器操控它，即可为你进行战斗、运输、收获等工作。"]
+			icon: "create_sa:brass_drone_item"
+			id: "2D0AFC3849A3DC79"
+			size: 1.5d
+			subtitle: "你的蒸汽朋克无人机伙伴"
+			tasks: [
+				{
+					id: "6595665EF2B6B1DD"
+					item: "create_sa:drone_controller"
+					type: "item"
+				}
+				{
+					id: "390FF18FD91D78E4"
+					item: "create_sa:brass_drone_item"
+					type: "item"
+				}
+			]
+			title: "大疆动力"
+			x: 13.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["45C962A643A3C85D"]
+			description: [
+				"        纸是传递信息的重要载体，也用于各种纸质物件的制造中。"
+				"        你可以通过农夫乐事的树皮造纸，但那样效率低而且也不方便自动化。"
+				"        在有了辊压机和工作盆后，你可以将甘蔗在水中压成纸了，而甘蔗是可以大量种植并自动收割的。"
+				"        当然，使用格雷科技的木屑和机器造纸可以获得更高的产量。"
+			]
+			icon: "minecraft:paper"
+			id: "259A1A0B8FB76F20"
+			require_sequential_tasks: true
+			rewards: [{
+				count: 6
+				id: "098378B6A1617069"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "3CF38600B87B262C"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			title: "造纸术"
+			x: 2.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["2730F5FACA44852C"]
+			description: ["        你现在可以制造机械动力的特色远程武器——土豆加农炮了。无需火药，右键扳动机械即可开炮。不过它有一个令人哭笑不得的特点，那些“炮弹”真的只是土豆……真的。"]
+			icon: {
+				Count: 1
+				id: "create:potato_cannon"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5AAE960548BD0B75"
+			size: 1.5d
+			subtitle: "拥有一把土豆加农炮"
+			tasks: [{
+				id: "2E140CB6C402A88F"
+				item: {
+					Count: 1
+					id: "create:potato_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "倾泻土豆？"
+			x: 19.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["77CC1C77F34FCB48"]
+			description: [
+				"        弓弩射不准，土豆加农炮打不中？"
+				"        是时候让那些怪物体验体验火枪的威力了！"
+				"        在出征之前，别忘记带上许多的纸包弹药哦~"
+				"      （火枪还有手枪版本和带刺刀版本，可以按照需要制造）"
+			]
+			icon: {
+				Count: 1
+				id: "musketmod:musket"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "79C04D78CEB3F90E"
+			size: 1.5d
+			subtitle: "你的第一把火器——燧发枪"
+			tasks: [{
+				id: "695E7AA3BA932693"
+				item: {
+					Count: 1
+					id: "musketmod:musket"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "火枪手"
+			x: 24.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["65DDEA2AF978F2A9"]
+			description: [
+				"        让星宝石兽在跑轮里一直跑似乎有点不太人道，但它们确实愿意这么做，尤其是眼前有金块的时候。"
+				"        运作中的跑轮可以产出相当于水车的应力，且只有1格占地面积。"
+			]
+			hide_dependency_lines: true
+			id: "6F17997BE99C757F"
+			size: 1.5d
+			subtitle: "关于星宝石兽跑轮"
+			tasks: [{
+				id: "51DA1495E6D25131"
+				item: "ars_creo:starbuncle_wheel"
+				type: "item"
+			}]
+			title: "星宝石仓鼠"
+			x: 1.5d
+			y: -3.75d
 		}
 	]
 	title: "安山与黄铜"

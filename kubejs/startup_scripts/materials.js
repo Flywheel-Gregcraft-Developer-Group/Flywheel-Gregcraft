@@ -234,7 +234,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .fluid()
         .color(0x3D0099)
         .iconSet(GTMaterialIconSet.METALLIC)
-        .blastTemp(4000, "mid", 7680, 1410)
+        .blastTemp(3600, "mid", 7680, 1410)
         .flags(GTMaterialFlags.GENERATE_SPRING, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_FOIL)
         .components('1x sourcium', '1x tungsten_steel')
     event.create("managold")

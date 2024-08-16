@@ -15,12 +15,12 @@
 			description: [
 				"        通过超级加热，你可以制造液态超经验，从而进一步生产异彩化合物！"
 				"        这种神奇的化合物具有无穷的魔力，你可以通过各种方法将它们转变为不同的高级魔力锭！"
-				"        继续深入研究发现，一些魔力锭似乎蕴含着有关世界本源的奥秘，而这些魔力锭的制造相比其他的来说要困难不少。为此，你还需要发展新生魔艺以获取制造这些魔力锭所必需的高级精华（详见主线内容的“新生魔艺”章节），同时还需要在此过程中对抗整合包中的绝大部分boss。"
+				"        继续深入研究发现，一些魔力锭似乎蕴含着有关世界本源的奥秘，而这些魔力锭的制造相比其他的来说要困难不少。为此，你还需要发展新生魔艺以获取制造这些魔力锭所必需的高级精华。"
 			]
 			icon: "createchromaticreturn:chromatic_compound"
 			id: "38719934201BF903"
-			shape: "square"
-			size: 2.0d
+			shape: "circle"
+			size: 4.0d
 			subtitle: "当材料注入魔法"
 			tasks: [{
 				id: "5C0F8122F6FCD8A8"
@@ -28,172 +28,84 @@
 			}]
 			title: "异彩时代"
 			x: -12.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["38719934201BF903"]
 			id: "3F4D5E7F92E66325"
-			rewards: [
-				{
-					count: 2
-					id: "4B5E3FC448F2F5DA"
-					item: "gtceu:osmium_credit"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7B7B6F01B8A1BBD3"
-					table_id: 7048715706084453192L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "4192E7AFB64793D4"
-					table_id: 7048715706084453192L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2655EE6D8FD8BC26"
-					table_id: 6709666230684452828L
-					type: "loot"
-				}
-				{
-					count: 16
-					id: "54B66EA8C6DDCD70"
-					item: "simplyswords:runic_tablet"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 2
+				id: "0D9D76C8693E315E"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [{
-				id: "52D192F0AC8660D1"
-				item: "createchromaticreturn:refined_radiance"
+				id: "7EB72CD3B85ADAC4"
+				item: "gtceu:refined_radiance_ingot"
 				type: "item"
 			}]
 			title: "光辉灿烂"
-			x: -5.0d
-			y: 0.0d
+			x: -7.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["38719934201BF903"]
 			id: "551E4A2AB64EA5A1"
-			rewards: [
-				{
-					count: 2
-					id: "0AB308FBB90B20A6"
-					item: "gtceu:osmium_credit"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2E2FD7392A63EA48"
-					table_id: 7048715706084453192L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1159332EF41A4FE5"
-					table_id: 7048715706084453192L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "4780E0CBFFABB4C2"
-					table_id: 6709666230684452828L
-					type: "loot"
-				}
-				{
-					count: 16
-					id: "480FA6EDAD3B7499"
-					item: "simplyswords:runic_tablet"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 2
+				id: "1307186B7B84FD8D"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [{
-				id: "07986195F2ECED1F"
-				item: "createchromaticreturn:shadow_steel"
+				id: "3938142CA5F93F0C"
+				item: "gtceu:shadow_steel_ingot"
 				type: "item"
 			}]
 			title: "暗影之力"
-			x: -5.0d
-			y: 6.0d
+			x: -7.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["38719934201BF903"]
 			description: [
-				"精准采集附魔常常是可遇而不可求的，然而现在有一种方法可以让你掌握主动权。"
-				"将异彩化合物与丝线、下界之星混合，可以得到丝绸锭，这种锭具有丝绸般的特性，它可以为你的工具附上精准采集的特性！"
-				"此外，起源于自然的丝绸锭，也许可以作为吸纳自然精华的一个合适基础？"
+				"        精准采集附魔常常是可遇而不可求的，然而现在有一种方法可以让你掌握主动权。"
+				"        将异彩化合物与丝线、下界之星混合，可以得到丝绸锭，这种锭具有丝绸般的特性，它可以为你的工具附上精准采集的特性！"
 			]
 			id: "1B2ED12204CB5BFE"
-			rewards: [
-				{
-					count: 4
-					id: "1862B05255CC5211"
-					item: "gtceu:platinum_credit"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "318BF67909A965E6"
-					table_id: 7048715706084453192L
-					type: "loot"
-				}
-				{
-					count: 4
-					id: "4C0BE27C22288880"
-					item: "simplyswords:runic_tablet"
-					type: "item"
-				}
-			]
-			shape: "square"
-			size: 2.0d
+			shape: "circle"
+			size: 1.5d
 			tasks: [{
 				id: "3E34F16B16DF2C43"
 				item: "createchromaticreturn:silkstrum"
 				type: "item"
 			}]
 			title: "丝绸之锭"
-			x: -8.0d
-			y: 3.0d
+			x: -10.5d
+			y: -0.75d
 		}
 		{
 			dependencies: ["3F4D5E7F92E66325"]
 			id: "6A3D09177DFC4EF1"
-			rewards: [
-				{
-					count: 4
-					id: "3D9DEC96FA3EB1A3"
-					item: "gtceu:osmium_credit"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "4DB1356DCF22B571"
-					table_id: 7048715706084453192L
-					type: "loot"
-				}
-				{
-					count: 4
-					id: "26A880B1BA812283"
-					item: "simplyswords:runic_tablet"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "12A2A9F205A0CD89"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [{
-				id: "2FAB9F53E1EAFDDD"
-				item: "createchromaticreturn:multiplite_ingot"
+				id: "1E384A0F62FB0D62"
+				item: "gtceu:multiplite_ingot"
 				type: "item"
 			}]
 			title: "耀眼明星"
-			x: 1.0d
-			y: 0.0d
+			x: -1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["38719934201BF903"]
@@ -211,44 +123,18 @@
 				type: "item"
 			}]
 			title: "好运滚滚"
-			x: -12.0d
+			x: -13.5d
 			y: -0.75d
 		}
 		{
-			dependencies: ["1B2ED12204CB5BFE"]
+			dependencies: ["38719934201BF903"]
 			id: "7F15C0CDEC43C8BE"
-			rewards: [
-				{
-					count: 3
-					id: "67266750B59659F0"
-					item: "gtceu:osmium_credit"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "41E5D4A2245A620C"
-					table_id: 7048715706084453192L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0D8C08945B26965D"
-					table_id: 7048715706084453192L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1AA896F4E3969341"
-					table_id: 6709666230684452828L
-					type: "loot"
-				}
-				{
-					count: 16
-					id: "7969F2941AADDD0C"
-					item: "simplyswords:runic_tablet"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 4
+				id: "4CD4E145C2484B4D"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [{
@@ -257,48 +143,32 @@
 				type: "item"
 			}]
 			title: "自然之锭"
-			x: -2.0d
-			y: 3.0d
+			x: -7.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["551E4A2AB64EA5A1"]
 			id: "43574B01E83ABE3A"
-			rewards: [
-				{
-					count: 4
-					id: "0A3AF9EE6F95F110"
-					item: "gtceu:osmium_credit"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0B3ADE6E61CA37C7"
-					table_id: 7048715706084453192L
-					type: "loot"
-				}
-				{
-					count: 4
-					id: "0C2BF65DA0820AC3"
-					item: "simplyswords:runic_tablet"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "02595BF7C4DA990A"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [{
-				id: "796E3A028CC7E4F2"
-				item: "createchromaticreturn:durasteel_ingot"
+				id: "485D2E248D98AEF0"
+				item: "gtceu:durasteel_ingot"
 				type: "item"
 			}]
 			title: "不朽之力"
-			x: 1.0d
-			y: 6.0d
+			x: -1.0d
+			y: 5.0d
 		}
 		{
 			dependencies: [
-				"6A3D09177DFC4EF1"
 				"7F15C0CDEC43C8BE"
-				"43574B01E83ABE3A"
+				"1518FE8D30EAB617"
 			]
 			id: "39D01876D86FAD36"
 			rewards: [
@@ -309,45 +179,9 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "0C73D91897C7EE51"
-					table_id: 7048715706084453192L
+					id: "3E580267101D1C6A"
+					table_id: 2848324682372958615L
 					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6C6E549DC912DCEB"
-					table_id: 7048715706084453192L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "4D2F4AA2FB3E8193"
-					table_id: 7048715706084453192L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1857051A89B07157"
-					table_id: 7048715706084453192L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "429BB20F85418AB2"
-					table_id: 6709666230684452828L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "124C4B4EC151EF45"
-					table_id: 6709666230684452828L
-					type: "loot"
-				}
-				{
-					count: 32
-					id: "3796F7EBBB7E9B96"
-					item: "simplyswords:runic_tablet"
-					type: "item"
 				}
 			]
 			shape: "gear"
@@ -357,16 +191,17 @@
 				item: "kubejs:ultimate_ingot"
 				type: "item"
 			}]
-			title: "囊括寰宇"
-			x: 5.0d
-			y: 3.0d
+			title: "止于至善"
+			x: 6.0d
+			y: 6.0d
 		}
 		{
-			dependencies: [
-				"62BC514FE9DF4228"
-				"38719934201BF903"
+			dependencies: ["4038455094BD3640"]
+			description: [
+				"        你现在可以准备将武器升级换代至现代枪械了。"
+				"        但首先，你需要准备一些枪械制造套件，它们由金属部件和光辉构件在组装机里组合而成（再加上一些粘合剂）。"
+				"        使用的金属档次越高，枪械套件的产量也越高。"
 			]
-			description: ["        制造枪械需要特殊的金属材料。将不锈钢、精密构件和异彩化合物混合，在异彩化合物的作用下，不锈钢的强度和精密构件的精密精华混合在一起，形成了专门用于制造枪械的合金。"]
 			id: "1EABDB906F3DC6AD"
 			size: 1.5d
 			subtitle: "比AK-47更耐操"
@@ -375,37 +210,35 @@
 				item: "kubejs:gunium"
 				type: "item"
 			}]
-			title: "枪械金属"
+			title: "枪械组装"
 			x: -13.5d
-			y: 6.75d
+			y: 10.5d
 		}
 		{
-			dependencies: [
-				"62BC514FE9DF4228"
-				"38719934201BF903"
-			]
+			dependencies: ["4038455094BD3640"]
 			description: [
-				"        子弹在射出时会遭受猛烈的爆炸冲击，为了避免弹壳散架，同样需要一种特殊的金属材料。"
-				"        将不锈钢、火药、异彩化合物进行混合，在异彩化合物的作用下，火药给予了不锈钢对爆炸的适应性，从而得到了用于制造弹壳的特殊合金。"
+				"        你那老旧的纸包弹药早已不适合现代枪械了，搭建一个弹药装配机多方块结构来生产现代弹药吧。"
+				"        对于大多数普通的子弹而言，生产分为两步，第一步是制造弹壳，第二步则是将弹壳进一步加工组装形成弹药，两步均可在弹药装配机里完成。"
+				"        此外，霰弹、榴弹、火箭弹等特殊弹药也可在该机器中生产。"
 			]
 			id: "0AA6E1C978BF5018"
 			size: 1.5d
 			subtitle: "看着就疼"
 			tasks: [{
 				id: "6B61C51920CB8B09"
-				item: "kubejs:ammorum"
+				item: "gtceu:ammo_assembler"
 				type: "item"
 			}]
 			title: "弹壳材料"
 			x: -10.5d
-			y: 6.75d
+			y: 10.5d
 		}
 		{
 			dependencies: [
 				"1EABDB906F3DC6AD"
 				"0AA6E1C978BF5018"
 			]
-			description: ["        你现在有了枪械锭和弹药锭，制作一个枪械工作台，尽情地制造枪械和弹药，随后向敌人倾泻你的子弹吧！"]
+			description: ["        你现在有了生产枪械组装套件和弹药的能力，制作一个枪械工作台，尽情地制造枪械和弹药，随后向敌人倾泻你的子弹吧！"]
 			id: "4D6FC51F573ACB18"
 			size: 1.5d
 			subtitle: "还不修法控枪？"
@@ -416,7 +249,93 @@
 			}]
 			title: "自由方块人，枪击每一天！"
 			x: -12.0d
-			y: 9.75d
+			y: 12.75d
+		}
+		{
+			dependencies: [
+				"551E4A2AB64EA5A1"
+				"3F4D5E7F92E66325"
+			]
+			id: "303551F0A663B339"
+			rewards: [{
+				id: "52D974CBD1141045"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "3C0BB0C1C9DA44D7"
+				item: "gtceu:yinyang_ingot"
+				type: "item"
+			}]
+			title: "阴阳调和"
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6A3D09177DFC4EF1"
+				"43574B01E83ABE3A"
+				"303551F0A663B339"
+			]
+			id: "1518FE8D30EAB617"
+			rewards: [{
+				id: "4BE219DDF2EA1CC4"
+				item: "gtceu:osmium_credit"
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "13DA29F1D6DF7F6A"
+				item: "gtceu:reinforced_yinyang_ingot"
+				type: "item"
+			}]
+			title: "更完美的阴阳调和"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"551E4A2AB64EA5A1"
+				"3F4D5E7F92E66325"
+			]
+			icon: "createchromaticreturn:refined_mechanism"
+			id: "4038455094BD3640"
+			rewards: [{
+				count: 4
+				id: "4DB8E65ADE9C597E"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 2.0d
+			tasks: [
+				{
+					id: "28E474A44340DA98"
+					item: "createchromaticreturn:shadow_mechanism"
+					type: "item"
+				}
+				{
+					id: "70F8BCBD2F1FE84F"
+					item: "createchromaticreturn:magmatic_mechanism"
+					type: "item"
+				}
+				{
+					id: "2CAE0FCEC037A29A"
+					item: "createchromaticreturn:annealed_mechanism"
+					type: "item"
+				}
+				{
+					id: "59F13516B2C5B780"
+					item: "createchromaticreturn:refined_mechanism"
+					type: "item"
+				}
+			]
+			title: "光辉组构"
+			x: -12.0d
+			y: 8.0d
 		}
 	]
 	title: "异彩时代"

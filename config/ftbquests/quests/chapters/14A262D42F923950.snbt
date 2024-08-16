@@ -16,6 +16,56 @@
 				"         在开始游玩前，建议先阅读一下该章节里的提示信息；当你准备好了，就从里程碑的第一步开始吧。"
 			]
 			id: "43038A997925882C"
+			rewards: [{
+				id: "2EAAB37F124EC912"
+				item: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								-1893671890
+								123358534
+								-1957161567
+								1043776752
+							]
+							Name: "CreepSean"
+							Properties: {
+								CustomSkinLoaderInfo: [
+									{
+										Value: "http://textures.minecraft.net/texture/a05ff4aff747a91a5b28d3ede23eb71e9c0563de0095bba4ed7989a0a93d0efd"
+									}
+									{
+										Value: "default"
+									}
+									{
+										Value: "http://textures.minecraft.net/texture/afd553b39358a24edfe3b8a9a939fa5fa4faa4d9a9c3d6af8eafb377fa05c2bb"
+									}
+									{
+										Value: "null"
+									}
+									{
+										Value: "http://textures.minecraft.net/texture/a05ff4aff747a91a5b28d3ede23eb71e9c0563de0095bba4ed7989a0a93d0efd"
+									}
+									{
+										Value: "default"
+									}
+									{
+										Value: "http://textures.minecraft.net/texture/afd553b39358a24edfe3b8a9a939fa5fa4faa4d9a9c3d6af8eafb377fa05c2bb"
+									}
+									{
+										Value: "null"
+									}
+								]
+								textures: [{
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTcyMzcwODc1ODgwMSwKICAicHJvZmlsZUlkIiA6ICI4ZjIwZGMyZTA3NWE0ZDQ2OGI1ODE1YTEzZTM2YzRmMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDcmVlcFNlYW4iLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTA1ZmY0YWZmNzQ3YTkxYTViMjhkM2VkZTIzZWI3MWU5YzA1NjNkZTAwOTViYmE0ZWQ3OTg5YTBhOTNkMGVmZCIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWZkNTUzYjM5MzU4YTI0ZWRmZTNiOGE5YTkzOWZhNWZhNGZhYTRkOWE5YzNkNmFmOGVhZmIzNzdmYTA1YzJiYiIKICAgIH0KICB9Cn0="
+								}]
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
 			shape: "gear"
 			size: 3.0d
 			subtitle: "宏大科技在此"
@@ -51,10 +101,15 @@
 			]
 			hide_dependent_lines: true
 			id: "202B42FD3AEB65D1"
+			rewards: [{
+				id: "157493EEB0D08B74"
+				type: "xp"
+				xp: 10
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "481DBFF2B2B46BDD"
-				title: "按键设置"
+				title: "关于动作"
 				type: "checkmark"
 			}]
 			title: "关于动作"
@@ -65,6 +120,7 @@
 			dependencies: ["43038A997925882C"]
 			description: [
 				"        整合包中可能存在一些漏洞，一部分漏洞会在后面的更新中尝试解决，另一部分漏洞由于技术有限暂时无法解决，请大家谅解。如果你在游玩过程中发现了新的漏洞，请向开发人员进行报告。"
+				"        漏洞提交：https://github.com/Flywheel-Gregcraft-Developer-Group/Flywheel-Gregcraft/issues"
 				"        下面列出了目前已知的一些漏洞。"
 				"{@pagebreak}"
 				"&lLet's do系列模组食物在背包和午餐袋/盒中引发的崩溃问题"
@@ -76,16 +132,34 @@
 				"&l格雷科技探矿仪中文输入崩溃问题"
 				""
 				"        该问题解决方案还在寻找中，漏洞修补之前请不要在探矿仪搜索框里输入中文，否则会引发游戏客户端崩溃！"
-				"{@pagebreak}"
-				"&l格雷科技基岩矿物采掘机在下界和末地无法正常工作"
-				""
-				"        在目前版本GTM中，可以使用探矿仪检测位于下界和末地的基岩矿物分布，也可以正常搭建基岩矿物采掘机结构，但完成后的多方块机器无法正常工作（在主世界中可以正常工作）。"
-				"        根据GTM官方描述，诸如基岩矿物采掘机这样的拓展性功能目前仍处于开发阶段，当GTM版本更新并修复此问题后，整合包会在最新的更新中加入修复了此问题的GTM版本。"
-				"        如果想要进行基岩矿物采掘，目前整合包中有机械动力版的替代方案，请参见“机械动力：异彩时代”章节。"
-				"&o[补充：CreepSean手搓了一个基岩矿机系统，魔改出了一部分可用的矿脉]"
 			]
 			hide_dependent_lines: true
 			id: "6B41DA4E89C45445"
+			rewards: [{
+				id: "533FABBB6DBF9ACB"
+				item: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								-163791876
+								150817174
+								-1482399376
+								295244118
+							]
+							Name: "Golenx"
+							Properties: {
+								textures: [{
+									Signature: "cRAZmwNRzxCsZHeFNdAXTBuPB9yQ0YRdBB58AqAYHI/S/QBv53MEYPRjl9HU4h/U16slz46+PT/z+xc1sLJTPQsuTVS6hNWoiKzxTxxsm4Yiim/Xr8R7Iil3A+8tjSVkdPKVGB1wRiOKWR5iAlK6SHQZDGlBUPv6Q4MFIII8dzJczsXTpSQD66wr9/kiRYauW4wmBuqPGQYPBMbGPfmp8Lwm9OKbOSNjGIqHnHWQ/zYTGid4Wg05c6kK2IIGaKSyvdq80I/qHEbFSayFfMZtmcilNgcgY7L1vzBgLkb2yhcXe9b/HA2JM+OaJ99+o6OoriTy+D0liuXyj4Sns3y82afMtF/1fQjy13uWg/gSXF02+V6mv74tX3OUg302SfGMNrkjaeoNVV/HYGW9c6e/Q3hYlB2IMQmJ25usiIxRaAosw7YpCpykeKMmiJK+fYXUaMWFqZX9hwvsQG4cUbj9umZM7MAUeL7ExcXlTHZvyp9eXnTdu6VR9H4OX7Fa6d+X5BIeBfIdMPANxxUsOYc2EV8sYM+SYvIzL0E+nycXftyq+HWaELW1xrMAiXyVVbi7HJKbOJhogjtIiWoV2bF1Ej/XjualERGtZKOzoTxZ3IvhyFNvNhwT0hOG5SqZCxc2uZaf9iB9wUJHIRQL2E5QL46Lq2AMV5E/YIUilfFTuH8="
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTcyMzcwODc5MTc3NiwKICAicHJvZmlsZUlkIiA6ICJmNjNjYmJmYzA4ZmQ0OTk2YTdhNDYxNzAxMTk5MTE1NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHb2xlbngiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjk2ZTZhODQ0MzUxMjgxNDJlZjY2ODZkNjQ5N2I0NzljN2ZkMjc5ZGQ5NzE5ZjQ3MTJmMzBjM2M5NjZkNzI3ZiIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTZjMzU2MjhmZTFjNGQ1OWRkNTI1NjFhM2QwM2JmYTRlMWE3NmQzOTdjOGI5YzQ3NmMyZjc3Y2I2YWViYjFkZiIKICAgIH0KICB9Cn0="
+								}]
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "1414C7C3787697A0"
@@ -93,7 +167,7 @@
 				type: "checkmark"
 			}]
 			title: "漏洞列表"
-			x: -17.5d
+			x: -15.5d
 			y: -16.0d
 		}
 		{
@@ -122,28 +196,33 @@
 				"        现在你可以用午餐袋或午餐盒解决这个问题了，当进行摄食时，它能够从储存在其中的食物里自动选择近期鲜有食用过的、能提供高多样性值的食物，从而省去了背包空间和食物挑选上的麻烦。"
 				"        一个午餐袋仅能提供5格的食物储存空间，而一个午餐盒可以提供9格大小空间，一个金制午餐盒更是能储存14种不同的食物！"
 				"        但是，在使用午餐袋/盒（包括背包模组的自动喂食）时请避免放入葡园酒香的酒类和烛火晚宴的菜品，以免出现严重的问题（请参见“漏洞列表”获取详细说明）。"
-				"        午餐袋/盒的配方在jei中可能无法搜到，具体合成配方已在后一页给出。"
+				"        午餐袋/盒的配方在jei中可能难以搜到，具体合成配方已在后一页给出。"
 				"{@pagebreak}"
 				"午餐袋（纸可以用农夫乐事的粗布代替）："
 				"        空 纸 空"
 				"        纸 空 纸"
 				"        纸 纸 纸"
-				"午餐盒："
+				"午餐盒（铁代表铁板）："
 				"        空 铁 空"
 				"        铁 袋 铁"
-				"        空 铁 空"
-				"黄金午餐盒："
+				"        铁 铁 铁"
+				"黄金午餐盒（金代表&6玫瑰金板&r）："
 				"        空 金 空"
 				"        金 盒 金"
-				"        空 金 空"
+				"        金 金 金"
 			]
 			hide_dependent_lines: true
 			id: "33A23AACFE136FC7"
+			rewards: [{
+				id: "0E61A41E9AA03605"
+				type: "xp"
+				xp: 10
+			}]
 			size: 1.0d
 			subtitle: "面包人的时代一去不复返力（悲）"
 			tasks: [{
 				id: "2E6BEB4B199F7B02"
-				title: "按键设置"
+				title: "饮食机制"
 				type: "checkmark"
 			}]
 			title: "饮食机制"
@@ -169,16 +248,31 @@
 				"{@pagebreak}"
 				"&l机械动力的基岩矿脉"
 				""
-				"        机械动力的基岩矿脉分布和GTM中的有所不同（尽管非流体矿脉的种类基本一致），你需要制作一把探矿手杖来探测它们。"
+				"        机械动力的基岩矿脉种类与格雷科技中的矿脉相对应，你需要制作一把探矿手杖来探测它们。"
 				"        使用探矿手杖，可以得知当前区块内有无基岩矿脉，以及距离最近的基岩矿脉分布。"
-				"        需要注意的是，探测到的基岩矿脉适用于机械动力系统，而不是GTM系统。在探测到矿脉后，你需要使用机械动力的矿物钻井或流体钻井进行钻取。"
+				"        在探测到矿脉后，你需要使用机械动力的矿物钻井（钻取矿物）或流体钻井（钻取流体）进行钻取。"
+				"        在下界和末地的钻取分别需要熔岩和龙息作为润滑剂。"
+				"{@pagebreak}"
+				"&l格雷科技后期的基岩矿脉"
+				""
+				"        在进入IV阶段后，你可以搭建基岩采矿机多方块结构，以采集位于星球深层的矿脉。"
+				"        此种基岩采矿不受坐标和群系的限制，只需要在正确的维度即可。"
+				"        通过编程电路筛选要采集的矿脉，放入钻头（每次钻取概率消耗），输入钻井液，并准备好足够多的输出总线即可开始钻取。"
+				"        每次钻取有一定概率产出矿物，且有一定几率损耗钻头，超频在提高矿物产率的同时也会增加钻头损耗率，且会加快钻井液的消耗速度。"
+				"        换用更高等级的钻头可以在提高矿产率的同时降低钻头损耗率，节省钻井液消耗，并且能够挖掘更高等级维度的基岩矿脉。"
+				"        在ZPM阶段，你可以搭建升级版的大型基岩采矿机，相比普通版本拥有无损超频和并行功能，可以更快的速度进行钻取。"
 			]
 			hide_dependent_lines: true
 			id: "62592293A9FB9D9C"
+			rewards: [{
+				id: "2C8A06CCC57D6DAA"
+				type: "xp"
+				xp: 10
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "6AA79FD7F9E1A79F"
-				title: "按键设置"
+				title: "关于矿物"
 				type: "checkmark"
 			}]
 			title: "关于矿物"
@@ -192,9 +286,15 @@
 				"202B42FD3AEB65D1"
 				"62592293A9FB9D9C"
 				"6B41DA4E89C45445"
+				"47664C87984AB0F8"
 			]
 			description: ["        制造一个工作台，开始改造这个多彩世界的第一步吧！"]
 			id: "3C22B3719AD79110"
+			rewards: [{
+				id: "0CC39CCE1B04B00E"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
 			size: 3.0d
 			subtitle: "万恶之源("
 			tasks: [{
@@ -223,10 +323,23 @@
 				}
 			}
 			id: "30779E302B168A33"
+			rewards: [{
+				count: 2
+				id: "4D17DE43429228DE"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
 			size: 3.0d
 			subtitle: "时刻不离身"
 			tasks: [
 				{
+					icon: {
+						Count: 1
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
 					id: "3DCCE45B77EDB5FD"
 					item: {
 						Count: 1
@@ -235,10 +348,17 @@
 							value: "minecraft:pickaxes"
 						}
 					}
-					title: "Any #minecraft:pickaxes"
+					title: "拥有一把镐"
 					type: "item"
 				}
 				{
+					icon: {
+						Count: 1
+						id: "minecraft:stone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
 					id: "3522737BE8652B8C"
 					item: {
 						Count: 1
@@ -247,10 +367,17 @@
 							value: "minecraft:axes"
 						}
 					}
-					title: "Any #minecraft:axes"
+					title: "拥有一把斧"
 					type: "item"
 				}
 				{
+					icon: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
 					id: "1255D8BEC8E22843"
 					item: {
 						Count: 1
@@ -259,7 +386,7 @@
 							value: "minecraft:swords"
 						}
 					}
-					title: "Any #minecraft:swords"
+					title: "拥有一把剑"
 					type: "item"
 				}
 			]
@@ -271,9 +398,19 @@
 			dependencies: ["30779E302B168A33"]
 			description: [
 				"        铁及其合金是用量最大，用途最广的金属材料。能够获取大量的铁，是开展工业生产的必要条件。"
-				"                &o&l[完成此任务，将解锁主线：科技起步]"
+				"        为了获得铁，你需要找到并挖掘含铁的矿脉。（请确保你已经了解了格雷科技的矿脉机制！）"
+				"        多种含铁粗矿都可以直接烧炼得到铁，它们分别是：粗铁、粗赤铁矿、粗针铁矿、粗磁铁矿、粗黄铁矿、粗黄褐铁矿、粗花岗岩矿砂、粗玄武岩矿砂，去寻找它们吧。"
+				"        早期的大多数金属和粉末均可以通过粗矿直接烧炼得到（部分需要通过合金手段获取），而往后的金属和粉末则需要通过更复杂的处理手段才能获取。"
+				"        顺便一提，随着游戏进程的推进，你可以对粗矿进行更复杂、更高级的加工，从而获取更多的产物！"
+				"                &o&l[完成此任务，将解锁主线：科技起步和主线：魔法工艺]"
 			]
 			id: "73869DD50D30F57F"
+			rewards: [{
+				count: 4
+				id: "1406A23E0F9F9C44"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
 			size: 3.0d
 			subtitle: "稳定且可靠"
 			tasks: [{
@@ -288,13 +425,32 @@
 		}
 		{
 			dependencies: [
-				"16AF2F73617701CC"
 				"73869DD50D30F57F"
+				"16AF2F73617701CC"
+			]
+			description: [
+				"        想要开始你的工业之路，你需要从安山合金开始制作第一批机械设施。"
+				"        这些机器依靠驱动其内部齿轮旋转的应力工作，你可以按W键思索来查看它们的用法。"
+				"        为了驱动它们，你还需要搭建一个由大小齿轮、传动杆等部件组成的应力网络，并在网络的另一端接入应力源。"
+				"        与此同时，你还需要前往下界捕捉烈焰人，用于加热制造黄铜和青铜合金，它们分别会开启两个不同的新时代。"
+				"        其中，黄铜时代为机械动力的进阶版本，提供了更多可被红石信号控制的高级应力机器。而青铜时代则为格雷科技的开端，使用以蒸汽为动力的机器进行生产。"
+				"        尽管途径不同，黄铜路线和青铜路线最终均可导向格雷电力时代的大门。"
 			]
 			icon: "create:andesite_casing"
 			id: "4E5CE5DA1C3DAF80"
+			rewards: [{
+				count: 2
+				id: "4C23500A9F0091A8"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
 			size: 3.0d
 			subtitle: "机械动力的基础"
+			tasks: [{
+				id: "33FD406388550647"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
 			title: "安山时代"
 			x: 1.5d
 			y: -13.5d
@@ -304,10 +460,29 @@
 				"65DDEA2AF978F2A9"
 				"4E5CE5DA1C3DAF80"
 			]
+			description: [
+				"        在机械动力中，黄铜时代是安山时代的进阶版本。"
+				"        与安山合金机器相比，黄铜机器具有更多的可调性，同时还可以通过红石信号控制工作状态，实现一定的自动化。"
+				"        此外，动力合成器可以解锁一系列大型物品和特殊物品的合成，包括粉碎轮、飞机、加农炮、火枪等，有的对工业科技发展具有重要推动作用，而有的能大大增加你的生存质量和战斗力。"
+				"        借助黄铜时代的成果，你还可以制作列车机壳，开启宏伟的铁路建设事业。"
+				"        相比于格雷蒸汽时代而言，从黄铜时代进入格雷电力时代要麻烦些，但也不是不可能。你可以制作电子构件作为LV级电路，而炼钢则需要超级加热。"
+				"        实现超级加热所需的烈焰蛋糕需要收集末影龙吐出的龙息才能制作。为了进入末地，你需要找到并击杀下界铁掌，利用其掉落物来制作第一批末影之眼。"
+				"        从黄铜时代出发，你还可以尝试制取异彩化合物，开启异彩时代。异彩相关物品在游戏中后期具有许多特别的作用，同时异彩路线末尾的究极锭也是解锁最终挑战的必要条件之一！"
+			]
 			icon: "create:brass_casing"
 			id: "1DC2161317B8D581"
+			rewards: [{
+				id: "51D659050FE600CC"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
 			size: 3.0d
 			subtitle: "机器轰鸣！"
+			tasks: [{
+				id: "058B10DCF795EE1A"
+				item: "create:brass_casing"
+				type: "item"
+			}]
 			title: "黄铜时代"
 			x: 6.0d
 			y: -18.0d
@@ -317,10 +492,25 @@
 				"239A27D99D775714"
 				"4E5CE5DA1C3DAF80"
 			]
+			description: [
+				"        如果想追求一定的挑战性，你可以从现在开始就走上格雷科技的发展道路。"
+				"        在电力时代之前，你可以用青铜制作蒸汽机器来进行过渡。在这一阶段，你将进一步了解格雷科技的各种基本规则，并逐渐搭建起一条基础的蒸汽动力生产线。"
+				"        你的目标是搭建土高炉，利用土高炉炼钢以进入LV电力时代。与此同时，你还要着手制作第一批基础电路板，作为LV机器的重要组成部分。"
+			]
 			icon: "gtceu:lp_steam_solid_boiler"
 			id: "1AE15529B8D42531"
+			rewards: [{
+				id: "42CB97B29B435FEF"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
 			size: 3.0d
 			subtitle: "电力发现前的准备"
+			tasks: [{
+				id: "12F6F41788C1C070"
+				item: "gtceu:lp_steam_solid_boiler"
+				type: "item"
+			}]
 			title: "蒸汽时代"
 			x: 6.0d
 			y: -13.5d
@@ -332,6 +522,12 @@
 			]
 			icon: "createchromaticreturn:chromatic_compound"
 			id: "4C05EBA0D1A09023"
+			rewards: [{
+				count: 4
+				id: "1FED1577A3E0F224"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
 			size: 3.0d
 			subtitle: "彩色的，是我......"
 			title: "异彩时代"
@@ -341,107 +537,371 @@
 		{
 			dependencies: [
 				"1AE15529B8D42531"
-				"4F831D8F4EFC370D"
+				"1DC2161317B8D581"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"                &o&l[完成此任务，将解锁主线：电力时代]"
+				"        尽管你可以依靠机械动力工业过上较为舒服的生活。但要想享受现代文明的成果，就必须向着电力时代迈进。"
+				"        接下来你将面对的是整个工业之路的重头戏——&l格雷科技&r"
+				"        不管你是从黄铜时代过来的，还是在蒸汽时代“实习”了一会，现在都必须和电力开始打交道，制造一个LV机器外壳以开始吧。"
+				"        &e ！！！请仔细阅读有关格雷电力的提示，否则你可能会得到惨痛的教训！！！&r "
+				"        你在该阶段的目标是，掌握格雷电力的基本原理，搭建一条基础的电力机器生产线，随后搭建电力高炉多方块结构，熔炼用于制造MV机器的铝锭。"
+				"        与此同时，你还需要制作MV级别的电路，用于驱动MV机器。"
 			]
 			icon: "gtceu:steel_block"
 			id: "4B3B776F33F2AFC3"
+			rewards: [{
+				count: 4
+				id: "1575E3CBF659A624"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
 			size: 3.0d
+			subtitle: "第一个电力时代"
+			tasks: [
+				{
+					id: "2BBD91E868A3BAEB"
+					item: "gtceu:lv_machine_hull"
+					type: "item"
+				}
+				{
+					id: "235D4AF63DE81C76"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "gtceu:circuits/lv"
+						}
+					}
+					title: "LV级电路"
+					type: "item"
+				}
+			]
 			title: "LV时代"
 			x: 10.5d
 			y: -13.5d
 		}
 		{
-			dependencies: [
-				"4B3B776F33F2AFC3"
-				"48D53271C0A0394B"
+			dependencies: ["4B3B776F33F2AFC3"]
+			description: [
+				"        恭喜你！作为一名初学者（也可能是只老鸟）成功走出了格雷电力的第一个阶段，进入了第二个阶段——MV（中压）。"
+				"        顾名思义，MV机器所需要的电压相比LV机器而言更高（后一阶段的电压一般为前一阶段电压的4倍），因此你需要通过变压器或更高电压级的发电机来实现供电电压的提升，从而能够驱动这些机器的运作。"
+				"        &e与此同时，你还要避免高电压的电流通入低电压级别的机器中！这会导致灾难性的后果！&r"
+				"        这一阶段的目标和前面类似，生产出用于制造HV阶段机器的不锈钢，并制作对应的HV级别电路。别忘了升级你的线圈。"
 			]
 			icon: "gtceu:aluminium_block"
 			id: "0774CC0DDD6A0EF0"
+			rewards: [{
+				id: "040B2BC64A39395A"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
 			size: 3.0d
+			subtitle: "提升电压！"
+			tasks: [
+				{
+					id: "5683F236E64D8024"
+					item: "gtceu:mv_machine_hull"
+					type: "item"
+				}
+				{
+					id: "1B670804C2BCD689"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "gtceu:circuits/mv"
+						}
+					}
+					title: "MV级电路"
+					type: "item"
+				}
+			]
 			title: "MV时代"
 			x: 10.5d
 			y: -9.0d
 		}
 		{
-			dependencies: [
-				"7FEA1D8E09266522"
-				"084503D01A69472F"
+			dependencies: ["084503D01A69472F"]
+			description: [
+				"        EV时代的生产力相比HV时代又上了一个台阶，同时你的单方块发电机也逐渐力不从心了。"
+				"        对于接下来的发电方式，你有两种选择：搭建大型蒸汽/燃气涡轮，或是使用火箭燃料发电。"
+				"        一旦解决了发电的问题，你就可以着手钨和铂的获取了，钨钢、钨导线、铂导线以及IV级电路将是IV阶段大量需要的物品。"
+				"        为了更方便地获取钨和铂，你可能需要升级你的火箭，踏上邻近的兄弟行星——火星。此外，在火星上还能找到硅岩矿石的踪迹。"
+				"        此外，从EV阶段起你便可以搭建AE2自动化网络了，AE2网络具有相当强大的功能，可以统一存储和管理基地里的各种物品，并通过玩家请求和自动化规则来调配它们到不同的机器中参与生产。"
 			]
 			icon: "gtceu:titanium_block"
 			id: "1230EEDFBD51BD91"
+			rewards: [{
+				id: "253576C53FA98D10"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
 			size: 3.0d
+			subtitle: "多方块……越来越多了"
+			tasks: [
+				{
+					id: "4D201EFC7FDCA5C7"
+					item: "gtceu:ev_machine_hull"
+					type: "item"
+				}
+				{
+					id: "38495CE78C794452"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "gtceu:circuits/ev"
+						}
+					}
+					title: "EV级电路"
+					type: "item"
+				}
+			]
 			title: "EV时代"
 			x: 6.0d
 			y: -4.5d
 		}
 		{
-			dependencies: [
-				"0774CC0DDD6A0EF0"
-				"62BC514FE9DF4228"
+			dependencies: ["0774CC0DDD6A0EF0"]
+			description: [
+				"        经过了LV和MV的洗礼，不管中间经历了多少次爆炸，你应该已经对格雷科技较为熟悉了。"
+				"        在这一阶段你将接触到又一批多方块机器，这些较为基础的多方块机器，连同电力高炉一起，将在中后期被大量建造。"
+				"        其中，你将需要搭建超净间多方块结构，用于营造制造EV级电路时的洁净无尘环境。"
+				"        此外，为了大量获取制备EV机器所需的钛的原料，你可能需要开启航天计划，前往距离我们最近的卫星——月球。"
 			]
 			icon: "gtceu:stainless_steel_block"
 			id: "084503D01A69472F"
+			rewards: [{
+				count: 4
+				id: "04C26D5920EA302A"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
 			size: 3.0d
+			subtitle: "电力工业渐入佳境"
+			tasks: [
+				{
+					id: "795CCDCF8CD7F2C1"
+					item: "gtceu:hv_machine_hull"
+					type: "item"
+				}
+				{
+					id: "71AABCFC13B4A654"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "gtceu:circuits/hv"
+						}
+					}
+					title: "HV级电路"
+					type: "item"
+				}
+			]
 			title: "HV时代"
 			x: 10.5d
 			y: -4.5d
 		}
 		{
-			dependencies: [
-				"4C3CD17FB863D855"
-				"1230EEDFBD51BD91"
+			dependencies: ["1230EEDFBD51BD91"]
+			description: [
+				"        走到这里，相信你已经晋升为一个熟练的格雷科技玩家了。但请别高兴得太早，真正的挑战即将来到你的面前……"
+				"        在这一阶段，你将面对最头疼的产线之一——铂处理。这一产线非常复杂，首先要通过对铂金属粉的处理，分离出铂粉、铂渣和含钯杂质，其次将铂渣和含钯杂质进行进一步的复杂处理，最终得到钯、铑、钌、铱、锇五种铂系金属，它们将作为IV前与IV后的分水岭。"
+				"        想要顺利地进入LuV阶段，就必须实现铂处理产线的自动化，这是个艰辛的工作，加油干吧同志。"
+				"        顺便一提，你还需要搭建聚苯并咪唑产线和钐处理产线，这两条产线虽然不如铂处理复杂，但同样令人头疼。"
+				"        好消息是，在IV阶段你可以建造三阶火箭前往金星和水星，在这些星球上采集到的矿物或许能略微缩短你的产线的长度。"
+				"        哦对了，许多单方块机器现在都有对应的多方块版本了，尽快将它们用多方块机器替换掉吧，你会体会到这样做的好处的。"
 			]
 			icon: "gtceu:tungsten_steel_block"
 			id: "3AB69D8FC14D7E4E"
+			rewards: [{
+				count: 4
+				id: "4064B1D1B728E156"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
 			size: 3.0d
+			subtitle: "铂处理，深水区！"
+			tasks: [
+				{
+					id: "08D07E21B439ED59"
+					item: "gtceu:iv_machine_hull"
+					type: "item"
+				}
+				{
+					id: "490D7447AF6DE0CC"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "gtceu:circuits/iv"
+						}
+					}
+					title: "IV级电路"
+					type: "item"
+				}
+			]
 			title: "IV时代"
 			x: 1.5d
 			y: -4.5d
 		}
 		{
-			dependencies: [
-				"69493DB2E1544F48"
-				"3AB69D8FC14D7E4E"
+			dependencies: ["3AB69D8FC14D7E4E"]
+			description: [
+				"        你都能挺过铂处理等几大产线的折磨了，接下来的挑战对你来说又算什么呢？"
+				"        不过，LuV阶段还是有几样重头戏的，其中硅岩处理和聚变线圈算是两个大头，为了进入ZPM阶段，你需要努力跨过它们。"
 			]
 			icon: "gtceu:rhodium_plated_palladium_block"
 			id: "398EFEEC3E325385"
+			rewards: [{
+				id: "302C050345F3646F"
+				item: "gtceu:osmium_credit"
+				type: "item"
+			}]
 			size: 3.0d
+			subtitle: "开启聚变之旅"
+			tasks: [
+				{
+					id: "1CA0F9F29A5C0CD7"
+					item: "gtceu:luv_machine_hull"
+					type: "item"
+				}
+				{
+					id: "799B55474AEF9FAD"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "gtceu:circuits/luv"
+						}
+					}
+					title: "LuV级电路"
+					type: "item"
+				}
+			]
 			title: "LuV时代"
 			x: -3.0d
 			y: -4.5d
 		}
 		{
-			dependencies: [
-				"398EFEEC3E325385"
-				"5D123CB04091F0C8"
+			dependencies: ["398EFEEC3E325385"]
+			description: [
+				"        从这一阶段起，你将在聚变线圈上做更多的文章，同时开始接触到一些……充满未来感的炫酷东西。"
+				"        你现在可以将超净间升级为无菌超净间了，这使得你可以在里面培养细胞、提取基因、克隆生物……甚至是制作由神经细胞组成的电路！属于生命科学的时代正在到来！"
+				"        此外，一些为大后期而准备的多方块机器也将在ZPM阶段可用，如转底炉、巨型真空冷冻机、核爆压缩机、大型基岩采矿机等。"
 			]
 			icon: "gtceu:naquadah_alloy_block"
 			id: "39CBF412A81D3ECB"
+			rewards: [{
+				count: 4
+				id: "7EC5314E1D340536"
+				item: "gtceu:osmium_credit"
+				type: "item"
+			}]
 			size: 3.0d
+			subtitle: "生物的世纪！"
+			tasks: [
+				{
+					id: "564D893BF30C558D"
+					item: "gtceu:zpm_machine_hull"
+					type: "item"
+				}
+				{
+					id: "672E0FB24DCAE5C4"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "gtceu:circuits/zpm"
+						}
+					}
+					title: "ZPM级电路"
+					type: "item"
+				}
+			]
 			title: "ZPM时代"
 			x: -7.5d
 			y: -4.5d
 		}
 		{
-			dependencies: [
-				"1C7B38556D7742DC"
-				"39CBF412A81D3ECB"
+			dependencies: ["39CBF412A81D3ECB"]
+			description: [
+				"        你即将接触到原版格雷科技的上限。"
+				"        尽管还可以再向前迈一步进入UHV时代，但就目前而言，UV是最后一个有完整内容的电压等级了。"
+				"        将聚变线圈升级至最高级后，你便可以生产中子素，将脚步迈入UHV时代了。"
 			]
 			icon: "gtceu:darmstadtium_block"
 			id: "42CC6C99DCB4375C"
+			rewards: [{
+				id: "2FF5A980341E7536"
+				item: "gtceu:naquadah_credit"
+				type: "item"
+			}]
 			size: 3.0d
+			subtitle: "未来已来……"
+			tasks: [
+				{
+					id: "6ECD32C058E84FEA"
+					item: "gtceu:uv_machine_hull"
+					type: "item"
+				}
+				{
+					id: "41018361B8030A6A"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "gtceu:circuits/uv"
+						}
+					}
+					title: "UV级电路"
+					type: "item"
+				}
+			]
 			title: "UV时代"
 			x: -12.0d
 			y: -4.5d
 		}
 		{
-			dependencies: [
-				"3E30B8101FA1B60A"
-				"42CC6C99DCB4375C"
+			dependencies: ["42CC6C99DCB4375C"]
+			description: [
+				"        你是一名真正的勇士。"
+				"        这里是原版格雷科技的尽头——UHV阶段。"
+				"        在这一阶段，你将开启前往遥远的霜原星的征途，在那里寻找最终极的矿物——中子素和无尽催化剂。"
+				"        除此以外，是不是就真的到了尽头呢？"
+				"        &l【不妨看看“终极挑战”章节吧！】&r"
 			]
 			icon: "gtceu:neutronium_block"
 			id: "43A63DFF96783D4C"
+			rewards: [{
+				count: 2
+				id: "418690605ADBFDC6"
+				item: "gtceu:naquadah_credit"
+				type: "item"
+			}]
 			size: 3.0d
+			subtitle: "登峰造极！"
+			tasks: [
+				{
+					id: "5FC2A3D40C8A4A68"
+					item: "gtceu:uhv_machine_hull"
+					type: "item"
+				}
+				{
+					id: "1BE42893E38E4303"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "gtceu:circuits/uhv"
+						}
+					}
+					title: "UHV电路"
+					type: "item"
+				}
+			]
 			title: "UHV时代"
 			x: -16.5d
 			y: -4.5d
@@ -451,9 +911,26 @@
 				"13AA25E372EB693B"
 				"43A63DFF96783D4C"
 			]
+			description: [
+				"        你下决心要击杀最强状态下的凋零风暴。"
+				"        这是非常危险的，如果未能巧妙应对的话，不仅是你的人，你的基地也可能被这场风暴席卷一空！"
+				"        但是，倘若你胜利了，你将打开通往创世之力的大门。"
+			]
 			icon: "witherstormmod:withered_nether_star"
 			id: "3560BBEDBF346CE3"
+			rewards: [{
+				count: 4
+				id: "14B23DC1EFC7FBD3"
+				item: "gtceu:naquadah_credit"
+				type: "item"
+			}]
 			size: 3.0d
+			subtitle: "风暴之后，创世之始？"
+			tasks: [{
+				id: "42F259CFECD52507"
+				item: "witherstormmod:withered_nether_star"
+				type: "item"
+			}]
 			title: "世界再构时代"
 			x: -16.5d
 			y: 1.5d
@@ -463,12 +940,147 @@
 				"0CCE0F67475C4822"
 				"3560BBEDBF346CE3"
 			]
+			description: [
+				"        好了，你已经彻底地赢了。没错，你通关了整合包！"
+				"        多做些无尽锭吧，随后制作无尽套装并穿上，好好享受作为神的生活！"
+				"        别忘了赶紧出去呼吸下新鲜空气……我是指在现实中！你没有倒在半路上已经是万幸了！"
+			]
 			icon: "gtceu:infinity_ingot"
 			id: "1C1C586FB61E0477"
+			rewards: [{
+				id: "3184D3B8F4599756"
+				item: "gtceu:neutronium_credit"
+				type: "item"
+			}]
 			size: 3.0d
+			subtitle: "你已经是上帝了，快出去走走吧！"
+			tasks: [{
+				id: "3EF75F11EE3B4565"
+				item: "gtceu:infinity_ingot"
+				type: "item"
+			}]
 			title: "无尽时代"
 			x: -12.0d
 			y: 1.5d
+		}
+		{
+			dependencies: ["43038A997925882C"]
+			description: [
+				"        整合包中的配方种类繁多，特别是格雷科技相关的配方。如果你不养成查阅JEI配方的习惯，那么会寸步难行！"
+				"        打开物品栏，在UI的右侧会跳出物品列表，列表的下方有查询框。"
+				"        想要查阅和某个物品相关的配方，只需要在搜索框中搜索物品的名称，随后在物品列表中找到想要查询的物品。"
+				"        左键物品可以查看以该物品为产物的所有配方，而右键物品可以查看以该物品为原料的所有配方。"
+				"        如果想要查看格雷多方块机器的结构示意，只要对着控制器方块（一般与多方块机器的名称同名）右键，然后找到“多方块结构信息”一页即可。"
+			]
+			hide_dependent_lines: true
+			id: "47664C87984AB0F8"
+			rewards: [{
+				id: "41E18EB681A04CFE"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.0d
+			subtitle: "或者、REI、NEI啥的也行"
+			tasks: [{
+				id: "0983E5538F6D3EF2"
+				title: "JEI是你亲爹"
+				type: "checkmark"
+			}]
+			title: "JEI是你亲爹"
+			x: -17.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["43038A997925882C"]
+			description: [
+				"        整合包有一套预设的键位设置，值得注意的按键将在后面列出。"
+				"        如果对预设的键位不满意，可以到设置中进行调整。"
+				"{@pagebreak}"
+				"&l基本移动"
+				""
+				"        CapsLock 切换疾跑"
+				"        LShift 下蹲"
+				"        鼠标侧前按键 自动行走"
+				""
+				"&l跑酷模组"
+				""
+				"        Ctrl+P 开关跑酷模式"
+				"        Alt+P 打开跑酷设置"
+				"        LCtrl  快速奔跑（在疾跑时使用，比一般疾跑更快）"
+				"        C &m阴暗地&r爬行"
+				"        移动时按V  向移动方向躲闪"
+				"        下落时按住LShift 在落地时缓冲减伤"
+				"        对着方块上缘右键 保持悬挂，此时按住空格可以跳起"
+				"        对着墙壁右键  在墙上滑行，缓慢落至地面"
+				"        同时按住左右键 后空翻"
+				"{@pagebreak}"
+				"&l载具相关"
+				""
+				"        马车：用拴绳牵引动物至马车边时可以用LShift将动物拴上车"
+				"        骑马时按Y切换骑乘模式。"
+				"        大型船只：V键开关风帆，E打开船上物品栏，前进/后退键控制风帆开闭程度大小（影响船速），空格键朝着面对的一侧开炮，Shift离开载具"
+				"        飞机：空格键开油门/起飞，LShift关油门/下降，右键使用武器，B使用火箭助推，E打开飞机物品栏，R离开载具"
+				"        "
+				"{@pagebreak}"
+				"&l装备相关"
+				""
+				"        Ctrl+` 切换工具纯战斗模式（即使面对可挖掘方块也会释放战斗动作）和挖掘战斗通用模式（面对可挖掘方块会进行挖掘）"
+				"        '    切换Ad Astra装备飞行模式"
+				"        ,    切换格雷工具范围模式"
+				"        H  切换格雷盔甲悬浮模式"
+				"        .    切换格雷盔甲模式"
+				"        N  开关格雷盔甲向物品栏充能功能"
+				"        I    灾变头盔能力"
+				"        L   灾变胸甲能力"
+				"        ;    灾变靴子能力"
+				"        V   其他灾变能力"
+				"{@pagebreak}"
+				"&l机械动力"
+				""
+				"        Alt 访问最近的工具箱"
+				""
+				"&l小龙虾的枪械"
+				""
+				"        右键瞄准，左键开枪"
+				"        ` 装填弹药"
+				"        ,   卸下弹药"
+				"        J  切换配件"
+				""
+				"&l新生魔艺"
+				""
+				"        Z 上一项法术"
+				"        X 下一项法术"
+				"        C 打开法术书"
+				"        V 打开法术选取界面"
+				""
+				"&l其他"
+				"        "
+				"        K 旋转锁定"
+				"        鼠标侧后键 快速切换物品栏"
+				"        F6 开关脚步声"
+				"        F7 重载光影"
+				"        F8 开关光影"
+				"        F9 相机模式"
+				"        M 打开地图"
+				"        F10 打开路径点菜单"
+				"        F12 设立临时路径点"
+			]
+			hide_dependent_lines: true
+			id: "7113B000E1CFBF03"
+			rewards: [{
+				id: "284B657165CE4A9D"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "4E56859B4396423F"
+				title: "键位信息"
+				type: "checkmark"
+			}]
+			title: "键位信息"
+			x: -15.5d
+			y: -11.0d
 		}
 	]
 	title: "里程碑"

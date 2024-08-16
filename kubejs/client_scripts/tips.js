@@ -62,6 +62,6 @@ ItemEvents.tooltip(event => {
         "gtceu:nuclear_implosion_compressor"], Text.keybind("gtceu.multiblock.parallelizable.tooltip"))
 
     event.add("#forge:eggs", Text.keybind("kubejs.misc_egg_breaking.tooltip"))
-    event.add(["ends_delight:shulker_meat", "ends_delight:shulker_meat_slice", "ends_delight:roasted_shulker_meat", "ends_delight:roasted_shulker_meat_slice", "ends_delight:roasted_shulker_meat_slice", "ends_delight:stir_fried_shulker_meat", "ends_delight:grilled_shulker_block", "ends_delight:grilled_shulker", "ends_delight:shulker_omelette_mixture", "ends_delight:shulker_omelette", "beachparty:raw_mussel_meat", "beachparty:cooked_mussel_meat"], Text.keybind("kubejs.misc_eating_beibei.tooltip"))
+    event.add(["ends_delight:shulker_meat", "ends_delight:shulker_meat_slice", "ends_delight:roasted_shulker_meat", "ends_delight:roasted_shulker_meat_slice", "ends_delight:roasted_shulker_meat_slice", "ends_delight:stir_fried_shulker_meat", "ends_delight:grilled_shulker_block", "ends_delight:grilled_shulker", "ends_delight:shulker_omelette_mixture", "ends_delight:shulker_omelette", "ends_delight:shulker_soup", "ends_delight:ender_noodle", "ends_delight:end_barbecue_stick", "beachparty:raw_mussel_meat", "beachparty:cooked_mussel_meat"], Text.keybind("kubejs.misc_eating_beibei.tooltip"))
     event.add("#create:casing", Text.keybind("kubejs.misc_create_casing.tooltip"))
 })
