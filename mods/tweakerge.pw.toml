@@ -1,0 +1,13 @@
+name = "Tweakerge"
+filename = "Tweakerge-0.1.4-mc1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e4a8408d34b83d81da95004312fc9156f2be281e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5381270
+project-id = 915857

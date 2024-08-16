@@ -120,16 +120,52 @@
       "keys": "LEFT_ALT"
     },
     "flyPreset1": {
-      "keys": ""
+      "keys": "LEFT_ALT,F,1",
+      "settings": {
+        "activate_on": "RELEASE",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": true,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
     },
     "flyPreset2": {
-      "keys": ""
+      "keys": "LEFT_ALT,F,2",
+      "settings": {
+        "activate_on": "RELEASE",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": true,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
     },
     "flyPreset3": {
-      "keys": ""
+      "keys": "LEFT_ALT,F,3",
+      "settings": {
+        "activate_on": "RELEASE",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": true,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
     },
     "flyPreset4": {
-      "keys": ""
+      "keys": "LEFT_ALT,F,4",
+      "settings": {
+        "activate_on": "RELEASE",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": true,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
     },
     "freeCameraPlayerInputs": {
       "keys": ""
@@ -153,7 +189,7 @@
       "keys": ""
     },
     "inventoryPreview": {
-      "keys": "LEFT_ALT"
+      "keys": "LEFT_SHIFT"
     },
     "openConfigGui": {
       "keys": "X,C"
@@ -165,22 +201,22 @@
       "keys": ""
     },
     "placementRestrictionModeColumn": {
-      "keys": "Z,3"
+      "keys": "RIGHT_ALT,P,3"
     },
     "placementRestrictionModeDiagonal": {
-      "keys": "Z,5"
+      "keys": "RIGHT_ALT,P,5"
     },
     "placementRestrictionModeFace": {
-      "keys": "Z,2"
+      "keys": "RIGHT_ALT,P,2"
     },
     "placementRestrictionModeLayer": {
-      "keys": "Z,6"
+      "keys": "RIGHT_ALT,P,6"
     },
     "placementRestrictionModeLine": {
-      "keys": "Z,4"
+      "keys": "RIGHT_ALT,P,4"
     },
     "placementRestrictionModePlane": {
-      "keys": "Z,1"
+      "keys": "RIGHT_ALT,P,1"
     },
     "sitDownNearbyPets": {
       "keys": ""
@@ -201,7 +237,16 @@
       "keys": ""
     },
     "toggleGrabCursor": {
-      "keys": ""
+      "keys": "LEFT_CONTROL,TAB",
+      "settings": {
+        "activate_on": "RELEASE",
+        "context": "INGAME",
+        "allow_empty": true,
+        "allow_extra_keys": true,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
     },
     "toolPick": {
       "keys": ""
@@ -210,11 +255,11 @@
       "keys": ""
     },
     "zoomActivate": {
-      "keys": ""
+      "keys": "GRAVE_ACCENT"
     }
   },
   "Internal": {
-    "flySpeedPreset": 0,
+    "flySpeedPreset": 3,
     "gammaValueOriginal": 0.5,
     "hotbarScrollCurrentRow": 3,
     "slimeBlockSlipperinessOriginal": 0.800000011920929,
@@ -965,7 +1010,16 @@
       "keys": "F9"
     },
     "tweakHandRestock": {
-      "keys": ""
+      "keys": "LEFT_ALT,A,H",
+      "settings": {
+        "activate_on": "RELEASE",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": true,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
     },
     "tweakHangableEntityBypass": {
       "keys": ""
@@ -1193,7 +1247,7 @@
       "keys": ""
     },
     "tweakToolSwitch": {
-      "keys": "RIGHT_ALT,T",
+      "keys": "LEFT_ALT,T,S",
       "settings": {
         "activate_on": "RELEASE",
         "context": "INGAME",
@@ -1205,7 +1259,7 @@
       }
     },
     "tweakWeaponSwitch": {
-      "keys": "RIGHT_ALT,W",
+      "keys": "LEFT_ALT,W,S",
       "settings": {
         "activate_on": "RELEASE",
         "context": "INGAME",
@@ -1220,7 +1274,7 @@
       "keys": ""
     },
     "tweakZoom": {
-      "keys": "Z"
+      "keys": ""
     }
   }
 }
