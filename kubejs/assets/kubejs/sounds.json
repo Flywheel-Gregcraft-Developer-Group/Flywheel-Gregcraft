@@ -319,6 +319,30 @@
             }
         ]
     },
+    "music.disc_axolotl": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_axolotl",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_dragon_fish": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_dragon_fish",
+                "stream": true
+            }
+        ]
+    },
+    "music.disc_shuniji": {
+        "sounds": [
+            {
+                "name": "kubejs:disc_shuniji",
+                "stream": true
+            }
+        ]
+    },
     "music.disc_chrysopoeia": {
         "sounds": [
             {

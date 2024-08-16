@@ -839,6 +839,14 @@ ServerEvents.recipes(event => {
       .EUt(1920)
       .cleanroom(CleanroomType.CLEANROOM)
 
+  event.remove({ id: 'ae2:network/crystal_resonance_generator'})
+  event.recipes.gtceu.assembler('ae_crystal_resonance_generator')
+      .itemInputs('8x #forge:fine_wires/fluix_alloy', '16x #forge:foils/quartz_copper_alloy', '4x #forge:rods/tungsten_steel', '4x #forge:plates/certus_alloy', '1x #forge:storage_blocks/fluix_alloy', '1x #gtceu:circuits/iv')
+      .itemOutputs('1x ae2:crystal_resonance_generator')
+      .inputFluids(Fluid.of('gtceu:polytetrafluoroethylene', 288))
+      .duration(320)
+      .EUt(7680)
+
   //computer
   event.replaceInput({mod:'computercraft', type: 'crafting_shapeless', output:'computercraft:disk'}, 'minecraft:paper' , 'gtceu:polyethylene_plate')
   event.replaceInput({mod:'computercraft', type: 'crafting_shaped'}, 'minecraft:stone' , 'gtceu:invar_plate')

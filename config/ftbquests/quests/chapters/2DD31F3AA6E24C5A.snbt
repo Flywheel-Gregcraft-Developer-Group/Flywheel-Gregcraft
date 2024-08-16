@@ -10,8 +10,17 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["7FEA1D8E09266522"]
+			dependencies: [
+				"1EF463F315080885"
+				"7A447E9E707ECE68"
+			]
 			id: "3C2075FD83FC8837"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48D0EE6066123CBE"
+				table_id: 3552174120120149155L
+				type: "loot"
+			}]
 			shape: "hexagon"
 			size: 3.0d
 			tasks: [{
@@ -27,6 +36,12 @@
 			dependencies: ["3C2075FD83FC8837"]
 			icon: "gtceu:ev_electric_motor"
 			id: "704D5C9B9B099217"
+			rewards: [{
+				count: 4
+				id: "554DC624B0F4334E"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -64,6 +79,12 @@
 			dependencies: ["704D5C9B9B099217"]
 			icon: "gtceu:quantum_eye"
 			id: "17955C0C9D554204"
+			rewards: [{
+				count: 2
+				id: "1327AB2D0668AA45"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -91,6 +112,12 @@
 			dependencies: ["17955C0C9D554204"]
 			icon: "gtceu:ev_sensor"
 			id: "23E713F89DBF7BDF"
+			rewards: [{
+				count: 3
+				id: "0E399C9893914A7E"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -112,6 +139,12 @@
 		{
 			dependencies: ["23E713F89DBF7BDF"]
 			id: "23A3AA09F2F8B4B4"
+			rewards: [{
+				count: 2
+				id: "0501B4EF01AE1380"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [{
@@ -130,6 +163,12 @@
 			]
 			icon: "gtceu:nano_processor_mainframe"
 			id: "6CE2D05E81729AAB"
+			rewards: [{
+				count: 6
+				id: "4B3C947D59A2CD8D"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -185,6 +224,12 @@
 			dependencies: ["3C2075FD83FC8837"]
 			icon: "gtceu:platinum_metal_dust"
 			id: "6904677A5922ADB6"
+			rewards: [{
+				count: 2
+				id: "2C37F7FC502BAC7B"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -207,6 +252,12 @@
 			dependencies: ["6904677A5922ADB6"]
 			icon: "gtceu:platinum_slag_dust"
 			id: "0AE6187C079BE0C5"
+			rewards: [{
+				count: 3
+				id: "4785237E7A52BBAD"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 3.0d
 			tasks: [
@@ -233,6 +284,12 @@
 		{
 			dependencies: ["0AE6187C079BE0C5"]
 			id: "73306E568CB18F99"
+			rewards: [{
+				count: 4
+				id: "6598949CCD8590D9"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [{
@@ -248,6 +305,11 @@
 			dependencies: ["0AE6187C079BE0C5"]
 			icon: "gtceu:ruthenium_dust"
 			id: "2883F4A425D59B75"
+			rewards: [{
+				id: "704823DF1F9D26C4"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -280,6 +342,12 @@
 			dependencies: ["17955C0C9D554204"]
 			icon: "gtceu:tungsten_dust"
 			id: "14D2C0F88B028592"
+			rewards: [{
+				count: 4
+				id: "12EC419B0CC7D07D"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -302,6 +370,12 @@
 			dependencies: ["14D2C0F88B028592"]
 			icon: "gtceu:tungsten_steel_ingot"
 			id: "3484190B18C7E5E1"
+			rewards: [{
+				count: 6
+				id: "2356D91C1C2DB5E6"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -324,6 +398,12 @@
 			dependencies: ["73306E568CB18F99"]
 			icon: "gtceu:uranium_triplatinum_ingot"
 			id: "731AC8A3F8BDB83D"
+			rewards: [{
+				count: 6
+				id: "02B948DC741D8C22"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -351,6 +431,11 @@
 			dependencies: ["731AC8A3F8BDB83D"]
 			icon: "gtceu:ev_field_generator"
 			id: "64D6378F91B87214"
+			rewards: [{
+				id: "557021C449912600"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [{
@@ -373,6 +458,12 @@
 				tag: { }
 			}
 			id: "547FE666684A79BD"
+			rewards: [{
+				count: 4
+				id: "4ACBB92D3825B13A"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 3.0d
 			tasks: [
@@ -412,6 +503,12 @@
 			]
 			icon: "gtceu:iv_machine_hull"
 			id: "4C3CD17FB863D855"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3AA20CEAEC127929"
+				table_id: 8547857130786956286L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 3.0d
 			tasks: [{
@@ -427,6 +524,12 @@
 			dependencies: ["4C3CD17FB863D855"]
 			icon: "gtceu:iv_electric_motor"
 			id: "7F32C0DD580A7110"
+			rewards: [{
+				count: 2
+				id: "2BBF9A807CA397EC"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -464,6 +567,12 @@
 			dependencies: ["7F32C0DD580A7110"]
 			icon: "gtceu:assembly_line"
 			id: "14CCABE668ABB839"
+			rewards: [{
+				count: 4
+				id: "7D3690C8D849F76D"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			subtitle: "搭建装配线多方块结构"
@@ -480,6 +589,12 @@
 			dependencies: ["0AE6187C079BE0C5"]
 			icon: "gtceu:rhodium_dust"
 			id: "0C2A48A4C4F44759"
+			rewards: [{
+				id: "0D65C5F3B331049C"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			shape: "square"
 			size: 2.0d
 			tasks: [
 				{
@@ -521,6 +636,12 @@
 			dependencies: ["0AE6187C079BE0C5"]
 			icon: "gtceu:palladium_dust"
 			id: "22F43B34544DB5D9"
+			rewards: [{
+				id: "1DE3A572FBCA1E54"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			shape: "square"
 			size: 2.0d
 			tasks: [
 				{
@@ -552,6 +673,11 @@
 			dependencies: ["0AE6187C079BE0C5"]
 			icon: "gtceu:ruthenium_dust"
 			id: "113C55AC504EE775"
+			rewards: [{
+				id: "69A655F95D0AEB8F"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -574,6 +700,11 @@
 			dependencies: ["0AE6187C079BE0C5"]
 			icon: "gtceu:iridium_dust"
 			id: "7D5C63B9673E9B4E"
+			rewards: [{
+				id: "516099376C299706"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -609,6 +740,11 @@
 			]
 			icon: "gtceu:rhodium_plated_palladium_ingot"
 			id: "3EF6517328C54FE5"
+			rewards: [{
+				id: "0A4AFB5C61E9D3B0"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 3.0d
 			tasks: [
@@ -631,9 +767,14 @@
 			dependencies: ["4C3CD17FB863D855"]
 			icon: "gtceu:diaminobenzidine_bucket"
 			id: "4707B1A57165B487"
+			rewards: [{
+				count: 2
+				id: "6D77F6AAF7D744D9"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
-			subtitle: "搭建装配线多方块结构"
 			tasks: [
 				{
 					id: "25BADB8A7EC9E00B"
@@ -664,9 +805,14 @@
 			dependencies: ["4707B1A57165B487"]
 			icon: "gtceu:polybenzimidazole_bucket"
 			id: "788B4214EAEA2B33"
+			rewards: [{
+				count: 4
+				id: "7DC28F8CC25D3485"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
-			subtitle: "搭建装配线多方块结构"
 			tasks: [
 				{
 					id: "1A67E98EEF4D551F"
@@ -692,6 +838,12 @@
 			dependencies: ["3C2075FD83FC8837"]
 			icon: "gtceu:indium_dust"
 			id: "22328EB2919FDA4E"
+			rewards: [{
+				count: 2
+				id: "308F944C6EC32D57"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -717,6 +869,19 @@
 			]
 			icon: "gtceu:rtm_alloy_ingot"
 			id: "4FD3BA620380C74A"
+			rewards: [
+				{
+					id: "0BB3AF41D4CE6E54"
+					item: "gtceu:platinum_credit"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2723AA95C2052BF0"
+					item: "gtceu:gold_credit"
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -739,6 +904,11 @@
 			dependencies: ["3484190B18C7E5E1"]
 			icon: "gtceu:hssg_ingot"
 			id: "6825A018B35AA942"
+			rewards: [{
+				id: "5757CA31E70BB786"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -764,6 +934,19 @@
 			]
 			icon: "gtceu:hsse_ingot"
 			id: "060304B73C29A381"
+			rewards: [
+				{
+					id: "35074BE8C75F3D43"
+					item: "gtceu:platinum_credit"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "07CFA2DEC1BC922F"
+					item: "gtceu:gold_credit"
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -791,6 +974,12 @@
 			]
 			icon: "gtceu:hsss_ingot"
 			id: "7E3F50C91D367C70"
+			rewards: [{
+				count: 2
+				id: "64D2620EE15549E5"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -816,6 +1005,12 @@
 			]
 			icon: "gtceu:alloy_blast_smelter"
 			id: "6E7907E1DB735275"
+			rewards: [{
+				count: 3
+				id: "3992AD68D9E7497D"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			subtitle: "搭建合金冶炼炉多方块结构"
@@ -923,6 +1118,12 @@
 			dependencies: ["4C3CD17FB863D855"]
 			icon: "gtceu:niobium_titanium_ingot"
 			id: "785F87E4AFB1001A"
+			rewards: [{
+				count: 2
+				id: "0AA45522FED2B925"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -942,9 +1143,25 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["7D5C63B9673E9B4E"]
+			dependencies: [
+				"7D5C63B9673E9B4E"
+				"4C3CD17FB863D855"
+			]
 			icon: "gtceu:iv_sensor"
 			id: "090CBE3A3BD4381F"
+			rewards: [
+				{
+					id: "3AC87558DFE4DB24"
+					item: "gtceu:platinum_credit"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7AB763F671189830"
+					item: "gtceu:gold_credit"
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -967,6 +1184,19 @@
 			dependencies: ["090CBE3A3BD4381F"]
 			icon: "gtceu:iv_circuit_assembler"
 			id: "1389D942D65320AD"
+			rewards: [
+				{
+					id: "31CE3E392448468C"
+					item: "gtceu:platinum_credit"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1391FDD74FD2E03F"
+					item: "gtceu:gold_credit"
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 2.0d
 			tasks: [{
@@ -985,6 +1215,12 @@
 			]
 			icon: "gtceu:quantum_processor_mainframe"
 			id: "4CA6ACBF369B3205"
+			rewards: [{
+				count: 2
+				id: "316303083DFD9C61"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -1030,6 +1266,19 @@
 			]
 			icon: "gtceu:ruridit_ingot"
 			id: "0BFBB465D14B589B"
+			rewards: [
+				{
+					id: "769DBC9FF3149124"
+					item: "gtceu:platinum_credit"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "494ECB2BAAC348A9"
+					item: "gtceu:gold_credit"
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -1053,6 +1302,11 @@
 			hide_dependency_lines: true
 			icon: "gtceu:fiber_reinforced_printed_circuit_board"
 			id: "08C61A48D6293210"
+			rewards: [{
+				id: "5A86BAABC10CF7AD"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -1081,6 +1335,12 @@
 			hide_dependency_lines: true
 			icon: "gtceu:epoxy_printed_circuit_board"
 			id: "202B84BE7849C17C"
+			rewards: [{
+				count: 3
+				id: "21E0F63B9D163C69"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -1112,6 +1372,11 @@
 				tag: { }
 			}
 			id: "0E28541672C9B4F3"
+			rewards: [{
+				id: "4051641DDC76DAB6"
+				item: "gtceu:osmium_credit"
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 3.0d
 			tasks: [
@@ -1149,6 +1414,12 @@
 			hide_dependency_lines: false
 			icon: "gtnn:neutron_activator"
 			id: "1B7A120F844EA838"
+			rewards: [{
+				count: 3
+				id: "22E799BA9453BD2E"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [{
@@ -1165,6 +1436,12 @@
 			hide_dependency_lines: false
 			icon: "gtceu:naquadah_dust"
 			id: "3648B86428C233EF"
+			rewards: [{
+				count: 3
+				id: "4E368B82EEB62288"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -1187,6 +1464,11 @@
 			dependencies: ["4FD3BA620380C74A"]
 			icon: "gtceu:vanadium_gallium_ingot"
 			id: "11BD63FCCE7908AB"
+			rewards: [{
+				id: "765A85AB818D121E"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -1210,6 +1492,12 @@
 			hide_dependency_lines: false
 			icon: "gtceu:naquadah_wafer"
 			id: "78B6AC6FFFC32E27"
+			rewards: [{
+				count: 4
+				id: "0D6B52B6FFADF5EB"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -1232,6 +1520,11 @@
 			dependencies: ["4FD3BA620380C74A"]
 			icon: "gtceu:yttrium_barium_cuprate_ingot"
 			id: "58119391D745532D"
+			rewards: [{
+				id: "246589BD1837F449"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [

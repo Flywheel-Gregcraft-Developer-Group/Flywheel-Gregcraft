@@ -4,7 +4,137 @@ ServerEvents.recipes(event => {
   const RockBreakerCondition = Java.loadClass("com.gregtechceu.gtceu.common.recipe.RockBreakerCondition")
 
   console.log('Ready to do other fixes.')
+  //wooden_fix
+  event.remove({ id: 'enderio:stick' })
+  event.remove({ id: 'vinery:oak_planks' })
+  event.remove({ id: 'vinery:oak_planks_from_wood' })
+  event.shaped(Item.of('minecraft:oak_planks',2), [
+        'P'
+    ],
+    {
+        P: 'vinery:apple_log'
+    })
+  event.shaped(Item.of('minecraft:oak_planks',2), [
+        'P'
+    ],
+    {
+        P: 'vinery:apple_wood'
+    })
+  event.recipes.gtceu.cutter('vinery_apple_log_w')
+    .itemInputs('1x vinery:apple_log')
+    .inputFluids(Fluid.of('minecraft:water', 4))
+    .itemOutputs('6x minecraft:oak_planks', '2x gtceu:wood_dust')
+    .duration(400)
+    .EUt(7)
+  event.recipes.gtceu.cutter('vinery_apple_log_l')
+    .itemInputs('1x vinery:apple_log')
+    .inputFluids(Fluid.of('minecraft:lubricant', 1))
+    .itemOutputs('6x minecraft:oak_planks', '2x gtceu:wood_dust')
+    .duration(200)
+    .EUt(7)
+  event.recipes.gtceu.cutter('vinery_apple_wood_w')
+    .itemInputs('1x vinery:apple_wood')
+    .inputFluids(Fluid.of('minecraft:water', 4))
+    .itemOutputs('6x minecraft:oak_planks', '2x gtceu:wood_dust')
+    .duration(400)
+    .EUt(7)
+  event.recipes.gtceu.cutter('vinery_apple_wood_l')
+    .itemInputs('1x vinery:apple_wood')
+    .inputFluids(Fluid.of('minecraft:lubricant', 1))
+    .itemOutputs('6x minecraft:oak_planks', '2x gtceu:wood_dust')
+    .duration(200)
+    .EUt(7)
+
+  event.remove({ id: 'quark:world/crafting/woodsets/ancient/planks' })
+  event.shaped(Item.of('quark:ancient_planks',2), [
+        'P'
+    ],
+    {
+        P: '#quark:ancient_logs'
+    })
+  event.recipes.gtceu.cutter('quark_ancient_planks_w')
+    .itemInputs('1x #quark:ancient_logs')
+    .inputFluids(Fluid.of('minecraft:water', 4))
+    .itemOutputs('6x quark:ancient_planks', '2x gtceu:wood_dust')
+    .duration(400)
+    .EUt(7)
+  event.recipes.gtceu.cutter('quark_ancient_planks_l')
+    .itemInputs('1x #quark:ancient_logs')
+    .inputFluids(Fluid.of('minecraft:lubricant', 1))
+    .itemOutputs('6x quark:ancient_planks', '2x gtceu:wood_dust')
+    .duration(200)
+    .EUt(7)
+
+  event.remove({ id: 'quark:world/crafting/woodsets/azalea/planks' })
+  event.shaped(Item.of('quark:azalea_planks',2), [
+        'P'
+    ],
+    {
+        P: '#quark:azalea_logs'
+    })
+  event.recipes.gtceu.cutter('quark_azalea_planks_w')
+    .itemInputs('1x #quark:azalea_logs')
+    .inputFluids(Fluid.of('minecraft:water', 4))
+    .itemOutputs('6x quark:azalea_planks', '2x gtceu:wood_dust')
+    .duration(400)
+    .EUt(7)
+  event.recipes.gtceu.cutter('quark_azalea_planks_l')
+    .itemInputs('1x #quark:ancient_logs')
+    .inputFluids(Fluid.of('minecraft:lubricant', 1))
+    .itemOutputs('6x quark:azalea_planks', '2x gtceu:wood_dust')
+    .duration(200)
+    .EUt(7)
+
+  event.remove({ id: 'quark:world/crafting/woodsets/blossom/planks' })
+  event.shaped(Item.of('quark:blossom_planks',2), [
+        'P'
+    ],
+    {
+        P: '#quark:blossom_logs'
+    })
+  event.recipes.gtceu.cutter('quark_blossom_planks_w')
+    .itemInputs('1x #quark:blossom_logs')
+    .inputFluids(Fluid.of('minecraft:water', 4))
+    .itemOutputs('6x quark:blossom_planks', '2x gtceu:wood_dust')
+    .duration(400)
+    .EUt(7)
+  event.recipes.gtceu.cutter('quark_blossom_planks_l')
+    .itemInputs('1x #quark:blossom_logs')
+    .inputFluids(Fluid.of('minecraft:lubricant', 1))
+    .itemOutputs('6x quark:blossom_planks', '2x gtceu:wood_dust')
+    .duration(200)
+    .EUt(7)
+
+  event.remove({ id: 'beachparty:palm_planks' })
+  event.shaped(Item.of('beachparty:palm_planks',2), [
+        'P'
+    ],
+    {
+        P: '#forge:palm_logs'
+    })
+  event.recipes.gtceu.cutter('palm_planks_w')
+    .itemInputs('1x #forge:palm_logs')
+    .inputFluids(Fluid.of('minecraft:water', 4))
+    .itemOutputs('6x beachparty:palm_planks', '2x gtceu:wood_dust')
+    .duration(400)
+    .EUt(7)
+  event.recipes.gtceu.cutter('palm_planks_l')
+    .itemInputs('1x #forge:palm_logs')
+    .inputFluids(Fluid.of('minecraft:lubricant', 1))
+    .itemOutputs('6x beachparty:palm_planks', '2x gtceu:wood_dust')
+    .duration(200)
+    .EUt(7)
+
   //other_fix
+  event.shaped(Item.of('minecraft:glass_bottle',1), [
+        ' W ',
+        'P P',
+        ' P '
+    ],
+    {
+        W: '#minecraft:planks',
+        P: 'minecraft:glass_pane'
+    })
   event.remove({ id: 'createchromaticreturn:carbon_powder_recipe' })
   event.remove({ id: 'createchromaticreturn:charm_cast_recipe' })
   event.remove({ id: 'createdeco:compacting/industrial_iron_ingot' })
@@ -13,14 +143,6 @@ ServerEvents.recipes(event => {
   event.shapeless(Item.of('solapplepie:food_book',1), [
         'minecraft:book', 'farmersdelight:apple_pie'
     ])
-  event.shaped(Item.of('solapplepie:lunchbag',1), [
-        ' P ',
-        'P P',
-        'PPP'
-    ],
-    {
-        P: 'farmersdelight:canvas'
-    })
   colors.forEach(c => {
       event.shaped(Item.of('minecraft:' + c + '_stained_glass_pane',8),[
           'PPP',
@@ -116,7 +238,8 @@ ServerEvents.recipes(event => {
       .EUt(2)
 
   event.recipes.create.compacting('minecraft:paper', ['2x farmersdelight:tree_bark', Fluid.of('minecraft:water', 500)])
-  event.recipes.create.compacting('minecraft:paper', ['4x minecraft:sugar', Fluid.of('minecraft:water', 250)])
+  event.recipes.create.compacting('minecraft:paper', ['4x minecraft:sugar_cane', Fluid.of('minecraft:water', 250)])
+  event.remove({id: 'create:pressing/sugar_cane' })
   event.remove({id: 'gtceu:shaped/paper_dust' })
   event.remove({id: 'farmersdelight:paper_from_tree_bark' })
   event.shaped(Item.of('minecraft:paper',1), [
@@ -127,7 +250,48 @@ ServerEvents.recipes(event => {
       B: 'farmersdelight:tree_bark',
       W: 'minecraft:water_bucket'
   }).replaceIngredient({ item: "minecraft:water_bucket" }, Item.of('minecraft:bucket'))
-
+  event.recipes.create.crushing(['2x minecraft:bone_meal', Item.of('minecraft:bone_meal', 1).withChance(0.5)], 'minecraft:player_head')
+  event.recipes.create.crushing(['3x minecraft:bone_meal', Item.of('minecraft:bone_meal', 1).withChance(0.5)], 'minecraft:skeleton_skull')
+  event.recipes.create.crushing(['3x minecraft:bone_meal', Item.of('minecraft:bone_meal', 1).withChance(0.5)], 'minecraft:wither_skeleton_skull')
+  event.recipes.create.crushing(['2x minecraft:bone_meal', Item.of('minecraft:bone_meal', 1).withChance(0.5)], 'minecraft:zombie_head')
+  event.recipes.create.crushing(['2x minecraft:bone_meal', Item.of('minecraft:bone_meal', 1).withChance(0.5)], 'minecraft:creeper_head')
+  event.recipes.create.crushing(['3x minecraft:bone_meal', Item.of('minecraft:bone_meal', 1).withChance(0.5)], 'minecraft:piglin_head')
+  event.recipes.create.crushing(['7x minecraft:bone_meal', Item.of('minecraft:bone_meal', 1).withChance(0.5)], 'minecraft:dragon_head')
+  event.recipes.gtceu.macerator('player_head_macerator')
+      .itemInputs('1x minecraft:player_head')
+      .itemOutputs('3x minecraft:bone_meal', '2x gtceu:meat_dust')
+      .duration(120)
+      .EUt(2)
+  event.recipes.gtceu.macerator('skeleton_skull_macerator')
+      .itemInputs('1x minecraft:skeleton_skull')
+      .itemOutputs('5x minecraft:bone_meal')
+      .duration(160)
+      .EUt(2)
+  event.recipes.gtceu.macerator('wither_skeleton_skull_macerator')
+      .itemInputs('1x minecraft:wither_skeleton_skull')
+      .itemOutputs('4x minecraft:bone_meal', '1x enderio:withering_powder')
+      .duration(160)
+      .EUt(2)
+  event.recipes.gtceu.macerator('zombie_head_macerator')
+      .itemInputs('1x minecraft:zombie_head')
+      .itemOutputs('3x minecraft:bone_meal', '1x gtceu:meat_dust')
+      .duration(120)
+      .EUt(2)
+  event.recipes.gtceu.macerator('creeper_head_macerator')
+      .itemInputs('1x minecraft:creeper_head')
+      .itemOutputs('3x minecraft:bone_meal', '2x minecraft:gunpowder')
+      .duration(120)
+      .EUt(2)
+  event.recipes.gtceu.macerator('piglin_head_macerator')
+      .itemInputs('1x minecraft:piglin_head')
+      .itemOutputs('4x minecraft:bone_meal', '2x gtceu:meat_dust')
+      .duration(160)
+      .EUt(2)
+  event.recipes.gtceu.macerator('dragon_head_macerator')
+      .itemInputs('1x minecraft:dragon_head')
+      .itemOutputs('8x minecraft:bone_meal', '4x gtceu:dragonium_dust')
+      .duration(320)
+      .EUt(8)
 
 //stones
   event.recipes.create.compacting('minecraft:deepslate', [Fluid.of('minecraft:lava',100), 'minecraft:cobblestone', '#forge:dusts/obsidian']).heated()

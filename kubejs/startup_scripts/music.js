@@ -68,11 +68,13 @@ let music_list_beta = {
     "disc_dreiton": 497,
     "disc_the_end": 904
 }
-/*
-let music_list_ocean = {
 
+let music_list_ocean = {
+    "disc_axolotl": 303,
+    "disc_dragon_fish": 372,
+    "disc_shuniji": 244
 }
-*/
+
 let music_list_nether = {
     "disc_chrysopoeia": 303,
     "disc_rubedo": 312,
@@ -130,6 +132,9 @@ StartupEvents.registry("sound_event", event => {
     Object.keys(music_list_beta).forEach(value => {
         event.create(`music.${value}`)
     })
+    Object.keys(music_list_ocean).forEach(value => {
+        event.create(`music.${value}`)
+    })
     Object.keys(music_list_nether).forEach(value => {
         event.create(`music.${value}`)
     })
@@ -157,6 +162,11 @@ StartupEvents.registry("item", event => {
 		event.create(value[0], "music_disc")
 			.song(`kubejs:music.${value[0]}`, value[1])
             .texture('fgcraft:item/disc/beta')
+	})
+    Object.entries(music_list_ocean).forEach((value) => {
+		event.create(value[0], "music_disc")
+			.song(`kubejs:music.${value[0]}`, value[1])
+            .texture('fgcraft:item/disc/ocean')
 	})
     Object.entries(music_list_nether).forEach((value) => {
 		event.create(value[0], "music_disc")

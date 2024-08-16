@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "49293A59CA6A2C32"
-	group: ""
+	group: "2F0FBA7217AE95FB"
 	icon: {
 		Count: 1
 		id: "minecraft:netherite_sword"
@@ -45,20 +45,21 @@
 			y: -0.5d
 		}
 	]
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
 			can_repeat: true
 			icon: "minecraft:zombie_head"
 			id: "7136C6E1068F4525"
+			min_required_tasks: 2
 			rewards: [{
-				count: 5
+				count: 2
 				id: "484EDB8CBEE993CA"
 				item: "gtceu:cupronickel_credit"
 				type: "item"
 			}]
-			subtitle: "击杀主世界的僵尸及其变种各20个"
+			subtitle: "击杀主世界的僵尸或任一变种20个"
 			tasks: [
 				{
 					entity: "minecraft:zombie"
@@ -94,13 +95,14 @@
 			can_repeat: true
 			icon: "minecraft:skeleton_skull"
 			id: "0199A4D6E51F4DC1"
+			min_required_tasks: 2
 			rewards: [{
-				count: 4
+				count: 2
 				id: "5BA858DD938A1078"
 				item: "gtceu:cupronickel_credit"
 				type: "item"
 			}]
-			subtitle: "击杀主世界的骷髅及其变种各20个"
+			subtitle: "击杀主世界的骷髅或任一变种20个"
 			tasks: [
 				{
 					entity: "minecraft:skeleton"
@@ -143,7 +145,7 @@
 					icon: "minecraft:creeper_head"
 					id: "3F41965F0DA489D7"
 					type: "kill"
-					value: 50L
+					value: 20L
 				}
 				{
 					disable_toast: true
@@ -161,7 +163,7 @@
 			icon: "minecraft:slime_ball"
 			id: "5595005C7AAF7FB4"
 			rewards: [{
-				count: 6
+				count: 4
 				id: "08E08FBB8E6887F6"
 				item: "gtceu:cupronickel_credit"
 				type: "item"
@@ -190,20 +192,27 @@
 			can_repeat: true
 			icon: "minecraft:spider_eye"
 			id: "5DC15D8D3277FC8E"
-			rewards: [{
-				count: 3
-				id: "20C068C5E1580B16"
-				item: "gtceu:cupronickel_credit"
-				type: "item"
-			}]
-			subtitle: "击杀50个蜘蛛"
+			rewards: [
+				{
+					id: "20C068C5E1580B16"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "57F2528FBAB1120E"
+					item: "gtceu:copper_credit"
+					type: "item"
+				}
+			]
+			subtitle: "击杀20个蜘蛛"
 			tasks: [
 				{
 					entity: "minecraft:spider"
 					icon: "minecraft:spider_eye"
 					id: "37E885D83199DB41"
 					type: "kill"
-					value: 50L
+					value: 20L
 				}
 				{
 					disable_toast: true
@@ -284,7 +293,7 @@
 			}
 			id: "580838A82E244090"
 			rewards: [{
-				count: 4
+				count: 2
 				id: "0CF15CAC78F440F6"
 				item: "gtceu:cupronickel_credit"
 				type: "item"
@@ -348,12 +357,12 @@
 			icon: "minecraft:infested_cracked_stone_bricks"
 			id: "5F440086C51D2A33"
 			rewards: [{
-				count: 3
+				count: 2
 				id: "50E067D3AD260E13"
 				item: "gtceu:cupronickel_credit"
 				type: "item"
 			}]
-			subtitle: "击杀50个蠹虫"
+			subtitle: "击杀20个蠹虫"
 			tasks: [
 				{
 					entity: "minecraft:silverfish"
@@ -378,8 +387,9 @@
 			icon: "minecraft:guardian_spawn_egg"
 			id: "572C2E18FC705A6D"
 			rewards: [{
+				count: 6
 				id: "09A219F025A77B95"
-				item: "gtceu:silver_credit"
+				item: "gtceu:cupronickel_credit"
 				type: "item"
 			}]
 			subtitle: "击杀20个守卫者"
@@ -406,19 +416,12 @@
 			can_repeat: true
 			icon: "minecraft:elder_guardian_spawn_egg"
 			id: "3C4A05209AA12E57"
-			rewards: [
-				{
-					id: "33F30E4BB545B677"
-					item: "gtceu:gold_credit"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5778A0CBA14AC94D"
-					table_id: 328085211529791517L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				count: 2
+				id: "33F30E4BB545B677"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
 			subtitle: "击杀3个远古守卫者，解除海底神殿的魔咒"
 			tasks: [
 				{
@@ -443,20 +446,12 @@
 			can_repeat: true
 			icon: "minecraft:phantom_membrane"
 			id: "18CA9F446874915A"
-			rewards: [
-				{
-					id: "1274855C5217DED5"
-					item: "gtceu:silver_credit"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "57426CACC6AFEC90"
-					table_id: 4210225765629115356L
-					type: "loot"
-				}
-			]
-			subtitle: "击杀10个幻翼"
+			rewards: [{
+				id: "1274855C5217DED5"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "击杀10只幻翼"
 			tasks: [
 				{
 					entity: "minecraft:phantom"
@@ -481,8 +476,9 @@
 			icon: "minecraft:iron_block"
 			id: "43C966A4CEAC1DF9"
 			rewards: [{
+				count: 6
 				id: "6D39F6C18346FD2A"
-				item: "gtceu:silver_credit"
+				item: "gtceu:cupronickel_credit"
 				type: "item"
 			}]
 			subtitle: "击杀5个铁傀儡"
@@ -501,7 +497,7 @@
 					type: "questsadditions:time"
 				}
 			]
-			title: "你竟敢击杀村民的守护者！"
+			title: "我是来打铁的，你们要干什么？"
 			x: -10.0d
 			y: -0.5d
 		}
@@ -516,8 +512,9 @@
 			}
 			id: "6417F29E80A7E839"
 			rewards: [{
+				count: 4
 				id: "0BBD4E470E43DBA7"
-				item: "gtceu:silver_credit"
+				item: "gtceu:cupronickel_credit"
 				type: "item"
 			}]
 			subtitle: "击杀20个掠夺者"
@@ -557,7 +554,6 @@
 			}
 			id: "331F8E0422D22628"
 			rewards: [{
-				count: 4
 				id: "5D03EB9BE76DEA47"
 				item: "gtceu:silver_credit"
 				type: "item"
@@ -592,12 +588,19 @@
 			can_repeat: true
 			icon: "minecraft:totem_of_undying"
 			id: "34DB11B818B64413"
-			rewards: [{
-				count: 4
-				id: "25909A016C6D6D4C"
-				item: "gtceu:silver_credit"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "25909A016C6D6D4C"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1294FBB0ABC160C2"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+			]
 			subtitle: "击杀5个唤魔者"
 			tasks: [
 				{
@@ -623,7 +626,7 @@
 			icon: "minecraft:ravager_spawn_egg"
 			id: "1349F3D0480BC922"
 			rewards: [{
-				count: 6
+				count: 2
 				id: "56C71365E7E838EE"
 				item: "gtceu:silver_credit"
 				type: "item"
@@ -653,9 +656,9 @@
 			icon: "minecraft:wither_skeleton_skull"
 			id: "364C22C54A52EA39"
 			rewards: [{
-				count: 2
+				count: 6
 				id: "2B2AEC33536A2414"
-				item: "gtceu:silver_credit"
+				item: "gtceu:cupronickel_credit"
 				type: "item"
 			}]
 			subtitle: "击杀10只凋灵骷髅"
@@ -683,9 +686,9 @@
 			icon: "minecraft:blaze_powder"
 			id: "09D455107B66E564"
 			rewards: [{
-				count: 2
+				count: 6
 				id: "4D22429F347DE361"
-				item: "gtceu:silver_credit"
+				item: "gtceu:cupronickel_credit"
 				type: "item"
 			}]
 			subtitle: "击杀20只烈焰人"
@@ -713,18 +716,19 @@
 			icon: "minecraft:piglin_head"
 			id: "705416F27338ECCB"
 			rewards: [{
+				count: 4
 				id: "350ED9CD6B27D13D"
-				item: "gtceu:silver_credit"
+				item: "gtceu:cupronickel_credit"
 				type: "item"
 			}]
-			subtitle: "击杀30只猪灵"
+			subtitle: "击杀20只猪灵"
 			tasks: [
 				{
 					entity: "minecraft:piglin"
 					icon: "minecraft:piglin_head"
 					id: "094B962ACE47BE0D"
 					type: "kill"
-					value: 30L
+					value: 20L
 				}
 				{
 					disable_toast: true
@@ -742,18 +746,19 @@
 			icon: "minecraft:zombified_piglin_spawn_egg"
 			id: "00562ABEDB3D5984"
 			rewards: [{
+				count: 4
 				id: "43E00E5C9814E8A3"
-				item: "gtceu:silver_credit"
+				item: "gtceu:cupronickel_credit"
 				type: "item"
 			}]
-			subtitle: "击杀50只僵尸猪灵"
+			subtitle: "击杀20只僵尸猪灵"
 			tasks: [
 				{
 					entity: "minecraft:zombified_piglin"
 					icon: "minecraft:zombified_piglin_spawn_egg"
 					id: "74F528C126187BE8"
 					type: "kill"
-					value: 50L
+					value: 20L
 				}
 				{
 					disable_toast: true
@@ -776,19 +781,12 @@
 				}
 			}
 			id: "4527AAE9B095016B"
-			rewards: [
-				{
-					id: "239B66C2DEDD9CFD"
-					item: "gtceu:gold_credit"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "266FEEC1FC4978E2"
-					table_id: 4210225765629115356L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				count: 4
+				id: "239B66C2DEDD9CFD"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
 			subtitle: "击杀10只猪灵蛮兵"
 			tasks: [
 				{
@@ -819,12 +817,19 @@
 			can_repeat: true
 			icon: "minecraft:hoglin_spawn_egg"
 			id: "0012CAD0C38238CC"
-			rewards: [{
-				count: 4
-				id: "212906AAFF2E6379"
-				item: "gtceu:silver_credit"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "212906AAFF2E6379"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "53C635909F7C75B9"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+			]
 			subtitle: "击杀10只疣猪兽"
 			tasks: [
 				{
@@ -850,8 +855,9 @@
 			icon: "minecraft:zoglin_spawn_egg"
 			id: "1285BF49ECAC0F88"
 			rewards: [{
+				count: 2
 				id: "7FABB83F44246AA0"
-				item: "gtceu:gold_credit"
+				item: "gtceu:silver_credit"
 				type: "item"
 			}]
 			subtitle: "击杀1只僵尸疣猪兽"
@@ -879,7 +885,6 @@
 			icon: "minecraft:ghast_tear"
 			id: "2C6CD06EFE7CFB3C"
 			rewards: [{
-				count: 4
 				id: "77C26633DD3ED24A"
 				item: "gtceu:silver_credit"
 				type: "item"
@@ -909,8 +914,9 @@
 			icon: "minecraft:magma_cream"
 			id: "4D49B61BDBC7A816"
 			rewards: [{
+				count: 6
 				id: "3B44E9188250461F"
-				item: "gtceu:silver_credit"
+				item: "gtceu:cupronickel_credit"
 				type: "item"
 			}]
 			subtitle: "击杀20个岩浆怪"
@@ -935,20 +941,20 @@
 		}
 		{
 			can_repeat: true
+			description: ["        你真的太坏了！"]
 			icon: "minecraft:shulker_box"
 			id: "237B19A590501C8C"
 			rewards: [
 				{
-					count: 4
 					id: "28DF808730CBFF1C"
 					item: "gtceu:silver_credit"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "571FD2CC1103FA2A"
-					table_id: 328085211529791517L
-					type: "loot"
+					count: 4
+					id: "3B7E24187A5DA32F"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
 				}
 			]
 			subtitle: "击杀20个潜影贝"
@@ -974,7 +980,7 @@
 		{
 			can_repeat: true
 			description: [
-				"下位Boss，血量350。"
+				"位于主世界地底的下位Boss，血量350。"
 				"这只巨大的花朵藏匿在地底深处贴近基岩层的巨大洞室中，传言说发现这个洞室的冒险者，百分之九十都最终没能回来。"
 				"一旦被这只魔花发现，它会释放出荆棘来刺穿玩家，还会到处投掷危险的魔法炸弹。"
 				"想要近身攻击它是非常危险的，它身上的荆棘会把所有试图靠近的人刺成筛子。"
@@ -985,20 +991,15 @@
 			id: "42DE4C18D96AA4C5"
 			rewards: [
 				{
+					count: 2
 					id: "315519687B95CEB2"
-					item: "gtceu:platinum_credit"
+					item: "gtceu:gold_credit"
 					type: "item"
 				}
 				{
 					id: "6A074B789BC06834"
 					item: "simplyswords:runic_tablet"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "193500F360B8B7B8"
-					table_id: 4210225765629115356L
-					type: "loot"
 				}
 			]
 			size: 2.0d
@@ -1025,7 +1026,7 @@
 		{
 			can_repeat: true
 			description: [
-				"下位Boss，血量450。"
+				"位于末地的下位Boss，血量450。"
 				"这棵特别的黑曜石柱存在于末地一座浮空的巨型平台上。看似平凡无奇，但当你靠近它时，它便会对你发起进攻。"
 				"攻击方式一般有两种：释放出会对站在上面的人造成伤害并造成减速的法阵；趁敌人不注意时突然消失，然后从敌人头顶上压下来。这两种攻击方式都很危险，需要尽可能躲避。"
 				"此外，每当血量下降到75%，50%，25%时，它就会在周围召唤三个符文为其提供保护，必须先将符文破坏掉才能继续攻击它。"
@@ -1035,20 +1036,15 @@
 			id: "2CE22970A111E324"
 			rewards: [
 				{
+					count: 2
 					id: "5ADD4292991C7EC9"
-					item: "gtceu:platinum_credit"
+					item: "gtceu:gold_credit"
 					type: "item"
 				}
 				{
 					id: "27BD1BA09735E76B"
 					item: "simplyswords:runic_tablet"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6DCBE8EFCC960EFB"
-					table_id: 328085211529791517L
-					type: "loot"
 				}
 			]
 			size: 2.0d
@@ -1075,7 +1071,7 @@
 		{
 			can_repeat: true
 			description: [
-				"下位Boss，血量300。"
+				"位于主世界冰原的下位Boss，血量300。"
 				"找到冰原上的一座古塔，在四个祭坛里放入灵魂之星（击杀亡灵生物小概率掉落），即可召唤暗夜巫妖。"
 				"暗夜巫妖生成时，时间会被强制设定为黑夜，此时巫妖会在天空中到处飞行，对于近战来说会是件麻烦的事情。"
 				"当发现玩家时，其会施展各种法术来攻击玩家，包括以下三种："
@@ -1088,20 +1084,15 @@
 			id: "2AB9BA4BEBEC761A"
 			rewards: [
 				{
+					count: 2
 					id: "290B466EFB6F9431"
-					item: "gtceu:platinum_credit"
+					item: "gtceu:gold_credit"
 					type: "item"
 				}
 				{
 					id: "1A610CBE451949CC"
 					item: "simplyswords:runic_tablet"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "656E50AE629FBD56"
-					table_id: 4210225765629115356L
-					type: "loot"
 				}
 			]
 			size: 2.0d
@@ -1128,7 +1119,7 @@
 		{
 			can_repeat: true
 			description: [
-				"下位Boss，血量400。"
+				"位于下界的下位Boss，血量400。"
 				"这只巨大的铁掌存在于下界下层的一个密室中，平时伪装成一个普通的石砖柱，等待着某位倒霉的冒险者试图挖掘它……"
 				"铁掌有以下三种技能："
 				"1.握成拳头状，砸向敌人。该技能有一定概率为强化变种（表现为冒红光），威力更强，附带周围的方块着火效果。生命值越低时，强化变种的概率越高。"
@@ -1140,20 +1131,16 @@
 			id: "61550074F875D91B"
 			rewards: [
 				{
-					id: "38F95ED1D2DE17FE"
-					item: "gtceu:platinum_credit"
+					count: 2
+					id: "3A677AB1D63285AD"
+					item: "gtceu:gold_credit"
 					type: "item"
 				}
 				{
-					id: "7828FDB034DB4FE7"
+					count: 2
+					id: "5E1598B9E4343D88"
 					item: "simplyswords:runic_tablet"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "3F995C6B328FA035"
-					table_id: 328085211529791517L
-					type: "loot"
 				}
 			]
 			size: 2.0d
@@ -1180,16 +1167,17 @@
 		{
 			can_repeat: true
 			description: [
-				"                &l&o[原版&m(魔改)&r&l&oBoss，3000HP]"
-				"        与末影龙的战斗，相比原版而言更具有挑战性了。现在的末影龙血量高达3000，请做好持久作战的准备。此外，整场战斗也被分为了两个阶段："
+				"                &l&o[原版&m(魔改)&r&l&oBoss，800HP]"
+				"        与末影龙的战斗相比原版而言更具有挑战性了，现在的整场战斗被分为了两个阶段："
 				"        第一阶段的战斗和原版没有太大的差别，但末影龙喷出的火球有概率为爆炸变种，威力较大，需要当心躲避。同时，每隔一段时间便会生成一些主动与玩家敌对的末影人，以及穿着精锐装备的末地僵尸。"
-				"        末影龙血量下降至1/3时会开启第二阶段。阶段开始时，会有随机三个末地水晶复活，需要注意解决。同时，会生成一只精英骷髅射手（小boss，有血条显示），玩家只有解决它才能继续攻击末影龙。在整个第二阶段期间，生成的小怪具有更强的药水效果，因而更加危险。此外，每隔一段时间，会在玩家上空生成落雷或下落的铁砧，需注意躲避。"
+				"        末影龙血量下降至1/2时会开启第二阶段。阶段开始时，会有随机三个末地水晶复活，需要注意解决。同时，会生成一只精英骷髅射手（小boss，有血条显示），玩家只有解决它才能继续攻击末影龙。在整个第二阶段期间，生成的小怪具有更强的药水效果，因而更加危险。此外，每隔一段时间，会在玩家上空生成落雷或下落的铁砧，需注意躲避。"
 			]
+			icon: "minecraft:dragon_head"
 			id: "0353756494274444"
 			rewards: [
 				{
 					id: "1E7E7E21C38848CA"
-					item: "gtceu:osmium_credit"
+					item: "gtceu:platinum_credit"
 					type: "item"
 				}
 				{
@@ -1198,16 +1186,10 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "6C806409D6BC7CE4"
-					table_id: 6709666230684452828L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0A58B590E070DC3B"
-					table_id: 328085211529791517L
-					type: "loot"
+					count: 2
+					id: "154A466D124D4C5E"
+					item: "simplyswords:runic_tablet"
+					type: "item"
 				}
 			]
 			size: 4.0d
@@ -1234,30 +1216,30 @@
 		{
 			can_repeat: true
 			description: [
-				"下位Boss，血量为300。"
-				"凋灵需要通过搭建以下结构来生成，该结构的朝向可以是任意的："
-				"头头头"
-				"沙沙沙"
-				"空沙空"
-				"其中：“头”代表凋灵骷髅头颅，“沙”代表灵魂沙/灵魂土，“空”代表空气。（若要生成凋灵风暴，最中间的方块需要替换为命令方块，请参见“里程碑”章节）"
-				"生成凋灵后，凋灵初始处于无敌状态，并逐渐回满血。随后伴随着一声爆炸，正式开始战斗。"
-				"凋灵攻击时会发出两种爆炸性头颅：黑色的移动较快，爆炸威力小；蓝色的移动较慢，但爆炸威力大，可以炸毁黑曜石。所有被头颅击中的玩家都会获得凋零效果。"
-				"战斗开始时的凋灵可以在天上飞行，这意味着你需要使用远程武器攻击它。而当其血量下降至一半时，其周围会产生护盾，尽管由于护盾的重量影响导致凋灵无法再自由飞行，但此时所有常规的远程攻击都会失效。"
-				"随着时间推移和击杀生物，凋灵会逐步恢复血量。因此，尽量在短时间内尽快解决它。"
+				"        原版下位Boss，血量为300。"
+				"        凋灵需要通过搭建以下结构来生成，该结构的朝向可以是任意的："
+				"        头头头"
+				"        沙沙沙"
+				"        空沙空"
+				"        其中：“头”代表凋灵骷髅头颅，“沙”代表灵魂沙/灵魂土，“空”代表空气。（若要生成凋灵风暴，最中间的方块需要替换为命令方块，请参见“里程碑”章节）"
+				"        生成凋灵后，凋灵初始处于无敌状态，并逐渐回满血。随后伴随着一声爆炸，正式开始战斗。"
+				"        凋灵攻击时会发出两种爆炸性头颅：黑色的移动较快，爆炸威力小；蓝色的移动较慢，但爆炸威力大，可以炸毁黑曜石。所有被头颅击中的玩家都会获得凋零效果。"
+				"        战斗开始时的凋灵可以在天上飞行，这意味着你需要使用远程武器攻击它。而当其血量下降至一半时，其周围会产生护盾，尽管由于护盾的重量影响导致凋灵无法再自由飞行，但此时    所有常规的远程攻击都会失效。"
+				"        随着时间推移和击杀生物，凋灵会逐步恢复血量。因此，尽量在短时间内尽快解决它。"
 			]
 			icon: "minecraft:wither_rose"
 			id: "6F62CA1A2E8AB94C"
 			rewards: [
 				{
+					count: 2
 					id: "1F2399EE47E1D620"
-					item: "gtceu:platinum_credit"
+					item: "gtceu:gold_credit"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "1B647519A2DD2B9E"
-					table_id: 4210225765629115356L
-					type: "loot"
+					id: "1B5D1DF000EC847A"
+					item: "simplyswords:runic_tablet"
+					type: "item"
 				}
 			]
 			size: 2.0d
@@ -1284,7 +1266,7 @@
 		{
 			can_repeat: true
 			description: [
-				"监守者是一只特殊的生物，定位上属于小型Boss，血量500。"
+				"仅在幽匿群系的特殊条件下生成的生物（不属于Boss但拥有Boss级的属性），血量500。"
 				"当玩家短时间内触发幽匿尖啸体三次后，监守者便会爬出地面。尽管其没有视力，仅依靠周围的振动和嗅闻近身的生物来定位攻击对象，但当它发起攻击时，则是另一番景象了。"
 				"监守者会快速向倒霉的目标走去，其近战攻击伤害非常高，即使是穿着全套下界合金甲，如果没有保护附魔，也会被无情地一击秒杀。"
 				"而如果监守者发现目标无法被近身接触，则会试图向目标发射强大的音波尖啸，所有被击中的目标都会受到大量伤害，而且无视盔甲和其上的任何效果。"
@@ -1295,20 +1277,15 @@
 			id: "4009CC60123C182B"
 			rewards: [
 				{
+					count: 2
 					id: "3CA640A68598AD8C"
-					item: "gtceu:platinum_credit"
+					item: "gtceu:gold_credit"
 					type: "item"
 				}
 				{
 					id: "2B820F89182B06E0"
 					item: "simplyswords:runic_tablet"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5C0DED631D34821C"
-					table_id: 328085211529791517L
-					type: "loot"
 				}
 			]
 			size: 2.0d
@@ -1335,12 +1312,13 @@
 		{
 			can_repeat: true
 			description: [
-				"上位Boss，血量为2500。"
-				"下界合金巨兽，就像它的“亲戚”红石巨兽一样镇守着一座锻造厂，然而这座锻造厂比烈焰锻造厂小得多，但它依然强大。"
-				"战斗共分为两阶段，血量下降至一半时进入第二阶段。"
-				"技能："
-				"1.撼地猛击：下界合金巨兽举起双臂，重重捶地，对前方的所有实体造成伤害并击飞。第二阶段该技能的范围和伤害都会得到加强，且会使被击中目标燃烧。"
-				"2.喷吐熔岩炸弹：当目标较远时，下界合金巨兽会收缩手臂并抬起头颅，发射5颗熔岩炸弹。熔岩炸弹会在击中后产生爆炸并生成熔岩，对玩家进行干扰。每释放五次该技能后，Boss都会重新吸收场上的所有熔岩，进行弹药补充并回复一定生命值。"
+				"                &l&o[位于下界的二阶上位Boss，750HP]"
+				"        注：在下界可用恶兽之眼寻找锻造厂"
+				"        下界合金巨兽，就像它的“亲戚”红石巨兽一样镇守着一座锻造厂，然而这座锻造厂比烈焰锻造厂小得多，但它依然强大。"
+				"        战斗共分为两阶段，血量下降至一半时进入第二阶段。"
+				"        技能："
+				"        1.撼地猛击：下界合金巨兽举起双臂，重重捶地，对前方的所有实体造成伤害并击飞。第二阶段该技能的范围和伤害都会得到加强，且会使被击中目标燃烧。"
+				"        2.喷吐熔岩炸弹：当目标较远时，下界合金巨兽会收缩手臂并抬起头颅，发射5颗熔岩炸弹。熔岩炸弹会在击中后产生爆炸并生成熔岩，对玩家进行干扰。每释放五次该技能后，Boss都会重新吸收场上的所有熔岩，进行弹药补充并回复一定生命值。"
 			]
 			icon: {
 				Count: 1
@@ -1352,20 +1330,15 @@
 			id: "658E065DF6B95368"
 			rewards: [
 				{
+					count: 6
 					id: "227CB9D8A996F9D3"
-					item: "gtceu:osmium_credit"
+					item: "gtceu:gold_credit"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "7D8C9324941E5535"
-					table_id: 6709666230684452828L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "3FE117ACD0EB57A0"
-					table_id: 4210225765629115356L
+					table_id: 8547857130786956286L
 					type: "loot"
 				}
 			]
@@ -1393,36 +1366,31 @@
 				}
 			]
 			title: "满腹熔岩"
-			x: -8.0d
-			y: 8.0d
+			x: -6.0d
+			y: 15.0d
 		}
 		{
 			can_repeat: true
 			description: [
-				"上位Boss，血量1665。"
-				"末影守卫，强大的末地守卫者，盘踞在废弃堡垒的最深处，用末影与虚空之力惩罚着入侵者。"
-				"末影守卫主要依靠它的拳头来解决敌人，如果敌人距离它过远，则会将敌人拉近，或是传送到敌人身边进行攻击。"
-				"战斗分为两阶段，第一阶段时无法被常规远程攻击。生命值下降至一半时进入第二阶段，末影守卫将上层地面震碎，同时将机甲的驾驶舱暴露出来，导致其失去了对远程攻击的防护功能，但一部分技能会得到加强。"
-				"此外，在战斗过程中地上的陷阱也会给玩家造成不小的麻烦。"
+				"                &l&o[位于末地的三阶上位Boss，666HP]"
+				"        注：在末地可用虚空之眼寻找末地废弃堡垒"
+				"        末影守卫，强大的末地守卫者，盘踞在废弃堡垒的最深处，用末影与虚空之力惩罚着入侵者。"
+				"        末影守卫主要依靠它的拳头来解决敌人，如果敌人距离它过远，则会将敌人拉近，或是传送到敌人身边进行攻击。"
+				"        战斗分为两阶段，第一阶段时无法被常规远程攻击。生命值下降至一半时进入第二阶段，末影守卫将上层地面震碎，同时将机甲的驾驶舱暴露出来，导致其失去了对远程攻击的防护功能，但一部分技能会得到加强。"
+				"        此外，在战斗过程中地上的陷阱也会给玩家造成不小的麻烦。"
 			]
 			icon: "cataclysm:void_core"
 			id: "2EF9112127750D6D"
 			rewards: [
 				{
 					id: "098163EEB1EA2D5F"
-					item: "gtceu:osmium_credit"
+					item: "gtceu:platinum_credit"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "537CFC36D662DADE"
-					table_id: 6709666230684452828L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2D651718103F2660"
-					table_id: 328085211529791517L
+					table_id: 2681991074800570146L
 					type: "loot"
 				}
 			]
@@ -1444,21 +1412,21 @@
 				}
 			]
 			title: "末影机甲"
-			x: -6.0d
-			y: 9.0d
+			x: -5.0d
+			y: 13.0d
 		}
 		{
 			can_repeat: true
 			description: [
-				"上位Boss，血量2250。"
-				"焰魔，烈焰之主宰，至尊之战神。"
-				"其必须通过用炽燃余烬右键点击烈焰竞技场顶层中心的烈焰祭坛召唤，炽然余烬可通过击杀竞技场下层的小怪获得。"
-				"整场战斗分为三个阶段。"
-				"初始的焰魔呈黄色，手持巨剑和盾牌，可以抵挡来自盾牌方向的伤害。其通过挥砍巨剑、向前刺击、震荡地面、释放火球等方式消灭来犯之敌。"
-				"玩家被部分技能击中时，会获得炽热视线效果，导致护甲值降低，同时为焰魔回复更多的生命值。因此，躲避焰魔的各种技能，并在短时间内对焰魔造成尽可能多的伤害，是赢得整场战斗的关键。"
-				"在焰魔释放火球时，其中一个火球为紫色火球，可被盾牌反弹并击中焰魔自身，当焰魔累计三次被紫色火球击中时会导致其盾牌提前破碎。然而在盾牌破碎时，焰魔的各项技能和伤害都会得到一定提升。"
-				"生命值降至2/3时进入第二阶段，焰魔的身躯变成蓝色，攻击力变得更强。而当生命值降至1/3时，焰魔同样会将自己手上的盾牌摔破，同时解锁新的强力技能——魂焰斩。该大招会影响身边和前方半圆形区域内的大片区域，非常危险。"
-				"击败焰魔后，其掉落的焰魔锭是制造光辉精华的重要原料。"
+				"                &l&o[位于水星的六阶上位Boss，1800HP]"
+				"        注：在水星可用火焰之眼寻找烈焰竞技场"
+				"        焰魔，烈焰之主宰，至尊之战神。"
+				"        其必须通过用炽燃余烬右键点击烈焰竞技场顶层中心的烈焰祭坛召唤，炽然余烬可通过击杀竞技场下层的小怪获得。"
+				"        整场战斗分为三个阶段。"
+				"        初始的焰魔呈黄色，手持巨剑和盾牌，可以抵挡来自盾牌方向的伤害。其通过挥砍巨剑、向前刺击、震荡地面、释放火球等方式消灭来犯之敌。"
+				"        玩家被部分技能击中时，会获得炽热视线效果，导致护甲值降低，同时为焰魔回复更多的生命值。因此，躲避焰魔的各种技能，并在短时间内对焰魔造成尽可能多的伤害，是赢得整场战斗的关键。"
+				"        在焰魔释放火球时，其中一个火球为紫色火球，可被盾牌反弹并击中焰魔自身，当焰魔累计三次被紫色火球击中时会导致其盾牌提前破碎。然而在盾牌破碎时，焰魔的各项技能和伤害都会得到一定提升。"
+				"        生命值降至2/3时进入第二阶段，焰魔的身躯变成蓝色，攻击力变得更强。而当生命值降至1/3时，焰魔同样会将自己手上的盾牌摔破，同时解锁新的强力技能——魂焰斩。该大招会影响身边和前方半圆形区域内的大片区域，非常危险。"
 			]
 			icon: "cataclysm:burning_ashes"
 			id: "23F53C8768331019"
@@ -1472,12 +1440,6 @@
 					exclude_from_claim_all: true
 					id: "58307371D7DD5270"
 					table_id: 6709666230684452828L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "627D1BFF52D432B7"
-					table_id: 4210225765629115356L
 					type: "loot"
 				}
 			]
@@ -1499,40 +1461,36 @@
 				}
 			]
 			title: "灼烧吧！"
-			x: -5.0d
-			y: 11.0d
+			x: -8.0d
+			y: 8.0d
 		}
 		{
 			can_repeat: true
 			description: [
-				"上位Boss，血量1950。"
-				"先驱者，古人制造的机械凋灵，拥有强大的破坏力。"
-				"其沉睡在主世界地下深处的远古工厂中，需要用下界之星唤醒。"
-				"除了拥有普通凋灵的技能外，先驱者还善于用导弹、激光等方式解决敌人。"
-				"每隔一段时间，先驱者会做一次蓄力，随后发出巨大的死亡激光进行扫射，非常危险，但可以通过跑到场地的柱子后面躲避。"
-				"场地的每个柱子中含有电磁脉冲装置，其会被死亡激光充能，当充能完成后，拉动旁边拉杆即可放出脉冲波。"
-				"脉冲波是对付机械凋灵的利器，被脉冲波影响到的先驱者会获得一段时间的眩晕效果，此时是攻击它的绝佳时机。"
-				"当生命值低于50%时，先驱者和凋灵一样会免疫常规远程攻击，但仍然能够正常飞行，因此该阶段的战斗会变得更加麻烦。"
-				"先驱者被击杀后会掉落凋零合金块，是制造暗影精华的重要原料。"
+				"                &l&o[位于月球的四阶上位Boss，975HP]"
+				"        注：在月球可用机械之眼寻找远古工厂"
+				"        先驱者，古人制造的机械凋灵，拥有强大的破坏力。"
+				"        其沉睡在主世界地下深处的远古工厂中，需要用下界之星唤醒。"
+				"        除了拥有普通凋灵的技能外，先驱者还善于用导弹、激光等方式解决敌人。"
+				"        每隔一段时间，先驱者会做一次蓄力，随后发出巨大的死亡激光进行扫射，非常危险，但可以通过跑到场地的柱子后面躲避。"
+				"        场地的每个柱子中含有电磁脉冲装置，其会被死亡激光充能，当充能完成后，拉动旁边拉杆即可放出脉冲波。"
+				"        脉冲波是对付机械凋灵的利器，被脉冲波影响到的先驱者会获得一段时间的眩晕效果，此时是攻击它的绝佳时机。"
+				"        当生命值低于50%时，先驱者和凋灵一样会免疫常规远程攻击，但仍然能够正常飞行，因此该阶段的战斗会变得更加麻烦。"
+				"        先驱者被击杀后会掉落凋零合金块，可用于锻造特殊武器。"
 			]
 			icon: "cataclysm:mechanical_fusion_anvil"
 			id: "3A7BB0C183066408"
 			rewards: [
 				{
+					count: 2
 					id: "23F0A693AF0353C1"
-					item: "gtceu:osmium_credit"
+					item: "gtceu:platinum_credit"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "57C5BB36341D3587"
-					table_id: 6709666230684452828L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "715B8F199F0DD740"
-					table_id: 328085211529791517L
+					table_id: 2848324682372958615L
 					type: "loot"
 				}
 			]
@@ -1555,12 +1513,13 @@
 			]
 			title: "机械凋灵"
 			x: -5.0d
-			y: 13.0d
+			y: 11.0d
 		}
 		{
 			can_repeat: true
 			description: [
-				"                &l&o[灾变上位Boss，2000HP]"
+				"                &l&o[位于主世界的一阶上位Boss，480HP]"
+				"        注：在主世界可用深渊之眼寻找沉没之城"
 				"        利维坦，掌握深渊之力，甚至能撕裂时空的恐怖掠食者。其需通过在沉没之城中心的水底用深渊祭品右击中心的深渊祭坛召唤，深渊祭品通过收集附近生物的战利品合成。"
 				"        利维坦善于向敌人释放来自深渊的黑暗：使用触手抓取敌人，进行撕咬；撕裂身边的时空，吞噬任何陷入其中的人；释放深渊冲击波，将敌人化为灰烬。"
 				"        当初始血条耗尽后进入第二阶段，利维坦会获得新的血条，随后释放大量深渊灵珠追踪敌人并对击中的敌人造成伤害。"
@@ -1570,20 +1529,15 @@
 			id: "506A55857EE11451"
 			rewards: [
 				{
+					count: 4
 					id: "1D89CB21923916B3"
-					item: "gtceu:osmium_credit"
+					item: "gtceu:gold_credit"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "09402EFD5F4357DA"
-					table_id: 6709666230684452828L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "758585CF773C7304"
-					table_id: 4210225765629115356L
+					table_id: 3552174120120149155L
 					type: "loot"
 				}
 			]
@@ -1605,36 +1559,32 @@
 				}
 			]
 			title: "深海恶魔"
-			x: -6.0d
-			y: 15.0d
+			x: -8.0d
+			y: 16.0d
 		}
 		{
 			can_repeat: true
 			description: [
-				"上位Boss，血量2000。"
-				"这只藏有灵魂的恐龙骨架沉睡在诅咒金字塔深处，需使用从金字塔中的沙子中扫出的沙漠项链唤醒。"
-				"其性格正如生前一般，异常暴躁。会通过撕咬、践踏、冲撞、尾部拍击、操控沙尘等方式解决眼前的一切威胁。"
-				"物理攻击的伤害非常高，堪比监守者，建议用上最好的护甲去应对。"
-				"死亡后掉落的遗魂头骨，不仅可以召唤现世遗魂，还可以用作自然精华的重要原料。"
+				"                &l&o[位于火星的五阶上位Boss，1200HP]"
+				"        注：在火星可用沙漠之眼寻找诅咒金字塔"
+				"        这只藏有灵魂的恐龙骨架沉睡在诅咒金字塔深处，需使用从金字塔中的沙子中扫出的沙漠项链唤醒。"
+				"        其性格正如生前一般，异常暴躁。会通过撕咬、践踏、冲撞、尾部拍击、操控沙尘等方式解决眼前的一切威胁。"
+				"        物理攻击的伤害非常高，堪比监守者，建议用上最好的护甲去应对。"
+				"        死亡后掉落的遗魂头骨，可以用于召唤现世遗魂，作为你的一个强力宠物。"
 			]
 			icon: "cataclysm:remnant_skull"
 			id: "42C49D5C86FE7D6E"
 			rewards: [
 				{
+					count: 4
 					id: "217CFCEBF2A91D74"
-					item: "gtceu:osmium_credit"
+					item: "gtceu:platinum_credit"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "6097F77659488A15"
-					table_id: 6709666230684452828L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "4756E28827B5A163"
-					table_id: 328085211529791517L
+					table_id: 1138602102742099260L
 					type: "loot"
 				}
 			]
@@ -1656,8 +1606,8 @@
 				}
 			]
 			title: "来自侏罗纪？"
-			x: -8.0d
-			y: 16.0d
+			x: -6.0d
+			y: 9.0d
 		}
 		{
 			can_repeat: true
@@ -1674,21 +1624,16 @@
 			id: "0B64D26799F627B7"
 			rewards: [
 				{
-					count: 2
+					count: 4
 					id: "68C499361FE69945"
-					item: "gtceu:platinum_credit"
+					item: "gtceu:gold_credit"
 					type: "item"
 				}
 				{
+					count: 2
 					id: "1C2592BC829749AB"
 					item: "simplyswords:runic_tablet"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "74D109E481B2412C"
-					table_id: 4210225765629115356L
-					type: "loot"
 				}
 			]
 			size: 2.0d
@@ -1717,7 +1662,7 @@
 			icon: "ars_nouveau:wilden_spike"
 			id: "5373AB6B7CA1926C"
 			rewards: [{
-				count: 4
+				count: 3
 				id: "05C0976C8923039E"
 				item: "gtceu:cupronickel_credit"
 				type: "item"
@@ -1747,7 +1692,7 @@
 			icon: "ars_nouveau:wilden_wing"
 			id: "453A3108E96F9724"
 			rewards: [{
-				count: 4
+				count: 3
 				id: "20E9569B491F11E0"
 				item: "gtceu:cupronickel_credit"
 				type: "item"
@@ -1777,7 +1722,7 @@
 			icon: "ars_nouveau:wilden_horn"
 			id: "5A4C9F54C79359DE"
 			rewards: [{
-				count: 4
+				count: 3
 				id: "3ABC6749F9B569C1"
 				item: "gtceu:cupronickel_credit"
 				type: "item"
@@ -1813,7 +1758,6 @@
 			}
 			id: "3CA7741B7C7D8154"
 			rewards: [{
-				count: 2
 				id: "36ECA088C7AA12C3"
 				item: "gtceu:silver_credit"
 				type: "item"
@@ -1855,7 +1799,6 @@
 			}
 			id: "4E6187C28B7A6251"
 			rewards: [{
-				count: 2
 				id: "55EDFDB3FC5DAD48"
 				item: "gtceu:silver_credit"
 				type: "item"
@@ -1883,8 +1826,8 @@
 				}
 			]
 			title: "渊灵"
-			x: -5.5d
-			y: 17.0d
+			x: -8.0d
+			y: 18.0d
 		}
 		{
 			can_repeat: true
@@ -1897,7 +1840,6 @@
 			}
 			id: "0BEDB513CB12155A"
 			rewards: [{
-				count: 2
 				id: "3937046A91BC352C"
 				item: "gtceu:silver_credit"
 				type: "item"
@@ -1925,8 +1867,8 @@
 				}
 			]
 			title: "渊灵垂钓者"
-			x: -4.0d
-			y: 15.5d
+			x: -6.5d
+			y: 17.5d
 		}
 		{
 			can_repeat: true
@@ -1939,8 +1881,9 @@
 			}
 			id: "786F21B2545F5C78"
 			rewards: [{
+				count: 2
 				id: "7E86D7212A7BC5BD"
-				item: "gtceu:gold_credit"
+				item: "gtceu:silver_credit"
 				type: "item"
 			}]
 			subtitle: "击杀10个渊灵蛮兵"
@@ -1966,15 +1909,14 @@
 				}
 			]
 			title: "渊灵蛮兵"
-			x: -3.5d
-			y: 17.5d
+			x: -6.5d
+			y: 19.5d
 		}
 		{
 			can_repeat: true
 			icon: "cataclysm:koboleton_bone"
 			id: "089DCFDD02E3101C"
 			rewards: [{
-				count: 4
 				id: "33A631173F5EE2DA"
 				item: "gtceu:silver_credit"
 				type: "item"
@@ -1996,8 +1938,8 @@
 				}
 			]
 			title: "骷髅狗头人"
-			x: -7.5d
-			y: 18.0d
+			x: -4.5d
+			y: 7.5d
 		}
 		{
 			can_repeat: true
@@ -2010,7 +1952,6 @@
 			}
 			id: "10F315EF7AD000A4"
 			rewards: [{
-				count: 2
 				id: "2742E0C8FD4928EE"
 				item: "gtceu:silver_credit"
 				type: "item"
@@ -2039,7 +1980,7 @@
 			]
 			title: "观测者"
 			x: -3.0d
-			y: 13.0d
+			y: 10.5d
 		}
 	]
 	title: "杀伐四方"

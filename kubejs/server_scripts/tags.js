@@ -41,6 +41,10 @@ ServerEvents.tags('item', event => {
   event.add('minecraft:music_discs', 'kubejs:disc_dreiton')
   event.add('minecraft:music_discs', 'kubejs:disc_the_end')
 
+  event.add('minecraft:music_discs', 'kubejs:disc_axolotl')
+  event.add('minecraft:music_discs', 'kubejs:disc_dragon_fish')
+  event.add('minecraft:music_discs', 'kubejs:disc_shuniji')
+
   event.add('minecraft:music_discs', 'kubejs:disc_chrysopoeia')
   event.add('minecraft:music_discs', 'kubejs:disc_rubedo')
   event.add('minecraft:music_discs', 'kubejs:disc_so_below')

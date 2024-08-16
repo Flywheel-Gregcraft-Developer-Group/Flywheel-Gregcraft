@@ -1,0 +1,322 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4815439E9A761BE6"
+	group: "1F1AA5882B49E120"
+	icon: "xercamusic:music_sheet"
+	id: "4815439E9A761BE6"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["73869DD50D30F57F"]
+			icon: "xercamusic:piano"
+			id: "2BA62A83C53077DD"
+			rewards: [{
+				id: "3D7558CD07032F1D"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "获得所有乐器"
+			tasks: [
+				{
+					id: "1B290B28ED816140"
+					item: "xercamusic:lyre"
+					type: "item"
+				}
+				{
+					id: "3C6C506EBA70E871"
+					item: "xercamusic:banjo"
+					type: "item"
+				}
+				{
+					id: "228CC3350CA4E366"
+					item: "xercamusic:xylophone"
+					type: "item"
+				}
+				{
+					id: "7E3A6E5D50207D35"
+					item: "xercamusic:sansula"
+					type: "item"
+				}
+				{
+					id: "69E60598823BF64C"
+					item: "xercamusic:violin"
+					type: "item"
+				}
+				{
+					id: "03D7DDA14FED779D"
+					item: "xercamusic:cello"
+					type: "item"
+				}
+				{
+					id: "081EB9C50FF929BA"
+					item: "xercamusic:piano"
+					type: "item"
+				}
+				{
+					id: "301A6ACA728AC158"
+					item: "xercamusic:guitar"
+					type: "item"
+				}
+				{
+					id: "653C80C9A1F29C69"
+					item: "xercamusic:redstone_guitar"
+					type: "item"
+				}
+				{
+					id: "25F54FDC3EFCF46E"
+					item: "xercamusic:bass_guitar"
+					type: "item"
+				}
+				{
+					id: "091A489397604D46"
+					item: "xercamusic:drum"
+					type: "item"
+				}
+				{
+					id: "0039DFA36743D9F7"
+					item: "xercamusic:drum_kit"
+					type: "item"
+				}
+				{
+					id: "608FE03D5065339E"
+					item: "xercamusic:cymbal"
+					type: "item"
+				}
+				{
+					id: "7DBEBF5600165583"
+					item: "xercamusic:tubular_bell"
+					type: "item"
+				}
+				{
+					id: "4E8EAFBCBB1BB357"
+					item: "xercamusic:flute"
+					type: "item"
+				}
+				{
+					id: "31BCD12FD23F7925"
+					item: "xercamusic:oboe"
+					type: "item"
+				}
+				{
+					id: "28DAF768E5EF9E83"
+					item: "xercamusic:saxophone"
+					type: "item"
+				}
+				{
+					id: "2AB6C0E66F37B93B"
+					item: "xercamusic:french_horn"
+					type: "item"
+				}
+				{
+					id: "0CE2F24006D51A08"
+					item: "xercamusic:god"
+					type: "item"
+				}
+			]
+			title: "音乐全才"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E5CE5DA1C3DAF80"]
+			icon: "create:steam_whistle"
+			id: "3AF9B81406839DDF"
+			rewards: [{
+				count: 2
+				id: "47C7760D4D567EAD"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "制作一组覆盖三个八度的蒸汽笛"
+			tasks: [
+				{
+					count: 79L
+					id: "0C037754D196E8E8"
+					item: "create:steam_whistle"
+					type: "item"
+				}
+				{
+					count: 37L
+					id: "4D37586D82C175DD"
+					item: { Count: 37, id: "create:fluid_tank" }
+					type: "item"
+				}
+			]
+			title: "机械之音"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73869DD50D30F57F"]
+			icon: "minecraft:jukebox"
+			id: "5859362921F0BAB0"
+			rewards: [{
+				count: 4
+				id: "724CBECF3BEFD005"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "制作原版的音符盒和唱片机"
+			tasks: [
+				{
+					id: "530830A20522C14B"
+					item: "minecraft:note_block"
+					type: "item"
+				}
+				{
+					id: "53A10CCD581CFB4A"
+					item: "minecraft:jukebox"
+					type: "item"
+				}
+			]
+			title: "香草演奏"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73869DD50D30F57F"]
+			icon: "xercapaint:item_easel"
+			id: "3B55D1D5744B5DD7"
+			min_required_tasks: 2
+			rewards: [{
+				count: 2
+				id: "39901AA20615C393"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "制作画架和画布以开始作画"
+			tasks: [
+				{
+					id: "08FBF748A3E841F2"
+					item: "xercapaint:item_easel"
+					type: "item"
+				}
+				{
+					id: "24BD6B0978AFA6CC"
+					item: "xercapaint:item_canvas"
+					type: "item"
+				}
+				{
+					id: "2F86B584E5B5BFDC"
+					item: "xercapaint:item_canvas_long"
+					type: "item"
+				}
+				{
+					id: "4B0D447B50FAFF14"
+					item: "xercapaint:item_canvas_tall"
+					type: "item"
+				}
+				{
+					id: "245E2E655D406682"
+					item: "xercapaint:item_canvas_large"
+					type: "item"
+				}
+			]
+			title: "大画家"
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["73869DD50D30F57F"]
+			dependency_requirement: "one_completed"
+			description: ["        沉浸式绘画允许你将电脑或网络上的图片上传至游戏中，作为绘画挂在任何地方。（用这个还可以制作广告牌，车站指示牌等）"]
+			icon: "immersive_paintings:painting"
+			id: "000DEEC3D492A90E"
+			min_required_tasks: 2
+			rewards: [{
+				count: 2
+				id: "498C36C09A1EF0C6"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "制作沉浸式绘画中的画"
+			tasks: [
+				{
+					id: "7689249468CD4E92"
+					item: "immersive_paintings:painting"
+					type: "item"
+				}
+				{
+					id: "52C62B277D369B65"
+					item: "immersive_paintings:glow_painting"
+					type: "item"
+				}
+			]
+			title: "美术馆"
+			x: -3.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["73869DD50D30F57F"]
+			description: [
+				"        你可以通过搜刮战利品箱、击杀Boss等途径获得各种唱片，其中必然有大量相同的、多余的唱片。"
+				"        以前你只能将它们统统烧毁，但现在可以将它们放进熔炉里烧制成空白唱片，然后在Etched的刻录机里刻录上新的曲目！"
+				"        了解Etched模组的用法：https://www.mcmod.cn/class/5735.html"
+			]
+			icon: "etched:blank_music_disc"
+			id: "5CC29180E8FD366C"
+			rewards: [{
+				id: "295D0EF237440832"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "你现在可以将它们回炉重造！"
+			tasks: [
+				{
+					id: "22AAFFCDBC8469CB"
+					item: "etched:blank_music_disc"
+					type: "item"
+				}
+				{
+					id: "6FA958104B85D93B"
+					item: "etched:etching_table"
+					type: "item"
+				}
+				{
+					id: "3E5C866C5CA1E2C5"
+					item: {
+						Count: 1
+						id: "etched:music_label"
+						tag: {
+							Label: { }
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "唱片太多了？"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["73869DD50D30F57F"]
+			icon: "xercamusic:music_sheet"
+			id: "0131754EE168BE68"
+			rewards: [{
+				id: "207508D5F9AD9FF8"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "制作一首乐曲"
+			tasks: [{
+				advancement: "xercamusic:achievements/become_musician"
+				criterion: ""
+				id: "6F8A57FA5C4D5863"
+				type: "advancement"
+			}]
+			title: "作曲家"
+			x: -3.0d
+			y: 3.0d
+		}
+	]
+	title: "艺术达人"
+}

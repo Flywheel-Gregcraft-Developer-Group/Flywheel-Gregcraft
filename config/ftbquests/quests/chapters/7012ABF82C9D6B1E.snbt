@@ -10,6 +10,7 @@
 	quests: [
 		{
 			can_repeat: true
+			dependencies: ["4E5CE5DA1C3DAF80"]
 			icon: "minecraft:andesite"
 			id: "2D1EEE03596BDE7A"
 			rewards: [{
@@ -30,6 +31,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["4E5CE5DA1C3DAF80"]
 			icon: "minecraft:diorite"
 			id: "24059D0E04B8BAFB"
 			rewards: [{
@@ -50,6 +52,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["4E5CE5DA1C3DAF80"]
 			icon: "minecraft:granite"
 			id: "5591B047F1C0B8DC"
 			rewards: [{
@@ -70,6 +73,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["1DC2161317B8D581"]
 			icon: "create:veridium"
 			id: "1DE4A6191AE75143"
 			rewards: [{
@@ -90,6 +94,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["1DC2161317B8D581"]
 			icon: "create:asurine"
 			id: "2D0A654449C94323"
 			rewards: [{
@@ -110,6 +115,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["1DC2161317B8D581"]
 			icon: "create:crimsite"
 			id: "277E3B917FD4CFA3"
 			rewards: [{
@@ -130,6 +136,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["1DC2161317B8D581"]
 			icon: "create:ochrum"
 			id: "2B0A84DB3848BC4A"
 			rewards: [{
@@ -150,6 +157,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["1DC2161317B8D581"]
 			icon: "create:limestone"
 			id: "6C2B034535B0C363"
 			rewards: [{
@@ -170,6 +178,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["1DC2161317B8D581"]
 			icon: "minecraft:calcite"
 			id: "476336A6B90FD30B"
 			rewards: [{
@@ -190,6 +199,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["1DC2161317B8D581"]
 			icon: "minecraft:dripstone_block"
 			id: "46378757277C9CF0"
 			rewards: [{
@@ -210,6 +220,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["1DC2161317B8D581"]
 			icon: "minecraft:deepslate"
 			id: "6F01F2B59C083EC2"
 			rewards: [{
@@ -230,6 +241,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["1DC2161317B8D581"]
 			icon: "minecraft:tuff"
 			id: "71E5FEF5102D66CA"
 			rewards: [{
@@ -250,6 +262,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["1DC2161317B8D581"]
 			icon: "create:scoria"
 			id: "1298D05ABA88E7D1"
 			rewards: [{
@@ -270,6 +283,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["4B3B776F33F2AFC3"]
 			icon: "minecraft:netherrack"
 			id: "667FBA9308EB130F"
 			rewards: [{
@@ -291,6 +305,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["4B3B776F33F2AFC3"]
 			icon: "minecraft:blackstone"
 			id: "3CB88577ACD25F11"
 			rewards: [{
@@ -313,6 +328,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["4B3B776F33F2AFC3"]
 			icon: "minecraft:basalt"
 			id: "7B7E52079664B6B6"
 			rewards: [{
@@ -334,6 +350,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["084503D01A69472F"]
 			icon: "minecraft:end_stone"
 			id: "21EF9483CD26EDFB"
 			rewards: [{
@@ -355,6 +372,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["084503D01A69472F"]
 			icon: "minecraft:villager_spawn_egg"
 			id: "6370BAEBCB2838AC"
 			rewards: [{
@@ -375,6 +393,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["4B3B776F33F2AFC3"]
 			icon: "minecraft:chicken_spawn_egg"
 			id: "015747867303303D"
 			rewards: [{
@@ -395,6 +414,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["4B3B776F33F2AFC3"]
 			icon: "minecraft:cow_spawn_egg"
 			id: "0A1BCCB5560E48C6"
 			rewards: [{
@@ -415,6 +435,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["4B3B776F33F2AFC3"]
 			icon: "minecraft:sheep_spawn_egg"
 			id: "74B4B18ACC4AA1E6"
 			rewards: [{
@@ -435,6 +456,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["4B3B776F33F2AFC3"]
 			icon: "minecraft:pig_spawn_egg"
 			id: "5BC04F01A35B76FB"
 			rewards: [{
@@ -455,6 +477,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["0774CC0DDD6A0EF0"]
 			icon: "minecraft:rabbit_spawn_egg"
 			id: "38013A449C8842DB"
 			rewards: [{
@@ -476,6 +499,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["0774CC0DDD6A0EF0"]
 			icon: "minecraft:mooshroom_spawn_egg"
 			id: "6779ADF78012E4B8"
 			rewards: [{
@@ -497,6 +521,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["0774CC0DDD6A0EF0"]
 			icon: "minecraft:horse_spawn_egg"
 			id: "6AE1E5FF3070C2DF"
 			rewards: [{
@@ -518,6 +543,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["0774CC0DDD6A0EF0"]
 			icon: "minecraft:bee_spawn_egg"
 			id: "1514212B56E8F376"
 			rewards: [{
@@ -539,6 +565,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["0774CC0DDD6A0EF0"]
 			icon: "minecraft:axolotl_bucket"
 			id: "761E53F7FC5E9AC7"
 			rewards: [{
@@ -560,6 +587,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["0774CC0DDD6A0EF0"]
 			icon: "minecraft:sniffer_egg"
 			id: "66C7113054E59117"
 			rewards: [{
@@ -581,6 +609,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["0774CC0DDD6A0EF0"]
 			icon: "minecraft:allay_spawn_egg"
 			id: "618238B8457A25F8"
 			rewards: [{
@@ -602,6 +631,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["0774CC0DDD6A0EF0"]
 			icon: "minecraft:wolf_spawn_egg"
 			id: "395CF51350BBECA3"
 			rewards: [{
@@ -623,6 +653,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["4B3B776F33F2AFC3"]
 			icon: "minecraft:wheat_seeds"
 			id: "7242BA95C9FDA361"
 			rewards: [{
@@ -644,6 +675,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["4B3B776F33F2AFC3"]
 			icon: "minecraft:potato"
 			id: "7881724337E96170"
 			rewards: [{
@@ -665,6 +697,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["4B3B776F33F2AFC3"]
 			icon: "minecraft:carrot"
 			id: "7DD8E0EE17124754"
 			rewards: [{
@@ -686,6 +719,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["4B3B776F33F2AFC3"]
 			icon: "minecraft:beetroot_seeds"
 			id: "350F072054BAAC8D"
 			rewards: [{
@@ -707,6 +741,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["4B3B776F33F2AFC3"]
 			icon: "farmersdelight:cabbage_seeds"
 			id: "7D165C5D4AE9AC93"
 			rewards: [{
@@ -728,6 +763,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["4B3B776F33F2AFC3"]
 			icon: "farmersdelight:onion"
 			id: "5B79D42C6CE19D8E"
 			rewards: [{
@@ -749,6 +785,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["4B3B776F33F2AFC3"]
 			icon: "farmersdelight:tomato_seeds"
 			id: "28CA0E37098CF359"
 			rewards: [{
@@ -770,6 +807,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["4B3B776F33F2AFC3"]
 			icon: "farmersdelight:rice"
 			id: "6DC5B9CE7AEAC27F"
 			rewards: [{
@@ -791,6 +829,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["4B3B776F33F2AFC3"]
 			icon: "candlelight:tomato_seeds"
 			id: "1DF2D54B47439F4A"
 			rewards: [{
@@ -812,6 +851,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["0774CC0DDD6A0EF0"]
 			icon: "vinery:red_grape_seeds"
 			id: "62ECF05F36099B88"
 			rewards: [{
@@ -834,6 +874,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["0774CC0DDD6A0EF0"]
 			icon: "vinery:white_grape_seeds"
 			id: "5EF717D8C93B122B"
 			rewards: [{
@@ -856,6 +897,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["0774CC0DDD6A0EF0"]
 			icon: "nethervinery:crimson_grape_seeds"
 			id: "6F0F2DDBD363C93A"
 			rewards: [{
@@ -878,6 +920,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["0774CC0DDD6A0EF0"]
 			icon: "nethervinery:warped_grape_seeds"
 			id: "162219BB81AD6F6A"
 			rewards: [{
@@ -900,6 +943,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["0774CC0DDD6A0EF0"]
 			icon: "minecraft:nether_wart"
 			id: "7471C26F72F4F6A3"
 			rewards: [{
@@ -921,6 +965,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["084503D01A69472F"]
 			icon: "minecraft:strider_spawn_egg"
 			id: "0B0E966CFD45D743"
 			rewards: [{
@@ -941,6 +986,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["4B3B776F33F2AFC3"]
 			icon: "candlelight:lettuce_seeds"
 			id: "18D4660D30F069E7"
 			rewards: [{
@@ -963,9 +1009,10 @@
 		{
 			can_repeat: true
 			dependencies: [
-				"274236D7A9DE8C32"
-				"2294BA265E76EFC9"
+				"1DC2161317B8D581"
+				"261A4AF777913AE2"
 			]
+			dependency_requirement: "one_completed"
 			icon: "create:andesite_alloy"
 			id: "3AFD6431785A12D0"
 			rewards: [{
@@ -994,7 +1041,11 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["4CD1BB1DD8BE3FE4"]
+			dependencies: [
+				"1B3B15BB8A39466B"
+				"4B3B776F33F2AFC3"
+			]
+			dependency_requirement: "one_completed"
 			icon: "create:brass_ingot"
 			id: "155FB650DD39C41C"
 			rewards: [{
@@ -1023,7 +1074,7 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["5B6BAEAB218D7227"]
+			dependencies: ["084503D01A69472F"]
 			icon: "createchromaticreturn:chromatic_compound"
 			id: "2F72E664C1544863"
 			rewards: [{
@@ -1052,7 +1103,7 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["4F831D8F4EFC370D"]
+			dependencies: ["4B3B776F33F2AFC3"]
 			icon: "gtceu:bronze_ingot"
 			id: "3CB294623CB12482"
 			rewards: [{
@@ -1081,7 +1132,7 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["48D53271C0A0394B"]
+			dependencies: ["0774CC0DDD6A0EF0"]
 			icon: "gtceu:steel_ingot"
 			id: "6B881FE9D86B6DFB"
 			rewards: [{
@@ -1111,7 +1162,7 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["62BC514FE9DF4228"]
+			dependencies: ["084503D01A69472F"]
 			icon: "gtceu:aluminium_ingot"
 			id: "6E73FCCEB28F0D8F"
 			rewards: [{
@@ -1140,7 +1191,7 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["7FEA1D8E09266522"]
+			dependencies: ["1230EEDFBD51BD91"]
 			icon: "gtceu:stainless_steel_ingot"
 			id: "7101C50840D497A0"
 			rewards: [{
@@ -1169,6 +1220,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["3AB69D8FC14D7E4E"]
 			disable_toast: true
 			id: "15195B47228CEC19"
 			tasks: [{
@@ -1182,6 +1234,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["084503D01A69472F"]
 			icon: "minecraft:camel_spawn_egg"
 			id: "12D90C1FDB36A12B"
 			rewards: [{
@@ -1254,6 +1307,34 @@
 			]
 			title: "抽奖：唱片（Volume Beta）"
 			x: -4.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			icon: "kubejs:disc_axolotl"
+			id: "4943875F0E4D208E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F339DCFAD93AF53"
+				table_id: 362443652538704494L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "077C5115C9226963"
+					item: "gtceu:gold_credit"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					elapsedTime: 3600L
+					id: "6E71569D9C13A541"
+					type: "questsadditions:time"
+				}
+			]
+			title: "抽奖：唱片（1.12后）"
+			x: -3.0d
 			y: -4.0d
 		}
 	]

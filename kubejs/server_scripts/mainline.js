@@ -2,9 +2,9 @@ ServerEvents.recipes(event => {
   console.log('Ready to modify mainline recipes.')
 
   //mainline
-  event.remove({ id: 'gtceu:shapeless/bronze_dust' })
+  event.remove({ id: 'gtceu:shapeless/dust_bronze' })
   event.remove({ id: 'gtceu:shapeless/potin_dust' })
-  event.remove({ id: 'gtceu:shapeless/brass_dust' })
+  event.remove({ id: 'gtceu:shapeless/dust_brass' })
   event.remove({ id: 'create:mixing/brass_ingot' })
   event.recipes.create.compacting('minecraft:glass', '2x #forge:dusts/glass').heated()
   event.recipes.create.compacting('minecraft:glass', '#minecraft:sand').superheated()

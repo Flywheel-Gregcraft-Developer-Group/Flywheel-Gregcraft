@@ -32,5 +32,18 @@
   "item.createchromaticreturn.annealed_mechanism": "退火构件",
   "item.createchromaticreturn.refined_mechanism": "光辉构件",
   "item.createchromaticreturn.radiant_glow_saber": "光辉之剑",
-  "item.createchromaticreturn.radiant_glow_claws": "光辉手刃"
+  "item.createchromaticreturn.radiant_glow_claws": "光辉手刃",
+  "item.createchromaticreturn.bedrock_shard": "基岩碎片",
+  "item.createchromaticreturn.industrium_ingot": "工业锭",
+  "item.createchromaticreturn.fortunite_bar": "幸运金条",
+  "item.createchromaticreturn.silkstrum": "丝绸锭",
+  "item.createchromaticreturn.multiplite_tube": "光彩管",
+  "item.createchromaticreturn.four_leaf_clover": "四叶草",
+  "item.createchromaticreturn.cyber_plating": "赛博之板",
+
+  "fluid_type.createchromaticreturn.shadow_essence": "暗影精华液",
+  "fluid_type.createchromaticreturn.refined_mixture": "光辉混合物液",
+
+  "block.createchromaticreturn.brass_component": "黄铜组件",
+  "block.createchromaticreturn.andesite_component": "安山组件"
 }

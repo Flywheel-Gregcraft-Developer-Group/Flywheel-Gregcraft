@@ -21,7 +21,7 @@ ServerEvents.recipes(event => {
         'T'
     ],
     {
-        M: 'kubejs:electronic_mechanism',
+        M: 'create:precision_mechanism',
         C: 'create:brass_casing',
         T: 'minecraft:crafting_table'
     })
@@ -34,7 +34,7 @@ ServerEvents.recipes(event => {
     {
         A: 'create:andesite_alloy',
         C: 'create:brass_casing',
-        M: 'kubejs:electronic_mechanism',
+        M: 'create:precision_mechanism',
         P: '#forge:plates/brass'
     })
   event.remove({ id: 'create:crafting/kinetics/clockwork_bearing' })
@@ -107,6 +107,89 @@ ServerEvents.recipes(event => {
   event.recipes.create.mixing('2x create:rose_quartz', ['minecraft:quartz', '2x #forge:dusts/red_alloy'])
 
   //create_other
+  event.remove({ id: 'vintageimprovements:mechanical_crafting/lathe' })
+  event.recipes.create.mechanical_crafting('vintageimprovements:lathe', [
+    ' MIA ',
+    'SCCBS',
+    '  IA '
+  ], {
+    C: 'create:andesite_casing',
+    M: 'create:precision_mechanism',
+    A: '#forge:ingots/andesite_alloy',
+    S: 'create:shaft',
+    I: '#forge:springs/iron',
+    B: 'minecraft:iron_block'
+  })
+  event.remove({ id: 'vintageimprovements:craft/laser' })
+  event.shaped(Item.of('vintageimprovements:laser',1), [
+        'WBW',
+        'MCI',
+        'QLQ'
+    ],
+    {
+        C: 'create:brass_casing',
+        M: 'create:precision_mechanism',
+        W: 'create:cogwheel',
+        L: 'vintageimprovements:laser_item',
+        I: '#forge:springs/iron',
+        B: 'minecraft:redstone_block',
+        Q: 'create:polished_rose_quartz'
+    })
+  event.remove({ id: 'vintageimprovements:craft/vibrating_table' })
+  event.shaped(Item.of('vintageimprovements:vibrating_table',1), [
+        'ISI',
+        'IPI'
+    ],
+    {
+        I: '#forge:springs/iron',
+        S: '#minecraft:wooden_slabs',
+        P: 'create:mechanical_piston'
+    })
+  event.remove({ id: 'vintageimprovements:craft/vacuum_chamber' })
+  event.shaped(Item.of('vintageimprovements:vacuum_chamber',1), [
+        'ICI',
+        'APA'
+    ],
+    {
+        I: '#forge:springs/iron',
+        A: '#forge:ingots/andesite_alloy',
+        C: 'create:andesite_casing',
+        P: 'create:mechanical_pump'
+    })
+  event.remove({ id: 'vintageimprovements:mechanical_crafting/helve_hammer' })
+  event.recipes.create.mechanical_crafting('vintageimprovements:helve_hammer', [
+    ' B II',
+    'BLLLC',
+    'BB  S'
+  ], {
+    C: 'create:andesite_casing',
+    L: '#minecraft:logs',
+    S: 'create:shaft',
+    I: '#forge:springs/iron',
+    B: 'minecraft:iron_block'
+  })
+  event.remove({ id: 'vintageimprovements:craft/curving_press' })
+  event.shaped(Item.of('vintageimprovements:curving_press',1), [
+        ' S ',
+        'ICI'
+    ],
+    {
+        I: '#forge:springs/iron',
+        S: 'create:shaft',
+        C: 'create:andesite_casing'
+    })
+  event.remove({ id: 'vintageimprovements:craft/centrifuge' })
+  event.shaped(Item.of('vintageimprovements:centrifuge',1), [
+        'I I',
+        'LSL',
+        'ICI'
+    ],
+    {
+        I: '#forge:springs/iron',
+        S: 'create:shaft',
+        L: '#minecraft:logs',
+        C: 'create:andesite_casing'
+    })
   event.remove({ id: 'create:crafting/schematics/schematicannon' })
   event.recipes.create.mechanical_crafting('create:schematicannon', [
     ' P P ',
