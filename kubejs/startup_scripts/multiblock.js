@@ -411,7 +411,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .recipeModifier(GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.PERFECT_OVERCLOCK))
         .appearanceBlock(GTBlocks.MACHINE_CASING_UHV)
         .pattern((definition) => FactoryBlockPattern.start()
-            .aisle("CCCCCCCCC", "UUCCCCCUU", "CUCCCCCUU", "CUCCCCCUC", "CUUUUUUUC", "CCCCCCCCC", "CCCCCCCCC", "CCCCCCCCC", "CCCCCCCCC")
+            .aisle("CCCCCCCCC", "UUCCCCCUU", "CUCCCCCUC", "CUCCCCCUC", "CUUUUUUUC", "CCCCCCCCC", "CCCCCCCCC", "CCCCCCCCC", "CCCCCCCCC")
             .aisle("CCCCCCCCC", "UHHHHHHHU", "UH00000HU", "UH00000HU", "UH00000HU", "CH00000HC", "CH00000HC", "CHHHHHHHC", "CCCCCCCCC")
             .aisle("CCCCCCCCC", "CH00000HC", "C0000000C", "C0000000C", "U0000000U", "C0000000C", "C0000000C", "CH00000HC", "CCCCCCCCC")
             .aisle("CCCCCCCCC", "CH00000HC", "C0000000C", "C0000000C", "U0000000U", "C0000000C", "C0000000C", "CH00000HC", "CCCCCCCCC")
