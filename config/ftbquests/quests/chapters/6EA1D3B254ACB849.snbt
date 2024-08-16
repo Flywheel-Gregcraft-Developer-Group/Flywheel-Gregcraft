@@ -37,11 +37,19 @@
 			]
 			description: ["        最强大的法术可不是你这本普通的法术书所能掌握的，击败强大的敌人，让你的法术书汲取它们的力量吧。"]
 			id: "07785B105C0D9B08"
-			rewards: [{
-				id: "2AD811694D6ED34C"
-				item: "gtceu:osmium_credit"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2AD811694D6ED34C"
+					item: "gtceu:osmium_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C5D54E4E0CC5E04"
+					table_id: 3552174120120149155L
+					type: "loot"
+				}
+			]
 			shape: "octagon"
 			size: 3.0d
 			tasks: [{
@@ -120,7 +128,7 @@
 				type: "item"
 			}]
 			shape: "square"
-			size: 1.5d
+			size: 2.0d
 			tasks: [
 				{
 					id: "5084546D14E98721"
@@ -348,6 +356,7 @@
 			]
 			icon: "ars_nouveau:enchanting_apparatus"
 			id: "1277486D57DD7621"
+			shape: "square"
 			size: 2.0d
 			tasks: [
 				{
@@ -708,7 +717,7 @@
 				item: "gtceu:platinum_credit"
 				type: "item"
 			}]
-			shape: "gear"
+			shape: "square"
 			size: 2.0d
 			subtitle: "击败荒野奇美拉，获得荒野供物"
 			tasks: [{
@@ -722,14 +731,53 @@
 		}
 		{
 			dependencies: ["7A43475E490E934C"]
+			description: [
+				"        在新生魔艺中，精华是进行各种魔法转化所需的重要原料，它们一般通过魔源宝石在特定灌注条件下转化得到。"
+				"        在前期，你可以生产七种基础精华，这些精华可以帮助你进行各种实用的转化和附魔，以及解锁大部分魔符法术选项。   "
+				"        需要注意的是，每种精华的生产都需要一些物品作为灌注催化剂，请查阅JEI了解所需的物品。    "
+			]
+			icon: "ars_nouveau:abjuration_essence"
 			id: "22BAC223EDBD7E9D"
-			shape: "diamond"
+			shape: "square"
 			size: 2.0d
-			tasks: [{
-				id: "6B8486F563EB4111"
-				title: "关于精华"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "618602A96DC0A121"
+					item: "ars_nouveau:abjuration_essence"
+					type: "item"
+				}
+				{
+					id: "3DFFCB5FCD555BAB"
+					item: "ars_nouveau:conjuration_essence"
+					type: "item"
+				}
+				{
+					id: "502BA3AE341B4539"
+					item: "ars_nouveau:air_essence"
+					type: "item"
+				}
+				{
+					id: "49E00E80C46037D1"
+					item: "ars_nouveau:earth_essence"
+					type: "item"
+				}
+				{
+					id: "1AAAF385049CE7B5"
+					item: "ars_nouveau:fire_essence"
+					type: "item"
+				}
+				{
+					id: "6266552AA5801DDE"
+					item: "ars_nouveau:manipulation_essence"
+					type: "item"
+				}
+				{
+					id: "277C6E24FBA2AB77"
+					item: "ars_nouveau:water_essence"
+					type: "item"
+				}
+			]
+			title: "基础精华"
 			x: -9.0d
 			y: 6.0d
 		}
@@ -750,6 +798,63 @@
 			title: "初来乍到"
 			x: -6.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["22BAC223EDBD7E9D"]
+			description: [
+				"        随着游戏进程的推进，你将需要更加高级的精华来生产异彩特殊金属。"
+				"        这些精华同样可通过灌注得到，但需要的催化剂种类更多，获取方式也更加苛刻，其中每种精华都有1~2个催化剂要求击杀特定的Boss才能得到。"
+				"        不过，除了用新生魔艺的灌注器外，你应该还有另一种选项——用魔源反应器多方块结构生产它，尽管这种方式看似麻烦，但它可以节省一半的魔源消耗，同时这种机器在之后还会有许多用途。"
+			]
+			icon: "kubejs:refined_essence"
+			id: "5E78F6443C977729"
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					id: "4642287AD52E9781"
+					item: "kubejs:refined_essence"
+					type: "item"
+				}
+				{
+					id: "00171A485530063E"
+					item: "kubejs:shadow_essence"
+					type: "item"
+				}
+				{
+					id: "5DBD6E72A263F7F7"
+					item: "kubejs:nature_essence"
+					type: "item"
+				}
+			]
+			title: "异彩精华"
+			x: -12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5E78F6443C977729"]
+			description: [
+				"         虚空精华是目前为止最高级的精华，可用于生产末影合金、浓缩潜影壳精华、制造风暴祭品等场合。"
+				"         制造虚空精华所需的催化剂相比其他精华而言更难获取，此外你只能在魔源反应器中用LuV以上的电压生产它。"
+			]
+			icon: "kubejs:void_essence"
+			id: "00104DF80892F6E5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "69A2AE6BF35E4DF7"
+				table_id: 8547857130786956286L
+				type: "loot"
+			}]
+			shape: "octagon"
+			size: 3.0d
+			tasks: [{
+				id: "1905246EB4BBF9F5"
+				item: "kubejs:void_essence"
+				type: "item"
+			}]
+			title: "虚空精华"
+			x: -15.0d
+			y: 6.0d
 		}
 	]
 	title: "新生魔艺"

@@ -13,6 +13,11 @@
 			dependencies: ["7EAD2428E4E74DDE"]
 			icon: "gtceu:cosmic_matter_collector"
 			id: "6C6D4292971C6622"
+			rewards: [{
+				id: "6260484F4D558F21"
+				item: "gtceu:naquadah_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [{
@@ -28,6 +33,11 @@
 			dependencies: ["6C6D4292971C6622"]
 			icon: "gtceu:liquid_space_bucket"
 			id: "53BAD5E80FFF8A58"
+			rewards: [{
+				id: "3C04348827B083A6"
+				item: "gtceu:naquadah_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 1.5d
 			tasks: [
@@ -50,6 +60,11 @@
 			dependencies: ["1DD79C2921A71CEE"]
 			icon: "gtceu:oganesson_bucket"
 			id: "5D6FDFFF5EDEEB4B"
+			rewards: [{
+				id: "704A68ACD2B23F31"
+				item: "gtceu:naquadah_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 1.5d
 			tasks: [
@@ -76,6 +91,19 @@
 			]
 			icon: "gtceu:space_neutronium_bucket"
 			id: "6CFE1DF5074EB828"
+			rewards: [
+				{
+					id: "4EC75355A944F92D"
+					item: "gtceu:naquadah_credit"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3457DF9B4D5D999B"
+					item: "gtceu:osmium_credit"
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 1.5d
 			tasks: [{
@@ -110,6 +138,7 @@
 					type: "command"
 				}
 				{
+					count: 2
 					id: "3240917F41A2187F"
 					item: "gtceu:naquadah_credit"
 					type: "item"
@@ -140,11 +169,6 @@
 				"但想要成为一个真正的创世者，你还需要做出最后的一段努力。尽管这可能会比较痛苦，但相比过去而言，你已经很接近终点了。"
 			]
 			id: "63FBE2676C20C11C"
-			rewards: [{
-				id: "2F3B1475D19222BB"
-				item: "gtceu:neutronium_credit"
-				type: "item"
-			}]
 			shape: "gear"
 			size: 4.0d
 			subtitle: "击杀经过层层进化后的凋灵风暴，获取风暴之星"
@@ -232,6 +256,12 @@
 			dependencies: ["63FBE2676C20C11C"]
 			icon: "witherstormmod:super_beacon"
 			id: "7A1889FA32D8DAB9"
+			rewards: [{
+				count: 2
+				id: "13694941CC90B3FB"
+				item: "gtceu:naquadah_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 1.5d
 			tasks: [
@@ -260,6 +290,12 @@
 			]
 			icon: "createchromaticreturn:creative_flour"
 			id: "769560BC7DEA536E"
+			rewards: [{
+				count: 2
+				id: "75C91D18D9F57BF0"
+				item: "gtceu:naquadah_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 1.5d
 			tasks: [
@@ -298,6 +334,12 @@
 			]
 			icon: "avaritia:extreme_crafting_table"
 			id: "0CCE0F67475C4822"
+			rewards: [{
+				count: 4
+				id: "22423E0D64D5F081"
+				item: "gtceu:naquadah_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 3.0d
 			tasks: [
@@ -319,6 +361,7 @@
 		{
 			dependencies: ["0CCE0F67475C4822"]
 			description: [
+				"        (有些无尽类物品肉眼似乎无法看见，非常神秘。这个其实是JEI的bug，我们将在未来的版本中尝试修正它)"
 				"        终点就在你面前了！最后需要做的事是，收集你能收集到的所有物品，将它们在终极工作台中结合到一起，手搓出无尽催化剂和无尽之锭。"
 				"        但还需要注意的是，要想真正使无尽锭派上用场，你还需要将其粉碎一遍后再重新烧炼并冷却，使其转变为堪用的形态。整个过程需要消耗大量的时间，建议用你能达到的最高电压处理它们。"
 				"        做出无尽锭，意味着你从传统意义上“通关”了该整合包！但请记住，Minecraft是一款开放式沙盒游戏，真正意义上的玩法是永无止境的。"

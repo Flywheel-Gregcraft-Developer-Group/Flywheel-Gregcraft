@@ -24,9 +24,6 @@
 		{ item: "kubejs:disc_beginning" }
 		{ item: "kubejs:disc_droopy_likes_ricochet" }
 		{ item: "kubejs:disc_droopy_likes_your_face" }
-		{ item: "minecraft:music_disc_cat" }
-		{ item: "minecraft:music_disc_13" }
-		{ item: "minecraft:music_disc_11" }
 	]
 	title: "唱片（Volume Alpha）"
 }

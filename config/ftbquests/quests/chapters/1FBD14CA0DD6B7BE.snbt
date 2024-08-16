@@ -15,8 +15,9 @@
 		{
 			id: "46993D753AA32FBD"
 			rewards: [{
+				count: 2
 				id: "69A7EDFB13F3419B"
-				item: "gtceu:cupronickel_credit"
+				item: "gtceu:copper_credit"
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -42,19 +43,12 @@
 		{
 			dependencies: ["734B13E47B70FA53"]
 			id: "2769A4D3A4DC69F5"
-			rewards: [
-				{
-					id: "2ADFAAD5CC2217DE"
-					item: "gtceu:silver_credit"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7CB85DB5382DF751"
-					table_id: 328085211529791517L
-					type: "random"
-				}
-			]
+			rewards: [{
+				count: 4
+				id: "1ECE979973A00F75"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "击杀100个生物"
@@ -81,7 +75,7 @@
 			rewards: [
 				{
 					id: "143C8026F9E66534"
-					item: "gtceu:gold_credit"
+					item: "gtceu:silver_credit"
 					type: "item"
 				}
 				{
@@ -120,7 +114,6 @@
 			dependencies: ["46993D753AA32FBD"]
 			id: "734B13E47B70FA53"
 			rewards: [{
-				count: 4
 				id: "4DC5A16D47B1B648"
 				item: "gtceu:cupronickel_credit"
 				type: "item"
@@ -150,8 +143,9 @@
 			id: "27CEF4C8E2416825"
 			rewards: [
 				{
+					count: 4
 					id: "5B545967BF6C339B"
-					item: "gtceu:platinum_credit"
+					item: "gtceu:silver_credit"
 					type: "item"
 				}
 				{
@@ -193,7 +187,7 @@
 			rewards: [
 				{
 					id: "79D3BFC433F9DBC6"
-					item: "gtceu:osmium_credit"
+					item: "gtceu:platinum_credit"
 					type: "item"
 				}
 				{
@@ -243,7 +237,7 @@
 			rewards: [
 				{
 					id: "6788044352F57BF6"
-					item: "gtceu:naquadah_credit"
+					item: "gtceu:osmium_credit"
 					type: "item"
 				}
 				{
@@ -292,8 +286,9 @@
 		{
 			id: "3D0A7A4FA856EBE3"
 			rewards: [{
-				id: "5EB40E358BB25AA6"
-				item: "gtceu:cupronickel_credit"
+				count: 2
+				id: "7EDCD6FC2B754957"
+				item: "gtceu:copper_credit"
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -313,19 +308,11 @@
 		{
 			dependencies: ["3D0A7A4FA856EBE3"]
 			id: "5C06F647EE9A011E"
-			rewards: [
-				{
-					id: "310CFB7D45164CD3"
-					item: "gtceu:silver_credit"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "17ABAB58AD7B5DD9"
-					table_id: 328085211529791517L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				id: "310CFB7D45164CD3"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "死亡50次"
@@ -348,14 +335,8 @@
 			rewards: [
 				{
 					id: "6E954ECC9F28ADFD"
-					item: "gtceu:gold_credit"
+					item: "gtceu:silver_credit"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2C025BCDE0C4B6AE"
-					table_id: 4210225765629115356L
-					type: "loot"
 				}
 				{
 					id: "0AA719AE6C6F2D50"
@@ -366,6 +347,31 @@
 					count: 4
 					id: "1314BBC27020CE1C"
 					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "580B4320981F8890"
+					item: {
+						Count: 1
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									79353987
+									1308970455
+									-1971222310
+									1872178364
+								]
+								Name: "Wither00100"
+								Properties: {
+									textures: [{
+										Signature: "FQJIdYzADUPXA7GNbDXHsz+uFUVcWC5OZO0VCfdsMXz6RdZfggRNe3xE8XjGzapoaU0xmMEFlC8DJYz1vnjTAfRjxuDyacxCSn5Gyqx8X7VSmNAN9yvGd2/K0rf+v+GdGwM/AU8ZzwbDZuZC3iodhmkqq9pbv6jbMkxBz3iTxtvmE034helHUauwuD5dkOewM07KaywFDS9x5c69ITI5CBztdpCRszBS2xnpPgCALBz7ST4vKSrPxGjgR9ugQUmZN48IUsssQ/Nw/sletHSEStHEI2D6Jhpm3daDjHKJkaDqdCmlS7zX7Ql/HLdBm2ZxftbH/cM2u0yyK8Xhsgz3CfCHyN6efesir+BaouORafoDLxCFu7Arybu1MGwF908Z8ph1zKWaclN41vT5Go9Khho0/G4hwAlvswPRuyde+Ye88bU7gKaHVd2DDp5F3jpN311qfMdsr4LOCyg8B1cZCbu7Dj7MZLx2KSir/fkMbrqUpEG4PEh+7/eafCQa8ULDltAY/PDF38zNWAFmkxvj7xUVpIoiIIv/HufFOZ2pj/1cEt9EvMAHWy9iufrQmNMnIY/2drC0f+gR3rtqqtZgMqX2Wm5OHJZXjxW3mmYC1vSMCSQsNEyaCrgG+qgzrBwN7RlsqcPY+ZlJDUdeBPUhCnp7cL0sf4xc0qAcf3UXN3c="
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTcyMzcyNTkwNjQ3MSwKICAicHJvZmlsZUlkIiA6ICIwNGJhZDg4MzRlMDU0ZGQ3OGE4MTg4ZGE2Zjk3MmNiYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJXaXRoZXIwMDEwMCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84M2ZmODIwOGNjMjQwZmIzMmE4NDFiNTNlYjJjODgyZWJmM2M5MDI2ZTEwOWRmYzZiOWM0NzAzMDEyODA0ZmM3IgogICAgfQogIH0KfQ=="
+									}]
+								}
+							}
+						}
+					}
 					type: "item"
 				}
 			]
@@ -387,7 +393,7 @@
 			id: "1D72778225A31CF9"
 			rewards: [{
 				id: "4EA6F570C09A4FDF"
-				item: "gtceu:silver_credit"
+				item: "gtceu:cupronickel_credit"
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -409,8 +415,9 @@
 			id: "266E9B476DE35BE2"
 			rewards: [
 				{
+					count: 4
 					id: "6A647F14CD453BDD"
-					item: "gtceu:platinum_credit"
+					item: "gtceu:silver_credit"
 					type: "item"
 				}
 				{
@@ -440,8 +447,9 @@
 			invisible: true
 			rewards: [
 				{
+					count: 4
 					id: "5A251AA3F336C259"
-					item: "gtceu:naquadah_credit"
+					item: "gtceu:platinum_credit"
 					type: "item"
 				}
 				{
@@ -528,7 +536,7 @@
 			id: "3CE3A4B9ABA9A999"
 			rewards: [{
 				id: "5D9D38AC8ED57332"
-				item: "gtceu:silver_credit"
+				item: "gtceu:cupronickel_credit"
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -555,8 +563,9 @@
 			icon: "minecraft:music_disc_11"
 			id: "1C6D02990E68F5CA"
 			rewards: [{
+				count: 4
 				id: "18DD2CBD5FE6F959"
-				item: "gtceu:platinum_credit"
+				item: "gtceu:silver_credit"
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -658,7 +667,7 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "收集所有由模组提供的唱片（包括与末影龙战斗的bgm）"
+			subtitle: "收集所有由模组提供的唱片"
 			tasks: [
 				{
 					id: "01B4A1BD315E7BD4"
@@ -705,12 +714,78 @@
 					item: "ars_nouveau:music_disc_firel_the_wild_hunt"
 					type: "item"
 				}
+				{
+					id: "01E6D77AA1DC8691"
+					item: "gtceu:sus_record"
+					type: "item"
+				}
+				{
+					id: "239FD85DF2EE4852"
+					item: "create_connected:music_disc_elevator"
+					type: "item"
+				}
+				{
+					id: "1C996957E077B1E1"
+					item: "create_connected:music_disc_interlude"
+					type: "item"
+				}
+				{
+					id: "67E79825AC8F6764"
+					item: "quark:music_disc_endermosh"
+					type: "item"
+				}
+				{
+					id: "2B38DB3350C280F8"
+					item: "quark:music_disc_chatter"
+					type: "item"
+				}
+				{
+					id: "660B3FE50ABB693B"
+					item: "quark:music_disc_crickets"
+					type: "item"
+				}
+				{
+					id: "33709D79250371FE"
+					item: "quark:music_disc_clock"
+					type: "item"
+				}
+				{
+					id: "25FB79B98E2F6C01"
+					item: "quark:music_disc_fire"
+					type: "item"
+				}
+				{
+					id: "561127AC3BAB46D4"
+					item: "quark:music_disc_wind"
+					type: "item"
+				}
+				{
+					id: "74B5FABC6E12F3B1"
+					item: "quark:music_disc_rain"
+					type: "item"
+				}
+				{
+					id: "2E584700B2B13725"
+					item: "quark:music_disc_ocean"
+					type: "item"
+				}
+				{
+					id: "55EF51F7BC8D4FEE"
+					item: "quark:music_disc_drips"
+					type: "item"
+				}
+				{
+					id: "6A96DF5681FC0118"
+					item: "beachparty:overgrown_disc"
+					type: "item"
+				}
 			]
 			title: "勇气赞歌"
 			x: -10.0d
 			y: -7.0d
 		}
 		{
+			description: ["        提示：你可以在地牢、要塞、掠夺者哨站、林地府邸等结构中搜寻到它们。"]
 			id: "6353405972301444"
 			rewards: [{
 				id: "2BBA1878FCFA0F81"
@@ -832,6 +907,7 @@
 			y: -7.0d
 		}
 		{
+			description: ["       提示：你可以在地牢、要塞、掠夺者哨站、林地府邸等结构中搜寻到它们。"]
 			id: "14199439CDFEB0F6"
 			rewards: [{
 				id: "0DF06A0567FBFF39"
@@ -943,11 +1019,13 @@
 			y: -7.0d
 		}
 		{
+			description: ["       提示：你可以分别在海洋相关结构和下界结构中搜寻到这些唱片。"]
+			icon: "kubejs:disc_axolotl"
 			id: "0C28F1104166C0B4"
 			rewards: [{
-				count: 2
+				count: 4
 				id: "1B88740057FF257D"
-				item: "gtceu:platinum_credit"
+				item: "gtceu:silver_credit"
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -990,11 +1068,12 @@
 			y: -7.0d
 		}
 		{
+			description: ["       提示：你可以在雪屋、沙漠金字塔、丛林神庙结构中搜寻到它们中的大部分。"]
 			id: "4E9960495BBB1338"
 			rewards: [{
-				count: 2
+				count: 4
 				id: "6B1C6DC656F9785E"
-				item: "gtceu:platinum_credit"
+				item: "gtceu:silver_credit"
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -1042,16 +1121,17 @@
 					type: "item"
 				}
 			]
-			title: "高山仰止（WIP）"
+			title: "高山仰止"
 			x: 6.0d
 			y: -7.0d
 		}
 		{
+			description: ["       提示：前者可在远古城市中搜寻到，后者可在考古过程中发现。"]
 			id: "2F6C83DFABAB728C"
 			rewards: [{
-				count: 2
-				id: "70944F370D0FDE33"
-				item: "gtceu:platinum_credit"
+				count: 4
+				id: "7B57F0B34E461B00"
+				item: "gtceu:silver_credit"
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -1103,9 +1183,9 @@
 			id: "7ED2F6FD7D9E2888"
 			rewards: [
 				{
-					count: 4
+					count: 2
 					id: "0A33A9733E7BF502"
-					item: "gtceu:platinum_credit"
+					item: "gtceu:gold_credit"
 					type: "item"
 				}
 				{
@@ -1136,9 +1216,9 @@
 			y: -11.0d
 		}
 		{
+			description: ["       提示：你可以在雪屋、沙漠金字塔、丛林神庙结构中搜寻到它们中的大部分。"]
 			id: "322381B81E0E9938"
 			rewards: [{
-				count: 4
 				id: "3B33513FA13875E2"
 				item: "gtceu:platinum_credit"
 				type: "item"

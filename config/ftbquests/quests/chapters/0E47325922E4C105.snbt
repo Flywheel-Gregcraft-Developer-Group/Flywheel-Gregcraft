@@ -2741,6 +2741,64 @@
 			x: -7.5d
 			y: -0.5d
 		}
+		{
+			id: "3220CF508EB741C5"
+			rewards: [{
+				id: "6176174204DB2994"
+				item: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								272158342
+								-680835284
+								-1184413365
+								-254426488
+							]
+							Name: "AircraftCarrierX"
+							Properties: {
+								textures: [{
+									Signature: "Tk0H0GfZLRjEIoi2C55KbHSX2/AH57+Q6qDQrGu40GYzbLXl/j4gg8EOGPs9Zqs2g6c/rYl6vcOgWhqZqVTBJzm62fjlGgzSY0mS7KQ4c8OVBoQnavVzJeTqR4+jP9e8NweVkFRPCGPKb9llhrHxmPrGgj6e9AsyBjAyNbApUYwbOqXOUVMqh5GGU/OcPJw9r5CwpAPz5tRBzAyJv7259C3epsEGqddDXUFqW9/Q/ZIQ6O5xEMkecs3wWgUR8hYyg3q4xOEdaF+NfmcJZi+T/TnLysS5SEPaYUYdc8+96KuuoCNWAN5WEENjcSy9YW1yiezFs4BGE1M1rj31ya4q3ndW3zjoUl2rx3qt6UN7cpkMmX6X90SdhVNLjwFpmdDjBLDb6l944+IyrN/kXcELoWBhU+Fc5TSQEjCslrdEFUz+ZypDkCg/rAyFw+mUhUKeJdYHb6sN4pftO4PNi2xezZ/j/dLUIE6cdvw+ilzBAhOtPJjd10KnkotoMsEjX+ycBKSuXhPUmO/jbtmdFrZTmtumllJQ72boBwHrrNoxyA1uge9oYEtn7YEKHRH1Be0HpSZoJP1RnECLsQGYXeteZ1pDATkS0y3PHeCZyhi0MIbOhu8AEYdigsDHVBKXRkJ4BE8MlpoNX38CxIwfAiMb1Wp+m17PO3GCsofkT5G4ZAo="
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTcyMzcyNTg2MTAyMCwKICAicHJvZmlsZUlkIiA6ICIxMDM4Y2U4NmQ3NmI0NzJjYjk2NzQ5NGJmMGQ1YzI4OCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBaXJjcmFmdENhcnJpZXJYIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzEyMjU1NjZmZDFiMDVjYjM2YmQyZjVjMTkzZWM3M2IyNTYzZDM0YmU2ZmQyMDY3YzExMmNjMGRiMjJlODgxMTQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ=="
+								}]
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "01DFC6B36771A303"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3220CF508EB741C5"]
+			id: "67F9C1B7CD33B3D2"
+			tasks: [{
+				id: "4B5D5EF65E9A5EC9"
+				item: {
+					Count: 1
+					id: "cataclysm:ignitium_elytra_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.5d
+		}
 	]
 	title: "武器图鉴"
 }

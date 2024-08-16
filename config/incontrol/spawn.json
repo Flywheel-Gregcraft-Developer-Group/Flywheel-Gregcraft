@@ -1,1 +1,17 @@
-[]
+[
+    {
+        "mod": "mutantmonsters",
+        "dimension": ["minecraft:overworld", "minecraft:the_nether", "minecraft:the_end"],
+        "result": "deny"
+    },
+    {
+        "mob": ["mutantmonsters:mutant_creeper", "mutantmonsters:mutant_enderman", "mutantmonsters:mutant_skeleton", "mutantmonsters:mutant_zombie", "mutantmonsters:spider_pig"],
+        "dimension": ["ad_astra:moon", "ad_astra:mars", "ad_astra:venus", "ad_astra:mercury", "ad_astra:glacio"],
+        "result": "allow"
+    },
+    {
+        "mob": "player_mobs:player_mob",
+        "random": 0.5,
+        "result": "deny"
+    }
+]
