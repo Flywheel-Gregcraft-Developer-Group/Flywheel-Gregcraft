@@ -1594,7 +1594,7 @@ hash = "c339ffec047e7faa8471f9c36ab83434db0262476194da70f4691575a6a1cea5"
 
 [[files]]
 file = "config/tweakerge.json"
-hash = "be22368dd0bce86f019c61744b5c318a643cfb7b75d7472a1e3ab3a8cca81b10"
+hash = "11febfbb9f7af219081b6dc716aabccc5f37e8d1953165aafb2af5cab59dca1a"
 
 [[files]]
 file = "config/vinery/config.json5"
@@ -4393,7 +4393,7 @@ metafile = true
 
 [[files]]
 file = "mods/crackers-wither-storm-mod.pw.toml"
-hash = "e0883310355b406d90e1fcb70201959687c3183438a5b52834f858c53d0c6b21"
+hash = "6752a3970c0dfef9abdd6fdd389a23f2df88332356a6e8568b99ab9c68485d66"
 metafile = true
 
 [[files]]
@@ -5075,7 +5075,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "b1c8c37e776a36dffff6e5fcba72f36705354f3ece38cf97164d038bfbf55e91"
+hash = "5d85312fc92f3fb4255b93ede263a04fb503e066888b5fa205ecda12bd57d369"
 
 [[files]]
 file = "resourcepacks/presense-footsteps-sounds.pw.toml"

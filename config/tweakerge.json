@@ -259,7 +259,7 @@
     }
   },
   "Internal": {
-    "flySpeedPreset": 3,
+    "flySpeedPreset": 2,
     "gammaValueOriginal": 0.5,
     "hotbarScrollCurrentRow": 3,
     "slimeBlockSlipperinessOriginal": 0.800000011920929,
@@ -834,7 +834,7 @@
     "tweakPeriodicHoldAttack": false,
     "tweakPeriodicHoldUse": false,
     "tweakPermanentSneak": false,
-    "tweakPermanentSprint": true,
+    "tweakPermanentSprint": false,
     "tweakPlacementGrid": false,
     "tweakPlacementLimit": false,
     "tweakPlacementRestriction": false,
