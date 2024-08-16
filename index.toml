@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "LICENSE"
-hash = "4478eebd4d20431e458e167e9c39699dcac7501bdce60db51b48d01e45f14714"
+hash = "b9709407aa81f036b7d2ffaaea9b5cccca1cbb6bf84a7e56ba782cbaf2f3b055"
 
 [[files]]
 file = "config/ModernUI/bootstrap.properties"
@@ -1005,10 +1005,6 @@ file = "config/forgematica/forgematica_mod.nmo.net.cn_25566_dim_minecraft_overwo
 hash = "4a6809e2e3fd89774626b695a48533eaeee73131af4f27333f09af1807eae2bf"
 
 [[files]]
-file = "config/freecam.toml"
-hash = "bd6b9ad53ec2a133b0b6bf2e0c761731004c1405b740169eaf86fe9b1922c236"
-
-[[files]]
 file = "config/fruitsdelight-common.toml"
 hash = "429a0ebdd8d5bcbd1f78fd99b51f598767e6eba748ef0b0394eaeb546b9e5677"
 
@@ -1207,54 +1203,6 @@ hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 [[files]]
 file = "config/incontrol/summonaid.json"
 hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
-
-[[files]]
-file = "config/inventoryprofilesnext/[fe80&&3328&7d0e&2d0f&86d7]&25565/villager-trading-config.json"
-hash = "900a5d6592eaefcc3812b240e2efc8a48eb4edb5684a0435feebeaa18992aaf3"
-
-[[files]]
-file = "config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.json"
-hash = "ca413dea02cce69c69dccdc525fb0ec013236876eff2d142772c68db3d772d3a"
-
-[[files]]
-file = "config/inventoryprofilesnext/inventoryprofiles.json"
-hash = "76d77de0bb40d7bdeede25c9f4dd15a8fba6060899a30cb10d4f126b4ad88829"
-
-[[files]]
-file = "config/inventoryprofilesnext/mod.nmo.net.cn&25566/villager-trading-config.json"
-hash = "900a5d6592eaefcc3812b240e2efc8a48eb4edb5684a0435feebeaa18992aaf3"
-
-[[files]]
-file = "config/inventoryprofilesnext/mod.wdsj.su/villager-trading-config.json"
-hash = "900a5d6592eaefcc3812b240e2efc8a48eb4edb5684a0435feebeaa18992aaf3"
-
-[[files]]
-file = "config/inventoryprofilesnext/test/prev-villager-trading-config.json"
-hash = "4896b9bb47e9eb98f2d2c8f20b7246ea05ff344301ee7e53f09c75566e971020"
-
-[[files]]
-file = "config/inventoryprofilesnext/test/villager-trading-config.json"
-hash = "900a5d6592eaefcc3812b240e2efc8a48eb4edb5684a0435feebeaa18992aaf3"
-
-[[files]]
-file = "config/inventoryprofilesnext/test1/villager-trading-config.json"
-hash = "900a5d6592eaefcc3812b240e2efc8a48eb4edb5684a0435feebeaa18992aaf3"
-
-[[files]]
-file = "config/inventoryprofilesnext/villager-trading-config.json"
-hash = "900a5d6592eaefcc3812b240e2efc8a48eb4edb5684a0435feebeaa18992aaf3"
-
-[[files]]
-file = "config/inventoryprofilesnext/world/villager-trading-config.json"
-hash = "900a5d6592eaefcc3812b240e2efc8a48eb4edb5684a0435feebeaa18992aaf3"
-
-[[files]]
-file = "config/inventoryprofilesnext/新的世界/prev-villager-trading-config.json"
-hash = "1f3b21bb35a9de335a50521951ff89db07f50c1e5f721f525eb97d1eb5b0e307"
-
-[[files]]
-file = "config/inventoryprofilesnext/新的世界/villager-trading-config.json"
-hash = "1f3b21bb35a9de335a50521951ff89db07f50c1e5f721f525eb97d1eb5b0e307"
 
 [[files]]
 file = "config/jade/hide-blocks.json"
@@ -1458,7 +1406,7 @@ hash = "b1fa55dce752f34a0a753ac0afa1c4414f07cf61f27b618d028d815084610460"
 
 [[files]]
 file = "config/rocknroller.json"
-hash = "9bc3509c1649256adaf85572548a9084405032af7dd10a3a852834c1301c65e8"
+hash = "17a2fed02569fb5d9936d2dfe27524d52386a828f52696546c6f111b00e76cf6"
 
 [[files]]
 file = "config/rubidium_extras.toml"
@@ -1630,7 +1578,7 @@ hash = "8cfa717cc79d506ebdfe36b4e56c05b1c0578e16b33cc7a8c97d4b3d5a392205"
 
 [[files]]
 file = "config/tweakerge.json"
-hash = "844baba38d39900c47b597ab9169628ad9de0ef91171dcdf2b338e844f3431e8"
+hash = "be22368dd0bce86f019c61744b5c318a643cfb7b75d7472a1e3ab3a8cca81b10"
 
 [[files]]
 file = "config/vinery/config.json5"
@@ -1810,7 +1758,7 @@ hash = "56bd1e7eabf2dcb7407ff25ca44649d26ecea333364cdb9854a53924db644fe8"
 
 [[files]]
 file = "hmclversion.cfg"
-hash = "b6d2d71318c25d01567015f1b0be09227c78af6f7b72371127b6c7283adfd4b5"
+hash = "aea8824ad90700f3dd7891fd3fb962862e266b8dc032abde6759db8aa5429579"
 
 [[files]]
 file = "kubejs/README.txt"
@@ -4094,11 +4042,15 @@ hash = "52021232624961a620ef0cb9e2fc2040331decdaba088dd018e640367c6e1976"
 
 [[files]]
 file = "modpack.cfg"
-hash = "a21d2c79d10dc7af203f92a2e9f499be0c0f4e85fde4d605e3da2ba4df097ed5"
+hash = "3370cb133ab115b65139ba9c4dc9694dd3660a4a940bfcc8a698578242057271"
 
 [[files]]
 file = "mods/EnderIO-1.20.1-6.1.8-beta-all.jar"
 hash = "3b583217f4b3c95522d0f3e20bfa1a6d3f6118f7cbff6fd30d78539cd48dd86a"
+
+[[files]]
+file = "mods/[forge-1.20]AllMusic_Client-3.0.2.jar"
+hash = "8657488267f277ec803a2d299fa8514b0a81a678b2072731715edd4309b0c4ab"
 
 [[files]]
 file = "mods/ad-astra-giselle-addon.pw.toml"
@@ -4227,6 +4179,11 @@ metafile = true
 [[files]]
 file = "mods/blueprint.pw.toml"
 hash = "f7574bbc725128a0fa6a44c959c67d706d2279ed442dfedf2d135fd955e5ca6b"
+metafile = true
+
+[[files]]
+file = "mods/bocchud.pw.toml"
+hash = "f2b137da7a07dea0647fb33334623f9b5e157a06ea2c39c3939b1104bebe4256"
 metafile = true
 
 [[files]]
@@ -4523,13 +4480,13 @@ hash = "de63df967225278681e18afe0e323110322ec02006746980fbe77dbd974b20b3"
 metafile = true
 
 [[files]]
-file = "mods/framework.pw.toml"
-hash = "688b011ac6619ffe9b237336b63b4e14a355a1d1fa30793e1b600a223c488369"
+file = "mods/forgematica.pw.toml"
+hash = "23351f216df56bff5fdb3c86eb696091302632f58ccf1df6d042d7aaa59b2372"
 metafile = true
 
 [[files]]
-file = "mods/free-cam.pw.toml"
-hash = "5a57417b90e803036e07b860a1c31de185dd4bd960856d3504c73352af42f865"
+file = "mods/framework.pw.toml"
+hash = "688b011ac6619ffe9b237336b63b4e14a355a1d1fa30793e1b600a223c488369"
 metafile = true
 
 [[files]]
@@ -4722,6 +4679,11 @@ hash = "acc634d1cad07a0ba60ec41608a1f4f9fc02fa5748e297d4625ff148925ee22e"
 metafile = true
 
 [[files]]
+file = "mods/mafglib.pw.toml"
+hash = "445fc568c930cbbe03f60553237902245578acd0922fa67896e2a387abc2ae2f"
+metafile = true
+
+[[files]]
 file = "mods/melody.pw.toml"
 hash = "0b9cc190139b0eb2d5f0153f05717ed53edd499ad2a3eeee99ea75d22fd0ef1c"
 metafile = true
@@ -4739,6 +4701,11 @@ metafile = true
 [[files]]
 file = "mods/more-sniffer-flowers.pw.toml"
 hash = "6c021710ef57b3af9b39664cc0bf125fc17aa927e671f8f425ebef8cdc55a523"
+metafile = true
+
+[[files]]
+file = "mods/mouse-tweaks.pw.toml"
+hash = "e72f73611904e14d915418f0e3c6cb483cdc600e211375c2eceb393fec5b80f1"
 metafile = true
 
 [[files]]
@@ -4877,6 +4844,11 @@ hash = "6be79c8aeb5bddbe5957a1292a7977d8e03926c3126472edeaa906ef54f51b58"
 metafile = true
 
 [[files]]
+file = "mods/rockn-roller.pw.toml"
+hash = "43c549c6a6a359cf71afa95a32ac41c78b6e5a04fc94b3fac4888bc0f0877633"
+metafile = true
+
+[[files]]
 file = "mods/searchables.pw.toml"
 hash = "2cb8dd9a3944a6430b49916a4fe1b6cf0bd7efd907054f8e679a02717149404f"
 metafile = true
@@ -4977,6 +4949,11 @@ hash = "14e7219aa6c91b900cf44c2cdbdfd32d60ac80103050aa732a83d422836fb232"
 metafile = true
 
 [[files]]
+file = "mods/tweakerge.pw.toml"
+hash = "a4edefdef0ab1fb140e407c938d6487bd441f16f9a00320439888435deefd447"
+metafile = true
+
+[[files]]
 file = "mods/visual-workbench.pw.toml"
 hash = "3a3648832ed73aad40fc1a29e1092238cbd3cd2b6f70f305db8a0ac6608e95ba"
 metafile = true
@@ -5003,4 +4980,9 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "a500a8032310a4f29d2748ec2ac4fdaf4cde538d8e4ca8caadcc4ae0b5395fe4"
+hash = "511403065c298d4b93d564e3998a025e82ad56a2fbb62e156df7d917f94f1613"
+
+[[files]]
+file = "resourcepacks/presense-footsteps-sounds.pw.toml"
+hash = "08c29712c96e34e03f700d6f2c3d2e68281e0b5163c9587a335ef3e7dd473f37"
+metafile = true

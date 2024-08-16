@@ -1,0 +1,13 @@
+name = "Rock'n Roller"
+filename = "RocknRoller-0.1.4-mc1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "57ae13b8b1f17613aac4d00850de87e2b564eca1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5374987
+project-id = 916852
