@@ -283,10 +283,10 @@
 
 [management]
 	"Automatic Tool Restock" = false
-	"Easy Transfering" = false
+	"Easy Transfering" = true
 	"Expanded Item Interactions" = true
 	"Hotbar Changer" = true
-	"Inventory Sorting" = false
+	"Inventory Sorting" = true
 	"Item Sharing" = true
 	"Quick Armor Swapping" = true
 

@@ -686,7 +686,7 @@ hash = "e55a79c50649cd1984aa739c0f44aa58ceea132a512b6805b7806662a8dcb0ff"
 
 [[files]]
 file = "config/createaddition-common.toml"
-hash = "d7a23222486ee4ce9fc841351c59277c3dab424a5af3a6d8f9305886ff297341"
+hash = "6327abacc2a7304175aea8efed53d1b13d4068d4c6040c82d51e41be94412721"
 
 [[files]]
 file = "config/createoreexcavation-common.toml"
@@ -842,11 +842,11 @@ hash = "d5d9498efcc719e5c5b9e409ce9a430ceb82393ffb288166e56987bbcaf8c6cd"
 
 [[files]]
 file = "config/fancymenu/custom_locals/fgmenu/en_us.local"
-hash = "fea6419602b66003b20f21b4ae692a730e70d60e17171afe21ebcf8f37d8ea65"
+hash = "0a920a5c9a9d59c160efffcd7f11545f592edbafb18f4a5c7b746c0d36a69a41"
 
 [[files]]
 file = "config/fancymenu/custom_locals/fgmenu/zh_cn.local"
-hash = "0681b1ae2cca9ea965e23c4e8b6dab5801e3e25ac1246455152b496e56fa9697"
+hash = "98e62f41c860ce253af979152befb834e4cbd940a5073f7f79f05be0334d2e0a"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
@@ -962,7 +962,7 @@ hash = "0d0e22785b8811b4010b7cf39f78fcfb25e31e70558176a52cb9e95ea9202c8f"
 
 [[files]]
 file = "config/fml.toml"
-hash = "6b727d473688b1160c210b9005f6b3dbc1c976a8abdd37b6229355042d5034d1"
+hash = "ffcb463f7f1cf3aab58ab06564df6d23593cf137094d05980161c745950b2ef0"
 
 [[files]]
 file = "config/forge-client.toml"
@@ -1402,7 +1402,7 @@ hash = "6cffea1c20852a079342429a0f223fcc45993a51596c4736e0fe1910c3fcba52"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "76abbdb33e7b066e4931efa25eaf21cf9bc47db1c683ee468c2e0d189d126542"
+hash = "72b3d1feffeb3bece695d3cb131d287eac2212eae92a03f0bb42bfcae45de0bd"
 
 [[files]]
 file = "config/questsadditions-client.toml"
@@ -1594,7 +1594,7 @@ hash = "c339ffec047e7faa8471f9c36ab83434db0262476194da70f4691575a6a1cea5"
 
 [[files]]
 file = "config/tweakerge.json"
-hash = "be22368dd0bce86f019c61744b5c318a643cfb7b75d7472a1e3ab3a8cca81b10"
+hash = "11febfbb9f7af219081b6dc716aabccc5f37e8d1953165aafb2af5cab59dca1a"
 
 [[files]]
 file = "config/vinery/config.json5"
@@ -1630,7 +1630,7 @@ hash = "1dcee38470c2939f7265891203775b7631c81822bf2506a451727fcaaf2cc4a2"
 
 [[files]]
 file = "config/xaerominimap.txt"
-hash = "faafd377c63354698388f596d42b58d1f8f2d7d1167f24554f7b9b82a8d1cef1"
+hash = "b359851f620e5ea40b0d7fe3074d99467bcbd8a51844e08619926fba24c15078"
 
 [[files]]
 file = "config/xaerominimap_entities.json"
@@ -1766,7 +1766,7 @@ hash = "56bd1e7eabf2dcb7407ff25ca44649d26ecea333364cdb9854a53924db644fe8"
 
 [[files]]
 file = "hmclversion.cfg"
-hash = "aea8824ad90700f3dd7891fd3fb962862e266b8dc032abde6759db8aa5429579"
+hash = "77b8f70c508a03ec53602eac37d5b2adb115cceb4cd402212708631f41d745b8"
 
 [[files]]
 file = "kubejs/README.txt"
@@ -3465,6 +3465,10 @@ file = "kubejs/assets/pfm/lang/zh_cn.json"
 hash = "e5a56cf302beff5169e105eae6ff5f8ea13efa9f10877366185e1ffaad58349a"
 
 [[files]]
+file = "kubejs/assets/travelerstitles/lang/zh_cn.json"
+hash = "38bd0909a5a9873b5895d358358ea5a6fdbf0c2a5e8d992b93c2da86aef627a9"
+
+[[files]]
 file = "kubejs/assets/vinery/lang/zh_cn.json"
 hash = "03b775d3cca02cafe74e86fb029525614137a5304c5c7dd8b13c2492d01acf20"
 
@@ -3482,7 +3486,7 @@ hash = "aa5a7a042c82d17a637e810fefa9e8da3ac175f39ea170ec2e579508f15224d4"
 
 [[files]]
 file = "kubejs/config/probe-settings.json"
-hash = "3bc6e34eaff43bd93646fdcb0a33a35cf816a1236c548d854e0889d33839ab05"
+hash = "e2bf557a4409acfbed076160ea172d68426f97e8855783f4f58528ce0b2b026e"
 
 [[files]]
 file = "kubejs/config/probejs.json"
@@ -4126,7 +4130,7 @@ hash = "33f6115d0c33cacd889e619d966f38479c4847dc446e82c4b0ebaa0d3102826b"
 
 [[files]]
 file = "kubejs/startup_scripts/multiblock.js"
-hash = "ce729ffb2d232c61bf59098caa08470dee4e4dea92f9f6938f30813d0d15d32e"
+hash = "dcbdcfa2bfc4b5a2f2317910d086249ff3419f41fb7bf98a3052b0179c6cff74"
 
 [[files]]
 file = "kubejs/startup_scripts/music.js"
@@ -4389,7 +4393,7 @@ metafile = true
 
 [[files]]
 file = "mods/crackers-wither-storm-mod.pw.toml"
-hash = "e0883310355b406d90e1fcb70201959687c3183438a5b52834f858c53d0c6b21"
+hash = "6752a3970c0dfef9abdd6fdd389a23f2df88332356a6e8568b99ab9c68485d66"
 metafile = true
 
 [[files]]
@@ -5071,7 +5075,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "b1c8c37e776a36dffff6e5fcba72f36705354f3ece38cf97164d038bfbf55e91"
+hash = "5d85312fc92f3fb4255b93ede263a04fb503e066888b5fa205ecda12bd57d369"
 
 [[files]]
 file = "resourcepacks/presense-footsteps-sounds.pw.toml"
