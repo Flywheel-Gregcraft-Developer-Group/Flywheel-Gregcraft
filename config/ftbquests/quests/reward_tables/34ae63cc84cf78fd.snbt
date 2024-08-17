@@ -3,7 +3,7 @@
 	loot_size: 10
 	order_index: 1
 	rewards: [
-		{ item: "create:andesite_alloy", weight: 20.0f }
+		{ item: "gtceu:andesite_alloy_ingot", weight: 20.0f }
 		{
 			item: {
 				Count: 1
@@ -16,16 +16,9 @@
 		{ item: "create:large_cogwheel", weight: 10.0f }
 		{ item: "create:andesite_casing", weight: 8.0f }
 		{ item: "create:polished_rose_quartz" }
-		{ item: "create:golden_sheet", weight: 3.0f }
-		{ item: "create:iron_sheet", weight: 4.0f }
-		{
-			item: {
-				Count: 1
-				id: "create:copper_sheet"
-				tag: { }
-			}
-			weight: 5.0f
-		}
+		{ item: "gtceu:gold_plate", weight: 3.0f }
+		{ item: "gtceu:iron_plate", weight: 4.0f }
+		{ item: "gtceu:copper_plate", weight: 5.0f }
 	]
 	title: "抽奖：机械动力（初级）"
 }

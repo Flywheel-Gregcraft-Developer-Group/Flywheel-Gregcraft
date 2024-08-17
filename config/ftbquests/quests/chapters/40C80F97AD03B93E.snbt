@@ -30,7 +30,7 @@
 			tasks: [
 				{
 					id: "50E3D725DD593824"
-					item: "create:andesite_alloy"
+					item: "gtceu:andesite_alloy_ingot"
 					type: "item"
 				}
 				{
@@ -104,7 +104,7 @@
 			tasks: [
 				{
 					id: "29579D4763C1B0E5"
-					item: "create:brass_ingot"
+					item: "gtceu:brass_ingot"
 					type: "item"
 				}
 				{
@@ -295,7 +295,7 @@
 			subtitle: "优质高强度材料基底"
 			tasks: [{
 				id: "55483820BE36BC53"
-				item: "create:powdered_obsidian"
+				item: "gtceu:obsidian_dust"
 				type: "item"
 			}]
 			title: "将黑曜石磨成粉？"
@@ -356,7 +356,7 @@
 				}
 				{
 					id: "4D73EEE8CB3D2E9A"
-					item: "create:iron_sheet"
+					item: "gtceu:iron_plate"
 					type: "item"
 				}
 			]
@@ -532,6 +532,7 @@
 			]
 			icon: "create:cogwheel"
 			id: "15050FC465F764BD"
+			min_required_tasks: 3
 			rewards: [{
 				count: 4
 				id: "2178AE7D3E66FF37"
