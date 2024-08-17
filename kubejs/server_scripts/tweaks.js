@@ -126,6 +126,23 @@ ServerEvents.recipes(event => {
     .EUt(7)
 
   //other_fix
+  event.remove({ id: 'farmersdelight:flint_knife' })
+  event.shaped(Item.of('farmersdelight:flint_knife',1), [
+        'F',
+        ' ',
+        'S'
+    ],
+    {
+        F: 'minecraft:flint',
+        S: '#forge:rods/wooden'
+    })
+  event.shaped(Item.of('create:belt_connector',1), [
+        'LLL',
+        'LLL'
+    ],
+    {
+        L: 'minecraft:leather'
+    })
   event.shaped(Item.of('minecraft:glass_bottle',1), [
         ' W ',
         'P P',
