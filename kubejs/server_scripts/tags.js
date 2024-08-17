@@ -160,6 +160,8 @@ ServerEvents.tags('item', event => {
   event.add("gtceu:circuits/uxv", ["kubejs:uxv_cosmic_brain", "kubejs:blackhole_computer", "kubejs:timewarp_mainframe"])
   event.add("gtceu:circuits/opv", ["kubejs:opv_cosmic_brain", "kubejs:blackhole_mainframe"])
   event.add("gtceu:circuits/max", "kubejs:max_cosmic_brain")
+
+  event.remove("quark:stone_tool_materials", "minecraft:flint")
 })
 
 ServerEvents.tags('entity_type', event => {
