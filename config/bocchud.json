@@ -217,7 +217,7 @@
     "infoMobCaps": false,
     "infoLoadedChunksCount": false,
     "infoParticleCount": false,
-    "infoPing": false,
+    "infoPing": true,
     "infoRegionFile": false,
     "infoRotationPitch": false,
     "infoRotationYaw": false,
@@ -421,7 +421,7 @@
       "keys": ""
     },
     "overlayLightLevel": {
-      "keys": ""
+      "keys": "LEFT_ALT,L"
     },
     "overlayRandomTicksFixed": {
       "keys": ""

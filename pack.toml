@@ -1,12 +1,12 @@
 name = "Flywheel Gregcraft"
 author = "CreepSean"
-version = "0.4.0"
+version = "0.4.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "dfffac62faace1b16cf31140617e7a767fb1b34cbe6b55d593bb7ec0aa46cc05"
+hash = "6907d800c121891eccefd84e2f0620a61552f9cd17c85ed8812faadb1ee9e97b"
 
 [versions]
 forge = "47.3.0"

@@ -377,7 +377,8 @@
   "kubejs.multiblock_keke_generator.tooltip.second": "(声明：和某汽油品牌没有任何关系)",
   "kubejs.multiblock_cosmic_matter_collector.tooltip.first": "广阔的宇宙空间中有什么？它将为您揭示答案！",
   "kubejs.multiblock_cosmic_matter_collector.tooltip.second": "该机器可以借助吸附剂从太空中收集有用的物质。",
-  "kubejs.misc_egg_breaking.tooltip": "§4碎碎！",
+  "kubejs.misc_egg_breaking.tooltip": "§a碎碎！",
   "kubejs.misc_eating_beibei.tooltip": "§d你真的太坏了！",
-  "kubejs.misc_create_casing.tooltip": "§7你需要不那么天马行空的想象力就能制造它"
+  "kubejs.misc_create_casing.tooltip": "§7你需要不那么天马行空的想象力就能制造它",
+  "kubejs.backpacks.tooltip": "§4升级前请务必清空背包内物品！"
 }

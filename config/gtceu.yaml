@@ -157,7 +157,7 @@ machines:
 
   # Whether machines explode in rainy weather or when placed next to certain terrain, such as fire or lava
   # Default: false
-  doTerrainExplosion: false
+  doTerrainExplosion: true
 
   # Energy use multiplier for electric items.
   # Default: 100
@@ -342,7 +342,7 @@ tools:
 
     # Should Zombies spawn with charged, active NanoSabers on hard difficulty?
     # Default: true
-    zombieSpawnWithSabers: true
+    zombieSpawnWithSabers: false
 
     # The EU/t consumption of the NanoSaber.
     # Default: 64
@@ -378,16 +378,16 @@ tools:
 gameplay:
   # Enable hazardous materials
   # Default: true
-  hazardsEnabled: true
+  hazardsEnabled: false
 
   # Whether hazards are applied to all valid items, or just GT's.
   # true = all, false = GT only.
   # Default: true
-  universalHazards: true
+  universalHazards: false
 
   # Whether environmental hazards like pollution or radiation are active
   # Default: true
-  environmentalHazards: true
+  environmentalHazards: false
 
   # How much environmental hazards decay per chunk, per tick.
   # Default: 0.001
@@ -396,7 +396,7 @@ gameplay:
   # Whether the GTCEu's ingame guidebook, 'Compass', be enabled.
   # WARNING: INCOMPLETE
   # Default: false
-  enableCompass: false
+  enableCompass: true
 
 # Config options for Mod Compatibility
 compat:

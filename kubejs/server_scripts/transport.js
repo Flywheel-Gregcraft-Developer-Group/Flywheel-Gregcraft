@@ -8,7 +8,7 @@ ServerEvents.recipes(event => {
   ], {
     P: '#forge:plates/obsidian',
     M: 'create:precision_mechanism',
-    B: 'createbigcannons:cannon_carriage'
+    B: '#minecraft:logs'
   })
   event.recipes.create.mechanical_crafting('smallships:cannon', [
     'PPPP',
@@ -16,7 +16,7 @@ ServerEvents.recipes(event => {
   ], {
     P: '#forge:plates/steel',
     M: 'create:precision_mechanism',
-    B: 'createbigcannons:cannon_carriage'
+    B: '#minecraft:logs'
   })
   event.recipes.create.mechanical_crafting('smallships:cannon', [
     'PPPP',
@@ -24,7 +24,7 @@ ServerEvents.recipes(event => {
   ], {
     P: '#forge:plates/obsidian',
     M: 'immersive_aircraft:industrial_gears',
-    B: 'createbigcannons:cannon_carriage'
+    B: '#minecraft:logs'
   })
   event.recipes.create.mechanical_crafting('smallships:cannon', [
     'PPPP',
@@ -32,7 +32,7 @@ ServerEvents.recipes(event => {
   ], {
     P: '#forge:plates/steel',
     M: 'immersive_aircraft:industrial_gears',
-    B: 'createbigcannons:cannon_carriage'
+    B: '#minecraft:logs'
   })
 
   //aircraft
@@ -56,15 +56,6 @@ ServerEvents.recipes(event => {
         L: '#minecraft:logs'
     })
   event.remove({ id: 'immersive_aircraft:hull_reinforcement' })
-  event.shaped(Item.of('immersive_aircraft:hull_reinforcement',1), [
-        ' T ',
-        'HHH',
-        ' T '
-    ],
-    {
-        T: 'createbigcannons:nethersteel_ingot',
-        H: 'immersive_aircraft:hull'
-    })
   event.shaped(Item.of('immersive_aircraft:hull_reinforcement',1), [
         'TTT',
         'HHH',
@@ -145,7 +136,16 @@ ServerEvents.recipes(event => {
     ],
     {
         B: '#forge:plates/iron',
-        I: '#forge:ingots/cast_iron'
+        I: '#forge:ingots/wrought_iron'
+    })
+  event.shaped(Item.of('immersive_aircraft:propeller',2), [
+        'BB ',
+        ' I ',
+        ' BB'
+    ],
+    {
+        B: '#forge:plates/steel',
+        I: '#forge:ingots/steel'
     })
   event.remove({ id: 'immersive_aircraft:enhanced_propeller' })
   event.shaped(Item.of('immersive_aircraft:enhanced_propeller',1), [
@@ -154,16 +154,7 @@ ServerEvents.recipes(event => {
         ' CC'
     ],
     {
-        C: '#forge:plates/brass',
-        P: 'immersive_aircraft:propeller'
-    })
-  event.shaped(Item.of('immersive_aircraft:enhanced_propeller',1), [
-        'CC ',
-        ' P ',
-        ' CC'
-    ],
-    {
-        C: '#forge:plates/bronze',
+        C: '#forge:plates/annealed_copper',
         P: 'immersive_aircraft:propeller'
     })
   event.remove({ id: 'immersive_aircraft:industrial_gears' })

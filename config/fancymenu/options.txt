@@ -27,7 +27,7 @@ B:game_intro_fade_out = 'true';
 B:show_custom_window_icon = 'true';
 S:custom_window_icon_macos = '/config/fancymenu/assets/aot43-itfrb.icns';
 S:custom_window_icon_32 = '/config/fancymenu/assets/fgu_icon_32_32.png';
-S:custom_window_title = 'Flywheel Gregcraft 0.4';
+S:custom_window_title = 'Flywheel Gregcraft 0.4.1';
 S:custom_window_icon_16 = '/config/fancymenu/assets/fgu_icon_16_16.png';
 
 

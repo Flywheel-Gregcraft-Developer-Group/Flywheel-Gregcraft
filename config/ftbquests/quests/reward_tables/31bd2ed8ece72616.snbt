@@ -3,15 +3,8 @@
 	loot_size: 32
 	order_index: 2
 	rewards: [
-		{ item: "create:andesite_alloy", weight: 10.0f }
-		{
-			item: {
-				Count: 1
-				id: "create:brass_ingot"
-				tag: { }
-			}
-			weight: 20.0f
-		}
+		{ item: "gtceu:andesite_alloy_ingot", weight: 10.0f }
+		{ item: "gtceu:brass_ingot", weight: 20.0f }
 		{ item: "create:brass_casing", weight: 10.0f }
 		{ item: "create:andesite_casing", weight: 10.0f }
 		{
