@@ -94,6 +94,7 @@ ServerEvents.tags('item', event => {
   event.add('forge:plates/netherite', 'createdeco:netherite_sheet')
   event.add('forge:plates/zinc', 'createdeco:zinc_sheet')
   event.add('forge:plates/andesite_alloy', 'vintageimprovements:andesite_sheet')
+  event.add('forge:dusts/netherrack', 'create:cinder_flour')
 
   event.add('forge:springs/blaze', 'vintageimprovements:blaze_spring')
   event.add('forge:springs/brass', 'vintageimprovements:brass_spring')

@@ -145,6 +145,11 @@ ServerEvents.recipes(event => {
       )
 
     //gtm
+    event.recipes.gtceu.extractor('source_gem_extract_alt')
+        .itemInputs('1x ars_nouveau:source_gem')
+        .outputFluids(Fluid.of('gtceu:sourcium', 500))
+        .duration(200)
+        .EUt(480)
     event.recipes.gtceu.centrifuge('sourcium_centrifuge')
         .inputFluids(Fluid.of('gtceu:sourcium', 250))
         .itemOutputs('1x gtceu:sourcium_dust')
@@ -480,4 +485,17 @@ ServerEvents.recipes(event => {
         .itemOutputs('1x ars_nouveau:stable_warp_scroll')
         .duration(480)
         .EUt(491520)
+
+    //associated_item
+    event.remove({ id: 'ars_nouveau:mob_jar' })
+    event.shaped(Item.of('ars_nouveau:mob_jar', 1), [
+        'SSS',
+        'GIG',
+        'GGG'
+    ],
+    {
+        S: 'ars_nouveau:archwood_slab',
+        I: '#forge:ingots/managold',
+        G: '#forge:glass',
+    })
 })

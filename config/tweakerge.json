@@ -237,7 +237,7 @@
       "keys": ""
     },
     "toggleGrabCursor": {
-      "keys": "LEFT_CONTROL,TAB",
+      "keys": "",
       "settings": {
         "activate_on": "RELEASE",
         "context": "INGAME",
@@ -260,7 +260,7 @@
   },
   "Internal": {
     "flySpeedPreset": 2,
-    "gammaValueOriginal": 0.5,
+    "gammaValueOriginal": 1.0,
     "hotbarScrollCurrentRow": 3,
     "slimeBlockSlipperinessOriginal": 0.800000011920929,
     "snapAimLastYaw": 0.0
