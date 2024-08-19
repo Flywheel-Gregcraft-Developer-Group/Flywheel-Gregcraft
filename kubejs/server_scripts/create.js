@@ -32,7 +32,7 @@ ServerEvents.recipes(event => {
         'MC '
     ],
     {
-        A: 'create:andesite_alloy',
+        A: '#forge:ingots/andesite_alloy',
         C: 'create:brass_casing',
         M: 'create:precision_mechanism',
         P: '#forge:plates/brass'
@@ -53,7 +53,7 @@ ServerEvents.recipes(event => {
   event.remove({ id: 'create_enchantment_industry:mixing/hyper_experience' })
   event.recipes.create.mixing(Fluid.of('create_enchantment_industry:hyper_experience',10), [Fluid.of('create_enchantment_industry:experience',100), Fluid.of('create_central_kitchen:dragon_breath',100), '#forge:gems/lapis']).superheated()
   event.remove({ id: 'create:compacting/blaze_cake' })
-  event.recipes.create.compacting('create:blaze_cake_base', [Fluid.of('create_central_kitchen:dragon_breath',50), 'create:cinder_flour', '#forge:dusts/sugar', '#naturalist:eggs']).heated()
+  event.recipes.create.compacting('create:blaze_cake_base', [Fluid.of('create_central_kitchen:dragon_breath',50), '#forge:dusts/netherrack', '#forge:dusts/sugar', '#naturalist:eggs']).heated()
   event.remove({ id: 'createchromaticreturn:refined_mixture_recipe' })
   event.recipes.create.mixing([Fluid.of('createchromaticreturn:refined_mixture',100)], ['16x minecraft:glowstone', 'kubejs:refined_essence', Fluid.of('minecraft:water',500)]).superheated()
   event.remove({ id: 'createchromaticreturn:shadow_essence_recipe' })
@@ -104,9 +104,12 @@ ServerEvents.recipes(event => {
   event.recipes.create.deploying('2x create:electron_tube', ['#forge:foils/zinc', 'create:polished_rose_quartz'])
   event.recipes.create.deploying('4x create:electron_tube', ['#forge:foils/silver', 'create:polished_rose_quartz'])
   event.recipes.create.deploying('8x create:electron_tube', ['#forge:foils/graphene', 'create:polished_rose_quartz'])
-  event.recipes.create.mixing('2x create:rose_quartz', ['minecraft:quartz', '2x #forge:dusts/red_alloy'])
+  event.recipes.create.mixing('2x create:rose_quartz', ['minecraft:quartz', '4x #forge:dusts/red_alloy'])
+  event.recipes.create.mixing('4x create:rose_quartz', ['minecraft:quartz', '2x #forge:dusts/redstone_alloy'])
 
   //create_other
+  event.remove({ id: 'createchromaticreturn:zinc_recipe' })
+  event.recipes.create.mixing('1x gtceu:zinc_nugget', [Fluid.of('minecraft:water', 1000), '1x minecraft:flint']).heated()
   event.remove({ id: 'vintageimprovements:mechanical_crafting/lathe' })
   event.recipes.create.mechanical_crafting('vintageimprovements:lathe', [
     ' MIA ',

@@ -267,6 +267,19 @@ ServerEvents.recipes(event => {
         .blastFurnaceTemp(3400)
         .duration(1629)
         .EUt(480)
+    event.shaped(Item.of('minecraft:clay', 1), [
+        'CC',
+        'CC'
+    ],
+    {
+        C: 'minecraft:clay_ball'
+    })
+    event.shaped(Item.of('minecraft:clay_ball', 4), [
+        'C'
+    ],
+    {
+        C: 'minecraft:clay'
+    })
     event.recipes.create.compacting('minecraft:iron_ingot', '9x minecraft:iron_nugget')
     event.recipes.create.compacting('minecraft:iron_block', '9x minecraft:iron_ingot')
     event.recipes.create.compacting('minecraft:gold_ingot', '9x minecraft:gold_nugget')
@@ -717,6 +730,15 @@ ServerEvents.recipes(event => {
         .itemOutputs('1x gtceu:quantum_eye_dust')
         .duration(112)
         .EUt(8)
+    event.remove({id: 'gtceu:centrifuge/endstone_separation' })
+    event.recipes.gtceu.centrifuge('endstone_centrifuge')
+        .itemInputs('1x #forge:dusts/endstone')
+        .chancedOutput('1x minecraft:sand', 9000, 300)
+        .chancedOutput('1x gtceu:tungstate_dust', 315, 110)
+        .chancedOutput('1x gtceu:platinum_metal_dust', 70, 15)
+        .outputFluids(Fluid.of('gtceu:helium', 120))
+        .duration(320)
+        .EUt(60)
     event.recipes.gtceu.macerator('moon_stone_macerator')
         .itemInputs('1x ad_astra:moon_cobblestone')
         .itemOutputs('1x gtceu:moon_stone_dust')
@@ -726,7 +748,7 @@ ServerEvents.recipes(event => {
         .itemInputs('1x #forge:dusts/moon_stone')
         .chancedOutput('1x ad_astra:moon_sand', 9000, 300)
         .chancedOutput('1x gtceu:tungstate_dust', 860, 220)
-        .chancedOutput('1x gtceu:platinum_dust', 200, 50)
+        .chancedOutput('1x gtceu:platinum_metal_dust', 200, 50)
         .outputFluids(Fluid.of('gtceu:helium_3', 50))
         .duration(160)
         .EUt(480)

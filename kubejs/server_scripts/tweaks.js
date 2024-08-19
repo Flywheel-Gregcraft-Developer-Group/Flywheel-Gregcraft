@@ -126,6 +126,7 @@ ServerEvents.recipes(event => {
     .EUt(7)
 
   //other_fix
+  event.remove({ id: 'gtceu:large_boiler/lava' })
   event.remove({ id: 'farmersdelight:flint_knife' })
   event.shaped(Item.of('farmersdelight:flint_knife',1), [
         'F',
