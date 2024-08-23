@@ -251,6 +251,25 @@ ServerEvents.recipes(event => {
   event.replaceInput({mod:'create', output:'create:steam_engine'}, '#forge:plates/gold' , '#forge:plates/brass')
   event.remove({ id: 'vintageimprovements:pressing/andesite_alloy' })
   event.remove({ id: 'createdeco:pressing/netherite_sheet' })
+  event.remove({ id: 'create_sa:steam_engine_recipe' })
+  event.recipes.create.sequenced_assembly([
+		    Item.of('create_sa:steam_engine').withChance(91.0),
+		    Item.of('gtceu:brass_plate').withChance(6.0),
+		    Item.of('gtceu:andesite_alloy_ingot').withChance(3.0)
+	  ], '#forge:plates/brass', [ 
+		    event.recipes.createDeploying('create_sa:incomplete_steam_engine', ['create_sa:incomplete_steam_engine', 'create:cogwheel']),
+        event.recipes.createDeploying('create_sa:incomplete_steam_engine', ['create_sa:incomplete_steam_engine', 'create:large_cogwheel']),
+        event.recipes.createDeploying('create_sa:incomplete_steam_engine', ['create_sa:incomplete_steam_engine', 'create:propeller']),
+        event.recipes.createDeploying('create_sa:incomplete_steam_engine', ['create_sa:incomplete_steam_engine', '#forge:ingots/andesite_alloy'])
+	  ]).transitionalItem('create_sa:incomplete_steam_engine').loops(3)
+  event.replaceInput({type: 'crafting_shaped', input:'create:andesite_alloy'}, 'create:andesite_alloy' , '#forge:ingots/andesite_alloy')
+  event.replaceInput({type: 'crafting_shaped', input:'create:brass_ingot'}, 'create:brass_ingot' , '#forge:ingots/brass')
+  event.replaceInput({type: 'crafting_shaped', input:'create:zinc_ingot'}, 'create:zinc_ingot' , '#forge:ingots/zinc')
+  event.replaceInput({type: 'crafting_shaped', input:'create:brass_sheet'}, 'create:brass_sheet' , '#forge:plates/brass')
+  event.replaceInput({type: 'crafting_shaped', input:'create:iron_sheet'}, 'create:iron_sheet' , '#forge:plates/iron')
+  event.replaceInput({type: 'crafting_shaped', input:'createdeco:zinc_sheet'}, 'createdeco:zinc_sheet' , '#forge:plates/zinc')
+  event.replaceInput({type: 'crafting_shaped', input:'createaddition:zinc_sheet'}, 'createaddition:zinc_sheet' , '#forge:plates/zinc')
+  event.replaceInput({type: 'crafting_shaped', input:'create:sturdy_sheet'}, 'create:sturdy_sheet' , '#forge:plates/obsidian')
 
   event.recipes.create.emptying([Fluid.of('gtceu:sap', 250), 'minecraft:glass_bottle'], 'autumnity:sap_bottle')
   event.recipes.create.emptying([Fluid.of('gtceu:syrup', 250), 'minecraft:glass_bottle'], 'autumnity:syrup_bottle')
@@ -329,4 +348,35 @@ ServerEvents.recipes(event => {
       .itemOutputs('8x createdeco:pearl_bricks')
       .duration(128)
       .EUt(28)
+
+  //coiling_fix
+  event.remove({ id: 'vintageimprovements:coiling/silver_rod' })
+  event.remove({ id: 'vintageimprovements:coiling/vanadium_rod' })
+  event.remove({ id: 'vintageimprovements:coiling/cobalt_rod' })
+  event.remove({ id: 'vintageimprovements:coiling/shadow_steel_rod' })
+  event.remove({ id: 'vintageimprovements:coiling/brass_rod' })
+  event.remove({ id: 'vintageimprovements:coiling/steel_rod' })
+  event.remove({ id: 'vintageimprovements:coiling/lead_rod' })
+  event.remove({ id: 'vintageimprovements:coiling/copper_rod' })
+  event.remove({ id: 'vintageimprovements:coiling/refined_radiance_rod' })
+  event.remove({ id: 'vintageimprovements:coiling/netherite_rod' })
+  event.remove({ id: 'vintageimprovements:coiling/nickel_rod' })
+  event.remove({ id: 'vintageimprovements:coiling/iron_rod' })
+  event.remove({ id: 'vintageimprovements:coiling/bronze_rod' })
+  event.remove({ id: 'vintageimprovements:coiling/electrum_rod' })
+  event.remove({ id: 'vintageimprovements:coiling/rose_gold_rod' })
+  event.remove({ id: 'vintageimprovements:coiling/golden_rod' })
+  event.remove({ id: 'vintageimprovements:coiling/blaze_rod' })
+  event.remove({ id: 'vintageimprovements:coiling/platinum_rod' })
+  event.remove({ id: 'vintageimprovements:coiling/uranium_rod' })
+  event.remove({ id: 'vintageimprovements:coiling/palladium_rod' })
+  event.remove({ id: 'vintageimprovements:coiling/invar_rod' })
+  event.remove({ id: 'vintageimprovements:coiling/desh_rod' })
+  event.remove({ id: 'vintageimprovements:coiling/osmium_rod' })
+  event.remove({ id: 'vintageimprovements:coiling/zinc_rod' })
+  event.remove({ id: 'vintageimprovements:coiling/calorite_rod' })
+  event.remove({ id: 'vintageimprovements:coiling/tin_rod' })
+  event.remove({ id: 'vintageimprovements:coiling/rhodium_rod' })
+  event.remove({ id: 'vintageimprovements:coiling/andesite_rod' })
+  event.remove({ id: 'vintageimprovements:coiling/ostrum_rod' })
 })

@@ -26,9 +26,17 @@ StartupEvents.registry('item', event => {
         event.create(smd + "_smd_transistor")
         event.create(smd + "_smd_inductor")
     })
+    
+    /*
+    const part_ls =
+        ["lv", "mv", "hv", "ev", "iv", "luv", "zpm", "uv", "uhv"]
+    grade_1s.forEach((part_l) => {
+        event.create(part_l + "_space_compressor")
+    })
+    */
 
     const grade_1s =
-        ["uhv", "uev", "uiv", "uxv", "opv", "max"]
+        ["lv", "mv", "hv", "ev", "iv", "luv", "zpm"]
     grade_1s.forEach((grade_1) => {
         event.create(grade_1 + "_voltage_coil")
     })
@@ -63,6 +71,8 @@ StartupEvents.registry('item', event => {
     event.create('bedrock_drill_tier_four')
 
     event.create('chromatic_upgrade_smithing_template')
+
+    event.create('magic_fuel')
     /*
     event.create('empty_nuclear_fuel_rod')
     event.create('thorium_fuel_rod')

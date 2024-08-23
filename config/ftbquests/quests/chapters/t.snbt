@@ -1,0 +1,325 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "t"
+	group: "1AC57BE1093C052E"
+	icon: "ad_astra:earth_globe"
+	id: "5E169744C441C7B7"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["084503D01A69472F"]
+			description: [
+				"        在不断的努力之下，生产力的发展使得航天科学理论有机会成为现实，现在的你距离星辰大海只有一步之遥！"
+				"        为了第一次进入太空的壮举，你需要："
+				"        1.一阶火箭，可以带你前往地球附近的空间站、以及月球。你需要一个NASA工作台来制造火箭。"
+				"        2.驱动火箭飞行的燃料（见分支任务线）。"
+				"        3.一套充满氧气的太空服，保证你的太空计划不会变成“宰人航天”。"
+				"        4.让火箭得以起飞的发射台。"
+				"        5.一些优良的武器，最好是枪械。受到外太空辐射而变异的骷髅是非常危险的。"
+			]
+			icon: "ad_astra:earth_globe"
+			id: "41DC42856DC3B7E1"
+			rewards: [{
+				id: "1A998D19BABCD24E"
+				item: "ad_astra:earth_globe"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "在上天前需要注意的事情"
+			tasks: [{
+				id: "4CAC1583D993D520"
+				title: "开启你的太空计划"
+				type: "checkmark"
+			}]
+			title: "开启你的太空计划"
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["41DC42856DC3B7E1"]
+			description: ["        该星球上比较有价值的矿脉：铝土矿脉、独居石矿脉、戴斯矿脉"]
+			icon: "ad_astra:moon_globe"
+			id: "05FB3AB63928FE8F"
+			rewards: [
+				{
+					id: "10A59855606B00FE"
+					item: "gtceu:platinum_credit"
+					type: "item"
+				}
+				{
+					id: "22DEE55A6F852727"
+					item: "ad_astra:moon_globe"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			subtitle: "登陆月球"
+			tasks: [{
+				dimension: "ad_astra:moon"
+				icon: "ad_astra:moon_globe"
+				id: "74F4A830C6C6A622"
+				type: "dimension"
+			}]
+			title: "一小步，一大步"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05FB3AB63928FE8F"]
+			description: ["        该星球上比较有价值的矿脉：白钨矿脉、沥青铀矿脉、硅岩矿脉、紫金矿脉"]
+			icon: "ad_astra:mars_globe"
+			id: "740EC4C20CD94ED9"
+			rewards: [
+				{
+					count: 4
+					id: "711DDE2E355AC616"
+					item: "gtceu:platinum_credit"
+					type: "item"
+				}
+				{
+					id: "21CB797348749250"
+					item: "ad_astra:mars_globe"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			subtitle: "登陆火星"
+			tasks: [{
+				dimension: "ad_astra:mars"
+				icon: "ad_astra:mars_globe"
+				id: "3B82BF5F1AA88AD8"
+				type: "dimension"
+			}]
+			title: "红色星球"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["740EC4C20CD94ED9"]
+			icon: "ad_astra:venus_globe"
+			id: "6E11E71BA9C707B7"
+			rewards: [
+				{
+					id: "06DE444AE41B6CB7"
+					item: "gtceu:osmium_credit"
+					type: "item"
+				}
+				{
+					id: "70112DF1BB3AC0D9"
+					item: "ad_astra:venus_globe"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			subtitle: "登陆金星"
+			tasks: [{
+				dimension: "ad_astra:venus"
+				icon: "ad_astra:venus_globe"
+				id: "1226C0676E0DFF2B"
+				type: "dimension"
+			}]
+			title: "硫云笼罩"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["740EC4C20CD94ED9"]
+			icon: "ad_astra:mercury_globe"
+			id: "3484E1F54347D213"
+			rewards: [
+				{
+					id: "2818F18C3FC3DD53"
+					item: "gtceu:osmium_credit"
+					type: "item"
+				}
+				{
+					id: "6F0B3E9AB1567B8C"
+					item: "ad_astra:mercury_globe"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			subtitle: "登陆水星"
+			tasks: [{
+				dimension: "ad_astra:mercury"
+				icon: "ad_astra:mercury_globe"
+				id: "7B80399DEB7AD639"
+				type: "dimension"
+			}]
+			title: "离太阳最近的行星"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6E11E71BA9C707B7"
+				"3484E1F54347D213"
+			]
+			dependency_requirement: "one_completed"
+			icon: "ad_astra:glacio_globe"
+			id: "31000E758BB4ECFE"
+			rewards: [
+				{
+					count: 2
+					id: "3BE0A65BBBDE2087"
+					item: "gtceu:naquadah_credit"
+					type: "item"
+				}
+				{
+					id: "1966C6AA631BF346"
+					item: "ad_astra:glacio_globe"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			subtitle: "登陆霜原星"
+			tasks: [{
+				dimension: "ad_astra:glacio"
+				icon: "ad_astra:glacio_globe"
+				id: "68E3E1DB51D2F176"
+				type: "dimension"
+			}]
+			title: "最后的远征"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["41DC42856DC3B7E1"]
+			description: [
+				"        如果你观察过JEI，你会发现原版Ad Astra的燃油在这里无法制造，也不能用于火箭发射。"
+				"        火箭的发射需要用到一些特殊的燃料，其中一些可以在较早的阶段制造，但需要埃克森美孚化工厂；另一些燃料的生产需要消耗更多的电力，但只需要大型化学反应釜即可。"
+				"        所有可用于火箭发射的燃料也可用于火箭燃料发电机。"
+				"        下面的支线列出了每阶火箭发射所需的燃料种类，其中低阶的火箭可以使用高阶的燃料，而高阶的火箭不能使用低阶的燃料，每阶只要生产一种即可完成任务。"
+			]
+			id: "3B946637603AC3DE"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "24B5FC53C463B620"
+				title: "火箭燃料"
+				type: "checkmark"
+			}]
+			title: "火箭燃料"
+			x: -9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3B946637603AC3DE"]
+			icon: "gtceu:rp_1_mixed_fuel_bucket"
+			id: "4C60490EBF928232"
+			min_required_tasks: 1
+			rewards: [{
+				count: 2
+				id: "3E02B29272776434"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [
+				{
+					id: "2C31EC5280D05CF6"
+					item: "gtceu:rp_1_mixed_fuel_bucket"
+					type: "item"
+				}
+				{
+					id: "0CF83CBC12851E38"
+					item: "gtceu:cetane_boosted_diesel_bucket"
+					type: "item"
+				}
+			]
+			title: "一阶燃料"
+			x: -9.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["4C60490EBF928232"]
+			icon: "gtceu:methane_rocket_fuel_bucket"
+			id: "2DC9764BF80BD38E"
+			min_required_tasks: 1
+			rewards: [{
+				id: "49412D36AA6768EF"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [
+				{
+					id: "5670EB06D60E35BE"
+					item: "gtceu:dense_hydrazine_mixed_fuel_bucket"
+					type: "item"
+				}
+				{
+					id: "6DCA38D5CFE29112"
+					item: "gtceu:methane_rocket_fuel_bucket"
+					type: "item"
+				}
+			]
+			title: "二阶燃料"
+			x: -9.0d
+			y: 9.75d
+		}
+		{
+			dependencies: ["2DC9764BF80BD38E"]
+			icon: "gtceu:methylhydrazine_nitrate_rocket_fuel_bucket"
+			id: "0C40E3BA3C31F490"
+			min_required_tasks: 1
+			rewards: [{
+				count: 4
+				id: "68A043B714AB37D6"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [
+				{
+					id: "749F8019BA056E24"
+					item: "gtceu:methylhydrazine_nitrate_rocket_fuel_bucket"
+					type: "item"
+				}
+				{
+					id: "53B743654A437203"
+					item: "gtceu:cryo_fuel_bucket"
+					type: "item"
+				}
+			]
+			title: "三阶燃料"
+			x: -9.0d
+			y: 12.75d
+		}
+		{
+			dependencies: ["0C40E3BA3C31F490"]
+			description: ["        目前为止最高级的燃料，只需要1桶的量即可完成一次发射。"]
+			icon: "gtceu:advanced_cryo_fuel_bucket"
+			id: "5709B139225311D4"
+			min_required_tasks: 1
+			rewards: [{
+				count: 4
+				id: "1CB9ADBF22143070"
+				item: "gtceu:osmium_credit"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "2D2BD101211231CB"
+				item: "gtceu:advanced_cryo_fuel_bucket"
+				type: "item"
+			}]
+			title: "四阶燃料"
+			x: -9.0d
+			y: 15.75d
+		}
+	]
+	title: "星辰之路"
+}

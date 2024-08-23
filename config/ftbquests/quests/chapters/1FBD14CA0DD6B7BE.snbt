@@ -1292,6 +1292,389 @@
 			x: 14.0d
 			y: -7.0d
 		}
+		{
+			description: ["        尽管你把某人惹生气了，但出于对彩蛋的好奇心，我还是要奖励给你一些东西。"]
+			icon: "ends_delight:stir_fried_shulker_meat"
+			id: "5B2C38CB7917B1C6"
+			invisible: true
+			rewards: [
+				{
+					id: "1DD1D5CDD02CB1B3"
+					item: "gtceu:gold_credit"
+					type: "item"
+				}
+				{
+					id: "1F110F3567A6F3AE"
+					item: "storagedrawers:emerald_storage_upgrade"
+					type: "item"
+				}
+				{
+					id: "291DE0F6D1D29B95"
+					item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+					type: "item"
+				}
+				{
+					id: "24A6812106A746B2"
+					item: {
+						Count: 1
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-1460732295
+									848055310
+									-1781439846
+									-1144027176
+								]
+								Name: "AintCecily"
+								Properties: {
+									textures: [{
+										Signature: "acFWKxElYCdYRwQUjQeH9OJZmOxZOKuM+QzUAqxBPsU5ZTQv2og1K5Jw+FyFEj1v4O8v9Zu8QA1+d+CD30NSH+F64yVlp4MEm9QFcz/sWieoq6tMpEsfyEfUsFiq7mt+G11V2E0gyliuLiMaj0U2CfxWz8k1gxr22whVkzBvIgnfC5vlnmICHxBRPjaNAIA8PcgRb7U2Z8fg6DvHmjv2ck1hitZP7hAmEdC56QOJQoAFow47Gmk28XPYhX45nco7pF85IjAYHz9cPRFhnZwZdV2NMlRRjX7UsEbdShEPbC3guI7nsJjryv+QAzsAd1JJxtxQKD3w8nd8+t8hM4a8jgKsuFk6uwMDiI/afkqxdeB/xM9g3kECFtMWk6J9cLU0DJQi5iPZKD21HUWxdg3H5dpDm7LYZ1uNAr9lMlp1H3Mtvk5M+P0uyxDitNL5MadcIJs2jyJ6hqZ4oxS6HkdQnPMrQ6LcO5sBi2uXDSQ7F0NnPjFEt70XxzZODHMLnC42/Bb4uIzBiY69uO+r4vsBVbySk2OEgnRGlbMhfG6ZxIUl/w5aa/xBRqAMogvD4teMCfeQ6WqXl4AsUU+lXZ7DTYt8McMo35vd/0nz060Yi6A55WHenQlPnST+434qi8nYUM+gPQBvRejHDDXAG/4Z5z2j4Rw/5WOBekfCL9w5S+8="
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTcyNDM4Nzg4ODQzNywKICAicHJvZmlsZUlkIiA6ICJhOGVlZmU3OTMyOGM0YzBlOTVkMTYyOWFiYmNmODdkOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBaW50Q2VjaWx5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2UwYTMwMDU5MjkzNmZlMmI3MzcxZjVmMmFiNjY0MDQzZDM5ODk4Mjk5ZTJkODBlZjI5ZWM4YzkzODZkOTY5NWEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jZDlkODJhYjE3ZmQ5MjAyMmRiZDRhODZjZGU0YzM4MmE3NTQwZTExN2ZhZTdiOWEyODUzNjU4NTA1YTgwNjI1IgogICAgfQogIH0KfQ=="
+									}]
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "207F1AC3370DD0BE"
+					item: "ars_nouveau:belt_of_levitation"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "探索贝类相关的的所有菜肴？（隐藏成就）"
+			tasks: [
+				{
+					disable_toast: true
+					id: "7DB80B3F34902976"
+					item: "ends_delight:stir_fried_shulker_meat"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "376F930ECC1B819C"
+					item: "ends_delight:grilled_shulker"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "09895BD06FFAA60A"
+					item: "ends_delight:end_barbecue_stick"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "49F74C33A82DF1F3"
+					item: "ends_delight:ender_noodle"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "2C669B813D71BCBF"
+					item: "ends_delight:shulker_soup"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "07F18D06F7F71A93"
+					item: "ends_delight:shulker_omelette_mixture"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "56AE5A2FCCFB7505"
+					item: "ends_delight:steamed_dragon_egg"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "0D4DA583B3992BD6"
+					item: "beachparty:cooked_mussel_meat"
+					type: "item"
+				}
+			]
+			title: "你真的坏到了极点！"
+			x: -18.0d
+			y: 1.0d
+		}
+		{
+			icon: "create:flywheel"
+			id: "6B8362A8A36EA532"
+			invisible: true
+			rewards: [
+				{
+					id: "3C6E4055E2B22F07"
+					item: "gtceu:osmium_credit"
+					type: "item"
+				}
+				{
+					id: "1723A859A2E479FC"
+					item: "createchromaticreturn:refined_charm"
+					type: "item"
+				}
+				{
+					id: "1F8151675A9EE293"
+					item: "createchromaticreturn:shadow_charm"
+					type: "item"
+				}
+				{
+					id: "1705630E6FB796E1"
+					item: "createchromaticreturn:industrium_charm"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "完成机械动力的所有隐藏进度（隐藏成就）"
+			tasks: [
+				{
+					advancement: "create:lava_wheel_00000"
+					criterion: ""
+					disable_toast: true
+					id: "2B26E955BA4D458F"
+					type: "advancement"
+				}
+				{
+					advancement: "create:stressometer_maxed"
+					criterion: ""
+					disable_toast: true
+					id: "6487D443AF2C9CBC"
+					type: "advancement"
+				}
+				{
+					advancement: "create:belt_funnel_kiss"
+					criterion: ""
+					disable_toast: true
+					id: "69CD6B09E833A8E2"
+					type: "advancement"
+				}
+				{
+					advancement: "create:hand_crank_000"
+					criterion: ""
+					disable_toast: true
+					id: "5429E77405A1A8B9"
+					type: "advancement"
+				}
+				{
+					advancement: "create:chained_drain"
+					criterion: ""
+					disable_toast: true
+					id: "5170AA2E09793219"
+					type: "advancement"
+				}
+				{
+					advancement: "create:cross_streams"
+					criterion: ""
+					disable_toast: true
+					id: "07D7C989A059B80C"
+					type: "advancement"
+				}
+				{
+					advancement: "create:pipe_organ"
+					criterion: ""
+					disable_toast: true
+					id: "432A94041E643A12"
+					type: "advancement"
+				}
+				{
+					advancement: "create:fist_bump"
+					criterion: ""
+					disable_toast: true
+					id: "1F4BE8FE4BF7CDAA"
+					type: "advancement"
+				}
+				{
+					advancement: "create:musical_arm"
+					criterion: ""
+					disable_toast: true
+					id: "6364A871E3A64C89"
+					type: "advancement"
+				}
+				{
+					advancement: "create:extendo_grip_dual"
+					criterion: ""
+					disable_toast: true
+					id: "57791F7CC05396C0"
+					type: "advancement"
+				}
+				{
+					advancement: "create:crafter_lazy_000"
+					criterion: ""
+					disable_toast: true
+					id: "57FC3BE87E5DED2A"
+					type: "advancement"
+				}
+				{
+					advancement: "create:train_crash_backwards"
+					criterion: ""
+					disable_toast: true
+					id: "1C38A55E4B744B0A"
+					type: "advancement"
+				}
+				{
+					advancement: "create:train_roadkill"
+					criterion: ""
+					disable_toast: true
+					id: "16B7AC1427BF0E53"
+					type: "advancement"
+				}
+				{
+					advancement: "create:red_signal"
+					criterion: ""
+					disable_toast: true
+					id: "493A5722B35E995C"
+					type: "advancement"
+				}
+				{
+					advancement: "create:train_crash"
+					criterion: ""
+					disable_toast: true
+					id: "28C9E64A0D31D3F0"
+					type: "advancement"
+				}
+			]
+			title: "疯狂机械师"
+			x: -14.0d
+			y: 1.0d
+		}
+		{
+			icon: "createchromaticreturn:radiant_glow_saber"
+			id: "224661BBB8FA7204"
+			rewards: [
+				{
+					id: "23755D6ABBD5148E"
+					item: "gtceu:naquadah_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B42462E20C5626E"
+					table_id: 6709666230684452828L
+					type: "random"
+				}
+				{
+					id: "1D7C214E3FC3703A"
+					item: {
+						Count: 1
+						id: "avaritia:infinity_totem"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "击杀所有BOSS"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "minecraft:wither"
+					id: "28E54EB14781B4A8"
+					type: "kill"
+					value: 1L
+				}
+				{
+					disable_toast: true
+					entity: "minecraft:ender_dragon"
+					id: "6D8898897F93D108"
+					type: "kill"
+					value: 1L
+				}
+				{
+					disable_toast: true
+					entity: "minecraft:warden"
+					id: "57944123728A3F7D"
+					type: "kill"
+					value: 1L
+				}
+				{
+					disable_toast: true
+					entity: "bosses_of_mass_destruction:gauntlet"
+					id: "013D02E589E42354"
+					type: "kill"
+					value: 1L
+				}
+				{
+					disable_toast: true
+					entity: "bosses_of_mass_destruction:void_blossom"
+					id: "7BDACF42F5F81647"
+					type: "kill"
+					value: 1L
+				}
+				{
+					disable_toast: true
+					entity: "bosses_of_mass_destruction:lich"
+					id: "1AEC80CF9E12152B"
+					type: "kill"
+					value: 1L
+				}
+				{
+					disable_toast: true
+					entity: "bosses_of_mass_destruction:obsidilith"
+					id: "26DFB1CEB04FFA3A"
+					type: "kill"
+					value: 1L
+				}
+				{
+					disable_toast: true
+					entity: "ars_nouveau:wilden_boss"
+					id: "091CCBE8EA59F569"
+					type: "kill"
+					value: 1L
+				}
+				{
+					disable_toast: true
+					entity: "cataclysm:the_leviathan"
+					id: "262589D867A28A92"
+					type: "kill"
+					value: 1L
+				}
+				{
+					disable_toast: true
+					entity: "cataclysm:netherite_monstrosity"
+					id: "1C13B0FB6390991E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					disable_toast: true
+					entity: "cataclysm:ender_guardian"
+					id: "0064516790DF6136"
+					type: "kill"
+					value: 1L
+				}
+				{
+					disable_toast: true
+					entity: "cataclysm:the_harbinger"
+					id: "5B0BE10351307D6C"
+					type: "kill"
+					value: 1L
+				}
+				{
+					disable_toast: true
+					entity: "cataclysm:ancient_remnant"
+					id: "08E23CFF8D71DA3F"
+					type: "kill"
+					value: 1L
+				}
+				{
+					disable_toast: true
+					entity: "cataclysm:ignis"
+					id: "7EE22095E76677BA"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "战斗之王"
+			x: -18.0d
+			y: -3.0d
+		}
 	]
 	title: "镐♂事狂"
 }

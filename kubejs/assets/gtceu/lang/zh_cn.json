@@ -91,12 +91,6 @@
 	"material.gtceu.nuclear_saltwater": "核盐水燃料",
 	"material.gtceu.fusion_rocket_fuel": "聚变火箭燃料",
 
-	"block.kubejs.soursteel_casing": "魔源机械方块",
-	"block.kubejs.shully_casing": "潜影壳机械方块",
-	"block.kubejs.shully_reactor_block": "潜影壳反应堆方块",
-	"block.kubejs.particle_filter_block": "粒子过滤方块",
-	"block.kubejs.particle_stabilizing_block": "粒子稳定化方块",
-
 	"block.gtceu.lv_electric_gear_box_2a": "2A LV电动齿轮箱",
 	"block.gtceu.mv_electric_gear_box_2a": "2A MV电动齿轮箱",
 	"block.gtceu.hv_electric_gear_box_2a": "2A HV电动齿轮箱",
