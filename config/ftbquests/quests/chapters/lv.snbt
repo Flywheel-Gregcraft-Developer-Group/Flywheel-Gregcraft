@@ -2274,38 +2274,11 @@
 			]
 			icon: "gtceu:keke_matter_bucket"
 			id: "5D8E1B3EE62063CB"
-			rewards: [
-				{
-					id: "4ADB9FE1DD2117B9"
-					item: "gtceu:gold_credit"
-					type: "item"
-				}
-				{
-					id: "5CD5A71F59E8ACE4"
-					item: {
-						Count: 1
-						id: "minecraft:player_head"
-						tag: {
-							SkullOwner: {
-								Id: [I;
-									-1460732295
-									848055310
-									-1781439846
-									-1144027176
-								]
-								Name: "AintCecily"
-								Properties: {
-									textures: [{
-										Signature: "K5kdzao29uquILaLdQbB48Av/WwTSqKMsUOcgqjLx+KzKIo/nK0CK4uCACn9Od1/WPSHie2TLdGmmH/yMlyQXIVXyMRxVsexUbzzurvIpEYF0qpbk0iTGxeQUFSHL7WIw4nQO57AD7F0sn4BnH4lT8mB61X3ZG1pvl8aum17//pyEk53TnqbT3m3o7QLHN3ckiMEn3+y/72RYcH5roAw0xYe3QDMkDmYjK+Fyoipyf38gdhcSISTOHTaJnSCwvttUP4WVXvVi3UMnTmTUHfuOPN39t1kYFQrYc5YUiJtLuwo/pUIN7rUHWiYf/25HULdTYSNi+V96s5TMIUqoxW0Zle6ndp6w3K60TNAaVvpUf29RXhEiUFI9jks+oIH58XIktJjLP+cOaAWUNCFKdwCjGhgAj+DxZaKkMNkq6S4JpxasJJo/TEEDfR+beHH1mRzT0350Vj9DQyorUCMKLQ1jVHpzO0KWOLcbBqeuG1T3qG0HZM4EDEpK8PkW6H/Qvjo9edAaFgWXzfK3DrSwEThWIFCFT1wIfps3fWFQIu56PcYoW5Oj5THpdzpljUmkUYj0b2OryXgShMLXSquE/JQnpBLHbwr+v3Sctu2hImMY0Sv5UfM4I1wAby5Uej2/IWjaDqnW+WA4iTnq7CGs/Yd9G2CRQ03AmJN2OHKdGViX4g="
-										Value: "ewogICJ0aW1lc3RhbXAiIDogMTcyMzcyNTkwNDMxOSwKICAicHJvZmlsZUlkIiA6ICJhOGVlZmU3OTMyOGM0YzBlOTVkMTYyOWFiYmNmODdkOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBaW50Q2VjaWx5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2UwYTMwMDU5MjkzNmZlMmI3MzcxZjVmMmFiNjY0MDQzZDM5ODk4Mjk5ZTJkODBlZjI5ZWM4YzkzODZkOTY5NWEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jZDlkODJhYjE3ZmQ5MjAyMmRiZDRhODZjZGU0YzM4MmE3NTQwZTExN2ZhZTdiOWEyODUzNjU4NTA1YTgwNjI1IgogICAgfQogIH0KfQ=="
-									}]
-								}
-							}
-						}
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "4ADB9FE1DD2117B9"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 1.5d
 			tasks: [

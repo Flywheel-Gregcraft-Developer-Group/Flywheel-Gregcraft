@@ -138,7 +138,7 @@
 		#.
 		#Maximum amount of blocks in a structure movable by Pistons, Bearings or other means.
 		#Range: > 1
-		maxBlocksMoved = 2048
+		maxBlocksMoved = 8192
 		#.
 		#[in Bytes]
 		#[0 to disable this limit]
