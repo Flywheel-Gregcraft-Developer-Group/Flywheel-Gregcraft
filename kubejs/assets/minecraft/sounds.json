@@ -118,5 +118,610 @@
 		"sounds": [
 			"end-fight/fight2"
 		]
-	}
+	},
+	"music_disc.key": {
+        "sounds": [
+            {
+                "name": "music/game/nuance1",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.door": {
+        "sounds": [
+            {
+                "type": "event",
+                "name": "fgcraft:disc.door",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.subwoofer_lullaby": {
+        "sounds": [
+            {
+                "name": "music/game/hal1",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.living_mice": {
+        "sounds": [
+            {
+                "name": "music/game/hal2",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.moog_city": {
+        "sounds": [
+            {
+                "type": "event",
+                "name": "fgcraft:disc.moog_city",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.haggstrom": {
+        "sounds": [
+            {
+                "name": "music/game/hal3",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.minecraft": {
+        "sounds": [
+            {
+                "name": "music/game/calm1",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.oxygene": {
+        "sounds": [
+            {
+                "name": "music/game/nuance2",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.equinoxe": {
+        "sounds": [
+            {
+                "type": "event",
+                "name": "fgcraft:disc.equinoxe",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.mice_on_venus": {
+        "sounds": [
+            {
+                "name": "music/game/piano3",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.dry_hands": {
+        "sounds": [
+            {
+                "name": "music/game/piano1",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.wet_hands": {
+        "sounds": [
+            {
+                "name": "music/game/piano2",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.clark": {
+        "sounds": [
+            {
+                "name": "music/game/calm2",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.chris": {
+        "sounds": [
+            {
+                "type": "event",
+                "name": "fgcraft:disc.chris",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.excuse": {
+        "sounds": [
+            {
+                "type": "event",
+                "name": "fgcraft:disc.excuse",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.sweden": {
+        "sounds": [
+            {
+                "name": "music/game/calm3",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.dog": {
+        "sounds": [
+            {
+                "type": "event",
+                "name": "fgcraft:disc.dog",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.danny": {
+        "sounds": [
+            {
+                "name": "music/game/hal4",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.beginning": {
+        "sounds": [
+            {
+                "type": "event",
+                "name": "fgcraft:disc.beginning",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.droopy_likes_ricochet": {
+        "sounds": [
+            {
+                "type": "event",
+                "name": "fgcraft:disc.droopy_likes_ricochet",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.droopy_likes_your_face": {
+        "sounds": [
+            {
+                "type": "event",
+                "name": "fgcraft:disc.droopy_likes_your_face",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.ki": {
+        "sounds": [
+            {
+                "type": "event",
+                "name": "fgcraft:disc.ki",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.alpha": {
+        "sounds": [
+            {
+                "name": "music/game/end/credits",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.dead_voxel": {
+        "sounds": [
+            {
+                "name": "music/game/nether/nether2",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.blind_spots": {
+        "sounds": [
+            {
+                "name": "music/game/creative/creative2",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.flake": {
+        "sounds": [
+            {
+                "type": "event",
+                "name": "fgcraft:disc.flake",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.moog_city_2": {
+        "sounds": [
+            {
+                "name": "music/game/menu/menu2",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.concrete_halls": {
+        "sounds": [
+            {
+                "name": "music/game/nether/nether1",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.biome_fest": {
+        "sounds": [
+            {
+                "name": "music/game/creative/creative1",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.mutation": {
+        "sounds": [
+            {
+                "name": "music/game/menu/menu1",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.haunt_muskie": {
+        "sounds": [
+            {
+                "name": "music/game/creative/creative3",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.warmth": {
+        "sounds": [
+            {
+                "name": "music/game/nether/nether3",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.floating_trees": {
+        "sounds": [
+            {
+                "name": "music/game/menu/menu4",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.aria_math": {
+        "sounds": [
+            {
+                "name": "music/game/creative/creative4",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.kyoto": {
+        "sounds": [
+            {
+                "type": "event",
+                "name": "fgcraft:disc.kyoto",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.ballad_of_the_cats": {
+        "sounds": [
+            {
+                "name": "music/game/nether/nether4",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.taswell": {
+        "sounds": [
+            {
+                "name": "music/game/creative/creative6",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.beginning_2": {
+        "sounds": [
+            {
+                "name": "music/game/menu/menu3",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.dreiton": {
+        "sounds": [
+            {
+                "name": "music/game/creative/creative5",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.the_end": {
+        "sounds": [
+            {
+                "name": "music/end/end",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.axolotl": {
+        "sounds": [
+            {
+                "name": "music/game/water/axolotl",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.dragon_fish": {
+        "sounds": [
+            {
+                "name": "music/game/water/dragon_fish",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.shuniji": {
+        "sounds": [
+            {
+                "name": "music/game/water/shuniji",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.chrysopoeia": {
+        "sounds": [
+            {
+                "name": "music/game/nether/chrysopoeia",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.rubedo": {
+        "sounds": [
+            {
+                "name": "music/game/nether/rubedo",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.so_below": {
+        "sounds": [
+            {
+                "name": "music/game/nether/so_below",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.an_ordinary_day": {
+        "sounds": [
+            {
+                "name": "music/game/an_ordinary_day",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.comforting_memories": {
+        "sounds": [
+            {
+                "name": "music/game/comforting_memories",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.floating_dream": {
+        "sounds": [
+            {
+                "name": "music/game/floating_dream",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.ancestry": {
+        "sounds": [
+            {
+                "name": "music/game/ancestry",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.infinite_amethyst": {
+        "sounds": [
+            {
+                "name": "music/game/infinite_amethyst",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.left_to_bloom": {
+        "sounds": [
+            {
+                "name": "music/game/left_to_bloom",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.one_more_day": {
+        "sounds": [
+            {
+                "name": "music/game/one_more_day",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.stand_tall": {
+        "sounds": [
+            {
+                "name": "music/game/stand_tall",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.wending": {
+        "sounds": [
+            {
+                "name": "music/game/wending",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.labyrinthine": {
+        "sounds": [
+            {
+                "name": "music/game/labyrinthine",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.aerie": {
+        "sounds": [
+            {
+                "name": "music/game/aerie",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.firebugs": {
+        "sounds": [
+            {
+                "name": "music/game/firebugs",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.echo_in_the_wind": {
+        "sounds": [
+            {
+                "name": "music/game/echo_in_the_wind",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.a_familiar_room": {
+        "sounds": [
+            {
+                "name": "music/game/a_familiar_room",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.bromeliad": {
+        "sounds": [
+            {
+                "name": "music/game/bromeliad",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.crescent_dunes": {
+        "sounds": [
+            {
+                "name": "music/game/crescent_dunes",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.creator": {
+        "sounds": [
+            {
+                "name": "fgcraft:disc.creator",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.creator_music_box": {
+        "sounds": [
+            {
+                "name": "fgcraft:disc.creator_music_box",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.deeper": {
+        "sounds": [
+            {
+                "name": "fgcraft:disc.deeper",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.eld_unknown": {
+        "sounds": [
+            {
+                "name": "fgcraft:disc.eld_unknown",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.endless": {
+        "sounds": [
+            {
+                "name": "fgcraft:disc.endless",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.featherfall": {
+        "sounds": [
+            {
+                "name": "fgcraft:disc.featherfall",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.komorebi": {
+        "sounds": [
+            {
+                "name": "fgcraft:disc.komorebi",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.pokopoko": {
+        "sounds": [
+            {
+                "name": "fgcraft:disc.pokopoko",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.precipice": {
+        "sounds": [
+            {
+                "name": "fgcraft:disc.precipice",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.puzzlebox": {
+        "sounds": [
+            {
+                "name": "fgcraft:disc.puzzlebox",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.watcher": {
+        "sounds": [
+            {
+                "name": "fgcraft:disc.watcher",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.yakusoku": {
+        "sounds": [
+            {
+                "name": "fgcraft:disc.yakusoku",
+                "stream": true
+            }
+        ]
+    }
+
 }
