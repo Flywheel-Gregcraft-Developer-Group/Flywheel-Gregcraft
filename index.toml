@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "LICENSE"
-hash = "b9709407aa81f036b7d2ffaaea9b5cccca1cbb6bf84a7e56ba782cbaf2f3b055"
+hash = "4478eebd4d20431e458e167e9c39699dcac7501bdce60db51b48d01e45f14714"
 
 [[files]]
 file = "config/ModernUI/bootstrap.properties"
@@ -3350,7 +3350,7 @@ hash = "57b7b9eba525104969f5eea84bd0377bf83d8bac99cd7dbac6a4d184f025d111"
 
 [[files]]
 file = "kubejs/assets/minecraft/sounds/end-fight/fight2.ogg"
-hash = "6da11d074061c275e59f94d4338c1bddafd66c79813f58199c2324c69b07ee89"
+hash = "e3522bc81433c7e669f21d7b3889485570e6e50fc80f8e8b2b703b53e75db60d"
 
 [[files]]
 file = "kubejs/assets/minecraft/sounds/endless.ogg"
@@ -4237,10 +4237,6 @@ file = "modpack.cfg"
 hash = "bb9035953142e4ca0b8688c4ea35ffdb4bc87ead96f4844d2e8db5e0b4e97bf4"
 
 [[files]]
-file = "mods/EnderIO-1.20.1-6.1.8-beta-all.jar"
-hash = "3b583217f4b3c95522d0f3e20bfa1a6d3f6118f7cbff6fd30d78539cd48dd86a"
-
-[[files]]
 file = "mods/[forge-1.20]AllMusic_Client-3.0.2.jar"
 hash = "8657488267f277ec803a2d299fa8514b0a81a678b2072731715edd4309b0c4ab"
 
@@ -4554,8 +4550,9 @@ hash = "4ae2c1b627cfede58a8add7fde29c6d889426aa72ea09a852a402a861aa95166"
 metafile = true
 
 [[files]]
-file = "mods/ctov-farmers-delight-compat-2.1.jar"
-hash = "702ce649fb80e450ea8867359e90a044a97ec19e064c5ea39d7bcd60f2aad8d9"
+file = "mods/ctov-farmers-delight-compat.pw.toml"
+hash = "c163559322c64b37c02074f0774da6de8a5a2c6dd6f5cd7b51775596769268e1"
+metafile = true
 
 [[files]]
 file = "mods/cuisine-delight.pw.toml"
@@ -4613,6 +4610,11 @@ hash = "b8cccf49530803953b340152f8114c2565020824f6a00c3777634e51185ca8d9"
 metafile = true
 
 [[files]]
+file = "mods/ender-io.pw.toml"
+hash = "75f81e65a49cd9da6fd0aba1fab0391cc0681841bd872ff0f43a14b8ac06666f"
+metafile = true
+
+[[files]]
 file = "mods/ends-delight.pw.toml"
 hash = "e9e27cd59511408fa69068ab0ac740069a045b0bad138e59a7949528917a63a4"
 metafile = true
@@ -4628,8 +4630,9 @@ hash = "7e6eb67fddafc459378e7eba20c65b47eb11e5e6c5545f8e538117a4e9ac6d46"
 metafile = true
 
 [[files]]
-file = "mods/everyxhotpot-1.1.2BF2-1.20.1-TeaCon2023.jar"
-hash = "d13d9fabaf8f58d6c6ab3240533b8aa0d0c54e03a2c36bd640eb30d498051940"
+file = "mods/everyx-hotpot.pw.toml"
+hash = "80665e98ec0bc522fe1d68762032654e6788a7303492e32ce42b7eac712c4799"
+metafile = true
 
 [[files]]
 file = "mods/ewewukeks-musket-mod.pw.toml"
@@ -4747,8 +4750,9 @@ hash = "9bd757c1ac41f77280b388da33a76fec9712c8f15cf914a13e5e664773191d1a"
 metafile = true
 
 [[files]]
-file = "mods/incontrol-1.20-9.2.6.jar"
-hash = "072c7877083a21d931164d084c682753ed8d0096d77500011736cd6223a2d488"
+file = "mods/in-control.pw.toml"
+hash = "72c5a050f27f3538793dac87230372df8a79a9a94fd51dbc7d92a6d5c02f2a8f"
+metafile = true
 
 [[files]]
 file = "mods/iris-flywheel-compat.pw.toml"
@@ -5178,8 +5182,3 @@ metafile = true
 [[files]]
 file = "options.txt"
 hash = "76320d00c3899cdf07fb689e51e303c2f8106b9891fa030023eeb914fd632bde"
-
-[[files]]
-file = "resourcepacks/presense-footsteps-sounds.pw.toml"
-hash = "08c29712c96e34e03f700d6f2c3d2e68281e0b5163c9587a335ef3e7dd473f37"
-metafile = true
