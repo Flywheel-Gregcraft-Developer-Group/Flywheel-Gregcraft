@@ -82,12 +82,12 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
         .setMaxIOSize(2, 0, 1, 9)
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.MINER)
-    event.create('fission_reactor')
+    /*event.create('fission_reactor')
         .category('fgcraft')
         .setEUIO("in")
         .setMaxIOSize(2, 2, 1, 1)
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
-        .setSound(GTSoundEntries.BOILER)
+        .setSound(GTSoundEntries.BOILER)*/ //for more info
     event.create("integrated_ore_processor")
         .category('fgcraft')
         .setEUIO("in")
@@ -149,6 +149,13 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
         .setMaxIOSize(144, 1, 0, 0)
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.SCIENCE)
+
+        event.create('fission_reactor')
+        .category('fgcraft')
+        .setEUIO("in")
+        .setMaxIOSize(9, 3, 9, 3)
+        .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
+        .setSound(GTSoundEntries.BOILER)
 })
 
 GTCEuStartupEvents.registry('gtceu:machine', event => {
@@ -544,5 +551,36 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .workableCasingRenderer(
             "gtceu:block/casings/voltage/uv/side",
             "gtceu:block/multiblock/implosion_compressor", false
+        )
+
+        event.create("fission_reactor", "multiblock")
+        .rotationState(RotationState.NON_Y_AXIS)
+        .recipeType("fission_reactor")
+        .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
+        .recipeModifier(GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.NON_PERFECT_OVERCLOCK))
+        .pattern((definition) => FactoryBlockPattern.start()
+            .aisle("CCCCCCC", "F00000F", "F00000F", "F00000F", "F00000F", "F00000F", "F00000F", "F     F", "CCCCCCC")
+            .aisle("CCCCCCC", "0000000", " 00M00 ", " 00M00 ", " 00000 ", " 00M00 ", "000M000", "       ", "CCCCCCC")
+            .aisle("CCCCCCC", "00LLL00", " 00000 ", " 00000 ", " 00000 ", " 00000 ", "0000000", "  LLL  ", "CCCCCCC")
+            .aisle("CCCCCCC", "00LGL00", " M0T0M ", " M000M ", " 00E00 ", " M000M ", "0M0T0M0", "  LGL  ", "CCCCCCC")
+            .aisle("CCCCCCC", "00LLL00", " 00000 ", " 00000 ", " 00000 ", " 00000 ", "0000000", "  LLL  ", "CCCCCCC")
+            .aisle("CCCCCCC", "0000000", " 00M00 ", " 00M00 ", " 00000 ", " 00M00 ", "000M000", "       ", "CCCCCCC")
+            .aisle("CCCCCCC", "F00000F", "F00000F", "F00000F", "F00000F", "F00000F", "F00000F", "F     F", "CCCCCCC")
+            .where("E", Predicates.controller(Predicates.blocks(definition.get())))
+            .where("F", Predicates.blocks('gtceu:yinyang_frame'))
+            .where("M", Predicates.blocks('gtceu:space_neutronium_block'))
+            .where("L", Predicates.blocks('gtceu:neutronium_block'))
+            .where("T", Predicates.blocks(GTBlocks.CASING_TITANIUM_PIPE.get()))
+            .where("G", Predicates.blocks(GTBlocks.CASING_TITANIUM_GEARBOX.get()))
+            .where("C", Predicates.blocks(GTBlocks.CASING_TITANIUM_STABLE.get()).setMinGlobalLimited(72)
+                .or(Predicates.autoAbilities(definition.recipeTypes))
+                .or(Predicates.abilities(PartAbility.MAINTENANCE).setExactLimit(1))
+            )
+            .where("0", Predicates.air())
+            .where(" ", Predicates.any())
+            .build())
+        .workableCasingRenderer(
+            "gtceu:block/casings/fusion/fusion_casing_hatch",
+            "gtceu:block/multiblock/large_chemical_reactor", false
         )
 })
